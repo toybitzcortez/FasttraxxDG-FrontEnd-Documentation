@@ -1,0 +1,782 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TxnRemitData
+   | FasttraxxDG FrontEnd </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TxnRemitData
+   | FasttraxxDG FrontEnd ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../images/ft_gt_logo01.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/frontend.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FasttraxxDG.BaseModel.TxnRemitData">
+  
+  
+  <h1 id="FasttraxxDG_BaseModel_TxnRemitData" data-uid="FasttraxxDG.BaseModel.TxnRemitData" class="text-break">Class TxnRemitData
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html">TxnRemit</a></div>
+    <div class="level2"><span class="xref">TxnRemitData</span></div>
+      <div class="level3"><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnBB.html">ITxnBB</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.IAccountCC.html">IAccountCC</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnDD.html">ITxnDD</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnBase.html">ITxnBase</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnFS.html">ITxnFS</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnPickup.html">ITxnPickup</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ID">TxnRemit.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_RemitterID">TxnRemit.RemitterID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_BeneficiaryID">TxnRemit.BeneficiaryID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_AccountID">TxnRemit.AccountID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateEntry">TxnRemit.DateEntry</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateCreated">TxnRemit.DateCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_StatusID">TxnRemit.StatusID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_CreatorID">TxnRemit.CreatorID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ModifierID">TxnRemit.ModifierID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ModifiedDate">TxnRemit.ModifiedDate</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_NT">TxnRemit.NT</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Peso">TxnRemit.Peso</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Rate">TxnRemit.Rate</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ServiceCharge">TxnRemit.ServiceCharge</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_AmountPaid">TxnRemit.AmountPaid</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Change">TxnRemit.Change</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_BranchID">TxnRemit.BranchID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Approve">TxnRemit.Approve</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Paid">TxnRemit.Paid</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateDelivered">TxnRemit.DateDelivered</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateApproved">TxnRemit.DateApproved</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Remarks">TxnRemit.Remarks</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Discount">TxnRemit.Discount</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_WAgentID">TxnRemit.WAgentID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ForwarderID">TxnRemit.ForwarderID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_OnHold">TxnRemit.OnHold</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Verification">TxnRemit.Verification</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DatePaid">TxnRemit.DatePaid</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Excess">TxnRemit.Excess</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ModeOfPayment">TxnRemit.ModeOfPayment</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Commission">TxnRemit.Commission</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_GroupID">TxnRemit.GroupID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Amla">TxnRemit.Amla</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_AmlaRemarks">TxnRemit.AmlaRemarks</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_MessageSent">TxnRemit.MessageSent</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_PurposeID">TxnRemit.PurposeID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved1">TxnRemit.Reserved1</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved2">TxnRemit.Reserved2</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved3">TxnRemit.Reserved3</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved4">TxnRemit.Reserved4</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved5">TxnRemit.Reserved5</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_TxnID">TxnRemit.TxnID</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FasttraxxDG.BaseModel.html">FasttraxxDG.BaseModel</a></h6>
+  <h6><strong>Assembly</strong>: FasttraxxDG.BaseModel.dll</h6>
+  <h5 id="FasttraxxDG_BaseModel_TxnRemitData_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TxnRemitData : TxnRemit, ITxnBB, IAccountCC, ITxnDD, ITxnBase, ITxnFS, ITxnPickup</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_AccountName_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.AccountName*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_AccountName" data-uid="FasttraxxDG.BaseModel.TxnRemitData.AccountName">AccountName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccountName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_AccountNumber_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.AccountNumber*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_AccountNumber" data-uid="FasttraxxDG.BaseModel.TxnRemitData.AccountNumber">AccountNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccountNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Address_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Address*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Address" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Address">Address</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Address { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Address1_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Address1*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Address1" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Address1">Address1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Address1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Address2_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Address2*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Address2" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Address2">Address2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Address2 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_BankID_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.BankID*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_BankID" data-uid="FasttraxxDG.BaseModel.TxnRemitData.BankID">BankID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BankID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Batch_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Batch*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Batch" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Batch">Batch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Batch { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Branch_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Branch*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Branch" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Branch">Branch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Branch { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_CashCardID_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.CashCardID*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_CashCardID" data-uid="FasttraxxDG.BaseModel.TxnRemitData.CashCardID">CashCardID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CashCardID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_CashCardName_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.CashCardName*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_CashCardName" data-uid="FasttraxxDG.BaseModel.TxnRemitData.CashCardName">CashCardName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CashCardName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_CashCardNumber_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.CashCardNumber*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_CashCardNumber" data-uid="FasttraxxDG.BaseModel.TxnRemitData.CashCardNumber">CashCardNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CashCardNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_City_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.City*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_City" data-uid="FasttraxxDG.BaseModel.TxnRemitData.City">City</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string City { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_ContactNumber_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.ContactNumber*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_ContactNumber" data-uid="FasttraxxDG.BaseModel.TxnRemitData.ContactNumber">ContactNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContactNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_ControlNumber_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.ControlNumber*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_ControlNumber" data-uid="FasttraxxDG.BaseModel.TxnRemitData.ControlNumber">ControlNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ControlNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_DeliveryDate_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.DeliveryDate*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_DeliveryDate" data-uid="FasttraxxDG.BaseModel.TxnRemitData.DeliveryDate">DeliveryDate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? DeliveryDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_FoodID_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.FoodID*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_FoodID" data-uid="FasttraxxDG.BaseModel.TxnRemitData.FoodID">FoodID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FoodID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_PickupID_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.PickupID*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_PickupID" data-uid="FasttraxxDG.BaseModel.TxnRemitData.PickupID">PickupID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PickupID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Province_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Province*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Province" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Province">Province</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Province { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_UploadingType_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.UploadingType*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_UploadingType" data-uid="FasttraxxDG.BaseModel.TxnRemitData.UploadingType">UploadingType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UploadingType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseModel_TxnRemitData_Zip_" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Zip*"></a>
+  <h4 id="FasttraxxDG_BaseModel_TxnRemitData_Zip" data-uid="FasttraxxDG.BaseModel.TxnRemitData.Zip">Zip</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Zip { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnBB.html">ITxnBB</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.IAccountCC.html">IAccountCC</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnDD.html">ITxnDD</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnBase.html">ITxnBase</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnFS.html">ITxnFS</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnPickup.html">ITxnPickup</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseLogic.MapperHelper.html#FasttraxxDG_BaseLogic_MapperHelper_MapTo__2___0_">MapperHelper.MapTo&lt;TSource, TDest&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_RightDrawerShow_System_Object_">AppSettings.RightDrawerShow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_LeftDrawerShow_System_Object_">AppSettings.LeftDrawerShow(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2020 FasttraxxDG
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

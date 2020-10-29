@@ -1,0 +1,892 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseModel.DisableService
+  commentId: T:FasttraxxDG.BaseModel.DisableService
+  id: DisableService
+  parent: FasttraxxDG.BaseModel
+  children:
+  - FasttraxxDG.BaseModel.DisableService.AccountTypeID
+  - FasttraxxDG.BaseModel.DisableService.BankID
+  - FasttraxxDG.BaseModel.DisableService.DateFrom
+  - FasttraxxDG.BaseModel.DisableService.DateTo
+  - FasttraxxDG.BaseModel.DisableService.DisableID
+  - FasttraxxDG.BaseModel.DisableService.Remarks
+  langs:
+  - csharp
+  - vb
+  name: DisableService
+  nameWithType: DisableService
+  fullName: FasttraxxDG.BaseModel.DisableService
+  type: Class
+  source:
+    id: DisableService
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 3
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public class DisableService
+    content.vb: Public Class DisableService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseModel.DisableService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseModel.DisableService.DisableID
+  commentId: P:FasttraxxDG.BaseModel.DisableService.DisableID
+  id: DisableID
+  parent: FasttraxxDG.BaseModel.DisableService
+  langs:
+  - csharp
+  - vb
+  name: DisableID
+  nameWithType: DisableService.DisableID
+  fullName: FasttraxxDG.BaseModel.DisableService.DisableID
+  type: Property
+  source:
+    id: DisableID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 5
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int DisableID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DisableID As Integer
+  overload: FasttraxxDG.BaseModel.DisableService.DisableID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.DisableService.AccountTypeID
+  commentId: P:FasttraxxDG.BaseModel.DisableService.AccountTypeID
+  id: AccountTypeID
+  parent: FasttraxxDG.BaseModel.DisableService
+  langs:
+  - csharp
+  - vb
+  name: AccountTypeID
+  nameWithType: DisableService.AccountTypeID
+  fullName: FasttraxxDG.BaseModel.DisableService.AccountTypeID
+  type: Property
+  source:
+    id: AccountTypeID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int AccountTypeID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AccountTypeID As Integer
+  overload: FasttraxxDG.BaseModel.DisableService.AccountTypeID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.DisableService.BankID
+  commentId: P:FasttraxxDG.BaseModel.DisableService.BankID
+  id: BankID
+  parent: FasttraxxDG.BaseModel.DisableService
+  langs:
+  - csharp
+  - vb
+  name: BankID
+  nameWithType: DisableService.BankID
+  fullName: FasttraxxDG.BaseModel.DisableService.BankID
+  type: Property
+  source:
+    id: BankID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int? BankID { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property BankID As Integer?
+  overload: FasttraxxDG.BaseModel.DisableService.BankID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.DisableService.DateFrom
+  commentId: P:FasttraxxDG.BaseModel.DisableService.DateFrom
+  id: DateFrom
+  parent: FasttraxxDG.BaseModel.DisableService
+  langs:
+  - csharp
+  - vb
+  name: DateFrom
+  nameWithType: DisableService.DateFrom
+  fullName: FasttraxxDG.BaseModel.DisableService.DateFrom
+  type: Property
+  source:
+    id: DateFrom
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public DateTime DateFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateFrom As Date
+  overload: FasttraxxDG.BaseModel.DisableService.DateFrom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.DisableService.DateTo
+  commentId: P:FasttraxxDG.BaseModel.DisableService.DateTo
+  id: DateTo
+  parent: FasttraxxDG.BaseModel.DisableService
+  langs:
+  - csharp
+  - vb
+  name: DateTo
+  nameWithType: DisableService.DateTo
+  fullName: FasttraxxDG.BaseModel.DisableService.DateTo
+  type: Property
+  source:
+    id: DateTo
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public DateTime DateTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateTo As Date
+  overload: FasttraxxDG.BaseModel.DisableService.DateTo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.DisableService.Remarks
+  commentId: P:FasttraxxDG.BaseModel.DisableService.Remarks
+  id: Remarks
+  parent: FasttraxxDG.BaseModel.DisableService
+  langs:
+  - csharp
+  - vb
+  name: Remarks
+  nameWithType: DisableService.Remarks
+  fullName: FasttraxxDG.BaseModel.DisableService.Remarks
+  type: Property
+  source:
+    id: Remarks
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\DisableService.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string Remarks { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Remarks As String
+  overload: FasttraxxDG.BaseModel.DisableService.Remarks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.DisableService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<DisableService, TDest>()
+  nameWithType: MapperHelper.MapTo<DisableService, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.DisableService, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of DisableService, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.DisableService, TDest)()
+  name.vb: MapTo(Of DisableService, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<DisableService, TDest>
+    nameWithType: MapperHelper.MapTo<DisableService, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.DisableService, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of DisableService, TDest)
+    nameWithType: MapperHelper.MapTo(Of DisableService, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.DisableService, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseModel.DisableService.DisableID*
+  commentId: Overload:FasttraxxDG.BaseModel.DisableService.DisableID
+  name: DisableID
+  nameWithType: DisableService.DisableID
+  fullName: FasttraxxDG.BaseModel.DisableService.DisableID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseModel.DisableService.AccountTypeID*
+  commentId: Overload:FasttraxxDG.BaseModel.DisableService.AccountTypeID
+  name: AccountTypeID
+  nameWithType: DisableService.AccountTypeID
+  fullName: FasttraxxDG.BaseModel.DisableService.AccountTypeID
+- uid: FasttraxxDG.BaseModel.DisableService.BankID*
+  commentId: Overload:FasttraxxDG.BaseModel.DisableService.BankID
+  name: BankID
+  nameWithType: DisableService.BankID
+  fullName: FasttraxxDG.BaseModel.DisableService.BankID
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.DisableService.DateFrom*
+  commentId: Overload:FasttraxxDG.BaseModel.DisableService.DateFrom
+  name: DateFrom
+  nameWithType: DisableService.DateFrom
+  fullName: FasttraxxDG.BaseModel.DisableService.DateFrom
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: FasttraxxDG.BaseModel.DisableService.DateTo*
+  commentId: Overload:FasttraxxDG.BaseModel.DisableService.DateTo
+  name: DateTo
+  nameWithType: DisableService.DateTo
+  fullName: FasttraxxDG.BaseModel.DisableService.DateTo
+- uid: FasttraxxDG.BaseModel.DisableService.Remarks*
+  commentId: Overload:FasttraxxDG.BaseModel.DisableService.Remarks
+  name: Remarks
+  nameWithType: DisableService.Remarks
+  fullName: FasttraxxDG.BaseModel.DisableService.Remarks
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  id: ConstantUi
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountDetails
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountSelect
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AppSettings
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BenefciarySelect
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiaryDetails
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiarySearch
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.Dashboard
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.MainMenu
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterDetails
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterRecord
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSearch
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSelect
+  - FasttraxxDG.FrontEndUI.Helpers.ConstantUi.TxnList
+  langs:
+  - csharp
+  - vb
+  name: ConstantUi
+  nameWithType: ConstantUi
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  type: Class
+  source:
+    id: ConstantUi
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 4
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static class ConstantUi
+    content.vb: Public Module ConstantUi
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.Dashboard
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.Dashboard
+  id: Dashboard
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: ConstantUi.Dashboard
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.Dashboard
+  type: Field
+  source:
+    id: Dashboard
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string Dashboard
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Dashboard As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.MainMenu
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.MainMenu
+  id: MainMenu
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: MainMenu
+  nameWithType: ConstantUi.MainMenu
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.MainMenu
+  type: Field
+  source:
+    id: MainMenu
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string MainMenu
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly MainMenu As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.TxnList
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.TxnList
+  id: TxnList
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: TxnList
+  nameWithType: ConstantUi.TxnList
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.TxnList
+  type: Field
+  source:
+    id: TxnList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string TxnList
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly TxnList As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AppSettings
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AppSettings
+  id: AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: AppSettings
+  nameWithType: ConstantUi.AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AppSettings
+  type: Field
+  source:
+    id: AppSettings
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string AppSettings
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly AppSettings As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterDetails
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterDetails
+  id: RemitterDetails
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: RemitterDetails
+  nameWithType: ConstantUi.RemitterDetails
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterDetails
+  type: Field
+  source:
+    id: RemitterDetails
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string RemitterDetails
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly RemitterDetails As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSelect
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSelect
+  id: RemitterSelect
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: RemitterSelect
+  nameWithType: ConstantUi.RemitterSelect
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSelect
+  type: Field
+  source:
+    id: RemitterSelect
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string RemitterSelect
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly RemitterSelect As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSearch
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSearch
+  id: RemitterSearch
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: RemitterSearch
+  nameWithType: ConstantUi.RemitterSearch
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterSearch
+  type: Field
+  source:
+    id: RemitterSearch
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string RemitterSearch
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly RemitterSearch As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterRecord
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterRecord
+  id: RemitterRecord
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: RemitterRecord
+  nameWithType: ConstantUi.RemitterRecord
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.RemitterRecord
+  type: Field
+  source:
+    id: RemitterRecord
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string RemitterRecord
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly RemitterRecord As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BenefciarySelect
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BenefciarySelect
+  id: BenefciarySelect
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: BenefciarySelect
+  nameWithType: ConstantUi.BenefciarySelect
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BenefciarySelect
+  type: Field
+  source:
+    id: BenefciarySelect
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string BenefciarySelect
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly BenefciarySelect As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiarySearch
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiarySearch
+  id: BeneficiarySearch
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: BeneficiarySearch
+  nameWithType: ConstantUi.BeneficiarySearch
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiarySearch
+  type: Field
+  source:
+    id: BeneficiarySearch
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string BeneficiarySearch
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly BeneficiarySearch As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiaryDetails
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiaryDetails
+  id: BeneficiaryDetails
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryDetails
+  nameWithType: ConstantUi.BeneficiaryDetails
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.BeneficiaryDetails
+  type: Field
+  source:
+    id: BeneficiaryDetails
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string BeneficiaryDetails
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly BeneficiaryDetails As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountSelect
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountSelect
+  id: AccountSelect
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: AccountSelect
+  nameWithType: ConstantUi.AccountSelect
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountSelect
+  type: Field
+  source:
+    id: AccountSelect
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 17
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string AccountSelect
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly AccountSelect As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountDetails
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountDetails
+  id: AccountDetails
+  parent: FasttraxxDG.FrontEndUI.Helpers.ConstantUi
+  langs:
+  - csharp
+  - vb
+  name: AccountDetails
+  nameWithType: ConstantUi.AccountDetails
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ConstantUi.AccountDetails
+  type: Field
+  source:
+    id: AccountDetails
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ConstantUi.cs
+    startLine: 18
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly string AccountDetails
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly AccountDetails As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

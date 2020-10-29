@@ -1,0 +1,1759 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  id: DataHelper
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccountSelect
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccumulativePoint
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.Beneficiary
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.BeneTelephone2
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.Branch
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.ChangeRate
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyBl
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyId
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete(System.DateTime,System.DateTime)
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.FirstName
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsNoGiveAway
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsRedeem
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.LastName
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.NtToday
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRate
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRateAbove
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.RateSetting
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.RedeemPoints
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemBene
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.Remitter
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemMemberId
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble(System.String,System.Int32)
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.User
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserId
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserMode
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserPoint
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserRoles
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.WAgent
+  langs:
+  - csharp
+  - vb
+  name: DataHelper
+  nameWithType: DataHelper
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  type: Class
+  source:
+    id: DataHelper
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public class DataHelper
+    content.vb: Public Class DataHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.Helpers.DataHelper.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.User
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.User
+  id: User
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: DataHelper.User
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.User
+  type: Field
+  source:
+    id: User
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static AppUserBl User
+    return:
+      type: FasttraxxDG.BaseLogic.AppUserBl
+    content.vb: Public Shared User As AppUserBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.WAgent
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.WAgent
+  id: WAgent
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: WAgent
+  nameWithType: DataHelper.WAgent
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.WAgent
+  type: Field
+  source:
+    id: WAgent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static AppUserBl WAgent
+    return:
+      type: FasttraxxDG.BaseLogic.AppUserBl
+    content.vb: Public Shared WAgent As AppUserBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserRoles
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserRoles
+  id: UserRoles
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: UserRoles
+  nameWithType: DataHelper.UserRoles
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserRoles
+  type: Field
+  source:
+    id: UserRoles
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static List<AppUserBl> UserRoles
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.AppUserBl}
+    content.vb: Public Shared UserRoles As List(Of AppUserBl)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyBl
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyBl
+  id: CompanyBl
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: CompanyBl
+  nameWithType: DataHelper.CompanyBl
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyBl
+  type: Field
+  source:
+    id: CompanyBl
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static CompanyBl CompanyBl
+    return:
+      type: FasttraxxDG.BaseLogic.CompanyBl
+    content.vb: Public Shared CompanyBl As CompanyBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.Remitter
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.Remitter
+  id: Remitter
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: Remitter
+  nameWithType: DataHelper.Remitter
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.Remitter
+  type: Field
+  source:
+    id: Remitter
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static RemitterBl Remitter
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+    content.vb: Public Shared Remitter As RemitterBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemBene
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemBene
+  id: RemBene
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: RemBene
+  nameWithType: DataHelper.RemBene
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemBene
+  type: Field
+  source:
+    id: RemBene
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static RemBeneBl RemBene
+    return:
+      type: FasttraxxDG.BaseLogic.RemBeneBl
+    content.vb: Public Shared RemBene As RemBeneBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.Beneficiary
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.Beneficiary
+  id: Beneficiary
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: Beneficiary
+  nameWithType: DataHelper.Beneficiary
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.Beneficiary
+  type: Field
+  source:
+    id: Beneficiary
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static BeneficiaryBl Beneficiary
+    return:
+      type: FasttraxxDG.BaseLogic.BeneficiaryBl
+    content.vb: Public Shared Beneficiary As BeneficiaryBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.Branch
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.Branch
+  id: Branch
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: Branch
+  nameWithType: DataHelper.Branch
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.Branch
+  type: Field
+  source:
+    id: Branch
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static BranchBl Branch
+    return:
+      type: FasttraxxDG.BaseLogic.BranchBl
+    content.vb: Public Shared Branch As BranchBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccountSelect
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccountSelect
+  id: AccountSelect
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: AccountSelect
+  nameWithType: DataHelper.AccountSelect
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccountSelect
+  type: Field
+  source:
+    id: AccountSelect
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 17
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static AccountBl AccountSelect
+    return:
+      type: FasttraxxDG.BaseLogic.AccountBl
+    content.vb: Public Shared AccountSelect As AccountBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserPoint
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserPoint
+  id: UserPoint
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: UserPoint
+  nameWithType: DataHelper.UserPoint
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserPoint
+  type: Field
+  source:
+    id: UserPoint
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 18
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static PointsBl UserPoint
+    return:
+      type: FasttraxxDG.BaseLogic.PointsBl
+    content.vb: Public Shared UserPoint As PointsBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccumulativePoint
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccumulativePoint
+  id: AccumulativePoint
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: AccumulativePoint
+  nameWithType: DataHelper.AccumulativePoint
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.AccumulativePoint
+  type: Field
+  source:
+    id: AccumulativePoint
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 19
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static AccumulativeBl AccumulativePoint
+    return:
+      type: FasttraxxDG.BaseLogic.AccumulativeBl
+    content.vb: Public Shared AccumulativePoint As AccumulativeBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RateSetting
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RateSetting
+  id: RateSetting
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: RateSetting
+  nameWithType: DataHelper.RateSetting
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RateSetting
+  type: Field
+  source:
+    id: RateSetting
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 20
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static RateSettingsBl RateSetting
+    return:
+      type: FasttraxxDG.BaseLogic.RateSettingsBl
+    content.vb: Public Shared RateSetting As RateSettingsBl
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemMemberId
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemMemberId
+  id: RemMemberId
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: RemMemberId
+  nameWithType: DataHelper.RemMemberId
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemMemberId
+  type: Field
+  source:
+    id: RemMemberId
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 21
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string RemMemberId
+    return:
+      type: System.String
+    content.vb: Public Shared RemMemberId As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.BeneTelephone2
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.BeneTelephone2
+  id: BeneTelephone2
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: BeneTelephone2
+  nameWithType: DataHelper.BeneTelephone2
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.BeneTelephone2
+  type: Field
+  source:
+    id: BeneTelephone2
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 22
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string BeneTelephone2
+    return:
+      type: System.String
+    content.vb: Public Shared BeneTelephone2 As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserId
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserId
+  id: UserId
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: DataHelper.UserId
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserId
+  type: Field
+  source:
+    id: UserId
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 23
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static int UserId
+    return:
+      type: System.Int32
+    content.vb: Public Shared UserId As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsRedeem
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsRedeem
+  id: IsRedeem
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: IsRedeem
+  nameWithType: DataHelper.IsRedeem
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsRedeem
+  type: Field
+  source:
+    id: IsRedeem
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 24
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static bool IsRedeem
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsRedeem As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RedeemPoints
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RedeemPoints
+  id: RedeemPoints
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: RedeemPoints
+  nameWithType: DataHelper.RedeemPoints
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RedeemPoints
+  type: Field
+  source:
+    id: RedeemPoints
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 25
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static int RedeemPoints
+    return:
+      type: System.Int32
+    content.vb: Public Shared RedeemPoints As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsNoGiveAway
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsNoGiveAway
+  id: IsNoGiveAway
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNoGiveAway
+  nameWithType: DataHelper.IsNoGiveAway
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.IsNoGiveAway
+  type: Field
+  source:
+    id: IsNoGiveAway
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 26
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static bool IsNoGiveAway
+    return:
+      type: System.Boolean
+    content.vb: Public Shared IsNoGiveAway As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRate
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRate
+  id: PcRate
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: PcRate
+  nameWithType: DataHelper.PcRate
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRate
+  type: Field
+  source:
+    id: PcRate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 27
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static double PcRate
+    return:
+      type: System.Double
+    content.vb: Public Shared PcRate As Double
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRateAbove
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRateAbove
+  id: PcRateAbove
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: PcRateAbove
+  nameWithType: DataHelper.PcRateAbove
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.PcRateAbove
+  type: Field
+  source:
+    id: PcRateAbove
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 28
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static double PcRateAbove
+    return:
+      type: System.Double
+    content.vb: Public Shared PcRateAbove As Double
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserMode
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserMode
+  id: UserMode
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: UserMode
+  nameWithType: DataHelper.UserMode
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UserMode
+  type: Field
+  source:
+    id: UserMode
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 29
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static bool UserMode
+    return:
+      type: System.Boolean
+    content.vb: Public Shared UserMode As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ChangeRate
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ChangeRate
+  id: ChangeRate
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: ChangeRate
+  nameWithType: DataHelper.ChangeRate
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ChangeRate
+  type: Field
+  source:
+    id: ChangeRate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 30
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static bool ChangeRate
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ChangeRate As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.NtToday
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.NtToday
+  id: NtToday
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: NtToday
+  nameWithType: DataHelper.NtToday
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.NtToday
+  type: Field
+  source:
+    id: NtToday
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 31
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static double NtToday
+    return:
+      type: System.Double
+    content.vb: Public Shared NtToday As Double
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.LastName
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.LastName
+  id: LastName
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: DataHelper.LastName
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.LastName
+  type: Field
+  source:
+    id: LastName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 32
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string LastName
+    return:
+      type: System.String
+    content.vb: Public Shared LastName As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.FirstName
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.FirstName
+  id: FirstName
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: DataHelper.FirstName
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.FirstName
+  type: Field
+  source:
+    id: FirstName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 32
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string FirstName
+    return:
+      type: System.String
+    content.vb: Public Shared FirstName As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyId
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyId
+  id: CompanyId
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: CompanyId
+  nameWithType: DataHelper.CompanyId
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyId
+  type: Field
+  source:
+    id: CompanyId
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 33
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static int CompanyId
+    return:
+      type: System.Int32
+    content.vb: Public Shared CompanyId As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired
+  commentId: P:FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired
+  id: UsernameRequired
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: UsernameRequired
+  nameWithType: DataHelper.UsernameRequired
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired
+  type: Property
+  source:
+    id: UsernameRequired
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 34
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string UsernameRequired { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property UsernameRequired As String
+  overload: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble(System.String,System.Int32)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble(System.String,System.Int32)
+  id: RoundToDouble(System.String,System.Int32)
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: RoundToDouble(String, Int32)
+  nameWithType: DataHelper.RoundToDouble(String, Int32)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble(System.String, System.Int32)
+  type: Method
+  source:
+    id: RoundToDouble
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 36
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static double RoundToDouble(string sourceStr, int digits = 0)
+    parameters:
+    - id: sourceStr
+      type: System.String
+    - id: digits
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function RoundToDouble(sourceStr As String, digits As Integer = 0) As Double
+  overload: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative(System.String)
+  id: SetAccumulative(System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: SetAccumulative(String)
+  nameWithType: DataHelper.SetAccumulative(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative(System.String)
+  type: Method
+  source:
+    id: SetAccumulative
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 38
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void SetAccumulative(string memberId)
+    parameters:
+    - id: memberId
+      type: System.String
+    content.vb: Public Shared Sub SetAccumulative(memberId As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly(System.String)
+  id: CityOnly(System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: CityOnly(String)
+  nameWithType: DataHelper.CityOnly(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly(System.String)
+  type: Method
+  source:
+    id: CityOnly
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 43
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string CityOnly(string city)
+    parameters:
+    - id: city
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function CityOnly(city As String) As String
+  overload: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars(System.String)
+  id: RemoveSpecChars(System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveSpecChars(String)
+  nameWithType: DataHelper.RemoveSpecChars(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars(System.String)
+  type: Method
+  source:
+    id: RemoveSpecChars
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 59
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string RemoveSpecChars(string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveSpecChars(str As String) As String
+  overload: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete(System.DateTime,System.DateTime)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete(System.DateTime,System.DateTime)
+  id: DteComplete(System.DateTime,System.DateTime)
+  parent: FasttraxxDG.FrontEndUI.Helpers.DataHelper
+  langs:
+  - csharp
+  - vb
+  name: DteComplete(DateTime, DateTime)
+  nameWithType: DataHelper.DteComplete(DateTime, DateTime)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete(System.DateTime, System.DateTime)
+  type: Method
+  source:
+    id: DteComplete
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\DataHelper.cs
+    startLine: 75
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static DateTime DteComplete(DateTime dtDate, DateTime dtTime)
+    parameters:
+    - id: dtDate
+      type: System.DateTime
+    - id: dtTime
+      type: System.DateTime
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function DteComplete(dtDate As Date, dtTime As Date) As Date
+  overload: FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<DataHelper, TDest>()
+  nameWithType: MapperHelper.MapTo<DataHelper, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Helpers.DataHelper, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of DataHelper, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Helpers.DataHelper, TDest)()
+  name.vb: MapTo(Of DataHelper, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<DataHelper, TDest>
+    nameWithType: MapperHelper.MapTo<DataHelper, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Helpers.DataHelper, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of DataHelper, TDest)
+    nameWithType: MapperHelper.MapTo(Of DataHelper, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Helpers.DataHelper, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.BaseLogic.AppUserBl
+  commentId: T:FasttraxxDG.BaseLogic.AppUserBl
+  parent: FasttraxxDG.BaseLogic
+  name: AppUserBl
+  nameWithType: AppUserBl
+  fullName: FasttraxxDG.BaseLogic.AppUserBl
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseLogic.AppUserBl}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseLogic.AppUserBl}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<AppUserBl>
+  nameWithType: List<AppUserBl>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseLogic.AppUserBl>
+  nameWithType.vb: List(Of AppUserBl)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseLogic.AppUserBl)
+  name.vb: List(Of AppUserBl)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.AppUserBl
+    name: AppUserBl
+    nameWithType: AppUserBl
+    fullName: FasttraxxDG.BaseLogic.AppUserBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.AppUserBl
+    name: AppUserBl
+    nameWithType: AppUserBl
+    fullName: FasttraxxDG.BaseLogic.AppUserBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: FasttraxxDG.BaseLogic.CompanyBl
+  commentId: T:FasttraxxDG.BaseLogic.CompanyBl
+  parent: FasttraxxDG.BaseLogic
+  name: CompanyBl
+  nameWithType: CompanyBl
+  fullName: FasttraxxDG.BaseLogic.CompanyBl
+- uid: FasttraxxDG.BaseLogic.RemitterBl
+  commentId: T:FasttraxxDG.BaseLogic.RemitterBl
+  parent: FasttraxxDG.BaseLogic
+  name: RemitterBl
+  nameWithType: RemitterBl
+  fullName: FasttraxxDG.BaseLogic.RemitterBl
+- uid: FasttraxxDG.BaseLogic.RemBeneBl
+  commentId: T:FasttraxxDG.BaseLogic.RemBeneBl
+  parent: FasttraxxDG.BaseLogic
+  name: RemBeneBl
+  nameWithType: RemBeneBl
+  fullName: FasttraxxDG.BaseLogic.RemBeneBl
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl
+  commentId: T:FasttraxxDG.BaseLogic.BeneficiaryBl
+  parent: FasttraxxDG.BaseLogic
+  name: BeneficiaryBl
+  nameWithType: BeneficiaryBl
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl
+- uid: FasttraxxDG.BaseLogic.BranchBl
+  commentId: T:FasttraxxDG.BaseLogic.BranchBl
+  parent: FasttraxxDG.BaseLogic
+  name: BranchBl
+  nameWithType: BranchBl
+  fullName: FasttraxxDG.BaseLogic.BranchBl
+- uid: FasttraxxDG.BaseLogic.AccountBl
+  commentId: T:FasttraxxDG.BaseLogic.AccountBl
+  parent: FasttraxxDG.BaseLogic
+  name: AccountBl
+  nameWithType: AccountBl
+  fullName: FasttraxxDG.BaseLogic.AccountBl
+- uid: FasttraxxDG.BaseLogic.PointsBl
+  commentId: T:FasttraxxDG.BaseLogic.PointsBl
+  parent: FasttraxxDG.BaseLogic
+  name: PointsBl
+  nameWithType: PointsBl
+  fullName: FasttraxxDG.BaseLogic.PointsBl
+- uid: FasttraxxDG.BaseLogic.AccumulativeBl
+  commentId: T:FasttraxxDG.BaseLogic.AccumulativeBl
+  parent: FasttraxxDG.BaseLogic
+  name: AccumulativeBl
+  nameWithType: AccumulativeBl
+  fullName: FasttraxxDG.BaseLogic.AccumulativeBl
+- uid: FasttraxxDG.BaseLogic.RateSettingsBl
+  commentId: T:FasttraxxDG.BaseLogic.RateSettingsBl
+  parent: FasttraxxDG.BaseLogic
+  name: RateSettingsBl
+  nameWithType: RateSettingsBl
+  fullName: FasttraxxDG.BaseLogic.RateSettingsBl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired
+  name: UsernameRequired
+  nameWithType: DataHelper.UsernameRequired
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.UsernameRequired
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble
+  name: RoundToDouble
+  nameWithType: DataHelper.RoundToDouble
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative
+  name: SetAccumulative
+  nameWithType: DataHelper.SetAccumulative
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly
+  name: CityOnly
+  nameWithType: DataHelper.CityOnly
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CityOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars
+  name: RemoveSpecChars
+  nameWithType: DataHelper.RemoveSpecChars
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RemoveSpecChars
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete
+  name: DteComplete
+  nameWithType: DataHelper.DteComplete
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

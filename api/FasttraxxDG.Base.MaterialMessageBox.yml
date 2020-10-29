@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.Base.MaterialMessageBox
+  commentId: N:FasttraxxDG.Base.MaterialMessageBox
+  id: FasttraxxDG.Base.MaterialMessageBox
+  children:
+  - FasttraxxDG.Base.MaterialMessageBox.CustomMaterialMessageBox
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  - FasttraxxDG.Base.MaterialMessageBox.MessageBoxWindow
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.Base.MaterialMessageBox
+  nameWithType: FasttraxxDG.Base.MaterialMessageBox
+  fullName: FasttraxxDG.Base.MaterialMessageBox
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.Base
+references:
+- uid: FasttraxxDG.Base.MaterialMessageBox.CustomMaterialMessageBox
+  commentId: T:FasttraxxDG.Base.MaterialMessageBox.CustomMaterialMessageBox
+  name: CustomMaterialMessageBox
+  nameWithType: CustomMaterialMessageBox
+  fullName: FasttraxxDG.Base.MaterialMessageBox.CustomMaterialMessageBox
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  commentId: T:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  name: MaterialMessageBox
+  nameWithType: MaterialMessageBox
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+- uid: FasttraxxDG.Base.MaterialMessageBox.MessageBoxWindow
+  commentId: T:FasttraxxDG.Base.MaterialMessageBox.MessageBoxWindow
+  parent: FasttraxxDG.Base.MaterialMessageBox
+  name: MessageBoxWindow
+  nameWithType: MessageBoxWindow
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MessageBoxWindow
+- uid: FasttraxxDG.Base.MaterialMessageBox
+  commentId: N:FasttraxxDG.Base.MaterialMessageBox
+  name: FasttraxxDG.Base.MaterialMessageBox
+  nameWithType: FasttraxxDG.Base.MaterialMessageBox
+  fullName: FasttraxxDG.Base.MaterialMessageBox

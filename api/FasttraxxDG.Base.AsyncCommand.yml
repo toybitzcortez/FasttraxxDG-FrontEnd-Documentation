@@ -1,0 +1,1368 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.Base.AsyncCommand
+  commentId: T:FasttraxxDG.Base.AsyncCommand
+  id: AsyncCommand
+  parent: FasttraxxDG.Base
+  children:
+  - FasttraxxDG.Base.AsyncCommand.#ctor(System.Func{System.Threading.Tasks.Task})
+  - FasttraxxDG.Base.AsyncCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})
+  langs:
+  - csharp
+  - vb
+  name: AsyncCommand
+  nameWithType: AsyncCommand
+  fullName: FasttraxxDG.Base.AsyncCommand
+  type: Class
+  source:
+    id: AsyncCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\DelegateCommand.cs
+    startLine: 102
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: 'public class AsyncCommand : AsyncCommand<object>, ICommand, IAsyncCommand, IAsyncCommand<object>, IRaiseCanExecuteChanged'
+    content.vb: >-
+      Public Class AsyncCommand
+
+          Inherits AsyncCommand(Of Object)
+
+          Implements ICommand, IAsyncCommand, IAsyncCommand(Of Object), IRaiseCanExecuteChanged
+  inheritance:
+  - System.Object
+  - FasttraxxDG.Base.AsyncCommand{System.Object}
+  implements:
+  - System.Windows.Input.ICommand
+  - FasttraxxDG.Base.IAsyncCommand
+  - FasttraxxDG.Base.IAsyncCommand{System.Object}
+  - FasttraxxDG.Base.IRaiseCanExecuteChanged
+  inheritedMembers:
+  - FasttraxxDG.Base.AsyncCommand{System.Object}.ExecuteAsync(System.Object)
+  - FasttraxxDG.Base.AsyncCommand{System.Object}.Command
+  - FasttraxxDG.Base.AsyncCommand{System.Object}.CanExecute(System.Object)
+  - FasttraxxDG.Base.AsyncCommand{System.Object}.CanExecuteChanged
+  - FasttraxxDG.Base.AsyncCommand{System.Object}.Execute(System.Object)
+  - FasttraxxDG.Base.AsyncCommand{System.Object}.RaiseCanExecuteChanged
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Windows.Input.ICommand.FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+  - FasttraxxDG.Base.AsyncCommand.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.Base.AsyncCommand.#ctor(System.Func{System.Threading.Tasks.Task})
+  commentId: M:FasttraxxDG.Base.AsyncCommand.#ctor(System.Func{System.Threading.Tasks.Task})
+  id: '#ctor(System.Func{System.Threading.Tasks.Task})'
+  parent: FasttraxxDG.Base.AsyncCommand
+  langs:
+  - csharp
+  - vb
+  name: AsyncCommand(Func<Task>)
+  nameWithType: AsyncCommand.AsyncCommand(Func<Task>)
+  fullName: FasttraxxDG.Base.AsyncCommand.AsyncCommand(System.Func<System.Threading.Tasks.Task>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\DelegateCommand.cs
+    startLine: 104
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: public AsyncCommand(Func<Task> executeMethod)
+    parameters:
+    - id: executeMethod
+      type: System.Func{System.Threading.Tasks.Task}
+    content.vb: Public Sub New(executeMethod As Func(Of Task))
+  overload: FasttraxxDG.Base.AsyncCommand.#ctor*
+  nameWithType.vb: AsyncCommand.AsyncCommand(Func(Of Task))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.Base.AsyncCommand.AsyncCommand(System.Func(Of System.Threading.Tasks.Task))
+  name.vb: AsyncCommand(Func(Of Task))
+- uid: FasttraxxDG.Base.AsyncCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})
+  commentId: M:FasttraxxDG.Base.AsyncCommand.#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})
+  id: '#ctor(System.Func{System.Threading.Tasks.Task},System.Func{System.Boolean})'
+  parent: FasttraxxDG.Base.AsyncCommand
+  langs:
+  - csharp
+  - vb
+  name: AsyncCommand(Func<Task>, Func<Boolean>)
+  nameWithType: AsyncCommand.AsyncCommand(Func<Task>, Func<Boolean>)
+  fullName: FasttraxxDG.Base.AsyncCommand.AsyncCommand(System.Func<System.Threading.Tasks.Task>, System.Func<System.Boolean>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\DelegateCommand.cs
+    startLine: 109
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: public AsyncCommand(Func<Task> executeMethod, Func<bool> canExecuteMethod)
+    parameters:
+    - id: executeMethod
+      type: System.Func{System.Threading.Tasks.Task}
+    - id: canExecuteMethod
+      type: System.Func{System.Boolean}
+    content.vb: Public Sub New(executeMethod As Func(Of Task), canExecuteMethod As Func(Of Boolean))
+  overload: FasttraxxDG.Base.AsyncCommand.#ctor*
+  nameWithType.vb: AsyncCommand.AsyncCommand(Func(Of Task), Func(Of Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.Base.AsyncCommand.AsyncCommand(System.Func(Of System.Threading.Tasks.Task), System.Func(Of System.Boolean))
+  name.vb: AsyncCommand(Func(Of Task), Func(Of Boolean))
+references:
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}
+  commentId: T:FasttraxxDG.Base.AsyncCommand{System.Object}
+  parent: FasttraxxDG.Base
+  definition: FasttraxxDG.Base.AsyncCommand`1
+  name: AsyncCommand<Object>
+  nameWithType: AsyncCommand<Object>
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>
+  nameWithType.vb: AsyncCommand(Of Object)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object)
+  name.vb: AsyncCommand(Of Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1
+    name: AsyncCommand
+    nameWithType: AsyncCommand
+    fullName: FasttraxxDG.Base.AsyncCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1
+    name: AsyncCommand
+    nameWithType: AsyncCommand
+    fullName: FasttraxxDG.Base.AsyncCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: FasttraxxDG.Base.IAsyncCommand
+  commentId: T:FasttraxxDG.Base.IAsyncCommand
+  parent: FasttraxxDG.Base
+  name: IAsyncCommand
+  nameWithType: IAsyncCommand
+  fullName: FasttraxxDG.Base.IAsyncCommand
+- uid: FasttraxxDG.Base.IAsyncCommand{System.Object}
+  commentId: T:FasttraxxDG.Base.IAsyncCommand{System.Object}
+  parent: FasttraxxDG.Base
+  definition: FasttraxxDG.Base.IAsyncCommand`1
+  name: IAsyncCommand<Object>
+  nameWithType: IAsyncCommand<Object>
+  fullName: FasttraxxDG.Base.IAsyncCommand<System.Object>
+  nameWithType.vb: IAsyncCommand(Of Object)
+  fullName.vb: FasttraxxDG.Base.IAsyncCommand(Of System.Object)
+  name.vb: IAsyncCommand(Of Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.IAsyncCommand`1
+    name: IAsyncCommand
+    nameWithType: IAsyncCommand
+    fullName: FasttraxxDG.Base.IAsyncCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.IAsyncCommand`1
+    name: IAsyncCommand
+    nameWithType: IAsyncCommand
+    fullName: FasttraxxDG.Base.IAsyncCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.IRaiseCanExecuteChanged
+  commentId: T:FasttraxxDG.Base.IRaiseCanExecuteChanged
+  parent: FasttraxxDG.Base
+  name: IRaiseCanExecuteChanged
+  nameWithType: IRaiseCanExecuteChanged
+  fullName: FasttraxxDG.Base.IRaiseCanExecuteChanged
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}.ExecuteAsync(System.Object)
+  commentId: M:FasttraxxDG.Base.AsyncCommand{System.Object}.ExecuteAsync(System.Object)
+  parent: FasttraxxDG.Base.AsyncCommand{System.Object}
+  definition: FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+  name: ExecuteAsync(Object)
+  nameWithType: AsyncCommand<Object>.ExecuteAsync(Object)
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.ExecuteAsync(System.Object)
+  nameWithType.vb: AsyncCommand(Of Object).ExecuteAsync(Object)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object).ExecuteAsync(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+    name: ExecuteAsync
+    nameWithType: AsyncCommand<Object>.ExecuteAsync
+    fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+    name: ExecuteAsync
+    nameWithType: AsyncCommand(Of Object).ExecuteAsync
+    fullName: FasttraxxDG.Base.AsyncCommand(Of System.Object).ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}.Command
+  commentId: P:FasttraxxDG.Base.AsyncCommand{System.Object}.Command
+  parent: FasttraxxDG.Base.AsyncCommand{System.Object}
+  definition: FasttraxxDG.Base.AsyncCommand`1.Command
+  name: Command
+  nameWithType: AsyncCommand<Object>.Command
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.Command
+  nameWithType.vb: AsyncCommand(Of Object).Command
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object).Command
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}.CanExecute(System.Object)
+  commentId: M:FasttraxxDG.Base.AsyncCommand{System.Object}.CanExecute(System.Object)
+  parent: FasttraxxDG.Base.AsyncCommand{System.Object}
+  definition: FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+  name: CanExecute(Object)
+  nameWithType: AsyncCommand<Object>.CanExecute(Object)
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.CanExecute(System.Object)
+  nameWithType.vb: AsyncCommand(Of Object).CanExecute(Object)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object).CanExecute(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: AsyncCommand<Object>.CanExecute
+    fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.CanExecute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: AsyncCommand(Of Object).CanExecute
+    fullName: FasttraxxDG.Base.AsyncCommand(Of System.Object).CanExecute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}.CanExecuteChanged
+  commentId: E:FasttraxxDG.Base.AsyncCommand{System.Object}.CanExecuteChanged
+  parent: FasttraxxDG.Base.AsyncCommand{System.Object}
+  definition: FasttraxxDG.Base.AsyncCommand`1.CanExecuteChanged
+  name: CanExecuteChanged
+  nameWithType: AsyncCommand<Object>.CanExecuteChanged
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.CanExecuteChanged
+  nameWithType.vb: AsyncCommand(Of Object).CanExecuteChanged
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object).CanExecuteChanged
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}.Execute(System.Object)
+  commentId: M:FasttraxxDG.Base.AsyncCommand{System.Object}.Execute(System.Object)
+  parent: FasttraxxDG.Base.AsyncCommand{System.Object}
+  definition: FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+  name: Execute(Object)
+  nameWithType: AsyncCommand<Object>.Execute(Object)
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.Execute(System.Object)
+  nameWithType.vb: AsyncCommand(Of Object).Execute(Object)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object).Execute(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+    name: Execute
+    nameWithType: AsyncCommand<Object>.Execute
+    fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.Execute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+    name: Execute
+    nameWithType: AsyncCommand(Of Object).Execute
+    fullName: FasttraxxDG.Base.AsyncCommand(Of System.Object).Execute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand{System.Object}.RaiseCanExecuteChanged
+  commentId: M:FasttraxxDG.Base.AsyncCommand{System.Object}.RaiseCanExecuteChanged
+  parent: FasttraxxDG.Base.AsyncCommand{System.Object}
+  definition: FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  nameWithType: AsyncCommand<Object>.RaiseCanExecuteChanged()
+  fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.RaiseCanExecuteChanged()
+  nameWithType.vb: AsyncCommand(Of Object).RaiseCanExecuteChanged()
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of System.Object).RaiseCanExecuteChanged()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+    name: RaiseCanExecuteChanged
+    nameWithType: AsyncCommand<Object>.RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.AsyncCommand<System.Object>.RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+    name: RaiseCanExecuteChanged
+    nameWithType: AsyncCommand(Of Object).RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.AsyncCommand(Of System.Object).RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Input.ICommand.FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+  commentId: M:FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+  parent: FasttraxxDG.Base.CommandExtensions
+  definition: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+  name: RaiseCanExecuteChanged()
+  nameWithType: CommandExtensions.RaiseCanExecuteChanged()
+  fullName: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+    name: RaiseCanExecuteChanged
+    nameWithType: CommandExtensions.RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+    name: RaiseCanExecuteChanged
+    nameWithType: CommandExtensions.RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<AsyncCommand, TDest>()
+  nameWithType: MapperHelper.MapTo<AsyncCommand, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.AsyncCommand, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of AsyncCommand, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.AsyncCommand, TDest)()
+  name.vb: MapTo(Of AsyncCommand, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<AsyncCommand, TDest>
+    nameWithType: MapperHelper.MapTo<AsyncCommand, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.AsyncCommand, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of AsyncCommand, TDest)
+    nameWithType: MapperHelper.MapTo(Of AsyncCommand, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.AsyncCommand, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.Base.AsyncCommand`1
+  commentId: T:FasttraxxDG.Base.AsyncCommand`1
+  name: AsyncCommand<T>
+  nameWithType: AsyncCommand<T>
+  fullName: FasttraxxDG.Base.AsyncCommand<T>
+  nameWithType.vb: AsyncCommand(Of T)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T)
+  name.vb: AsyncCommand(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1
+    name: AsyncCommand
+    nameWithType: AsyncCommand
+    fullName: FasttraxxDG.Base.AsyncCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1
+    name: AsyncCommand
+    nameWithType: AsyncCommand
+    fullName: FasttraxxDG.Base.AsyncCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+- uid: FasttraxxDG.Base.IAsyncCommand`1
+  commentId: T:FasttraxxDG.Base.IAsyncCommand`1
+  name: IAsyncCommand<T>
+  nameWithType: IAsyncCommand<T>
+  fullName: FasttraxxDG.Base.IAsyncCommand<T>
+  nameWithType.vb: IAsyncCommand(Of T)
+  fullName.vb: FasttraxxDG.Base.IAsyncCommand(Of T)
+  name.vb: IAsyncCommand(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.IAsyncCommand`1
+    name: IAsyncCommand
+    nameWithType: IAsyncCommand
+    fullName: FasttraxxDG.Base.IAsyncCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.IAsyncCommand`1
+    name: IAsyncCommand
+    nameWithType: IAsyncCommand
+    fullName: FasttraxxDG.Base.IAsyncCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+  commentId: M:FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+  name: ExecuteAsync(T)
+  nameWithType: AsyncCommand<T>.ExecuteAsync(T)
+  fullName: FasttraxxDG.Base.AsyncCommand<T>.ExecuteAsync(T)
+  nameWithType.vb: AsyncCommand(Of T).ExecuteAsync(T)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T).ExecuteAsync(T)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+    name: ExecuteAsync
+    nameWithType: AsyncCommand<T>.ExecuteAsync
+    fullName: FasttraxxDG.Base.AsyncCommand<T>.ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.ExecuteAsync(`0)
+    name: ExecuteAsync
+    nameWithType: AsyncCommand(Of T).ExecuteAsync
+    fullName: FasttraxxDG.Base.AsyncCommand(Of T).ExecuteAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand`1.Command
+  commentId: P:FasttraxxDG.Base.AsyncCommand`1.Command
+  name: Command
+  nameWithType: AsyncCommand<T>.Command
+  fullName: FasttraxxDG.Base.AsyncCommand<T>.Command
+  nameWithType.vb: AsyncCommand(Of T).Command
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T).Command
+- uid: FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+  commentId: M:FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+  isExternal: true
+  name: CanExecute(Object)
+  nameWithType: AsyncCommand<T>.CanExecute(Object)
+  fullName: FasttraxxDG.Base.AsyncCommand<T>.CanExecute(System.Object)
+  nameWithType.vb: AsyncCommand(Of T).CanExecute(Object)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T).CanExecute(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: AsyncCommand<T>.CanExecute
+    fullName: FasttraxxDG.Base.AsyncCommand<T>.CanExecute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.CanExecute(System.Object)
+    name: CanExecute
+    nameWithType: AsyncCommand(Of T).CanExecute
+    fullName: FasttraxxDG.Base.AsyncCommand(Of T).CanExecute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand`1.CanExecuteChanged
+  commentId: E:FasttraxxDG.Base.AsyncCommand`1.CanExecuteChanged
+  name: CanExecuteChanged
+  nameWithType: AsyncCommand<T>.CanExecuteChanged
+  fullName: FasttraxxDG.Base.AsyncCommand<T>.CanExecuteChanged
+  nameWithType.vb: AsyncCommand(Of T).CanExecuteChanged
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T).CanExecuteChanged
+- uid: FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+  commentId: M:FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+  isExternal: true
+  name: Execute(Object)
+  nameWithType: AsyncCommand<T>.Execute(Object)
+  fullName: FasttraxxDG.Base.AsyncCommand<T>.Execute(System.Object)
+  nameWithType.vb: AsyncCommand(Of T).Execute(Object)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T).Execute(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+    name: Execute
+    nameWithType: AsyncCommand<T>.Execute
+    fullName: FasttraxxDG.Base.AsyncCommand<T>.Execute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.Execute(System.Object)
+    name: Execute
+    nameWithType: AsyncCommand(Of T).Execute
+    fullName: FasttraxxDG.Base.AsyncCommand(Of T).Execute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+  commentId: M:FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+  name: RaiseCanExecuteChanged()
+  nameWithType: AsyncCommand<T>.RaiseCanExecuteChanged()
+  fullName: FasttraxxDG.Base.AsyncCommand<T>.RaiseCanExecuteChanged()
+  nameWithType.vb: AsyncCommand(Of T).RaiseCanExecuteChanged()
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T).RaiseCanExecuteChanged()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+    name: RaiseCanExecuteChanged
+    nameWithType: AsyncCommand<T>.RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.AsyncCommand<T>.RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1.RaiseCanExecuteChanged
+    name: RaiseCanExecuteChanged
+    nameWithType: AsyncCommand(Of T).RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.AsyncCommand(Of T).RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+  commentId: M:FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+  isExternal: true
+  name: RaiseCanExecuteChanged(ICommand)
+  nameWithType: CommandExtensions.RaiseCanExecuteChanged(ICommand)
+  fullName: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+    name: RaiseCanExecuteChanged
+    nameWithType: CommandExtensions.RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.Input.ICommand
+    name: ICommand
+    nameWithType: ICommand
+    fullName: System.Windows.Input.ICommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged(System.Windows.Input.ICommand)
+    name: RaiseCanExecuteChanged
+    nameWithType: CommandExtensions.RaiseCanExecuteChanged
+    fullName: FasttraxxDG.Base.CommandExtensions.RaiseCanExecuteChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.Input.ICommand
+    name: ICommand
+    nameWithType: ICommand
+    fullName: System.Windows.Input.ICommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.CommandExtensions
+  commentId: T:FasttraxxDG.Base.CommandExtensions
+  parent: FasttraxxDG.Base
+  name: CommandExtensions
+  nameWithType: CommandExtensions
+  fullName: FasttraxxDG.Base.CommandExtensions
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.Base.AsyncCommand.#ctor*
+  commentId: Overload:FasttraxxDG.Base.AsyncCommand.#ctor
+  name: AsyncCommand
+  nameWithType: AsyncCommand.AsyncCommand
+  fullName: FasttraxxDG.Base.AsyncCommand.AsyncCommand
+- uid: System.Func{System.Threading.Tasks.Task}
+  commentId: T:System.Func{System.Threading.Tasks.Task}
+  parent: System
+  definition: System.Func`1
+  name: Func<Task>
+  nameWithType: Func<Task>
+  fullName: System.Func<System.Threading.Tasks.Task>
+  nameWithType.vb: Func(Of Task)
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
+  name.vb: Func(Of Task)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func{System.Boolean}
+  commentId: T:System.Func{System.Boolean}
+  parent: System
+  definition: System.Func`1
+  name: Func<Boolean>
+  nameWithType: Func<Boolean>
+  fullName: System.Func<System.Boolean>
+  nameWithType.vb: Func(Of Boolean)
+  fullName.vb: System.Func(Of System.Boolean)
+  name.vb: Func(Of Boolean)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

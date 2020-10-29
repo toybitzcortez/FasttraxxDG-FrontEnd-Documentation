@@ -1,0 +1,1558 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  id: AccountViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  children:
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.#ctor(FasttraxxDG.BaseLogic.BeneficiaryBl,FasttraxxDG.BaseLogic.AccountBl)
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations
+  langs:
+  - csharp
+  - vb
+  name: AccountViewModel
+  nameWithType: AccountViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  type: Class
+  source:
+    id: AccountViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: 'public class AccountViewModel : AccountVmModel, INotifyPropertyChanged, IDisposable, IDataErrorInfo'
+    content.vb: >-
+      Public Class AccountViewModel
+          Inherits AccountVmModel
+          Implements INotifyPropertyChanged, IDisposable, IDataErrorInfo
+  inheritance:
+  - System.Object
+  - FasttraxxDG.Base.NotifyChangedObject
+  - FasttraxxDG.Base.BaseViewModel
+  - FasttraxxDG.UiLibrary.AccountVmModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.IDisposable
+  - System.ComponentModel.IDataErrorInfo
+  inheritedMembers:
+  - FasttraxxDG.UiLibrary.AccountVmModel.LoadCommand
+  - FasttraxxDG.UiLibrary.AccountVmModel.BackCommand
+  - FasttraxxDG.UiLibrary.AccountVmModel.NextCommand
+  - FasttraxxDG.UiLibrary.AccountVmModel.AccountFood
+  - FasttraxxDG.UiLibrary.AccountVmModel.ClearBranchAction
+  - FasttraxxDG.UiLibrary.AccountVmModel.TypeAccount
+  - FasttraxxDG.UiLibrary.AccountVmModel.AllowEdit
+  - FasttraxxDG.UiLibrary.AccountVmModel.IsShowService
+  - FasttraxxDG.UiLibrary.AccountVmModel.Services
+  - FasttraxxDG.UiLibrary.AccountVmModel.SelectedCashCard
+  - FasttraxxDG.UiLibrary.AccountVmModel.SelectedBeneficiary
+  - FasttraxxDG.UiLibrary.AccountVmModel.BranchCode
+  - FasttraxxDG.UiLibrary.AccountVmModel.SelectedService
+  - FasttraxxDG.UiLibrary.AccountVmModel.AccountBb
+  - FasttraxxDG.UiLibrary.AccountVmModel.AccountCc
+  - FasttraxxDG.UiLibrary.AccountVmModel.AccountDd
+  - FasttraxxDG.UiLibrary.AccountVmModel.AccountPickup
+  - FasttraxxDG.UiLibrary.AccountVmModel.LoadStateChanged
+  - FasttraxxDG.UiLibrary.AccountVmModel.BackStateChanged
+  - FasttraxxDG.UiLibrary.AccountVmModel.NextStateChanged
+  - FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+  - FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  - FasttraxxDG.Base.BaseViewModel.FocusRequested
+  - FasttraxxDG.Base.BaseViewModel.Error
+  - FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  - FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  - FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  - FasttraxxDG.Base.BaseViewModel.Dispose
+  - FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  - FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  - FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.#ctor(FasttraxxDG.BaseLogic.BeneficiaryBl,FasttraxxDG.BaseLogic.AccountBl)
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.#ctor(FasttraxxDG.BaseLogic.BeneficiaryBl,FasttraxxDG.BaseLogic.AccountBl)
+  id: '#ctor(FasttraxxDG.BaseLogic.BeneficiaryBl,FasttraxxDG.BaseLogic.AccountBl)'
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AccountViewModel(BeneficiaryBl, AccountBl)
+  nameWithType: AccountViewModel.AccountViewModel(BeneficiaryBl, AccountBl)
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountViewModel(FasttraxxDG.BaseLogic.BeneficiaryBl, FasttraxxDG.BaseLogic.AccountBl)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 22
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  summary: "\ndecfault constructor\n"
+  example: []
+  syntax:
+    content: public AccountViewModel(BeneficiaryBl bene, AccountBl account)
+    parameters:
+    - id: bene
+      type: FasttraxxDG.BaseLogic.BeneficiaryBl
+      description: <xref href="FasttraxxDG.BaseLogic.BeneficiaryBl" data-throw-if-not-resolved="false"></xref>
+    - id: account
+      type: FasttraxxDG.BaseLogic.AccountBl
+      description: <xref href="FasttraxxDG.BaseLogic.AccountBl" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub New(bene As BeneficiaryBl, account As AccountBl)
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel
+  id: AcctBbViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AcctBbViewModel
+  nameWithType: AccountViewModel.AcctBbViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel
+  type: Property
+  source:
+    id: AcctBbViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 63
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public AccountBbViewModel AcctBbViewModel { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel
+    content.vb: Public Property AcctBbViewModel As AccountBbViewModel
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel
+  id: AcctCcViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AcctCcViewModel
+  nameWithType: AccountViewModel.AcctCcViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel
+  type: Property
+  source:
+    id: AcctCcViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 73
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public AccountCcViewModel AcctCcViewModel { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.FrontEndUI.ViewModels.AccountCcViewModel
+    content.vb: Public Property AcctCcViewModel As AccountCcViewModel
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel
+  id: AcctDdViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AcctDdViewModel
+  nameWithType: AccountViewModel.AcctDdViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel
+  type: Property
+  source:
+    id: AcctDdViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 83
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public AccountDdViewModel AcctDdViewModel { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.FrontEndUI.ViewModels.AccountDdViewModel
+    content.vb: Public Property AcctDdViewModel As AccountDdViewModel
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel
+  id: AcctFoodViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AcctFoodViewModel
+  nameWithType: AccountViewModel.AcctFoodViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel
+  type: Property
+  source:
+    id: AcctFoodViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 93
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public AccountFoodViewModel AcctFoodViewModel { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.FrontEndUI.ViewModels.AccountFoodViewModel
+    content.vb: Public Property AcctFoodViewModel As AccountFoodViewModel
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList
+  id: AccountTypeList
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AccountTypeList
+  nameWithType: AccountViewModel.AccountTypeList
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList
+  type: Property
+  source:
+    id: AccountTypeList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 103
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public ObservableCollection<AccountBl> AccountTypeList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.AccountBl}
+    content.vb: Public Property AccountTypeList As ObservableCollection(Of AccountBl)
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel
+  id: AccountPickupViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AccountPickupViewModel
+  nameWithType: AccountViewModel.AccountPickupViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel
+  type: Property
+  source:
+    id: AccountPickupViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 113
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public AccountPickupViewModel AccountPickupViewModel { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.FrontEndUI.ViewModels.AccountPickupViewModel
+    content.vb: Public Property AccountPickupViewModel As AccountPickupViewModel
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected
+  id: AccountTypeSelected
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: AccountTypeSelected
+  nameWithType: AccountViewModel.AccountTypeSelected
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected
+  type: Property
+  source:
+    id: AccountTypeSelected
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 123
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public AccountBl AccountTypeSelected { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.BaseLogic.AccountBl
+    content.vb: Public Property AccountTypeSelected As AccountBl
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel
+  id: CurrentPageViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentPageViewModel
+  nameWithType: AccountViewModel.CurrentPageViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel
+  type: Property
+  source:
+    id: CurrentPageViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 172
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public object CurrentPageViewModel { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property CurrentPageViewModel As Object
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations
+  id: Initiations
+  parent: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel
+  langs:
+  - csharp
+  - vb
+  name: Initiations()
+  nameWithType: AccountViewModel.Initiations()
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations()
+  type: Method
+  source:
+    id: Initiations
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Beneficiary\Account\ViewModels\AccountViewModel.cs
+    startLine: 186
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public void Initiations()
+    content.vb: Public Sub Initiations
+  overload: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.FrontEndUI.ViewModels
+  commentId: N:FasttraxxDG.FrontEndUI.ViewModels
+  name: FasttraxxDG.FrontEndUI.ViewModels
+  nameWithType: FasttraxxDG.FrontEndUI.ViewModels
+  fullName: FasttraxxDG.FrontEndUI.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.Base.NotifyChangedObject
+  commentId: T:FasttraxxDG.Base.NotifyChangedObject
+  parent: FasttraxxDG.Base
+  name: NotifyChangedObject
+  nameWithType: NotifyChangedObject
+  fullName: FasttraxxDG.Base.NotifyChangedObject
+- uid: FasttraxxDG.Base.BaseViewModel
+  commentId: T:FasttraxxDG.Base.BaseViewModel
+  parent: FasttraxxDG.Base
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: FasttraxxDG.Base.BaseViewModel
+- uid: FasttraxxDG.UiLibrary.AccountVmModel
+  commentId: T:FasttraxxDG.UiLibrary.AccountVmModel
+  parent: FasttraxxDG.UiLibrary
+  name: AccountVmModel
+  nameWithType: AccountVmModel
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ComponentModel.IDataErrorInfo
+  commentId: T:System.ComponentModel.IDataErrorInfo
+  parent: System.ComponentModel
+  isExternal: true
+  name: IDataErrorInfo
+  nameWithType: IDataErrorInfo
+  fullName: System.ComponentModel.IDataErrorInfo
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.LoadCommand
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.LoadCommand
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: LoadCommand
+  nameWithType: AccountVmModel.LoadCommand
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.LoadCommand
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.BackCommand
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.BackCommand
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: BackCommand
+  nameWithType: AccountVmModel.BackCommand
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.BackCommand
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.NextCommand
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.NextCommand
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: NextCommand
+  nameWithType: AccountVmModel.NextCommand
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.NextCommand
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.AccountFood
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.AccountFood
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: AccountFood
+  nameWithType: AccountVmModel.AccountFood
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.AccountFood
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.ClearBranchAction
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.ClearBranchAction
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: ClearBranchAction
+  nameWithType: AccountVmModel.ClearBranchAction
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.ClearBranchAction
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.TypeAccount
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.TypeAccount
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: TypeAccount
+  nameWithType: AccountVmModel.TypeAccount
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.TypeAccount
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.AllowEdit
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.AllowEdit
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: AllowEdit
+  nameWithType: AccountVmModel.AllowEdit
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.AllowEdit
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.IsShowService
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.IsShowService
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: IsShowService
+  nameWithType: AccountVmModel.IsShowService
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.IsShowService
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.Services
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.Services
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: Services
+  nameWithType: AccountVmModel.Services
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.Services
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.SelectedCashCard
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.SelectedCashCard
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: SelectedCashCard
+  nameWithType: AccountVmModel.SelectedCashCard
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.SelectedCashCard
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.SelectedBeneficiary
+  commentId: F:FasttraxxDG.UiLibrary.AccountVmModel.SelectedBeneficiary
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: SelectedBeneficiary
+  nameWithType: AccountVmModel.SelectedBeneficiary
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.SelectedBeneficiary
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.BranchCode
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.BranchCode
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: BranchCode
+  nameWithType: AccountVmModel.BranchCode
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.BranchCode
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.SelectedService
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.SelectedService
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: SelectedService
+  nameWithType: AccountVmModel.SelectedService
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.SelectedService
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.AccountBb
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.AccountBb
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: AccountBb
+  nameWithType: AccountVmModel.AccountBb
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.AccountBb
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.AccountCc
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.AccountCc
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: AccountCc
+  nameWithType: AccountVmModel.AccountCc
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.AccountCc
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.AccountDd
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.AccountDd
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: AccountDd
+  nameWithType: AccountVmModel.AccountDd
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.AccountDd
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.AccountPickup
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.AccountPickup
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: AccountPickup
+  nameWithType: AccountVmModel.AccountPickup
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.AccountPickup
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.LoadStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.LoadStateChanged
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: LoadStateChanged
+  nameWithType: AccountVmModel.LoadStateChanged
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.LoadStateChanged
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.BackStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.BackStateChanged
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: BackStateChanged
+  nameWithType: AccountVmModel.BackStateChanged
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.BackStateChanged
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.NextStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.AccountVmModel.NextStateChanged
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: NextStateChanged
+  nameWithType: AccountVmModel.NextStateChanged
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.NextStateChanged
+- uid: FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+  commentId: M:FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+  parent: FasttraxxDG.UiLibrary.AccountVmModel
+  name: IsValid()
+  nameWithType: AccountVmModel.IsValid()
+  fullName: FasttraxxDG.UiLibrary.AccountVmModel.IsValid()
+  spec.csharp:
+  - uid: FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+    name: IsValid
+    nameWithType: AccountVmModel.IsValid
+    fullName: FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+    name: IsValid
+    nameWithType: AccountVmModel.IsValid
+    fullName: FasttraxxDG.UiLibrary.AccountVmModel.IsValid
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Item[String]
+  nameWithType: BaseViewModel.Item[String]
+  fullName: FasttraxxDG.Base.BaseViewModel.Item[System.String]
+  nameWithType.vb: BaseViewModel.Item(String)
+  fullName.vb: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.FocusRequested
+  commentId: E:FasttraxxDG.Base.BaseViewModel.FocusRequested
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: FocusRequested
+  nameWithType: BaseViewModel.FocusRequested
+  fullName: FasttraxxDG.Base.BaseViewModel.FocusRequested
+- uid: FasttraxxDG.Base.BaseViewModel.Error
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Error
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Error
+  nameWithType: BaseViewModel.Error
+  fullName: FasttraxxDG.Base.BaseViewModel.Error
+- uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnValidate(String)
+  nameWithType: BaseViewModel.OnValidate(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnFocusRequested(String)
+  nameWithType: BaseViewModel.OnFocusRequested(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  commentId: P:FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: IsDesignMode
+  nameWithType: BaseViewModel.IsDesignMode
+  fullName: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Dispose()
+  nameWithType: BaseViewModel.Dispose()
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BaseViewModel.Dispose(Boolean)
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  commentId: E:FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  name: PropertyChanged
+  nameWithType: NotifyChangedObject.PropertyChanged
+  fullName: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+- uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  commentId: M:FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: NotifyChangedObject.OnPropertyChanged(String)
+  fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<AccountViewModel, TDest>()
+  nameWithType: MapperHelper.MapTo<AccountViewModel, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of AccountViewModel, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel, TDest)()
+  name.vb: MapTo(Of AccountViewModel, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<AccountViewModel, TDest>
+    nameWithType: MapperHelper.MapTo<AccountViewModel, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of AccountViewModel, TDest)
+    nameWithType: MapperHelper.MapTo(Of AccountViewModel, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: FasttraxxDG.UiLibrary
+  commentId: N:FasttraxxDG.UiLibrary
+  name: FasttraxxDG.UiLibrary
+  nameWithType: FasttraxxDG.UiLibrary
+  fullName: FasttraxxDG.UiLibrary
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl
+  commentId: T:FasttraxxDG.BaseLogic.BeneficiaryBl
+  parent: FasttraxxDG.BaseLogic
+  name: BeneficiaryBl
+  nameWithType: BeneficiaryBl
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl
+- uid: FasttraxxDG.BaseLogic.AccountBl
+  commentId: T:FasttraxxDG.BaseLogic.AccountBl
+  parent: FasttraxxDG.BaseLogic
+  name: AccountBl
+  nameWithType: AccountBl
+  fullName: FasttraxxDG.BaseLogic.AccountBl
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.#ctor*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.#ctor
+  name: AccountViewModel
+  nameWithType: AccountViewModel.AccountViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel
+  name: AcctBbViewModel
+  nameWithType: AccountViewModel.AcctBbViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctBbViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  name: AccountBbViewModel
+  nameWithType: AccountBbViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel
+  name: AcctCcViewModel
+  nameWithType: AccountViewModel.AcctCcViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctCcViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountCcViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.AccountCcViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  name: AccountCcViewModel
+  nameWithType: AccountCcViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountCcViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel
+  name: AcctDdViewModel
+  nameWithType: AccountViewModel.AcctDdViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctDdViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountDdViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.AccountDdViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  name: AccountDdViewModel
+  nameWithType: AccountDdViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountDdViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel
+  name: AcctFoodViewModel
+  nameWithType: AccountViewModel.AcctFoodViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AcctFoodViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountFoodViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.AccountFoodViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  name: AccountFoodViewModel
+  nameWithType: AccountFoodViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountFoodViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList
+  name: AccountTypeList
+  nameWithType: AccountViewModel.AccountTypeList
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeList
+- uid: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.AccountBl}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.AccountBl}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<AccountBl>
+  nameWithType: ObservableCollection<AccountBl>
+  fullName: System.Collections.ObjectModel.ObservableCollection<FasttraxxDG.BaseLogic.AccountBl>
+  nameWithType.vb: ObservableCollection(Of AccountBl)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of FasttraxxDG.BaseLogic.AccountBl)
+  name.vb: ObservableCollection(Of AccountBl)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.AccountBl
+    name: AccountBl
+    nameWithType: AccountBl
+    fullName: FasttraxxDG.BaseLogic.AccountBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.AccountBl
+    name: AccountBl
+    nameWithType: AccountBl
+    fullName: FasttraxxDG.BaseLogic.AccountBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel
+  name: AccountPickupViewModel
+  nameWithType: AccountViewModel.AccountPickupViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountPickupViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountPickupViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.AccountPickupViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  name: AccountPickupViewModel
+  nameWithType: AccountPickupViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountPickupViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected
+  name: AccountTypeSelected
+  nameWithType: AccountViewModel.AccountTypeSelected
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.AccountTypeSelected
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel
+  name: CurrentPageViewModel
+  nameWithType: AccountViewModel.CurrentPageViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.CurrentPageViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations
+  name: Initiations
+  nameWithType: AccountViewModel.Initiations
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.Initiations

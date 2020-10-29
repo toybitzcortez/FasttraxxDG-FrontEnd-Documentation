@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  id: FasttraxxDG.Base
+  children:
+  - FasttraxxDG.Base.AnotherCommandImplementation
+  - FasttraxxDG.Base.AsyncCommand
+  - FasttraxxDG.Base.AsyncCommand`1
+  - FasttraxxDG.Base.BaseViewModel
+  - FasttraxxDG.Base.CommandExtensions
+  - FasttraxxDG.Base.CustomDGDialog
+  - FasttraxxDG.Base.DebounceDispatcher
+  - FasttraxxDG.Base.DelegateCommand
+  - FasttraxxDG.Base.DelegateCommand`1
+  - FasttraxxDG.Base.DGDialog
+  - FasttraxxDG.Base.DGDialogVModel
+  - FasttraxxDG.Base.FocusRequestedEventArgs
+  - FasttraxxDG.Base.IAsyncCommand
+  - FasttraxxDG.Base.IAsyncCommand`1
+  - FasttraxxDG.Base.IRaiseCanExecuteChanged
+  - FasttraxxDG.Base.IRequestFocus
+  - FasttraxxDG.Base.MyScheduler
+  - FasttraxxDG.Base.NotifyChangedObject
+  - FasttraxxDG.Base.SchedulerService
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.Base
+references:
+- uid: FasttraxxDG.Base.AnotherCommandImplementation
+  commentId: T:FasttraxxDG.Base.AnotherCommandImplementation
+  name: AnotherCommandImplementation
+  nameWithType: AnotherCommandImplementation
+  fullName: FasttraxxDG.Base.AnotherCommandImplementation
+- uid: FasttraxxDG.Base.BaseViewModel
+  commentId: T:FasttraxxDG.Base.BaseViewModel
+  parent: FasttraxxDG.Base
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: FasttraxxDG.Base.BaseViewModel
+- uid: FasttraxxDG.Base.IRaiseCanExecuteChanged
+  commentId: T:FasttraxxDG.Base.IRaiseCanExecuteChanged
+  parent: FasttraxxDG.Base
+  name: IRaiseCanExecuteChanged
+  nameWithType: IRaiseCanExecuteChanged
+  fullName: FasttraxxDG.Base.IRaiseCanExecuteChanged
+- uid: FasttraxxDG.Base.CommandExtensions
+  commentId: T:FasttraxxDG.Base.CommandExtensions
+  parent: FasttraxxDG.Base
+  name: CommandExtensions
+  nameWithType: CommandExtensions
+  fullName: FasttraxxDG.Base.CommandExtensions
+- uid: FasttraxxDG.Base.DebounceDispatcher
+  commentId: T:FasttraxxDG.Base.DebounceDispatcher
+  name: DebounceDispatcher
+  nameWithType: DebounceDispatcher
+  fullName: FasttraxxDG.Base.DebounceDispatcher
+- uid: FasttraxxDG.Base.DelegateCommand
+  commentId: T:FasttraxxDG.Base.DelegateCommand
+  parent: FasttraxxDG.Base
+  name: DelegateCommand
+  nameWithType: DelegateCommand
+  fullName: FasttraxxDG.Base.DelegateCommand
+- uid: FasttraxxDG.Base.DelegateCommand`1
+  commentId: T:FasttraxxDG.Base.DelegateCommand`1
+  name: DelegateCommand<T>
+  nameWithType: DelegateCommand<T>
+  fullName: FasttraxxDG.Base.DelegateCommand<T>
+  nameWithType.vb: DelegateCommand(Of T)
+  fullName.vb: FasttraxxDG.Base.DelegateCommand(Of T)
+  name.vb: DelegateCommand(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.DelegateCommand`1
+    name: DelegateCommand
+    nameWithType: DelegateCommand
+    fullName: FasttraxxDG.Base.DelegateCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.DelegateCommand`1
+    name: DelegateCommand
+    nameWithType: DelegateCommand
+    fullName: FasttraxxDG.Base.DelegateCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.IAsyncCommand
+  commentId: T:FasttraxxDG.Base.IAsyncCommand
+  parent: FasttraxxDG.Base
+  name: IAsyncCommand
+  nameWithType: IAsyncCommand
+  fullName: FasttraxxDG.Base.IAsyncCommand
+- uid: FasttraxxDG.Base.IAsyncCommand`1
+  commentId: T:FasttraxxDG.Base.IAsyncCommand`1
+  name: IAsyncCommand<T>
+  nameWithType: IAsyncCommand<T>
+  fullName: FasttraxxDG.Base.IAsyncCommand<T>
+  nameWithType.vb: IAsyncCommand(Of T)
+  fullName.vb: FasttraxxDG.Base.IAsyncCommand(Of T)
+  name.vb: IAsyncCommand(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.IAsyncCommand`1
+    name: IAsyncCommand
+    nameWithType: IAsyncCommand
+    fullName: FasttraxxDG.Base.IAsyncCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.IAsyncCommand`1
+    name: IAsyncCommand
+    nameWithType: IAsyncCommand
+    fullName: FasttraxxDG.Base.IAsyncCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.AsyncCommand
+  commentId: T:FasttraxxDG.Base.AsyncCommand
+  parent: FasttraxxDG.Base
+  name: AsyncCommand
+  nameWithType: AsyncCommand
+  fullName: FasttraxxDG.Base.AsyncCommand
+- uid: FasttraxxDG.Base.AsyncCommand`1
+  commentId: T:FasttraxxDG.Base.AsyncCommand`1
+  name: AsyncCommand<T>
+  nameWithType: AsyncCommand<T>
+  fullName: FasttraxxDG.Base.AsyncCommand<T>
+  nameWithType.vb: AsyncCommand(Of T)
+  fullName.vb: FasttraxxDG.Base.AsyncCommand(Of T)
+  name.vb: AsyncCommand(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.AsyncCommand`1
+    name: AsyncCommand
+    nameWithType: AsyncCommand
+    fullName: FasttraxxDG.Base.AsyncCommand
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.Base.AsyncCommand`1
+    name: AsyncCommand
+    nameWithType: AsyncCommand
+    fullName: FasttraxxDG.Base.AsyncCommand
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.CustomDGDialog
+  commentId: T:FasttraxxDG.Base.CustomDGDialog
+  name: CustomDGDialog
+  nameWithType: CustomDGDialog
+  fullName: FasttraxxDG.Base.CustomDGDialog
+- uid: FasttraxxDG.Base.DGDialog
+  commentId: T:FasttraxxDG.Base.DGDialog
+  parent: FasttraxxDG.Base
+  name: DGDialog
+  nameWithType: DGDialog
+  fullName: FasttraxxDG.Base.DGDialog
+- uid: FasttraxxDG.Base.DGDialogVModel
+  commentId: T:FasttraxxDG.Base.DGDialogVModel
+  name: DGDialogVModel
+  nameWithType: DGDialogVModel
+  fullName: FasttraxxDG.Base.DGDialogVModel
+- uid: FasttraxxDG.Base.FocusRequestedEventArgs
+  commentId: T:FasttraxxDG.Base.FocusRequestedEventArgs
+  name: FocusRequestedEventArgs
+  nameWithType: FocusRequestedEventArgs
+  fullName: FasttraxxDG.Base.FocusRequestedEventArgs
+- uid: FasttraxxDG.Base.IRequestFocus
+  commentId: T:FasttraxxDG.Base.IRequestFocus
+  parent: FasttraxxDG.Base
+  name: IRequestFocus
+  nameWithType: IRequestFocus
+  fullName: FasttraxxDG.Base.IRequestFocus
+- uid: FasttraxxDG.Base.MyScheduler
+  commentId: T:FasttraxxDG.Base.MyScheduler
+  name: MyScheduler
+  nameWithType: MyScheduler
+  fullName: FasttraxxDG.Base.MyScheduler
+- uid: FasttraxxDG.Base.NotifyChangedObject
+  commentId: T:FasttraxxDG.Base.NotifyChangedObject
+  parent: FasttraxxDG.Base
+  name: NotifyChangedObject
+  nameWithType: NotifyChangedObject
+  fullName: FasttraxxDG.Base.NotifyChangedObject
+- uid: FasttraxxDG.Base.SchedulerService
+  commentId: T:FasttraxxDG.Base.SchedulerService
+  parent: FasttraxxDG.Base
+  name: SchedulerService
+  nameWithType: SchedulerService
+  fullName: FasttraxxDG.Base.SchedulerService
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base

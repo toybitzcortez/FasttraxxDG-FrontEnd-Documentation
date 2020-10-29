@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TxnSummaryViewModel
+   | FasttraxxDG FrontEnd </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TxnSummaryViewModel
+   | FasttraxxDG FrontEnd ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../images/ft_gt_logo01.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/frontend.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel">
+  
+  
+  <h1 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel" class="text-break">Class TxnSummaryViewModel
+  </h1>
+  <div class="markdown level0 summary"><p>The Main Txn Remit Classs contains all methods for performing txns</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FasttraxxDG.Base.NotifyChangedObject.html">NotifyChangedObject</a></div>
+    <div class="level2"><a class="xref" href="FasttraxxDG.Base.BaseViewModel.html">BaseViewModel</a></div>
+    <div class="level3"><a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html">TxnSummaryVmModel</a></div>
+    <div class="level4"><span class="xref">TxnSummaryViewModel</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_LoadCommand">TxnSummaryVmModel.LoadCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_BackCommand">TxnSummaryVmModel.BackCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_AccountBbBl">TxnSummaryVmModel.AccountBbBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_AccountCcBl">TxnSummaryVmModel.AccountCcBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_AccoundDdBl">TxnSummaryVmModel.AccoundDdBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_AccountFsBl">TxnSummaryVmModel.AccountFsBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_AccountPickupBl">TxnSummaryVmModel.AccountPickupBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Remitter">TxnSummaryVmModel.Remitter</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SenderMobile">TxnSummaryVmModel.SenderMobile</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Beneficiary">TxnSummaryVmModel.Beneficiary</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_BirthDate">TxnSummaryVmModel.BirthDate</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Relationships">TxnSummaryVmModel.Relationships</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SelectedRelationship">TxnSummaryVmModel.SelectedRelationship</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_BeneMobile">TxnSummaryVmModel.BeneMobile</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_BeneAddress">TxnSummaryVmModel.BeneAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Peso">TxnSummaryVmModel.Peso</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Nt">TxnSummaryVmModel.Nt</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Discount">TxnSummaryVmModel.Discount</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Extra">TxnSummaryVmModel.Extra</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Purposes">TxnSummaryVmModel.Purposes</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SelectedPurpose">TxnSummaryVmModel.SelectedPurpose</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Remarks">TxnSummaryVmModel.Remarks</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_CurrentView">TxnSummaryVmModel.CurrentView</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_MemberType">TxnSummaryVmModel.MemberType</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_MemberId">TxnSummaryVmModel.MemberId</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_LoadStateChanged">TxnSummaryVmModel.LoadStateChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_BackStateChanged">TxnSummaryVmModel.BackStateChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_BbBl">TxnSummaryVmModel.BbBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_CcBl">TxnSummaryVmModel.CcBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_DdBl">TxnSummaryVmModel.DdBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_FsBl">TxnSummaryVmModel.FsBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_PickupBl">TxnSummaryVmModel.PickupBl</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Item_System_String_">BaseViewModel.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_FocusRequested">BaseViewModel.FocusRequested</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Error">BaseViewModel.Error</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_OnValidate_System_String_">BaseViewModel.OnValidate(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_OnFocusRequested_System_String_">BaseViewModel.OnFocusRequested(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_IsDesignMode">BaseViewModel.IsDesignMode</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Dispose">BaseViewModel.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Dispose_System_Boolean_">BaseViewModel.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.NotifyChangedObject.html#FasttraxxDG_Base_NotifyChangedObject_PropertyChanged">NotifyChangedObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.NotifyChangedObject.html#FasttraxxDG_Base_NotifyChangedObject_OnPropertyChanged_System_String_">NotifyChangedObject.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.html">FasttraxxDG.FrontEndUI.ViewModels</a></h6>
+  <h6><strong>Assembly</strong>: FasttraxxDG.FrontEndUI.dll</h6>
+  <h5 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TxnSummaryViewModel : TxnSummaryVmModel, INotifyPropertyChanged, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel__ctor_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.#ctor*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel__ctor_FasttraxxDG_BaseLogic_BeneficiaryBl_FasttraxxDG_BaseLogic_AccountBl_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.#ctor(FasttraxxDG.BaseLogic.BeneficiaryBl,FasttraxxDG.BaseLogic.AccountBl)">TxnSummaryViewModel(BeneficiaryBl, AccountBl)</h4>
+  <div class="markdown level1 summary"><p>default constructor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnSummaryViewModel(BeneficiaryBl bene, AccountBl account)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.BeneficiaryBl.html">BeneficiaryBl</a></td>
+        <td><span class="parametername">bene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.AccountBl.html">AccountBl</a></td>
+        <td><span class="parametername">account</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_BbDetailsViewModel_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.BbDetailsViewModel*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_BbDetailsViewModel" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.BbDetailsViewModel">BbDetailsViewModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnSummaryBbDetailsViewModel BbDetailsViewModel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryBbDetailsViewModel.html">TxnSummaryBbDetailsViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_CcDetailsViewModel_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.CcDetailsViewModel*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_CcDetailsViewModel" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.CcDetailsViewModel">CcDetailsViewModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnSummaryCcDetailsViewModel CcDetailsViewModel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryCcDetailsViewModel.html">TxnSummaryCcDetailsViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_DdDetailsViewModel_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.DdDetailsViewModel*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_DdDetailsViewModel" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.DdDetailsViewModel">DdDetailsViewModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnSummaryDdDetailsViewModel DdDetailsViewModel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryDdDetailsViewModel.html">TxnSummaryDdDetailsViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_FoodDetailsViewModel_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.FoodDetailsViewModel*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_FoodDetailsViewModel" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.FoodDetailsViewModel">FoodDetailsViewModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnSummaryFoodDetailsViewModel FoodDetailsViewModel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryFoodDetailsViewModel.html">TxnSummaryFoodDetailsViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_PickupDetailsViewModel_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.PickupDetailsViewModel*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_PickupDetailsViewModel" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.PickupDetailsViewModel">PickupDetailsViewModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnSummaryPickupDetailsViewModel PickupDetailsViewModel { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryPickupDetailsViewModel.html">TxnSummaryPickupDetailsViewModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_Load_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.Load*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_Load" data-uid="FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.Load">Load()</h4>
+  <div class="markdown level1 summary"><p>This Method load initial data fethes from database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load()</code></pre>
+  </div>
+  <h5 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_Load_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>this method fetches purpose details and relationship
+and return a list of <a class="xref" href="FasttraxxDG.BaseLogic.PurposeBl.html">PurposeBl</a>
+<code>Purposes = new ObservableCollection&lt;PurposeBl&gt;(_purposeBl.PurposeList())</code>
+and <a class="xref" href="FasttraxxDG.BaseLogic.RelationsBl.html">RelationsBl</a>
+<code>Relationships = new ObservableCollection&lt;RelationsBl&gt;(_relationsBl.RelationshipsList())</code></p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseLogic.MapperHelper.html#FasttraxxDG_BaseLogic_MapperHelper_MapTo__2___0_">MapperHelper.MapTo&lt;TSource, TDest&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_RightDrawerShow_System_Object_">AppSettings.RightDrawerShow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_LeftDrawerShow_System_Object_">AppSettings.LeftDrawerShow(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2020 FasttraxxDG
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

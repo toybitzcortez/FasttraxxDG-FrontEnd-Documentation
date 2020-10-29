@@ -1,0 +1,404 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType
+  commentId: T:FasttraxxDG.Base.Properties.CollectionAccessType
+  id: CollectionAccessType
+  parent: FasttraxxDG.Base.Properties
+  children:
+  - FasttraxxDG.Base.Properties.CollectionAccessType.ModifyExistingContent
+  - FasttraxxDG.Base.Properties.CollectionAccessType.None
+  - FasttraxxDG.Base.Properties.CollectionAccessType.Read
+  - FasttraxxDG.Base.Properties.CollectionAccessType.UpdatedContent
+  langs:
+  - csharp
+  - vb
+  name: CollectionAccessType
+  nameWithType: CollectionAccessType
+  fullName: FasttraxxDG.Base.Properties.CollectionAccessType
+  type: Enum
+  source:
+    id: CollectionAccessType
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Properties\Annotations.cs
+    startLine: 713
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.Properties
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum CollectionAccessType
+    content.vb: >-
+      <Flags>
+
+      Public Enum CollectionAccessType
+  extensionMethods:
+  - FasttraxxDG.Base.Properties.CollectionAccessType.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType.None
+  commentId: F:FasttraxxDG.Base.Properties.CollectionAccessType.None
+  id: None
+  parent: FasttraxxDG.Base.Properties.CollectionAccessType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CollectionAccessType.None
+  fullName: FasttraxxDG.Base.Properties.CollectionAccessType.None
+  type: Field
+  source:
+    id: None
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Properties\Annotations.cs
+    startLine: 717
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.Properties
+  summary: Method does not use or modify content of the collection
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: FasttraxxDG.Base.Properties.CollectionAccessType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType.Read
+  commentId: F:FasttraxxDG.Base.Properties.CollectionAccessType.Read
+  id: Read
+  parent: FasttraxxDG.Base.Properties.CollectionAccessType
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: CollectionAccessType.Read
+  fullName: FasttraxxDG.Base.Properties.CollectionAccessType.Read
+  type: Field
+  source:
+    id: Read
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Properties\Annotations.cs
+    startLine: 719
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.Properties
+  summary: Method only reads content of the collection but does not modify it
+  example: []
+  syntax:
+    content: Read = 1
+    return:
+      type: FasttraxxDG.Base.Properties.CollectionAccessType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType.ModifyExistingContent
+  commentId: F:FasttraxxDG.Base.Properties.CollectionAccessType.ModifyExistingContent
+  id: ModifyExistingContent
+  parent: FasttraxxDG.Base.Properties.CollectionAccessType
+  langs:
+  - csharp
+  - vb
+  name: ModifyExistingContent
+  nameWithType: CollectionAccessType.ModifyExistingContent
+  fullName: FasttraxxDG.Base.Properties.CollectionAccessType.ModifyExistingContent
+  type: Field
+  source:
+    id: ModifyExistingContent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Properties\Annotations.cs
+    startLine: 721
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.Properties
+  summary: Method can change content of the collection but does not add new elements
+  example: []
+  syntax:
+    content: ModifyExistingContent = 2
+    return:
+      type: FasttraxxDG.Base.Properties.CollectionAccessType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType.UpdatedContent
+  commentId: F:FasttraxxDG.Base.Properties.CollectionAccessType.UpdatedContent
+  id: UpdatedContent
+  parent: FasttraxxDG.Base.Properties.CollectionAccessType
+  langs:
+  - csharp
+  - vb
+  name: UpdatedContent
+  nameWithType: CollectionAccessType.UpdatedContent
+  fullName: FasttraxxDG.Base.Properties.CollectionAccessType.UpdatedContent
+  type: Field
+  source:
+    id: UpdatedContent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Properties\Annotations.cs
+    startLine: 723
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.Properties
+  summary: Method can add new elements to the collection
+  example: []
+  syntax:
+    content: UpdatedContent = 6
+    return:
+      type: FasttraxxDG.Base.Properties.CollectionAccessType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: FasttraxxDG.Base.Properties
+  commentId: N:FasttraxxDG.Base.Properties
+  name: FasttraxxDG.Base.Properties
+  nameWithType: FasttraxxDG.Base.Properties
+  fullName: FasttraxxDG.Base.Properties
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<CollectionAccessType, TDest>()
+  nameWithType: MapperHelper.MapTo<CollectionAccessType, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.Properties.CollectionAccessType, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of CollectionAccessType, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.Properties.CollectionAccessType, TDest)()
+  name.vb: MapTo(Of CollectionAccessType, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<CollectionAccessType, TDest>
+    nameWithType: MapperHelper.MapTo<CollectionAccessType, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.Properties.CollectionAccessType, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of CollectionAccessType, TDest)
+    nameWithType: MapperHelper.MapTo(Of CollectionAccessType, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.Properties.CollectionAccessType, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.Base.Properties.CollectionAccessType
+  commentId: T:FasttraxxDG.Base.Properties.CollectionAccessType
+  parent: FasttraxxDG.Base.Properties
+  name: CollectionAccessType
+  nameWithType: CollectionAccessType
+  fullName: FasttraxxDG.Base.Properties.CollectionAccessType

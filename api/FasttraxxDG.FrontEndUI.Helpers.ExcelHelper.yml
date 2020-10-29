@@ -1,0 +1,1759 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  id: ExcelHelper
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor(System.String,System.String,System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._excelPackage
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._fileInfo
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._worksheet
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{System.Boolean},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp(OfficeOpenXml.ExcelPackage,OfficeOpenXml.ExcelWorksheet,System.IO.FileInfo)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor(System.String,System.Nullable{System.Drawing.Color})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth(System.Int32,System.Int32)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize(System.String,System.Int32)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize(System.Int32,System.Int32,System.Int32)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula(System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment(System.String,System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight(System.Int32,System.Int32)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment(System.String,System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport
+  langs:
+  - csharp
+  - vb
+  name: ExcelHelper
+  nameWithType: ExcelHelper
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  type: Class
+  source:
+    id: ExcelHelper
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public class ExcelHelper
+    content.vb: Public Class ExcelHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._excelPackage
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._excelPackage
+  id: _excelPackage
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: _excelPackage
+  nameWithType: ExcelHelper._excelPackage
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._excelPackage
+  type: Field
+  source:
+    id: _excelPackage
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public readonly ExcelPackage _excelPackage
+    return:
+      type: OfficeOpenXml.ExcelPackage
+    content.vb: Public ReadOnly _excelPackage As ExcelPackage
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._worksheet
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._worksheet
+  id: _worksheet
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: _worksheet
+  nameWithType: ExcelHelper._worksheet
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._worksheet
+  type: Field
+  source:
+    id: _worksheet
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public readonly ExcelWorksheet _worksheet
+    return:
+      type: OfficeOpenXml.ExcelWorksheet
+    content.vb: Public ReadOnly _worksheet As ExcelWorksheet
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._fileInfo
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._fileInfo
+  id: _fileInfo
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: _fileInfo
+  nameWithType: ExcelHelper._fileInfo
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._fileInfo
+  type: Field
+  source:
+    id: _fileInfo
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public readonly FileInfo _fileInfo
+    return:
+      type: System.IO.FileInfo
+    content.vb: Public ReadOnly _fileInfo As FileInfo
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor(System.String,System.String,System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: ExcelHelper(String, String, String)
+  nameWithType: ExcelHelper.ExcelHelper(String, String, String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ExcelHelper(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public ExcelHelper(string worksheetName, string foldername, string filename)
+    parameters:
+    - id: worksheetName
+      type: System.String
+    - id: foldername
+      type: System.String
+    - id: filename
+      type: System.String
+    content.vb: Public Sub New(worksheetName As String, foldername As String, filename As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder(System.String)
+  id: AddBorder(System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddBorder(String)
+  nameWithType: ExcelHelper.AddBorder(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder(System.String)
+  type: Method
+  source:
+    id: AddBorder
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 23
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddBorder(string range)
+    parameters:
+    - id: range
+      type: System.String
+    content.vb: Public Sub AddBorder(range As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  id: AddValue(System.Int32,System.Int32,System.Object,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Int32, Int32, Object, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  nameWithType: ExcelHelper.AddValue(Int32, Int32, Object, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>)
+  type: Method
+  source:
+    id: AddValue
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 30
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddValue(int row, int column, dynamic value, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    content.vb: Public Sub AddValue(row As Integer, column As Integer, value As Object, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  nameWithType.vb: ExcelHelper.AddValue(Int32, Int32, Object, Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign))
+  name.vb: AddValue(Int32, Int32, Object, Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{System.Boolean},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{System.Boolean},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  id: AddValue(System.Int32,System.Int32,System.Object,System.Nullable{System.Boolean},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Int32, Int32, Object, Nullable<Boolean>, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  nameWithType: ExcelHelper.AddValue(Int32, Int32, Object, Nullable<Boolean>, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.Nullable<System.Boolean>, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>)
+  type: Method
+  source:
+    id: AddValue
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 60
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddValue(int row, int column, dynamic value, bool? wrapText, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: wrapText
+      type: System.Nullable{System.Boolean}
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    content.vb: Public Sub AddValue(row As Integer, column As Integer, value As Object, wrapText As Boolean?, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  nameWithType.vb: ExcelHelper.AddValue(Int32, Int32, Object, Nullable(Of Boolean), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.Nullable(Of System.Boolean), System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign))
+  name.vb: AddValue(Int32, Int32, Object, Nullable(Of Boolean), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  id: AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Int32, Int32, Object, String, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  nameWithType: ExcelHelper.AddValue(Int32, Int32, Object, String, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>)
+  type: Method
+  source:
+    id: AddValue
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 91
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddValue(int row, int column, dynamic value, string format, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: format
+      type: System.String
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    content.vb: Public Sub AddValue(row As Integer, column As Integer, value As Object, format As String, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  nameWithType.vb: ExcelHelper.AddValue(Int32, Int32, Object, String, Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign))
+  name.vb: AddValue(Int32, Int32, Object, String, Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  id: AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Int32, Int32, Object, String, Nullable<XlsBorder>, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  nameWithType: ExcelHelper.AddValue(Int32, Int32, Object, String, Nullable<XlsBorder>, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Nullable<FasttraxxDG.UiLibrary.XlsBorder>, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>)
+  type: Method
+  source:
+    id: AddValue
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 122
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddValue(int row, int column, dynamic value, string format, XlsBorder? border = default(XlsBorder? ), XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: format
+      type: System.String
+    - id: border
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsBorder}
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    content.vb: Public Sub AddValue(row As Integer, column As Integer, value As Object, format As String, border As XlsBorder? = Nothing, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  nameWithType.vb: ExcelHelper.AddValue(Int32, Int32, Object, String, Nullable(Of XlsBorder), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Nullable(Of FasttraxxDG.UiLibrary.XlsBorder), System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign))
+  name.vb: AddValue(Int32, Int32, Object, String, Nullable(Of XlsBorder), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  id: AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Int32, Int32, Object, String, Boolean, Nullable<XlsVAlign>, Nullable<XlsHAlign>, Nullable<Color>)
+  nameWithType: ExcelHelper.AddValue(Int32, Int32, Object, String, Boolean, Nullable<XlsVAlign>, Nullable<XlsHAlign>, Nullable<Color>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Boolean, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>, System.Nullable<System.Drawing.Color>)
+  type: Method
+  source:
+    id: AddValue
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 172
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddValue(int row, int column, dynamic value, string format, bool bold, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ), Color? bgColor = default(Color? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: format
+      type: System.String
+    - id: bold
+      type: System.Boolean
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    - id: bgColor
+      type: System.Nullable{System.Drawing.Color}
+    content.vb: Public Sub AddValue(row As Integer, column As Integer, value As Object, format As String, bold As Boolean, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing, bgColor As Color? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  nameWithType.vb: ExcelHelper.AddValue(Int32, Int32, Object, String, Boolean, Nullable(Of XlsVAlign), Nullable(Of XlsHAlign), Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Boolean, System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign), System.Nullable(Of System.Drawing.Color))
+  name.vb: AddValue(Int32, Int32, Object, String, Boolean, Nullable(Of XlsVAlign), Nullable(Of XlsHAlign), Nullable(Of Color))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  id: AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: AddValue(Int32, Int32, Object, String, Boolean, Nullable<XlsBorder>, Nullable<XlsVAlign>, Nullable<XlsHAlign>, Nullable<Color>)
+  nameWithType: ExcelHelper.AddValue(Int32, Int32, Object, String, Boolean, Nullable<XlsBorder>, Nullable<XlsVAlign>, Nullable<XlsHAlign>, Nullable<Color>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Boolean, System.Nullable<FasttraxxDG.UiLibrary.XlsBorder>, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>, System.Nullable<System.Drawing.Color>)
+  type: Method
+  source:
+    id: AddValue
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 212
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void AddValue(int row, int column, dynamic value, string format, bool bold, XlsBorder? border = default(XlsBorder? ), XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ), Color? bgColor = default(Color? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    - id: value
+      type: System.Object
+    - id: format
+      type: System.String
+    - id: bold
+      type: System.Boolean
+    - id: border
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsBorder}
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    - id: bgColor
+      type: System.Nullable{System.Drawing.Color}
+    content.vb: Public Sub AddValue(row As Integer, column As Integer, value As Object, format As String, bold As Boolean, border As XlsBorder? = Nothing, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing, bgColor As Color? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  nameWithType.vb: ExcelHelper.AddValue(Int32, Int32, Object, String, Boolean, Nullable(Of XlsBorder), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign), Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32, System.Int32, System.Object, System.String, System.Boolean, System.Nullable(Of FasttraxxDG.UiLibrary.XlsBorder), System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign), System.Nullable(Of System.Drawing.Color))
+  name.vb: AddValue(Int32, Int32, Object, String, Boolean, Nullable(Of XlsBorder), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign), Nullable(Of Color))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth(System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth(System.Int32,System.Int32)
+  id: SetColumnWidth(System.Int32,System.Int32)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetColumnWidth(Int32, Int32)
+  nameWithType: ExcelHelper.SetColumnWidth(Int32, Int32)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SetColumnWidth
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 272
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetColumnWidth(int col, int width)
+    parameters:
+    - id: col
+      type: System.Int32
+    - id: width
+      type: System.Int32
+    content.vb: Public Sub SetColumnWidth(col As Integer, width As Integer)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold(System.String)
+  id: SetBold(System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetBold(String)
+  nameWithType: ExcelHelper.SetBold(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold(System.String)
+  type: Method
+  source:
+    id: SetBold
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 274
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetBold(string range)
+    parameters:
+    - id: range
+      type: System.String
+    content.vb: Public Sub SetBold(range As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor(System.String,System.Nullable{System.Drawing.Color})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor(System.String,System.Nullable{System.Drawing.Color})
+  id: SetBgColor(System.String,System.Nullable{System.Drawing.Color})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetBgColor(String, Nullable<Color>)
+  nameWithType: ExcelHelper.SetBgColor(String, Nullable<Color>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor(System.String, System.Nullable<System.Drawing.Color>)
+  type: Method
+  source:
+    id: SetBgColor
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 276
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetBgColor(string range, Color? bgColor)
+    parameters:
+    - id: range
+      type: System.String
+    - id: bgColor
+      type: System.Nullable{System.Drawing.Color}
+    content.vb: Public Sub SetBgColor(range As String, bgColor As Color?)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor*
+  nameWithType.vb: ExcelHelper.SetBgColor(String, Nullable(Of Color))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor(System.String, System.Nullable(Of System.Drawing.Color))
+  name.vb: SetBgColor(String, Nullable(Of Color))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment(System.String,System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment(System.String,System.String)
+  id: SetHalignment(System.String,System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetHalignment(String, String)
+  nameWithType: ExcelHelper.SetHalignment(String, String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment(System.String, System.String)
+  type: Method
+  source:
+    id: SetHalignment
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 283
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetHalignment(string range, string align = "")
+    parameters:
+    - id: range
+      type: System.String
+    - id: align
+      type: System.String
+    content.vb: Public Sub SetHalignment(range As String, align As String = "")
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment(System.String,System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment(System.String,System.String)
+  id: SetValignment(System.String,System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetValignment(String, String)
+  nameWithType: ExcelHelper.SetValignment(String, String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment(System.String, System.String)
+  type: Method
+  source:
+    id: SetValignment
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 300
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetValignment(string range, string align = "")
+    parameters:
+    - id: range
+      type: System.String
+    - id: align
+      type: System.String
+    content.vb: Public Sub SetValignment(range As String, align As String = "")
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize(System.Int32,System.Int32,System.Int32)
+  id: SetFontSize(System.Int32,System.Int32,System.Int32)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetFontSize(Int32, Int32, Int32)
+  nameWithType: ExcelHelper.SetFontSize(Int32, Int32, Int32)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SetFontSize
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 315
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetFontSize(int row, int col, int size)
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: col
+      type: System.Int32
+    - id: size
+      type: System.Int32
+    content.vb: Public Sub SetFontSize(row As Integer, col As Integer, size As Integer)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize(System.String,System.Int32)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize(System.String,System.Int32)
+  id: SetFontNameAndSize(System.String,System.Int32)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetFontNameAndSize(String, Int32)
+  nameWithType: ExcelHelper.SetFontNameAndSize(String, Int32)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize(System.String, System.Int32)
+  type: Method
+  source:
+    id: SetFontNameAndSize
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 316
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetFontNameAndSize(string name, int size)
+    parameters:
+    - id: name
+      type: System.String
+    - id: size
+      type: System.Int32
+    content.vb: Public Sub SetFontNameAndSize(name As String, size As Integer)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula(System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula(System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  id: SetFormula(System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetFormula(Int32, Int32, String, String, Boolean, Nullable<Color>, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  nameWithType: ExcelHelper.SetFormula(Int32, Int32, String, String, Boolean, Nullable<Color>, Nullable<XlsVAlign>, Nullable<XlsHAlign>)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula(System.Int32, System.Int32, System.String, System.String, System.Boolean, System.Nullable<System.Drawing.Color>, System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>, System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>)
+  type: Method
+  source:
+    id: SetFormula
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 317
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetFormula(int row, int col, string formula, string format, bool isBold, Color? bgColor = default(Color? ), XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: col
+      type: System.Int32
+    - id: formula
+      type: System.String
+    - id: format
+      type: System.String
+    - id: isBold
+      type: System.Boolean
+    - id: bgColor
+      type: System.Nullable{System.Drawing.Color}
+    - id: vAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+    - id: hAlign
+      type: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+    content.vb: Public Sub SetFormula(row As Integer, col As Integer, formula As String, format As String, isBold As Boolean, bgColor As Color? = Nothing, vAlign As XlsVAlign? = Nothing, hAlign As XlsHAlign? = Nothing)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula*
+  nameWithType.vb: ExcelHelper.SetFormula(Int32, Int32, String, String, Boolean, Nullable(Of Color), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula(System.Int32, System.Int32, System.String, System.String, System.Boolean, System.Nullable(Of System.Drawing.Color), System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign), System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign))
+  name.vb: SetFormula(Int32, Int32, String, String, Boolean, Nullable(Of Color), Nullable(Of XlsVAlign), Nullable(Of XlsHAlign))
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight(System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight(System.Int32,System.Int32)
+  id: SetRowHeight(System.Int32,System.Int32)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: SetRowHeight(Int32, Int32)
+  nameWithType: ExcelHelper.SetRowHeight(Int32, Int32)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SetRowHeight
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 353
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void SetRowHeight(int row, int height)
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    content.vb: Public Sub SetRowHeight(row As Integer, height As Integer)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport
+  id: ShowExport
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: ShowExport()
+  nameWithType: ExcelHelper.ShowExport()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport()
+  type: Method
+  source:
+    id: ShowExport
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 355
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void ShowExport()
+    content.vb: Public Sub ShowExport
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings
+  id: PrintSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: PrintSettings()
+  nameWithType: ExcelHelper.PrintSettings()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings()
+  type: Method
+  source:
+    id: PrintSettings
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 357
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void PrintSettings()
+    content.vb: Public Sub PrintSettings
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp(OfficeOpenXml.ExcelPackage,OfficeOpenXml.ExcelWorksheet,System.IO.FileInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp(OfficeOpenXml.ExcelPackage,OfficeOpenXml.ExcelWorksheet,System.IO.FileInfo)
+  id: CleanUp(OfficeOpenXml.ExcelPackage,OfficeOpenXml.ExcelWorksheet,System.IO.FileInfo)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper
+  langs:
+  - csharp
+  - vb
+  name: CleanUp(ExcelPackage, ExcelWorksheet, FileInfo)
+  nameWithType: ExcelHelper.CleanUp(ExcelPackage, ExcelWorksheet, FileInfo)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp(OfficeOpenXml.ExcelPackage, OfficeOpenXml.ExcelWorksheet, System.IO.FileInfo)
+  type: Method
+  source:
+    id: CleanUp
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ExcelHelper.cs
+    startLine: 373
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public void CleanUp(ExcelPackage package, ExcelWorksheet worksheet, FileInfo file)
+    parameters:
+    - id: package
+      type: OfficeOpenXml.ExcelPackage
+    - id: worksheet
+      type: OfficeOpenXml.ExcelWorksheet
+    - id: file
+      type: System.IO.FileInfo
+    content.vb: Public Sub CleanUp(package As ExcelPackage, worksheet As ExcelWorksheet, file As FileInfo)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<ExcelHelper, TDest>()
+  nameWithType: MapperHelper.MapTo<ExcelHelper, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Helpers.ExcelHelper, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of ExcelHelper, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Helpers.ExcelHelper, TDest)()
+  name.vb: MapTo(Of ExcelHelper, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<ExcelHelper, TDest>
+    nameWithType: MapperHelper.MapTo<ExcelHelper, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Helpers.ExcelHelper, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of ExcelHelper, TDest)
+    nameWithType: MapperHelper.MapTo(Of ExcelHelper, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Helpers.ExcelHelper, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: OfficeOpenXml.ExcelPackage
+  commentId: T:OfficeOpenXml.ExcelPackage
+  parent: OfficeOpenXml
+  isExternal: true
+  name: ExcelPackage
+  nameWithType: ExcelPackage
+  fullName: OfficeOpenXml.ExcelPackage
+- uid: OfficeOpenXml
+  commentId: N:OfficeOpenXml
+  isExternal: true
+  name: OfficeOpenXml
+  nameWithType: OfficeOpenXml
+  fullName: OfficeOpenXml
+- uid: OfficeOpenXml.ExcelWorksheet
+  commentId: T:OfficeOpenXml.ExcelWorksheet
+  parent: OfficeOpenXml
+  isExternal: true
+  name: ExcelWorksheet
+  nameWithType: ExcelWorksheet
+  fullName: OfficeOpenXml.ExcelWorksheet
+- uid: System.IO.FileInfo
+  commentId: T:System.IO.FileInfo
+  parent: System.IO
+  isExternal: true
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: System.IO.FileInfo
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor
+  name: ExcelHelper
+  nameWithType: ExcelHelper.ExcelHelper
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ExcelHelper
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder
+  name: AddBorder
+  nameWithType: ExcelHelper.AddBorder
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue
+  name: AddValue
+  nameWithType: ExcelHelper.AddValue
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+  commentId: T:System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<XlsVAlign>
+  nameWithType: Nullable<XlsVAlign>
+  fullName: System.Nullable<FasttraxxDG.UiLibrary.XlsVAlign>
+  nameWithType.vb: Nullable(Of XlsVAlign)
+  fullName.vb: System.Nullable(Of FasttraxxDG.UiLibrary.XlsVAlign)
+  name.vb: Nullable(Of XlsVAlign)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.UiLibrary.XlsVAlign
+    name: XlsVAlign
+    nameWithType: XlsVAlign
+    fullName: FasttraxxDG.UiLibrary.XlsVAlign
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.UiLibrary.XlsVAlign
+    name: XlsVAlign
+    nameWithType: XlsVAlign
+    fullName: FasttraxxDG.UiLibrary.XlsVAlign
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+  commentId: T:System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<XlsHAlign>
+  nameWithType: Nullable<XlsHAlign>
+  fullName: System.Nullable<FasttraxxDG.UiLibrary.XlsHAlign>
+  nameWithType.vb: Nullable(Of XlsHAlign)
+  fullName.vb: System.Nullable(Of FasttraxxDG.UiLibrary.XlsHAlign)
+  name.vb: Nullable(Of XlsHAlign)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.UiLibrary.XlsHAlign
+    name: XlsHAlign
+    nameWithType: XlsHAlign
+    fullName: FasttraxxDG.UiLibrary.XlsHAlign
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.UiLibrary.XlsHAlign
+    name: XlsHAlign
+    nameWithType: XlsHAlign
+    fullName: FasttraxxDG.UiLibrary.XlsHAlign
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{FasttraxxDG.UiLibrary.XlsBorder}
+  commentId: T:System.Nullable{FasttraxxDG.UiLibrary.XlsBorder}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<XlsBorder>
+  nameWithType: Nullable<XlsBorder>
+  fullName: System.Nullable<FasttraxxDG.UiLibrary.XlsBorder>
+  nameWithType.vb: Nullable(Of XlsBorder)
+  fullName.vb: System.Nullable(Of FasttraxxDG.UiLibrary.XlsBorder)
+  name.vb: Nullable(Of XlsBorder)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.UiLibrary.XlsBorder
+    name: XlsBorder
+    nameWithType: XlsBorder
+    fullName: FasttraxxDG.UiLibrary.XlsBorder
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.UiLibrary.XlsBorder
+    name: XlsBorder
+    nameWithType: XlsBorder
+    fullName: FasttraxxDG.UiLibrary.XlsBorder
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Nullable{System.Drawing.Color}
+  commentId: T:System.Nullable{System.Drawing.Color}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Color>
+  nameWithType: Nullable<Color>
+  fullName: System.Nullable<System.Drawing.Color>
+  nameWithType.vb: Nullable(Of Color)
+  fullName.vb: System.Nullable(Of System.Drawing.Color)
+  name.vb: Nullable(Of Color)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Drawing.Color
+    name: Color
+    nameWithType: Color
+    fullName: System.Drawing.Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth
+  name: SetColumnWidth
+  nameWithType: ExcelHelper.SetColumnWidth
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold
+  name: SetBold
+  nameWithType: ExcelHelper.SetBold
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor
+  name: SetBgColor
+  nameWithType: ExcelHelper.SetBgColor
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment
+  name: SetHalignment
+  nameWithType: ExcelHelper.SetHalignment
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment
+  name: SetValignment
+  nameWithType: ExcelHelper.SetValignment
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize
+  name: SetFontSize
+  nameWithType: ExcelHelper.SetFontSize
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize
+  name: SetFontNameAndSize
+  nameWithType: ExcelHelper.SetFontNameAndSize
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula
+  name: SetFormula
+  nameWithType: ExcelHelper.SetFormula
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight
+  name: SetRowHeight
+  nameWithType: ExcelHelper.SetRowHeight
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport
+  name: ShowExport
+  nameWithType: ExcelHelper.ShowExport
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings
+  name: PrintSettings
+  nameWithType: ExcelHelper.PrintSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp
+  name: CleanUp
+  nameWithType: ExcelHelper.CleanUp
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp

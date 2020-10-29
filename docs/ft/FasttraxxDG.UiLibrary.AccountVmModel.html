@@ -1,0 +1,692 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AccountVmModel
+   | FasttraxxDG FrontEnd </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AccountVmModel
+   | FasttraxxDG FrontEnd ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../images/ft_gt_logo01.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/frontend.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FasttraxxDG.UiLibrary.AccountVmModel">
+  
+  
+  <h1 id="FasttraxxDG_UiLibrary_AccountVmModel" data-uid="FasttraxxDG.UiLibrary.AccountVmModel" class="text-break">Class AccountVmModel
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FasttraxxDG.Base.NotifyChangedObject.html">NotifyChangedObject</a></div>
+    <div class="level2"><a class="xref" href="FasttraxxDG.Base.BaseViewModel.html">BaseViewModel</a></div>
+    <div class="level3"><span class="xref">AccountVmModel</span></div>
+      <div class="level4"><a class="xref" href="FasttraxxDG.FrontEndUI.ViewModels.AccountViewModel.html">AccountViewModel</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.ComponentModel.IDataErrorInfo</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Item_System_String_">BaseViewModel.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_FocusRequested">BaseViewModel.FocusRequested</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Error">BaseViewModel.Error</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_OnValidate_System_String_">BaseViewModel.OnValidate(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_OnFocusRequested_System_String_">BaseViewModel.OnFocusRequested(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_IsDesignMode">BaseViewModel.IsDesignMode</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Dispose">BaseViewModel.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Dispose_System_Boolean_">BaseViewModel.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.NotifyChangedObject.html#FasttraxxDG_Base_NotifyChangedObject_PropertyChanged">NotifyChangedObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.Base.NotifyChangedObject.html#FasttraxxDG_Base_NotifyChangedObject_OnPropertyChanged_System_String_">NotifyChangedObject.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FasttraxxDG.UiLibrary.html">FasttraxxDG.UiLibrary</a></h6>
+  <h6><strong>Assembly</strong>: FasttraxxDG.UiLibrary.dll</h6>
+  <h5 id="FasttraxxDG_UiLibrary_AccountVmModel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AccountVmModel : BaseViewModel, INotifyPropertyChanged, IDisposable, IDataErrorInfo</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_SelectedBeneficiary" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.SelectedBeneficiary">SelectedBeneficiary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BeneficiaryBl SelectedBeneficiary</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.BeneficiaryBl.html">BeneficiaryBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_AccountBb_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountBb*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_AccountBb" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountBb">AccountBb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountBbBl AccountBb { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.AccountBbBl.html">AccountBbBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_AccountCc_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountCc*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_AccountCc" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountCc">AccountCc</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountCcBl AccountCc { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.AccountCcBl.html">AccountCcBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_AccountDd_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountDd*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_AccountDd" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountDd">AccountDd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountDdBl AccountDd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.AccountDdBl.html">AccountDdBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_AccountFood_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountFood*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_AccountFood" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountFood">AccountFood</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountFsBl AccountFood { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.AccountFsBl.html">AccountFsBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_AccountPickup_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountPickup*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_AccountPickup" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AccountPickup">AccountPickup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountPickupBl AccountPickup { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.AccountPickupBl.html">AccountPickupBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_AllowEdit_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AllowEdit*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_AllowEdit" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.AllowEdit">AllowEdit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowEdit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_BackCommand_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.BackCommand*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_BackCommand" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.BackCommand">BackCommand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand BackCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.Base.DelegateCommand.html">DelegateCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_BackStateChanged_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.BackStateChanged*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_BackStateChanged" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.BackStateChanged">BackStateChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action BackStateChanged { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_BranchCode_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.BranchCode*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_BranchCode" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.BranchCode">BranchCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BranchCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_ClearBranchAction_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.ClearBranchAction*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_ClearBranchAction" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.ClearBranchAction">ClearBranchAction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action ClearBranchAction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_IsShowService_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.IsShowService*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_IsShowService" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.IsShowService">IsShowService</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsShowService { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_LoadCommand_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.LoadCommand*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_LoadCommand" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.LoadCommand">LoadCommand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand LoadCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.Base.DelegateCommand.html">DelegateCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_LoadStateChanged_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.LoadStateChanged*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_LoadStateChanged" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.LoadStateChanged">LoadStateChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action LoadStateChanged { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_NextCommand_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.NextCommand*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_NextCommand" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.NextCommand">NextCommand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DelegateCommand NextCommand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.Base.DelegateCommand.html">DelegateCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_NextStateChanged_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.NextStateChanged*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_NextStateChanged" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.NextStateChanged">NextStateChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action NextStateChanged { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_SelectedCashCard_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.SelectedCashCard*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_SelectedCashCard" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.SelectedCashCard">SelectedCashCard</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CashCardBl SelectedCashCard { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.CashCardBl.html">CashCardBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_SelectedService_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.SelectedService*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_SelectedService" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.SelectedService">SelectedService</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Service is required&quot;)]
+public ServiceBl SelectedService { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.ServiceBl.html">ServiceBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_Services_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.Services*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_Services" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.Services">Services</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ServiceBl&gt; Services { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ObservableCollection</span>&lt;<a class="xref" href="FasttraxxDG.BaseLogic.ServiceBl.html">ServiceBl</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_TypeAccount_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.TypeAccount*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_TypeAccount" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.TypeAccount">TypeAccount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TypeAccount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="FasttraxxDG_UiLibrary_AccountVmModel_IsValid_" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.IsValid*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_AccountVmModel_IsValid" data-uid="FasttraxxDG.UiLibrary.AccountVmModel.IsValid">IsValid()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ComponentModel.INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.IDataErrorInfo</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseLogic.MapperHelper.html#FasttraxxDG_BaseLogic_MapperHelper_MapTo__2___0_">MapperHelper.MapTo&lt;TSource, TDest&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_RightDrawerShow_System_Object_">AppSettings.RightDrawerShow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_LeftDrawerShow_System_Object_">AppSettings.LeftDrawerShow(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2020 FasttraxxDG
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

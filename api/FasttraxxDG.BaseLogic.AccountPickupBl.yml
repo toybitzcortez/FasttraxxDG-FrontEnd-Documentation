@@ -1,0 +1,899 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl
+  commentId: T:FasttraxxDG.BaseLogic.AccountPickupBl
+  id: AccountPickupBl
+  parent: FasttraxxDG.BaseLogic
+  children:
+  - FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  - FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AccountPickupBl
+  nameWithType: AccountPickupBl
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl
+  type: Class
+  source:
+    id: AccountPickupBl
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\AccountPickupBl.cs
+    startLine: 5
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: 'public class AccountPickupBl : AccountPickupData, IAccount, IAccountType, IAccountPickup, IPickupService, IForwarderModel, IGroup, ILastTxn'
+    content.vb: >-
+      Public Class AccountPickupBl
+
+          Inherits AccountPickupData
+
+          Implements IAccount, IAccountType, IAccountPickup, IPickupService, IForwarderModel, IGroup, ILastTxn
+  inheritance:
+  - System.Object
+  - FasttraxxDG.BaseModel.AccountPickupData
+  implements:
+  - FasttraxxDG.BaseModel.IAccount
+  - FasttraxxDG.BaseModel.IAccountType
+  - FasttraxxDG.BaseModel.IAccountPickup
+  - FasttraxxDG.BaseModel.IPickupService
+  - FasttraxxDG.BaseModel.IForwarderModel
+  - FasttraxxDG.BaseModel.IGroup
+  - FasttraxxDG.BaseModel.ILastTxn
+  inheritedMembers:
+  - FasttraxxDG.BaseModel.AccountPickupData.PickupID
+  - FasttraxxDG.BaseModel.AccountPickupData.PickupName
+  - FasttraxxDG.BaseModel.AccountPickupData.GroupID
+  - FasttraxxDG.BaseModel.AccountPickupData.GroupName
+  - FasttraxxDG.BaseModel.AccountPickupData.ServiceCharge
+  - FasttraxxDG.BaseModel.AccountPickupData.Limit
+  - FasttraxxDG.BaseModel.AccountPickupData.ForwarderID
+  - FasttraxxDG.BaseModel.AccountPickupData.Forwarder
+  - FasttraxxDG.BaseModel.AccountPickupData.ForwarderAccount
+  - FasttraxxDG.BaseModel.AccountPickupData.Bank
+  - FasttraxxDG.BaseModel.AccountPickupData.OrgID
+  - FasttraxxDG.BaseModel.AccountPickupData.Allow
+  - FasttraxxDG.BaseModel.AccountPickupData.Address
+  - FasttraxxDG.BaseModel.AccountPickupData.AccountID
+  - FasttraxxDG.BaseModel.AccountPickupData.BeneficiaryID
+  - FasttraxxDG.BaseModel.AccountPickupData.AccountTypeID
+  - FasttraxxDG.BaseModel.AccountPickupData.DateCreated
+  - FasttraxxDG.BaseModel.AccountPickupData.CreatorID
+  - FasttraxxDG.BaseModel.AccountPickupData.StatusID
+  - FasttraxxDG.BaseModel.AccountPickupData.Remarks
+  - FasttraxxDG.BaseModel.AccountPickupData.AccountTypeName
+  - FasttraxxDG.BaseModel.AccountPickupData.LastTransaction
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseLogic.AccountPickupBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  id: AccountAddPickup(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
+  parent: FasttraxxDG.BaseLogic.AccountPickupBl
+  langs:
+  - csharp
+  - vb
+  name: AccountAddPickup(Int32, Int32, Int32, Int32, String, String)
+  nameWithType: AccountPickupBl.AccountAddPickup(Int32, Int32, Int32, Int32, String, String)
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32, System.Int32, System.Int32, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    id: AccountAddPickup
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\AccountPickupBl.cs
+    startLine: 17
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert pickup a/c and return <xref href=\"FasttraxxDG.BaseLogic.AccountPickupBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public AccountPickupBl AccountAddPickup(int pickupId, int accountTypeId, int beneId, int creatorId, string address, string remarks)
+    parameters:
+    - id: pickupId
+      type: System.Int32
+      description: ''
+    - id: accountTypeId
+      type: System.Int32
+      description: ''
+    - id: beneId
+      type: System.Int32
+      description: ''
+    - id: creatorId
+      type: System.Int32
+      description: ''
+    - id: address
+      type: System.String
+      description: ''
+    - id: remarks
+      type: System.String
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.AccountPickupBl
+      description: ''
+    content.vb: Public Function AccountAddPickup(pickupId As Integer, accountTypeId As Integer, beneId As Integer, creatorId As Integer, address As String, remarks As String) As AccountPickupBl
+  overload: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup(System.Int32)
+  id: AccountGetPickup(System.Int32)
+  parent: FasttraxxDG.BaseLogic.AccountPickupBl
+  langs:
+  - csharp
+  - vb
+  name: AccountGetPickup(Int32)
+  nameWithType: AccountPickupBl.AccountGetPickup(Int32)
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup(System.Int32)
+  type: Method
+  source:
+    id: AccountGetPickup
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\AccountPickupBl.cs
+    startLine: 27
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method get pickup a/c and return <xref href=\"FasttraxxDG.BaseLogic.AccountPickupBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public AccountPickupBl AccountGetPickup(int accountId)
+    parameters:
+    - id: accountId
+      type: System.Int32
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.AccountPickupBl
+      description: ''
+    content.vb: Public Function AccountGetPickup(accountId As Integer) As AccountPickupBl
+  overload: FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.AccountPickupData
+  commentId: T:FasttraxxDG.BaseModel.AccountPickupData
+  parent: FasttraxxDG.BaseModel
+  name: AccountPickupData
+  nameWithType: AccountPickupData
+  fullName: FasttraxxDG.BaseModel.AccountPickupData
+- uid: FasttraxxDG.BaseModel.IAccount
+  commentId: T:FasttraxxDG.BaseModel.IAccount
+  parent: FasttraxxDG.BaseModel
+  name: IAccount
+  nameWithType: IAccount
+  fullName: FasttraxxDG.BaseModel.IAccount
+- uid: FasttraxxDG.BaseModel.IAccountType
+  commentId: T:FasttraxxDG.BaseModel.IAccountType
+  parent: FasttraxxDG.BaseModel
+  name: IAccountType
+  nameWithType: IAccountType
+  fullName: FasttraxxDG.BaseModel.IAccountType
+- uid: FasttraxxDG.BaseModel.IAccountPickup
+  commentId: T:FasttraxxDG.BaseModel.IAccountPickup
+  parent: FasttraxxDG.BaseModel
+  name: IAccountPickup
+  nameWithType: IAccountPickup
+  fullName: FasttraxxDG.BaseModel.IAccountPickup
+- uid: FasttraxxDG.BaseModel.IPickupService
+  commentId: T:FasttraxxDG.BaseModel.IPickupService
+  parent: FasttraxxDG.BaseModel
+  name: IPickupService
+  nameWithType: IPickupService
+  fullName: FasttraxxDG.BaseModel.IPickupService
+- uid: FasttraxxDG.BaseModel.IForwarderModel
+  commentId: T:FasttraxxDG.BaseModel.IForwarderModel
+  parent: FasttraxxDG.BaseModel
+  name: IForwarderModel
+  nameWithType: IForwarderModel
+  fullName: FasttraxxDG.BaseModel.IForwarderModel
+- uid: FasttraxxDG.BaseModel.IGroup
+  commentId: T:FasttraxxDG.BaseModel.IGroup
+  parent: FasttraxxDG.BaseModel
+  name: IGroup
+  nameWithType: IGroup
+  fullName: FasttraxxDG.BaseModel.IGroup
+- uid: FasttraxxDG.BaseModel.ILastTxn
+  commentId: T:FasttraxxDG.BaseModel.ILastTxn
+  parent: FasttraxxDG.BaseModel
+  name: ILastTxn
+  nameWithType: ILastTxn
+  fullName: FasttraxxDG.BaseModel.ILastTxn
+- uid: FasttraxxDG.BaseModel.AccountPickupData.PickupID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.PickupID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: PickupID
+  nameWithType: AccountPickupData.PickupID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.PickupID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.PickupName
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.PickupName
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: PickupName
+  nameWithType: AccountPickupData.PickupName
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.PickupName
+- uid: FasttraxxDG.BaseModel.AccountPickupData.GroupID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.GroupID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: GroupID
+  nameWithType: AccountPickupData.GroupID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.GroupID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.GroupName
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.GroupName
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: GroupName
+  nameWithType: AccountPickupData.GroupName
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.GroupName
+- uid: FasttraxxDG.BaseModel.AccountPickupData.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.ServiceCharge
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: ServiceCharge
+  nameWithType: AccountPickupData.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.ServiceCharge
+- uid: FasttraxxDG.BaseModel.AccountPickupData.Limit
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.Limit
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: Limit
+  nameWithType: AccountPickupData.Limit
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.Limit
+- uid: FasttraxxDG.BaseModel.AccountPickupData.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.ForwarderID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: ForwarderID
+  nameWithType: AccountPickupData.ForwarderID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.ForwarderID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.Forwarder
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.Forwarder
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: Forwarder
+  nameWithType: AccountPickupData.Forwarder
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.Forwarder
+- uid: FasttraxxDG.BaseModel.AccountPickupData.ForwarderAccount
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.ForwarderAccount
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: ForwarderAccount
+  nameWithType: AccountPickupData.ForwarderAccount
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.ForwarderAccount
+- uid: FasttraxxDG.BaseModel.AccountPickupData.Bank
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.Bank
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: Bank
+  nameWithType: AccountPickupData.Bank
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.Bank
+- uid: FasttraxxDG.BaseModel.AccountPickupData.OrgID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.OrgID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: OrgID
+  nameWithType: AccountPickupData.OrgID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.OrgID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.Allow
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.Allow
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: Allow
+  nameWithType: AccountPickupData.Allow
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.Allow
+- uid: FasttraxxDG.BaseModel.AccountPickupData.Address
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.Address
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: Address
+  nameWithType: AccountPickupData.Address
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.Address
+- uid: FasttraxxDG.BaseModel.AccountPickupData.AccountID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.AccountID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: AccountID
+  nameWithType: AccountPickupData.AccountID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.AccountID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.BeneficiaryID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.BeneficiaryID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: BeneficiaryID
+  nameWithType: AccountPickupData.BeneficiaryID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.BeneficiaryID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.AccountTypeID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.AccountTypeID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: AccountTypeID
+  nameWithType: AccountPickupData.AccountTypeID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.AccountTypeID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.DateCreated
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.DateCreated
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: DateCreated
+  nameWithType: AccountPickupData.DateCreated
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.DateCreated
+- uid: FasttraxxDG.BaseModel.AccountPickupData.CreatorID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.CreatorID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: CreatorID
+  nameWithType: AccountPickupData.CreatorID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.CreatorID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.StatusID
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.StatusID
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: StatusID
+  nameWithType: AccountPickupData.StatusID
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.StatusID
+- uid: FasttraxxDG.BaseModel.AccountPickupData.Remarks
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.Remarks
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: Remarks
+  nameWithType: AccountPickupData.Remarks
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.Remarks
+- uid: FasttraxxDG.BaseModel.AccountPickupData.AccountTypeName
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.AccountTypeName
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: AccountTypeName
+  nameWithType: AccountPickupData.AccountTypeName
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.AccountTypeName
+- uid: FasttraxxDG.BaseModel.AccountPickupData.LastTransaction
+  commentId: P:FasttraxxDG.BaseModel.AccountPickupData.LastTransaction
+  parent: FasttraxxDG.BaseModel.AccountPickupData
+  name: LastTransaction
+  nameWithType: AccountPickupData.LastTransaction
+  fullName: FasttraxxDG.BaseModel.AccountPickupData.LastTransaction
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<AccountPickupBl, TDest>()
+  nameWithType: MapperHelper.MapTo<AccountPickupBl, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.AccountPickupBl, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of AccountPickupBl, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.AccountPickupBl, TDest)()
+  name.vb: MapTo(Of AccountPickupBl, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<AccountPickupBl, TDest>
+    nameWithType: MapperHelper.MapTo<AccountPickupBl, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.AccountPickupBl, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of AccountPickupBl, TDest)
+    nameWithType: MapperHelper.MapTo(Of AccountPickupBl, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.AccountPickupBl, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl
+  commentId: T:FasttraxxDG.BaseLogic.AccountPickupBl
+  parent: FasttraxxDG.BaseLogic
+  name: AccountPickupBl
+  nameWithType: AccountPickupBl
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup*
+  commentId: Overload:FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup
+  name: AccountAddPickup
+  nameWithType: AccountPickupBl.AccountAddPickup
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup*
+  commentId: Overload:FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup
+  name: AccountGetPickup
+  nameWithType: AccountPickupBl.AccountGetPickup
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl.AccountGetPickup

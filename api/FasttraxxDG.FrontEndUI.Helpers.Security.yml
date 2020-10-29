@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.Security
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers.Security
+  id: FasttraxxDG.FrontEndUI.Helpers.Security
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.Security.FingerPrint
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Helpers.Security
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers.Security
+  fullName: FasttraxxDG.FrontEndUI.Helpers.Security
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers.Security.FingerPrint
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.Security.FingerPrint
+  name: FingerPrint
+  nameWithType: FingerPrint
+  fullName: FasttraxxDG.FrontEndUI.Helpers.Security.FingerPrint

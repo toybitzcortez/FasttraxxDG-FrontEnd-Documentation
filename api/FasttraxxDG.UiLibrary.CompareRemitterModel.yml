@@ -1,0 +1,1114 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel
+  commentId: T:FasttraxxDG.UiLibrary.CompareRemitterModel
+  id: CompareRemitterModel
+  parent: FasttraxxDG.UiLibrary
+  children:
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.CityID
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Email
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Gender
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1
+  langs:
+  - csharp
+  - vb
+  name: CompareRemitterModel
+  nameWithType: CompareRemitterModel
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel
+  type: Class
+  source:
+    id: CompareRemitterModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 3
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public class CompareRemitterModel
+    content.vb: Public Class CompareRemitterModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.UiLibrary.CompareRemitterModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname
+  id: Firstname
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: CompareRemitterModel.Firstname
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname
+  type: Property
+  source:
+    id: Firstname
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 5
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Firstname As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename
+  id: Middlename
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Middlename
+  nameWithType: CompareRemitterModel.Middlename
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename
+  type: Property
+  source:
+    id: Middlename
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Middlename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Middlename As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname
+  id: Lastname
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: CompareRemitterModel.Lastname
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname
+  type: Property
+  source:
+    id: Lastname
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Lastname As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber
+  id: ArcNumber
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: ArcNumber
+  nameWithType: CompareRemitterModel.ArcNumber
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber
+  type: Property
+  source:
+    id: ArcNumber
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string ArcNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ArcNumber As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate
+  id: ExpiryDate
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: ExpiryDate
+  nameWithType: CompareRemitterModel.ExpiryDate
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate
+  type: Property
+  source:
+    id: ExpiryDate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DateTime ExpiryDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ExpiryDate As Date
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID
+  id: MemberID
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: MemberID
+  nameWithType: CompareRemitterModel.MemberID
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID
+  type: Property
+  source:
+    id: MemberID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string MemberID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MemberID As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Email
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Email
+  id: Email
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: CompareRemitterModel.Email
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Email
+  type: Property
+  source:
+    id: Email
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID
+  id: CompanyID
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: CompanyID
+  nameWithType: CompareRemitterModel.CompanyID
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID
+  type: Property
+  source:
+    id: CompanyID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int CompanyID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CompanyID As Integer
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate
+  id: Birthdate
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Birthdate
+  nameWithType: CompareRemitterModel.Birthdate
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate
+  type: Property
+  source:
+    id: Birthdate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DateTime? Birthdate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property Birthdate As Date?
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Gender
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Gender
+  id: Gender
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: CompareRemitterModel.Gender
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Gender
+  type: Property
+  source:
+    id: Gender
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Gender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Gender As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Gender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1
+  id: Mobile1
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: Mobile1
+  nameWithType: CompareRemitterModel.Mobile1
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1
+  type: Property
+  source:
+    id: Mobile1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Mobile1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mobile1 As String
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.CityID
+  commentId: P:FasttraxxDG.UiLibrary.CompareRemitterModel.CityID
+  id: CityID
+  parent: FasttraxxDG.UiLibrary.CompareRemitterModel
+  langs:
+  - csharp
+  - vb
+  name: CityID
+  nameWithType: CompareRemitterModel.CityID
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.CityID
+  type: Property
+  source:
+    id: CityID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\CompareRemitterModel.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int CityID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CityID As Integer
+  overload: FasttraxxDG.UiLibrary.CompareRemitterModel.CityID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.UiLibrary
+  commentId: N:FasttraxxDG.UiLibrary
+  name: FasttraxxDG.UiLibrary
+  nameWithType: FasttraxxDG.UiLibrary
+  fullName: FasttraxxDG.UiLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<CompareRemitterModel, TDest>()
+  nameWithType: MapperHelper.MapTo<CompareRemitterModel, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.CompareRemitterModel, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of CompareRemitterModel, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.CompareRemitterModel, TDest)()
+  name.vb: MapTo(Of CompareRemitterModel, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<CompareRemitterModel, TDest>
+    nameWithType: MapperHelper.MapTo<CompareRemitterModel, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.CompareRemitterModel, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of CompareRemitterModel, TDest)
+    nameWithType: MapperHelper.MapTo(Of CompareRemitterModel, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.CompareRemitterModel, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname
+  name: Firstname
+  nameWithType: CompareRemitterModel.Firstname
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Firstname
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename
+  name: Middlename
+  nameWithType: CompareRemitterModel.Middlename
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Middlename
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname
+  name: Lastname
+  nameWithType: CompareRemitterModel.Lastname
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Lastname
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber
+  name: ArcNumber
+  nameWithType: CompareRemitterModel.ArcNumber
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.ArcNumber
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate
+  name: ExpiryDate
+  nameWithType: CompareRemitterModel.ExpiryDate
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.ExpiryDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID
+  name: MemberID
+  nameWithType: CompareRemitterModel.MemberID
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.MemberID
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Email*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Email
+  name: Email
+  nameWithType: CompareRemitterModel.Email
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Email
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID
+  name: CompanyID
+  nameWithType: CompareRemitterModel.CompanyID
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.CompanyID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate
+  name: Birthdate
+  nameWithType: CompareRemitterModel.Birthdate
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Birthdate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Gender*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Gender
+  name: Gender
+  nameWithType: CompareRemitterModel.Gender
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Gender
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1
+  name: Mobile1
+  nameWithType: CompareRemitterModel.Mobile1
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.Mobile1
+- uid: FasttraxxDG.UiLibrary.CompareRemitterModel.CityID*
+  commentId: Overload:FasttraxxDG.UiLibrary.CompareRemitterModel.CityID
+  name: CityID
+  nameWithType: CompareRemitterModel.CityID
+  fullName: FasttraxxDG.UiLibrary.CompareRemitterModel.CityID

@@ -1,0 +1,1063 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  commentId: T:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  id: MaterialMessageBox
+  parent: FasttraxxDG.Base.MaterialMessageBox
+  children:
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String,System.String)
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.Boolean)
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.Boolean,System.Boolean)
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: MaterialMessageBox
+  nameWithType: MaterialMessageBox
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  type: Class
+  source:
+    id: MaterialMessageBox
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public sealed class MaterialMessageBox
+    content.vb: Public NotInheritable Class MaterialMessageBox
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowSuccessMsg(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowSuccessMsg(String, String, Nullable<Double>, Nullable<Double>)
+  nameWithType: MaterialMessageBox.ShowSuccessMsg(String, String, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg(System.String, System.String, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowSuccessMsg
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static void ShowSuccessMsg(string title, string message, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: message
+      type: System.String
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    content.vb: Public Shared Sub ShowSuccessMsg(title As String, message As String, width As Double? = Nothing, height As Double? = Nothing)
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg*
+  nameWithType.vb: MaterialMessageBox.ShowSuccessMsg(String, String, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg(System.String, System.String, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowSuccessMsg(String, String, Nullable(Of Double), Nullable(Of Double))
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowErrorDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowErrorDialog(String, String, Nullable<Double>, Nullable<Double>)
+  nameWithType: MaterialMessageBox.ShowErrorDialog(String, String, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog(System.String, System.String, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowErrorDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 37
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static void ShowErrorDialog(string title, string message, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: message
+      type: System.String
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    content.vb: Public Shared Sub ShowErrorDialog(title As String, message As String, width As Double? = Nothing, height As Double? = Nothing)
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog*
+  nameWithType.vb: MaterialMessageBox.ShowErrorDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog(System.String, System.String, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowErrorDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowWarningDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowWarningDialog(String, String, Nullable<Double>, Nullable<Double>)
+  nameWithType: MaterialMessageBox.ShowWarningDialog(String, String, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String, System.String, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowWarningDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 62
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static void ShowWarningDialog(string title, string message, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: message
+      type: System.String
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    content.vb: Public Shared Sub ShowWarningDialog(title As String, message As String, width As Double? = Nothing, height As Double? = Nothing)
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog*
+  nameWithType.vb: MaterialMessageBox.ShowWarningDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String, System.String, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowWarningDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String,System.String)
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String,System.String)
+  id: ShowWarningDialog(System.String,System.String)
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowWarningDialog(String, String)
+  nameWithType: MaterialMessageBox.ShowWarningDialog(String, String)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog(System.String, System.String)
+  type: Method
+  source:
+    id: ShowWarningDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 85
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static void ShowWarningDialog(string warningMessage, string warningTitle)
+    parameters:
+    - id: warningMessage
+      type: System.String
+    - id: warningTitle
+      type: System.String
+    content.vb: Public Shared Sub ShowWarningDialog(warningMessage As String, warningTitle As String)
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.Boolean)
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.Boolean)
+  id: ShowWithCancel(System.String,System.Boolean)
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowWithCancel(String, Boolean)
+  nameWithType: MaterialMessageBox.ShowWithCancel(String, Boolean)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String, System.Boolean)
+  type: Method
+  source:
+    id: ShowWithCancel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 110
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static MessageBoxResult ShowWithCancel(string message, bool IsRTL = false)
+    parameters:
+    - id: message
+      type: System.String
+    - id: IsRTL
+      type: System.Boolean
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Public Shared Function ShowWithCancel(message As String, IsRTL As Boolean = False) As MessageBoxResult
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.String,System.Boolean)
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.String,System.Boolean)
+  id: ShowWithCancel(System.String,System.String,System.Boolean)
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowWithCancel(String, String, Boolean)
+  nameWithType: MaterialMessageBox.ShowWithCancel(String, String, Boolean)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    id: ShowWithCancel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 137
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static MessageBoxResult ShowWithCancel(string message, string title, bool IsRTL = false)
+    parameters:
+    - id: message
+      type: System.String
+    - id: title
+      type: System.String
+    - id: IsRTL
+      type: System.Boolean
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Public Shared Function ShowWithCancel(message As String, title As String, IsRTL As Boolean = False) As MessageBoxResult
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.Boolean,System.Boolean)
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String,System.Boolean,System.Boolean)
+  id: ShowWithCancel(System.String,System.Boolean,System.Boolean)
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowWithCancel(String, Boolean, Boolean)
+  nameWithType: MaterialMessageBox.ShowWithCancel(String, Boolean, Boolean)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel(System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: ShowWithCancel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 165
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static MessageBoxResult ShowWithCancel(string message, bool isError, bool IsRTL = false)
+    parameters:
+    - id: message
+      type: System.String
+    - id: isError
+      type: System.Boolean
+    - id: IsRTL
+      type: System.Boolean
+    return:
+      type: System.Windows.MessageBoxResult
+    content.vb: Public Shared Function ShowWithCancel(message As String, isError As Boolean, IsRTL As Boolean = False) As MessageBoxResult
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowConfirmDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowConfirmDialog(String, String, Nullable<Double>, Nullable<Double>)
+  nameWithType: MaterialMessageBox.ShowConfirmDialog(String, String, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog(System.String, System.String, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowConfirmDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 198
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static bool ShowConfirmDialog(string title, string message, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: message
+      type: System.String
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ShowConfirmDialog(title As String, message As String, width As Double? = Nothing, height As Double? = Nothing) As Boolean
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog*
+  nameWithType.vb: MaterialMessageBox.ShowConfirmDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog(System.String, System.String, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowConfirmDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowConfirmDeleteDialog(System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox
+  langs:
+  - csharp
+  - vb
+  name: ShowConfirmDeleteDialog(String, String, Nullable<Double>, Nullable<Double>)
+  nameWithType: MaterialMessageBox.ShowConfirmDeleteDialog(String, String, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog(System.String, System.String, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowConfirmDeleteDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\MaterialMessageBox\MaterialMessageBox.cs
+    startLine: 223
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base.MaterialMessageBox
+  syntax:
+    content: public static bool ShowConfirmDeleteDialog(string title, string message, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: message
+      type: System.String
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ShowConfirmDeleteDialog(title As String, message As String, width As Double? = Nothing, height As Double? = Nothing) As Boolean
+  overload: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog*
+  nameWithType.vb: MaterialMessageBox.ShowConfirmDeleteDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog(System.String, System.String, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowConfirmDeleteDialog(String, String, Nullable(Of Double), Nullable(Of Double))
+references:
+- uid: FasttraxxDG.Base.MaterialMessageBox
+  commentId: N:FasttraxxDG.Base.MaterialMessageBox
+  name: FasttraxxDG.Base.MaterialMessageBox
+  nameWithType: FasttraxxDG.Base.MaterialMessageBox
+  fullName: FasttraxxDG.Base.MaterialMessageBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<MaterialMessageBox, TDest>()
+  nameWithType: MapperHelper.MapTo<MaterialMessageBox, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of MaterialMessageBox, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox, TDest)()
+  name.vb: MapTo(Of MaterialMessageBox, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<MaterialMessageBox, TDest>
+    nameWithType: MapperHelper.MapTo<MaterialMessageBox, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of MaterialMessageBox, TDest)
+    nameWithType: MapperHelper.MapTo(Of MaterialMessageBox, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg*
+  commentId: Overload:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg
+  name: ShowSuccessMsg
+  nameWithType: MaterialMessageBox.ShowSuccessMsg
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowSuccessMsg
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Double>
+  nameWithType: Nullable<Double>
+  fullName: System.Nullable<System.Double>
+  nameWithType.vb: Nullable(Of Double)
+  fullName.vb: System.Nullable(Of System.Double)
+  name.vb: Nullable(Of Double)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog*
+  commentId: Overload:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog
+  name: ShowErrorDialog
+  nameWithType: MaterialMessageBox.ShowErrorDialog
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowErrorDialog
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog*
+  commentId: Overload:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog
+  name: ShowWarningDialog
+  nameWithType: MaterialMessageBox.ShowWarningDialog
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWarningDialog
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel*
+  commentId: Overload:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel
+  name: ShowWithCancel
+  nameWithType: MaterialMessageBox.ShowWithCancel
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowWithCancel
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Windows.MessageBoxResult
+  commentId: T:System.Windows.MessageBoxResult
+  parent: System.Windows
+  isExternal: true
+  name: MessageBoxResult
+  nameWithType: MessageBoxResult
+  fullName: System.Windows.MessageBoxResult
+- uid: System.Windows
+  commentId: N:System.Windows
+  isExternal: true
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog*
+  commentId: Overload:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog
+  name: ShowConfirmDialog
+  nameWithType: MaterialMessageBox.ShowConfirmDialog
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDialog
+- uid: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog*
+  commentId: Overload:FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog
+  name: ShowConfirmDeleteDialog
+  nameWithType: MaterialMessageBox.ShowConfirmDeleteDialog
+  fullName: FasttraxxDG.Base.MaterialMessageBox.MaterialMessageBox.ShowConfirmDeleteDialog

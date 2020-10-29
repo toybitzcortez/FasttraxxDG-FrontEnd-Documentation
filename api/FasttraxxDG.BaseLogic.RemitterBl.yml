@@ -1,0 +1,1612 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseLogic.RemitterBl
+  commentId: T:FasttraxxDG.BaseLogic.RemitterBl
+  id: RemitterBl
+  parent: FasttraxxDG.BaseLogic
+  children:
+  - FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32,System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists(System.String)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList(System.String,System.Int32,System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterGet
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc(System.String,System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId(System.String,System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn(System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed(System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists(System.String)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList(System.Int32,System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList(System.String,System.Int32,System.Int32)
+  - FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate
+  langs:
+  - csharp
+  - vb
+  name: RemitterBl
+  nameWithType: RemitterBl
+  fullName: FasttraxxDG.BaseLogic.RemitterBl
+  type: Class
+  source:
+    id: RemitterBl
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: 'public class RemitterBl : Remitter, INameBase, IRemitterCompany'
+    content.vb: >-
+      Public Class RemitterBl
+
+          Inherits Remitter
+
+          Implements INameBase, IRemitterCompany
+  inheritance:
+  - System.Object
+  - FasttraxxDG.BaseModel.Remitter
+  implements:
+  - FasttraxxDG.BaseModel.INameBase
+  - FasttraxxDG.BaseModel.IRemitterCompany
+  inheritedMembers:
+  - FasttraxxDG.BaseModel.Remitter.RemitterID
+  - FasttraxxDG.BaseModel.Remitter.MemberID
+  - FasttraxxDG.BaseModel.Remitter.Fullname
+  - FasttraxxDG.BaseModel.Remitter.Agent
+  - FasttraxxDG.BaseModel.Remitter.CityID
+  - FasttraxxDG.BaseModel.Remitter.CityID2
+  - FasttraxxDG.BaseModel.Remitter.Province
+  - FasttraxxDG.BaseModel.Remitter.Zip
+  - FasttraxxDG.BaseModel.Remitter.CompanyID
+  - FasttraxxDG.BaseModel.Remitter.RemitterCompanyId
+  - FasttraxxDG.BaseModel.Remitter.RemitterCompanyName
+  - FasttraxxDG.BaseModel.Remitter.Address
+  - FasttraxxDG.BaseModel.Remitter.ArcNumber
+  - FasttraxxDG.BaseModel.Remitter.IssueDate
+  - FasttraxxDG.BaseModel.Remitter.ExpiryDate
+  - FasttraxxDG.BaseModel.Remitter.Passport
+  - FasttraxxDG.BaseModel.Remitter.DateCreated
+  - FasttraxxDG.BaseModel.Remitter.ArcPic1
+  - FasttraxxDG.BaseModel.Remitter.Declared
+  - FasttraxxDG.BaseModel.Remitter.ProxyContact
+  - FasttraxxDG.BaseModel.Remitter.Watchout
+  - FasttraxxDG.BaseModel.Remitter.RemitterSignature
+  - FasttraxxDG.BaseModel.Remitter.ArcPic2
+  - FasttraxxDG.BaseModel.Remitter.IsBsp
+  - FasttraxxDG.BaseModel.Remitter.HasArcPic
+  - FasttraxxDG.BaseModel.Remitter.FirstName
+  - FasttraxxDG.BaseModel.Remitter.MiddleName
+  - FasttraxxDG.BaseModel.Remitter.LastName
+  - FasttraxxDG.BaseModel.Remitter.Telephone1
+  - FasttraxxDG.BaseModel.Remitter.Telephone2
+  - FasttraxxDG.BaseModel.Remitter.Mobile1
+  - FasttraxxDG.BaseModel.Remitter.Mobile2
+  - FasttraxxDG.BaseModel.Remitter.Gender
+  - FasttraxxDG.BaseModel.Remitter.BirthDate
+  - FasttraxxDG.BaseModel.Remitter.Remarks
+  - FasttraxxDG.BaseModel.Remitter.LastTxn
+  - FasttraxxDG.BaseModel.Remitter.Address1
+  - FasttraxxDG.BaseModel.Remitter.CreatorID
+  - FasttraxxDG.BaseModel.Remitter.ModifierID
+  - FasttraxxDG.BaseModel.Remitter.Email
+  - FasttraxxDG.BaseModel.Remitter.Active
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseLogic.RemitterBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd
+  id: RemitterAdd
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterAdd()
+  nameWithType: RemitterBl.RemitterAdd()
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd()
+  type: Method
+  source:
+    id: RemitterAdd
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert remitter details and return <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public RemitterBl RemitterAdd()
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+      description: ''
+    content.vb: Public Function RemitterAdd As RemitterBl
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate
+  id: RemitterUpdate
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterUpdate()
+  nameWithType: RemitterBl.RemitterUpdate()
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate()
+  type: Method
+  source:
+    id: RemitterUpdate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 25
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method update remitter details and return <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public RemitterBl RemitterUpdate()
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+      description: ''
+    content.vb: Public Function RemitterUpdate As RemitterBl
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterGet
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterGet
+  id: RemitterGet
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterGet()
+  nameWithType: RemitterBl.RemitterGet()
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterGet()
+  type: Method
+  source:
+    id: RemitterGet
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 38
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetch remitter details and return <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public RemitterBl RemitterGet()
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+      description: ''
+    content.vb: Public Function RemitterGet As RemitterBl
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterGet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList(System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList(System.Int32,System.Int32)
+  id: RemitterNameSearchList(System.Int32,System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterNameSearchList(Int32, Int32)
+  nameWithType: RemitterBl.RemitterNameSearchList(Int32, Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: RemitterNameSearchList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 52
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetches remitter details filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">dynamicId</code>\nand <code data-dev-comment-type=\"paramref\" class=\"paramref\">type</code> and return a list of <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<RemitterBl> RemitterNameSearchList(int dynamicId, int type = 1)
+    parameters:
+    - id: dynamicId
+      type: System.Int32
+      description: ''
+    - id: type
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.RemitterBl}
+      description: ''
+    content.vb: Public Function RemitterNameSearchList(dynamicId As Integer, type As Integer = 1) As List(Of RemitterBl)
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList(System.String,System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList(System.String,System.Int32,System.Int32)
+  id: RemitterPhoneSearchList(System.String,System.Int32,System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterPhoneSearchList(String, Int32, Int32)
+  nameWithType: RemitterBl.RemitterPhoneSearchList(String, Int32, Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: RemitterPhoneSearchList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 66
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetches remitter details filter by below params: and return a list of <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<RemitterBl> RemitterPhoneSearchList(string filter, int dynamicId, int type = 1)
+    parameters:
+    - id: filter
+      type: System.String
+      description: ''
+    - id: dynamicId
+      type: System.Int32
+      description: ''
+    - id: type
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.RemitterBl}
+      description: ''
+    content.vb: Public Function RemitterPhoneSearchList(filter As String, dynamicId As Integer, type As Integer = 1) As List(Of RemitterBl)
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList(System.String,System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList(System.String,System.Int32,System.Int32)
+  id: RemitterCompanySearchList(System.String,System.Int32,System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterCompanySearchList(String, Int32, Int32)
+  nameWithType: RemitterBl.RemitterCompanySearchList(String, Int32, Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: RemitterCompanySearchList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 80
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetches remitter details filter by company with below params: and return list of <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<RemitterBl> RemitterCompanySearchList(string filter, int dynamicId, int type = 1)
+    parameters:
+    - id: filter
+      type: System.String
+      description: ''
+    - id: dynamicId
+      type: System.Int32
+      description: ''
+    - id: type
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.RemitterBl}
+      description: ''
+    content.vb: Public Function RemitterCompanySearchList(filter As String, dynamicId As Integer, type As Integer = 1) As List(Of RemitterBl)
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId(System.String,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId(System.String,System.Int32)
+  id: RemitterGetMemberId(System.String,System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterGetMemberId(String, Int32)
+  nameWithType: RemitterBl.RemitterGetMemberId(String, Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId(System.String, System.Int32)
+  type: Method
+  source:
+    id: RemitterGetMemberId
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 93
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetch remitter details filter by member id with below params: and return <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public RemitterBl RemitterGetMemberId(string filter, int companyId)
+    parameters:
+    - id: filter
+      type: System.String
+      description: ''
+    - id: companyId
+      type: System.Int32
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+      description: ''
+    content.vb: Public Function RemitterGetMemberId(filter As String, companyId As Integer) As RemitterBl
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc(System.String,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc(System.String,System.Int32)
+  id: RemitterGetArc(System.String,System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterGetArc(String, Int32)
+  nameWithType: RemitterBl.RemitterGetArc(String, Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc(System.String, System.Int32)
+  type: Method
+  source:
+    id: RemitterGetArc
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 106
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method get remitter details filter by arc number with below params: and return <xref href=\"FasttraxxDG.BaseLogic.RemitterBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public RemitterBl RemitterGetArc(string arc, int companyId)
+    parameters:
+    - id: arc
+      type: System.String
+      description: ''
+    - id: companyId
+      type: System.Int32
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+      description: ''
+    content.vb: Public Function RemitterGetArc(arc As String, companyId As Integer) As RemitterBl
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists(System.String)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists(System.String)
+  id: RemitterMemberIdExists(System.String)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterMemberIdExists(String)
+  nameWithType: RemitterBl.RemitterMemberIdExists(String)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists(System.String)
+  type: Method
+  source:
+    id: RemitterMemberIdExists
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 118
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if remitter member id exist filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">memberId</code>\n"
+  example: []
+  syntax:
+    content: public bool RemitterMemberIdExists(string memberId)
+    parameters:
+    - id: memberId
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function RemitterMemberIdExists(memberId As String) As Boolean
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists(System.String)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists(System.String)
+  id: RemitterArcExists(System.String)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterArcExists(String)
+  nameWithType: RemitterBl.RemitterArcExists(String)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists(System.String)
+  type: Method
+  source:
+    id: RemitterArcExists
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 129
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if Arc exist in remitter record filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">arcNumber</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool RemitterArcExists(string arcNumber)
+    parameters:
+    - id: arcNumber
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function RemitterArcExists(arcNumber As String) As Boolean
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet
+  id: RemitterMobileFakeGet
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterMobileFakeGet()
+  nameWithType: RemitterBl.RemitterMobileFakeGet()
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet()
+  type: Method
+  source:
+    id: RemitterMobileFakeGet
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 139
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method generate and get remitter fake mobile number and return a string.\n"
+  example: []
+  syntax:
+    content: public string RemitterMobileFakeGet()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function RemitterMobileFakeGet As String
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn(System.Int32)
+  id: RemitterHasPendingTxn(System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterHasPendingTxn(Int32)
+  nameWithType: RemitterBl.RemitterHasPendingTxn(Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn(System.Int32)
+  type: Method
+  source:
+    id: RemitterHasPendingTxn
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 150
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if remitter has pending txn/txns filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">remitterID</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool RemitterHasPendingTxn(int remitterID)
+    parameters:
+    - id: remitterID
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function RemitterHasPendingTxn(remitterID As Integer) As Boolean
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed(System.Int32)
+  id: RemitterHasUnclaimed(System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterHasUnclaimed(Int32)
+  nameWithType: RemitterBl.RemitterHasUnclaimed(Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed(System.Int32)
+  type: Method
+  source:
+    id: RemitterHasUnclaimed
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 161
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if remitter has unclaimed txn/txns and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool RemitterHasUnclaimed(int remitterID)
+    parameters:
+    - id: remitterID
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function RemitterHasUnclaimed(remitterID As Integer) As Boolean
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32,System.Int32)
+  id: RemBeneExists(System.Int32,System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemBeneExists(Int32, Int32)
+  nameWithType: RemitterBl.RemBeneExists(Int32, Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: RemBeneExists
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 174
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if remitter and bene relationship exists filter\nby<code data-dev-comment-type=\"paramref\" class=\"paramref\">remitterId</code> and <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneficiaryId</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool RemBeneExists(int remitterId, int beneficiaryId)
+    parameters:
+    - id: remitterId
+      type: System.Int32
+      description: ''
+    - id: beneficiaryId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function RemBeneExists(remitterId As Integer, beneficiaryId As Integer) As Boolean
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32)
+  id: RemBeneExists(System.Int32)
+  parent: FasttraxxDG.BaseLogic.RemitterBl
+  langs:
+  - csharp
+  - vb
+  name: RemBeneExists(Int32)
+  nameWithType: RemitterBl.RemBeneExists(Int32)
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists(System.Int32)
+  type: Method
+  source:
+    id: RemBeneExists
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\RemitterBl.cs
+    startLine: 185
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if remitter has existing bene filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">remitterId</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool RemBeneExists(int remitterId)
+    parameters:
+    - id: remitterId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function RemBeneExists(remitterId As Integer) As Boolean
+  overload: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.Remitter
+  commentId: T:FasttraxxDG.BaseModel.Remitter
+  parent: FasttraxxDG.BaseModel
+  name: Remitter
+  nameWithType: Remitter
+  fullName: FasttraxxDG.BaseModel.Remitter
+- uid: FasttraxxDG.BaseModel.INameBase
+  commentId: T:FasttraxxDG.BaseModel.INameBase
+  parent: FasttraxxDG.BaseModel
+  name: INameBase
+  nameWithType: INameBase
+  fullName: FasttraxxDG.BaseModel.INameBase
+- uid: FasttraxxDG.BaseModel.IRemitterCompany
+  commentId: T:FasttraxxDG.BaseModel.IRemitterCompany
+  parent: FasttraxxDG.BaseModel
+  name: IRemitterCompany
+  nameWithType: IRemitterCompany
+  fullName: FasttraxxDG.BaseModel.IRemitterCompany
+- uid: FasttraxxDG.BaseModel.Remitter.RemitterID
+  commentId: P:FasttraxxDG.BaseModel.Remitter.RemitterID
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: RemitterID
+  nameWithType: Remitter.RemitterID
+  fullName: FasttraxxDG.BaseModel.Remitter.RemitterID
+- uid: FasttraxxDG.BaseModel.Remitter.MemberID
+  commentId: P:FasttraxxDG.BaseModel.Remitter.MemberID
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: MemberID
+  nameWithType: Remitter.MemberID
+  fullName: FasttraxxDG.BaseModel.Remitter.MemberID
+- uid: FasttraxxDG.BaseModel.Remitter.Fullname
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Fullname
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Fullname
+  nameWithType: Remitter.Fullname
+  fullName: FasttraxxDG.BaseModel.Remitter.Fullname
+- uid: FasttraxxDG.BaseModel.Remitter.Agent
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Agent
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Agent
+  nameWithType: Remitter.Agent
+  fullName: FasttraxxDG.BaseModel.Remitter.Agent
+- uid: FasttraxxDG.BaseModel.Remitter.CityID
+  commentId: P:FasttraxxDG.BaseModel.Remitter.CityID
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: CityID
+  nameWithType: Remitter.CityID
+  fullName: FasttraxxDG.BaseModel.Remitter.CityID
+- uid: FasttraxxDG.BaseModel.Remitter.CityID2
+  commentId: P:FasttraxxDG.BaseModel.Remitter.CityID2
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: CityID2
+  nameWithType: Remitter.CityID2
+  fullName: FasttraxxDG.BaseModel.Remitter.CityID2
+- uid: FasttraxxDG.BaseModel.Remitter.Province
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Province
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Province
+  nameWithType: Remitter.Province
+  fullName: FasttraxxDG.BaseModel.Remitter.Province
+- uid: FasttraxxDG.BaseModel.Remitter.Zip
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Zip
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Zip
+  nameWithType: Remitter.Zip
+  fullName: FasttraxxDG.BaseModel.Remitter.Zip
+- uid: FasttraxxDG.BaseModel.Remitter.CompanyID
+  commentId: P:FasttraxxDG.BaseModel.Remitter.CompanyID
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: CompanyID
+  nameWithType: Remitter.CompanyID
+  fullName: FasttraxxDG.BaseModel.Remitter.CompanyID
+- uid: FasttraxxDG.BaseModel.Remitter.RemitterCompanyId
+  commentId: P:FasttraxxDG.BaseModel.Remitter.RemitterCompanyId
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: RemitterCompanyId
+  nameWithType: Remitter.RemitterCompanyId
+  fullName: FasttraxxDG.BaseModel.Remitter.RemitterCompanyId
+- uid: FasttraxxDG.BaseModel.Remitter.RemitterCompanyName
+  commentId: P:FasttraxxDG.BaseModel.Remitter.RemitterCompanyName
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: RemitterCompanyName
+  nameWithType: Remitter.RemitterCompanyName
+  fullName: FasttraxxDG.BaseModel.Remitter.RemitterCompanyName
+- uid: FasttraxxDG.BaseModel.Remitter.Address
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Address
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Address
+  nameWithType: Remitter.Address
+  fullName: FasttraxxDG.BaseModel.Remitter.Address
+- uid: FasttraxxDG.BaseModel.Remitter.ArcNumber
+  commentId: P:FasttraxxDG.BaseModel.Remitter.ArcNumber
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: ArcNumber
+  nameWithType: Remitter.ArcNumber
+  fullName: FasttraxxDG.BaseModel.Remitter.ArcNumber
+- uid: FasttraxxDG.BaseModel.Remitter.IssueDate
+  commentId: P:FasttraxxDG.BaseModel.Remitter.IssueDate
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: IssueDate
+  nameWithType: Remitter.IssueDate
+  fullName: FasttraxxDG.BaseModel.Remitter.IssueDate
+- uid: FasttraxxDG.BaseModel.Remitter.ExpiryDate
+  commentId: P:FasttraxxDG.BaseModel.Remitter.ExpiryDate
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: ExpiryDate
+  nameWithType: Remitter.ExpiryDate
+  fullName: FasttraxxDG.BaseModel.Remitter.ExpiryDate
+- uid: FasttraxxDG.BaseModel.Remitter.Passport
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Passport
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Passport
+  nameWithType: Remitter.Passport
+  fullName: FasttraxxDG.BaseModel.Remitter.Passport
+- uid: FasttraxxDG.BaseModel.Remitter.DateCreated
+  commentId: P:FasttraxxDG.BaseModel.Remitter.DateCreated
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: DateCreated
+  nameWithType: Remitter.DateCreated
+  fullName: FasttraxxDG.BaseModel.Remitter.DateCreated
+- uid: FasttraxxDG.BaseModel.Remitter.ArcPic1
+  commentId: P:FasttraxxDG.BaseModel.Remitter.ArcPic1
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: ArcPic1
+  nameWithType: Remitter.ArcPic1
+  fullName: FasttraxxDG.BaseModel.Remitter.ArcPic1
+- uid: FasttraxxDG.BaseModel.Remitter.Declared
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Declared
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Declared
+  nameWithType: Remitter.Declared
+  fullName: FasttraxxDG.BaseModel.Remitter.Declared
+- uid: FasttraxxDG.BaseModel.Remitter.ProxyContact
+  commentId: P:FasttraxxDG.BaseModel.Remitter.ProxyContact
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: ProxyContact
+  nameWithType: Remitter.ProxyContact
+  fullName: FasttraxxDG.BaseModel.Remitter.ProxyContact
+- uid: FasttraxxDG.BaseModel.Remitter.Watchout
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Watchout
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Watchout
+  nameWithType: Remitter.Watchout
+  fullName: FasttraxxDG.BaseModel.Remitter.Watchout
+- uid: FasttraxxDG.BaseModel.Remitter.RemitterSignature
+  commentId: P:FasttraxxDG.BaseModel.Remitter.RemitterSignature
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: RemitterSignature
+  nameWithType: Remitter.RemitterSignature
+  fullName: FasttraxxDG.BaseModel.Remitter.RemitterSignature
+- uid: FasttraxxDG.BaseModel.Remitter.ArcPic2
+  commentId: P:FasttraxxDG.BaseModel.Remitter.ArcPic2
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: ArcPic2
+  nameWithType: Remitter.ArcPic2
+  fullName: FasttraxxDG.BaseModel.Remitter.ArcPic2
+- uid: FasttraxxDG.BaseModel.Remitter.IsBsp
+  commentId: P:FasttraxxDG.BaseModel.Remitter.IsBsp
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: IsBsp
+  nameWithType: Remitter.IsBsp
+  fullName: FasttraxxDG.BaseModel.Remitter.IsBsp
+- uid: FasttraxxDG.BaseModel.Remitter.HasArcPic
+  commentId: P:FasttraxxDG.BaseModel.Remitter.HasArcPic
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: HasArcPic
+  nameWithType: Remitter.HasArcPic
+  fullName: FasttraxxDG.BaseModel.Remitter.HasArcPic
+- uid: FasttraxxDG.BaseModel.Remitter.FirstName
+  commentId: P:FasttraxxDG.BaseModel.Remitter.FirstName
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: FirstName
+  nameWithType: Remitter.FirstName
+  fullName: FasttraxxDG.BaseModel.Remitter.FirstName
+- uid: FasttraxxDG.BaseModel.Remitter.MiddleName
+  commentId: P:FasttraxxDG.BaseModel.Remitter.MiddleName
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: MiddleName
+  nameWithType: Remitter.MiddleName
+  fullName: FasttraxxDG.BaseModel.Remitter.MiddleName
+- uid: FasttraxxDG.BaseModel.Remitter.LastName
+  commentId: P:FasttraxxDG.BaseModel.Remitter.LastName
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: LastName
+  nameWithType: Remitter.LastName
+  fullName: FasttraxxDG.BaseModel.Remitter.LastName
+- uid: FasttraxxDG.BaseModel.Remitter.Telephone1
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Telephone1
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Telephone1
+  nameWithType: Remitter.Telephone1
+  fullName: FasttraxxDG.BaseModel.Remitter.Telephone1
+- uid: FasttraxxDG.BaseModel.Remitter.Telephone2
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Telephone2
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Telephone2
+  nameWithType: Remitter.Telephone2
+  fullName: FasttraxxDG.BaseModel.Remitter.Telephone2
+- uid: FasttraxxDG.BaseModel.Remitter.Mobile1
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Mobile1
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Mobile1
+  nameWithType: Remitter.Mobile1
+  fullName: FasttraxxDG.BaseModel.Remitter.Mobile1
+- uid: FasttraxxDG.BaseModel.Remitter.Mobile2
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Mobile2
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Mobile2
+  nameWithType: Remitter.Mobile2
+  fullName: FasttraxxDG.BaseModel.Remitter.Mobile2
+- uid: FasttraxxDG.BaseModel.Remitter.Gender
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Gender
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Gender
+  nameWithType: Remitter.Gender
+  fullName: FasttraxxDG.BaseModel.Remitter.Gender
+- uid: FasttraxxDG.BaseModel.Remitter.BirthDate
+  commentId: P:FasttraxxDG.BaseModel.Remitter.BirthDate
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: BirthDate
+  nameWithType: Remitter.BirthDate
+  fullName: FasttraxxDG.BaseModel.Remitter.BirthDate
+- uid: FasttraxxDG.BaseModel.Remitter.Remarks
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Remarks
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Remarks
+  nameWithType: Remitter.Remarks
+  fullName: FasttraxxDG.BaseModel.Remitter.Remarks
+- uid: FasttraxxDG.BaseModel.Remitter.LastTxn
+  commentId: P:FasttraxxDG.BaseModel.Remitter.LastTxn
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: LastTxn
+  nameWithType: Remitter.LastTxn
+  fullName: FasttraxxDG.BaseModel.Remitter.LastTxn
+- uid: FasttraxxDG.BaseModel.Remitter.Address1
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Address1
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Address1
+  nameWithType: Remitter.Address1
+  fullName: FasttraxxDG.BaseModel.Remitter.Address1
+- uid: FasttraxxDG.BaseModel.Remitter.CreatorID
+  commentId: P:FasttraxxDG.BaseModel.Remitter.CreatorID
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: CreatorID
+  nameWithType: Remitter.CreatorID
+  fullName: FasttraxxDG.BaseModel.Remitter.CreatorID
+- uid: FasttraxxDG.BaseModel.Remitter.ModifierID
+  commentId: P:FasttraxxDG.BaseModel.Remitter.ModifierID
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: ModifierID
+  nameWithType: Remitter.ModifierID
+  fullName: FasttraxxDG.BaseModel.Remitter.ModifierID
+- uid: FasttraxxDG.BaseModel.Remitter.Email
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Email
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Email
+  nameWithType: Remitter.Email
+  fullName: FasttraxxDG.BaseModel.Remitter.Email
+- uid: FasttraxxDG.BaseModel.Remitter.Active
+  commentId: P:FasttraxxDG.BaseModel.Remitter.Active
+  parent: FasttraxxDG.BaseModel.Remitter
+  name: Active
+  nameWithType: Remitter.Active
+  fullName: FasttraxxDG.BaseModel.Remitter.Active
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.RemitterBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<RemitterBl, TDest>()
+  nameWithType: MapperHelper.MapTo<RemitterBl, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.RemitterBl, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of RemitterBl, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.RemitterBl, TDest)()
+  name.vb: MapTo(Of RemitterBl, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<RemitterBl, TDest>
+    nameWithType: MapperHelper.MapTo<RemitterBl, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.RemitterBl, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of RemitterBl, TDest)
+    nameWithType: MapperHelper.MapTo(Of RemitterBl, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.RemitterBl, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseLogic.RemitterBl
+  commentId: T:FasttraxxDG.BaseLogic.RemitterBl
+  parent: FasttraxxDG.BaseLogic
+  name: RemitterBl
+  nameWithType: RemitterBl
+  fullName: FasttraxxDG.BaseLogic.RemitterBl
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd
+  name: RemitterAdd
+  nameWithType: RemitterBl.RemitterAdd
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterAdd
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate
+  name: RemitterUpdate
+  nameWithType: RemitterBl.RemitterUpdate
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterUpdate
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterGet*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterGet
+  name: RemitterGet
+  nameWithType: RemitterBl.RemitterGet
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterGet
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList
+  name: RemitterNameSearchList
+  nameWithType: RemitterBl.RemitterNameSearchList
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterNameSearchList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseLogic.RemitterBl}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseLogic.RemitterBl}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<RemitterBl>
+  nameWithType: List<RemitterBl>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseLogic.RemitterBl>
+  nameWithType.vb: List(Of RemitterBl)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseLogic.RemitterBl)
+  name.vb: List(Of RemitterBl)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.RemitterBl
+    name: RemitterBl
+    nameWithType: RemitterBl
+    fullName: FasttraxxDG.BaseLogic.RemitterBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.RemitterBl
+    name: RemitterBl
+    nameWithType: RemitterBl
+    fullName: FasttraxxDG.BaseLogic.RemitterBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList
+  name: RemitterPhoneSearchList
+  nameWithType: RemitterBl.RemitterPhoneSearchList
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterPhoneSearchList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList
+  name: RemitterCompanySearchList
+  nameWithType: RemitterBl.RemitterCompanySearchList
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterCompanySearchList
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId
+  name: RemitterGetMemberId
+  nameWithType: RemitterBl.RemitterGetMemberId
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetMemberId
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc
+  name: RemitterGetArc
+  nameWithType: RemitterBl.RemitterGetArc
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterGetArc
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists
+  name: RemitterMemberIdExists
+  nameWithType: RemitterBl.RemitterMemberIdExists
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterMemberIdExists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists
+  name: RemitterArcExists
+  nameWithType: RemitterBl.RemitterArcExists
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterArcExists
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet
+  name: RemitterMobileFakeGet
+  nameWithType: RemitterBl.RemitterMobileFakeGet
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterMobileFakeGet
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn
+  name: RemitterHasPendingTxn
+  nameWithType: RemitterBl.RemitterHasPendingTxn
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasPendingTxn
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed
+  name: RemitterHasUnclaimed
+  nameWithType: RemitterBl.RemitterHasUnclaimed
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemitterHasUnclaimed
+- uid: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists*
+  commentId: Overload:FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists
+  name: RemBeneExists
+  nameWithType: RemitterBl.RemBeneExists
+  fullName: FasttraxxDG.BaseLogic.RemitterBl.RemBeneExists

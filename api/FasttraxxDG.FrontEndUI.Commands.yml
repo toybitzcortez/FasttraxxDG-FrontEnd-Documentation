@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Commands
+  commentId: N:FasttraxxDG.FrontEndUI.Commands
+  id: FasttraxxDG.FrontEndUI.Commands
+  children:
+  - FasttraxxDG.FrontEndUI.Commands.SettingsCommand
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Commands
+  nameWithType: FasttraxxDG.FrontEndUI.Commands
+  fullName: FasttraxxDG.FrontEndUI.Commands
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Commands.SettingsCommand
+  commentId: T:FasttraxxDG.FrontEndUI.Commands.SettingsCommand
+  name: SettingsCommand
+  nameWithType: SettingsCommand
+  fullName: FasttraxxDG.FrontEndUI.Commands.SettingsCommand

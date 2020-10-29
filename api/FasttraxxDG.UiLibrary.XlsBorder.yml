@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UiLibrary.XlsBorder
+  commentId: T:FasttraxxDG.UiLibrary.XlsBorder
+  id: XlsBorder
+  parent: FasttraxxDG.UiLibrary
+  children:
+  - FasttraxxDG.UiLibrary.XlsBorder.Bottom
+  - FasttraxxDG.UiLibrary.XlsBorder.Left
+  - FasttraxxDG.UiLibrary.XlsBorder.Right
+  - FasttraxxDG.UiLibrary.XlsBorder.Top
+  langs:
+  - csharp
+  - vb
+  name: XlsBorder
+  nameWithType: XlsBorder
+  fullName: FasttraxxDG.UiLibrary.XlsBorder
+  type: Enum
+  source:
+    id: XlsBorder
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\XlsAlignType.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public enum XlsBorder
+    content.vb: Public Enum XlsBorder
+  extensionMethods:
+  - FasttraxxDG.UiLibrary.XlsBorder.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: FasttraxxDG.UiLibrary.XlsBorder.Left
+  commentId: F:FasttraxxDG.UiLibrary.XlsBorder.Left
+  id: Left
+  parent: FasttraxxDG.UiLibrary.XlsBorder
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: XlsBorder.Left
+  fullName: FasttraxxDG.UiLibrary.XlsBorder.Left
+  type: Field
+  source:
+    id: Left
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\XlsAlignType.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: Left = 0
+    return:
+      type: FasttraxxDG.UiLibrary.XlsBorder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: FasttraxxDG.UiLibrary.XlsBorder.Top
+  commentId: F:FasttraxxDG.UiLibrary.XlsBorder.Top
+  id: Top
+  parent: FasttraxxDG.UiLibrary.XlsBorder
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: XlsBorder.Top
+  fullName: FasttraxxDG.UiLibrary.XlsBorder.Top
+  type: Field
+  source:
+    id: Top
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\XlsAlignType.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: Top = 1
+    return:
+      type: FasttraxxDG.UiLibrary.XlsBorder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: FasttraxxDG.UiLibrary.XlsBorder.Right
+  commentId: F:FasttraxxDG.UiLibrary.XlsBorder.Right
+  id: Right
+  parent: FasttraxxDG.UiLibrary.XlsBorder
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: XlsBorder.Right
+  fullName: FasttraxxDG.UiLibrary.XlsBorder.Right
+  type: Field
+  source:
+    id: Right
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\XlsAlignType.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: Right = 2
+    return:
+      type: FasttraxxDG.UiLibrary.XlsBorder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: FasttraxxDG.UiLibrary.XlsBorder.Bottom
+  commentId: F:FasttraxxDG.UiLibrary.XlsBorder.Bottom
+  id: Bottom
+  parent: FasttraxxDG.UiLibrary.XlsBorder
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: XlsBorder.Bottom
+  fullName: FasttraxxDG.UiLibrary.XlsBorder.Bottom
+  type: Field
+  source:
+    id: Bottom
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\XlsAlignType.cs
+    startLine: 17
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: Bottom = 3
+    return:
+      type: FasttraxxDG.UiLibrary.XlsBorder
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: FasttraxxDG.UiLibrary
+  commentId: N:FasttraxxDG.UiLibrary
+  name: FasttraxxDG.UiLibrary
+  nameWithType: FasttraxxDG.UiLibrary
+  fullName: FasttraxxDG.UiLibrary
+- uid: FasttraxxDG.UiLibrary.XlsBorder.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<XlsBorder, TDest>()
+  nameWithType: MapperHelper.MapTo<XlsBorder, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.XlsBorder, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of XlsBorder, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.XlsBorder, TDest)()
+  name.vb: MapTo(Of XlsBorder, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<XlsBorder, TDest>
+    nameWithType: MapperHelper.MapTo<XlsBorder, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.XlsBorder, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of XlsBorder, TDest)
+    nameWithType: MapperHelper.MapTo(Of XlsBorder, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.XlsBorder, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.UiLibrary.XlsBorder
+  commentId: T:FasttraxxDG.UiLibrary.XlsBorder
+  parent: FasttraxxDG.UiLibrary
+  name: XlsBorder
+  nameWithType: XlsBorder
+  fullName: FasttraxxDG.UiLibrary.XlsBorder

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views
+  commentId: N:FasttraxxDG.FrontEndUI.Transaction.Views
+  id: FasttraxxDG.FrontEndUI.Transaction.Views
+  children:
+  - FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView
+  - FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Transaction.Views
+  nameWithType: FasttraxxDG.FrontEndUI.Transaction.Views
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView
+  name: TxnSummaryCcDetailsView
+  nameWithType: TxnSummaryCcDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView
+  name: TxnSummaryDdDetailsView
+  nameWithType: TxnSummaryDdDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView

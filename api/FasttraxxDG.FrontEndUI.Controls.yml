@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Controls
+  commentId: N:FasttraxxDG.FrontEndUI.Controls
+  id: FasttraxxDG.FrontEndUI.Controls
+  children:
+  - FasttraxxDG.FrontEndUI.Controls.BaseDrawerHeaderControl
+  - FasttraxxDG.FrontEndUI.Controls.BaseFromToDateControl
+  - FasttraxxDG.FrontEndUI.Controls.BaseSearchControl
+  - FasttraxxDG.FrontEndUI.Controls.DGPanel
+  - FasttraxxDG.FrontEndUI.Controls.ItemMenuView
+  - FasttraxxDG.FrontEndUI.Controls.ItemMenuViewModel
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Controls
+  nameWithType: FasttraxxDG.FrontEndUI.Controls
+  fullName: FasttraxxDG.FrontEndUI.Controls
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Controls.BaseDrawerHeaderControl
+  commentId: T:FasttraxxDG.FrontEndUI.Controls.BaseDrawerHeaderControl
+  name: BaseDrawerHeaderControl
+  nameWithType: BaseDrawerHeaderControl
+  fullName: FasttraxxDG.FrontEndUI.Controls.BaseDrawerHeaderControl
+- uid: FasttraxxDG.FrontEndUI.Controls.BaseFromToDateControl
+  commentId: T:FasttraxxDG.FrontEndUI.Controls.BaseFromToDateControl
+  name: BaseFromToDateControl
+  nameWithType: BaseFromToDateControl
+  fullName: FasttraxxDG.FrontEndUI.Controls.BaseFromToDateControl
+- uid: FasttraxxDG.FrontEndUI.Controls.BaseSearchControl
+  commentId: T:FasttraxxDG.FrontEndUI.Controls.BaseSearchControl
+  name: BaseSearchControl
+  nameWithType: BaseSearchControl
+  fullName: FasttraxxDG.FrontEndUI.Controls.BaseSearchControl
+- uid: FasttraxxDG.FrontEndUI.Controls.DGPanel
+  commentId: T:FasttraxxDG.FrontEndUI.Controls.DGPanel
+  name: DGPanel
+  nameWithType: DGPanel
+  fullName: FasttraxxDG.FrontEndUI.Controls.DGPanel
+- uid: FasttraxxDG.FrontEndUI.Controls.ItemMenuView
+  commentId: T:FasttraxxDG.FrontEndUI.Controls.ItemMenuView
+  name: ItemMenuView
+  nameWithType: ItemMenuView
+  fullName: FasttraxxDG.FrontEndUI.Controls.ItemMenuView
+- uid: FasttraxxDG.FrontEndUI.Controls.ItemMenuViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.Controls.ItemMenuViewModel
+  parent: FasttraxxDG.FrontEndUI.Controls
+  name: ItemMenuViewModel
+  nameWithType: ItemMenuViewModel
+  fullName: FasttraxxDG.FrontEndUI.Controls.ItemMenuViewModel
+- uid: FasttraxxDG.FrontEndUI.Controls
+  commentId: N:FasttraxxDG.FrontEndUI.Controls
+  name: FasttraxxDG.FrontEndUI.Controls
+  nameWithType: FasttraxxDG.FrontEndUI.Controls
+  fullName: FasttraxxDG.FrontEndUI.Controls

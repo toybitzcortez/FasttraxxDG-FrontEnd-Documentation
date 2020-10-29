@@ -1,0 +1,1257 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText
+  commentId: T:FasttraxxDG.FrontEndUI.Resources.UiText
+  id: UiText
+  parent: FasttraxxDG.FrontEndUI.Resources
+  children:
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Address
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Agent
+  - FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Culture
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Dob
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Email
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Expiry
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Fn
+  - FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Ln
+  - FasttraxxDG.FrontEndUI.Resources.UiText.MemberId
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Mn
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Pay
+  - FasttraxxDG.FrontEndUI.Resources.UiText.Remarks
+  - FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager
+  - FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany
+  langs:
+  - csharp
+  - vb
+  name: UiText
+  nameWithType: UiText
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText
+  type: Class
+  source:
+    id: UiText
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 21
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nA strongly-typed resource class, for looking up localized strings, etc.\n"
+  example: []
+  syntax:
+    content: public class UiText
+    content.vb: Public Class UiText
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.Resources.UiText.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager
+  id: ResourceManager
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: ResourceManager
+  nameWithType: UiText.ResourceManager
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager
+  type: Property
+  source:
+    id: ResourceManager
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 37
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nReturns the cached ResourceManager instance used by this class.\n"
+  example: []
+  syntax:
+    content: public static ResourceManager ResourceManager { get; }
+    parameters: []
+    return:
+      type: System.Resources.ResourceManager
+    content.vb: Public Shared ReadOnly Property ResourceManager As ResourceManager
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Culture
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Culture
+  id: Culture
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: UiText.Culture
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Culture
+  type: Property
+  source:
+    id: Culture
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 52
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nOverrides the current thread&apos;s CurrentUICulture property for all\nresource lookups using this strongly typed resource class.\n"
+  example: []
+  syntax:
+    content: public static CultureInfo Culture { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public Shared Property Culture As CultureInfo
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Culture*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Address
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Address
+  id: Address
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: UiText.Address
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Address
+  type: Property
+  source:
+    id: Address
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 65
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Address.\n"
+  example: []
+  syntax:
+    content: public static string Address { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Address As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Address*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Agent
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Agent
+  id: Agent
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: UiText.Agent
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Agent
+  type: Property
+  source:
+    id: Agent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 74
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Agent.\n"
+  example: []
+  syntax:
+    content: public static string Agent { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Agent As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Agent*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum
+  id: ArcNum
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: ArcNum
+  nameWithType: UiText.ArcNum
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum
+  type: Property
+  source:
+    id: ArcNum
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 83
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Arc Number.\n"
+  example: []
+  syntax:
+    content: public static string ArcNum { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ArcNum As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Dob
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Dob
+  id: Dob
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Dob
+  nameWithType: UiText.Dob
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Dob
+  type: Property
+  source:
+    id: Dob
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 92
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Birthdate.\n"
+  example: []
+  syntax:
+    content: public static string Dob { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Dob As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Dob*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Email
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Email
+  id: Email
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: UiText.Email
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Email
+  type: Property
+  source:
+    id: Email
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 101
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Email.\n"
+  example: []
+  syntax:
+    content: public static string Email { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Email As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Email*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Expiry
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Expiry
+  id: Expiry
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Expiry
+  nameWithType: UiText.Expiry
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Expiry
+  type: Property
+  source:
+    id: Expiry
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 110
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Expiry Date.\n"
+  example: []
+  syntax:
+    content: public static string Expiry { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Expiry As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Expiry*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Fn
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Fn
+  id: Fn
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Fn
+  nameWithType: UiText.Fn
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Fn
+  type: Property
+  source:
+    id: Fn
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 119
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to First Name.\n"
+  example: []
+  syntax:
+    content: public static string Fn { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Fn As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Fn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate
+  id: IssueDate
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: IssueDate
+  nameWithType: UiText.IssueDate
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate
+  type: Property
+  source:
+    id: IssueDate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 128
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to IssueDate.\n"
+  example: []
+  syntax:
+    content: public static string IssueDate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property IssueDate As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Ln
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Ln
+  id: Ln
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Ln
+  nameWithType: UiText.Ln
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Ln
+  type: Property
+  source:
+    id: Ln
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 137
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Last Name.\n"
+  example: []
+  syntax:
+    content: public static string Ln { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Ln As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Ln*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.MemberId
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.MemberId
+  id: MemberId
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: MemberId
+  nameWithType: UiText.MemberId
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.MemberId
+  type: Property
+  source:
+    id: MemberId
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 146
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Member ID.\n"
+  example: []
+  syntax:
+    content: public static string MemberId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property MemberId As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.MemberId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Mn
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Mn
+  id: Mn
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Mn
+  nameWithType: UiText.Mn
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Mn
+  type: Property
+  source:
+    id: Mn
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 155
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Middle Name.\n"
+  example: []
+  syntax:
+    content: public static string Mn { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Mn As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Mn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Pay
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Pay
+  id: Pay
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Pay
+  nameWithType: UiText.Pay
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Pay
+  type: Property
+  source:
+    id: Pay
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 164
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to P A Y.\n"
+  example: []
+  syntax:
+    content: public static string Pay { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Pay As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Pay*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Remarks
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.Remarks
+  id: Remarks
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: Remarks
+  nameWithType: UiText.Remarks
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Remarks
+  type: Property
+  source:
+    id: Remarks
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 173
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Remarks.\n"
+  example: []
+  syntax:
+    content: public static string Remarks { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Remarks As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.Remarks*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany
+  commentId: P:FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany
+  id: SelectCompany
+  parent: FasttraxxDG.FrontEndUI.Resources.UiText
+  langs:
+  - csharp
+  - vb
+  name: SelectCompany
+  nameWithType: UiText.SelectCompany
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany
+  type: Property
+  source:
+    id: SelectCompany
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Resources\UiText.Designer.cs
+    startLine: 182
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Resources
+  summary: "\nLooks up a localized string similar to Select Company.\n"
+  example: []
+  syntax:
+    content: public static string SelectCompany { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SelectCompany As String
+  overload: FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: FasttraxxDG.FrontEndUI.Resources
+  commentId: N:FasttraxxDG.FrontEndUI.Resources
+  name: FasttraxxDG.FrontEndUI.Resources
+  nameWithType: FasttraxxDG.FrontEndUI.Resources
+  fullName: FasttraxxDG.FrontEndUI.Resources
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<UiText, TDest>()
+  nameWithType: MapperHelper.MapTo<UiText, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Resources.UiText, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of UiText, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Resources.UiText, TDest)()
+  name.vb: MapTo(Of UiText, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<UiText, TDest>
+    nameWithType: MapperHelper.MapTo<UiText, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Resources.UiText, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of UiText, TDest)
+    nameWithType: MapperHelper.MapTo(Of UiText, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Resources.UiText, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager
+  name: ResourceManager
+  nameWithType: UiText.ResourceManager
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.ResourceManager
+- uid: System.Resources.ResourceManager
+  commentId: T:System.Resources.ResourceManager
+  parent: System.Resources
+  isExternal: true
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: System.Resources.ResourceManager
+- uid: System.Resources
+  commentId: N:System.Resources
+  isExternal: true
+  name: System.Resources
+  nameWithType: System.Resources
+  fullName: System.Resources
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Culture*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Culture
+  name: Culture
+  nameWithType: UiText.Culture
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Address*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Address
+  name: Address
+  nameWithType: UiText.Address
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Agent*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Agent
+  name: Agent
+  nameWithType: UiText.Agent
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Agent
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum
+  name: ArcNum
+  nameWithType: UiText.ArcNum
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.ArcNum
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Dob*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Dob
+  name: Dob
+  nameWithType: UiText.Dob
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Dob
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Email*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Email
+  name: Email
+  nameWithType: UiText.Email
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Email
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Expiry*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Expiry
+  name: Expiry
+  nameWithType: UiText.Expiry
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Expiry
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Fn*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Fn
+  name: Fn
+  nameWithType: UiText.Fn
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Fn
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate
+  name: IssueDate
+  nameWithType: UiText.IssueDate
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.IssueDate
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Ln*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Ln
+  name: Ln
+  nameWithType: UiText.Ln
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Ln
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.MemberId*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.MemberId
+  name: MemberId
+  nameWithType: UiText.MemberId
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.MemberId
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Mn*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Mn
+  name: Mn
+  nameWithType: UiText.Mn
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Mn
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Pay*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Pay
+  name: Pay
+  nameWithType: UiText.Pay
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Pay
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.Remarks*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.Remarks
+  name: Remarks
+  nameWithType: UiText.Remarks
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.Remarks
+- uid: FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany
+  name: SelectCompany
+  nameWithType: UiText.SelectCompany
+  fullName: FasttraxxDG.FrontEndUI.Resources.UiText.SelectCompany

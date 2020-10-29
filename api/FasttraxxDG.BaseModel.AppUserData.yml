@@ -1,0 +1,814 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseModel.AppUserData
+  commentId: T:FasttraxxDG.BaseModel.AppUserData
+  id: AppUserData
+  parent: FasttraxxDG.BaseModel
+  children:
+  - FasttraxxDG.BaseModel.AppUserData.Allow
+  - FasttraxxDG.BaseModel.AppUserData.OperationID
+  - FasttraxxDG.BaseModel.AppUserData.UserRoleID
+  langs:
+  - csharp
+  - vb
+  name: AppUserData
+  nameWithType: AppUserData
+  fullName: FasttraxxDG.BaseModel.AppUserData
+  type: Class
+  source:
+    id: AppUserData
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\AppUserData.cs
+    startLine: 2
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: 'public class AppUserData : AppUser, IUserBase, IAppUserRoles'
+    content.vb: >-
+      Public Class AppUserData
+
+          Inherits AppUser
+
+          Implements IUserBase, IAppUserRoles
+  inheritance:
+  - System.Object
+  - FasttraxxDG.BaseModel.AppUser
+  derivedClasses:
+  - FasttraxxDG.BaseLogic.AppUserBl
+  implements:
+  - FasttraxxDG.BaseModel.IUserBase
+  - FasttraxxDG.BaseModel.IAppUserRoles
+  inheritedMembers:
+  - FasttraxxDG.BaseModel.AppUser.AppUserID
+  - FasttraxxDG.BaseModel.AppUser.AppUsername
+  - FasttraxxDG.BaseModel.AppUser.Salt
+  - FasttraxxDG.BaseModel.AppUser.Password
+  - FasttraxxDG.BaseModel.AppUser.CompanyID
+  - FasttraxxDG.BaseModel.AppUser.UserTypeID
+  - FasttraxxDG.BaseModel.AppUser.FrontEnd
+  - FasttraxxDG.BaseModel.AppUser.BackEnd
+  - FasttraxxDG.BaseModel.AppUser.Admin
+  - FasttraxxDG.BaseModel.AppUser.Activated
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseModel.AppUserData.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseModel.AppUserData.UserRoleID
+  commentId: P:FasttraxxDG.BaseModel.AppUserData.UserRoleID
+  id: UserRoleID
+  parent: FasttraxxDG.BaseModel.AppUserData
+  langs:
+  - csharp
+  - vb
+  name: UserRoleID
+  nameWithType: AppUserData.UserRoleID
+  fullName: FasttraxxDG.BaseModel.AppUserData.UserRoleID
+  type: Property
+  source:
+    id: UserRoleID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\AppUserData.cs
+    startLine: 4
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int UserRoleID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserRoleID As Integer
+  overload: FasttraxxDG.BaseModel.AppUserData.UserRoleID*
+  implements:
+  - FasttraxxDG.BaseModel.IAppUserRoles.UserRoleID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.AppUserData.OperationID
+  commentId: P:FasttraxxDG.BaseModel.AppUserData.OperationID
+  id: OperationID
+  parent: FasttraxxDG.BaseModel.AppUserData
+  langs:
+  - csharp
+  - vb
+  name: OperationID
+  nameWithType: AppUserData.OperationID
+  fullName: FasttraxxDG.BaseModel.AppUserData.OperationID
+  type: Property
+  source:
+    id: OperationID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\AppUserData.cs
+    startLine: 5
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int OperationID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OperationID As Integer
+  overload: FasttraxxDG.BaseModel.AppUserData.OperationID*
+  implements:
+  - FasttraxxDG.BaseModel.IAppUserRoles.OperationID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.AppUserData.Allow
+  commentId: P:FasttraxxDG.BaseModel.AppUserData.Allow
+  id: Allow
+  parent: FasttraxxDG.BaseModel.AppUserData
+  langs:
+  - csharp
+  - vb
+  name: Allow
+  nameWithType: AppUserData.Allow
+  fullName: FasttraxxDG.BaseModel.AppUserData.Allow
+  type: Property
+  source:
+    id: Allow
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\AppUserData.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public bool Allow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Allow As Boolean
+  overload: FasttraxxDG.BaseModel.AppUserData.Allow*
+  implements:
+  - FasttraxxDG.BaseModel.IAppUserRoles.Allow
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.AppUser
+  commentId: T:FasttraxxDG.BaseModel.AppUser
+  parent: FasttraxxDG.BaseModel
+  name: AppUser
+  nameWithType: AppUser
+  fullName: FasttraxxDG.BaseModel.AppUser
+- uid: FasttraxxDG.BaseModel.IUserBase
+  commentId: T:FasttraxxDG.BaseModel.IUserBase
+  parent: FasttraxxDG.BaseModel
+  name: IUserBase
+  nameWithType: IUserBase
+  fullName: FasttraxxDG.BaseModel.IUserBase
+- uid: FasttraxxDG.BaseModel.IAppUserRoles
+  commentId: T:FasttraxxDG.BaseModel.IAppUserRoles
+  parent: FasttraxxDG.BaseModel
+  name: IAppUserRoles
+  nameWithType: IAppUserRoles
+  fullName: FasttraxxDG.BaseModel.IAppUserRoles
+- uid: FasttraxxDG.BaseModel.AppUser.AppUserID
+  commentId: P:FasttraxxDG.BaseModel.AppUser.AppUserID
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: AppUserID
+  nameWithType: AppUser.AppUserID
+  fullName: FasttraxxDG.BaseModel.AppUser.AppUserID
+- uid: FasttraxxDG.BaseModel.AppUser.AppUsername
+  commentId: P:FasttraxxDG.BaseModel.AppUser.AppUsername
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: AppUsername
+  nameWithType: AppUser.AppUsername
+  fullName: FasttraxxDG.BaseModel.AppUser.AppUsername
+- uid: FasttraxxDG.BaseModel.AppUser.Salt
+  commentId: P:FasttraxxDG.BaseModel.AppUser.Salt
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: Salt
+  nameWithType: AppUser.Salt
+  fullName: FasttraxxDG.BaseModel.AppUser.Salt
+- uid: FasttraxxDG.BaseModel.AppUser.Password
+  commentId: P:FasttraxxDG.BaseModel.AppUser.Password
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: Password
+  nameWithType: AppUser.Password
+  fullName: FasttraxxDG.BaseModel.AppUser.Password
+- uid: FasttraxxDG.BaseModel.AppUser.CompanyID
+  commentId: P:FasttraxxDG.BaseModel.AppUser.CompanyID
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: CompanyID
+  nameWithType: AppUser.CompanyID
+  fullName: FasttraxxDG.BaseModel.AppUser.CompanyID
+- uid: FasttraxxDG.BaseModel.AppUser.UserTypeID
+  commentId: P:FasttraxxDG.BaseModel.AppUser.UserTypeID
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: UserTypeID
+  nameWithType: AppUser.UserTypeID
+  fullName: FasttraxxDG.BaseModel.AppUser.UserTypeID
+- uid: FasttraxxDG.BaseModel.AppUser.FrontEnd
+  commentId: P:FasttraxxDG.BaseModel.AppUser.FrontEnd
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: FrontEnd
+  nameWithType: AppUser.FrontEnd
+  fullName: FasttraxxDG.BaseModel.AppUser.FrontEnd
+- uid: FasttraxxDG.BaseModel.AppUser.BackEnd
+  commentId: P:FasttraxxDG.BaseModel.AppUser.BackEnd
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: BackEnd
+  nameWithType: AppUser.BackEnd
+  fullName: FasttraxxDG.BaseModel.AppUser.BackEnd
+- uid: FasttraxxDG.BaseModel.AppUser.Admin
+  commentId: P:FasttraxxDG.BaseModel.AppUser.Admin
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: Admin
+  nameWithType: AppUser.Admin
+  fullName: FasttraxxDG.BaseModel.AppUser.Admin
+- uid: FasttraxxDG.BaseModel.AppUser.Activated
+  commentId: P:FasttraxxDG.BaseModel.AppUser.Activated
+  parent: FasttraxxDG.BaseModel.AppUser
+  name: Activated
+  nameWithType: AppUser.Activated
+  fullName: FasttraxxDG.BaseModel.AppUser.Activated
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.AppUserData.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<AppUserData, TDest>()
+  nameWithType: MapperHelper.MapTo<AppUserData, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.AppUserData, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of AppUserData, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.AppUserData, TDest)()
+  name.vb: MapTo(Of AppUserData, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<AppUserData, TDest>
+    nameWithType: MapperHelper.MapTo<AppUserData, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.AppUserData, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of AppUserData, TDest)
+    nameWithType: MapperHelper.MapTo(Of AppUserData, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.AppUserData, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseModel.AppUserData.UserRoleID*
+  commentId: Overload:FasttraxxDG.BaseModel.AppUserData.UserRoleID
+  name: UserRoleID
+  nameWithType: AppUserData.UserRoleID
+  fullName: FasttraxxDG.BaseModel.AppUserData.UserRoleID
+- uid: FasttraxxDG.BaseModel.IAppUserRoles.UserRoleID
+  commentId: P:FasttraxxDG.BaseModel.IAppUserRoles.UserRoleID
+  parent: FasttraxxDG.BaseModel.IAppUserRoles
+  name: UserRoleID
+  nameWithType: IAppUserRoles.UserRoleID
+  fullName: FasttraxxDG.BaseModel.IAppUserRoles.UserRoleID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseModel.AppUserData.OperationID*
+  commentId: Overload:FasttraxxDG.BaseModel.AppUserData.OperationID
+  name: OperationID
+  nameWithType: AppUserData.OperationID
+  fullName: FasttraxxDG.BaseModel.AppUserData.OperationID
+- uid: FasttraxxDG.BaseModel.IAppUserRoles.OperationID
+  commentId: P:FasttraxxDG.BaseModel.IAppUserRoles.OperationID
+  parent: FasttraxxDG.BaseModel.IAppUserRoles
+  name: OperationID
+  nameWithType: IAppUserRoles.OperationID
+  fullName: FasttraxxDG.BaseModel.IAppUserRoles.OperationID
+- uid: FasttraxxDG.BaseModel.AppUserData.Allow*
+  commentId: Overload:FasttraxxDG.BaseModel.AppUserData.Allow
+  name: Allow
+  nameWithType: AppUserData.Allow
+  fullName: FasttraxxDG.BaseModel.AppUserData.Allow
+- uid: FasttraxxDG.BaseModel.IAppUserRoles.Allow
+  commentId: P:FasttraxxDG.BaseModel.IAppUserRoles.Allow
+  parent: FasttraxxDG.BaseModel.IAppUserRoles
+  name: Allow
+  nameWithType: IAppUserRoles.Allow
+  fullName: FasttraxxDG.BaseModel.IAppUserRoles.Allow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

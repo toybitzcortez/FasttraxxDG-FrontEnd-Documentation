@@ -1,0 +1,725 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  id: AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.Main
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.MainDrawer
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings
+  - FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  type: Class
+  source:
+    id: AppSettings
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static class AppSettings
+    content.vb: Public Module AppSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.Main
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.AppSettings.Main
+  id: Main
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: Main
+  nameWithType: AppSettings.Main
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.Main
+  type: Field
+  source:
+    id: Main
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static ShellViewModel Main
+    return:
+      type: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel
+    content.vb: Public Shared Main As ShellViewModel
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.MainDrawer
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.AppSettings.MainDrawer
+  id: MainDrawer
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: MainDrawer
+  nameWithType: AppSettings.MainDrawer
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.MainDrawer
+  type: Field
+  source:
+    id: MainDrawer
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static DrawerHost MainDrawer
+    return:
+      type: MaterialDesignThemes.Wpf.DrawerHost
+    content.vb: Public Shared MainDrawer As DrawerHost
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase(System.String)
+  id: ToTitleCase(System.String)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: ToTitleCase(String)
+  nameWithType: AppSettings.ToTitleCase(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase(System.String)
+  type: Method
+  source:
+    id: ToTitleCase
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static string ToTitleCase(this string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTitleCase(str As String) As String
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  id: RightDrawerShow(System.Object)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  type: Method
+  source:
+    id: RightDrawerShow
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 22
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void RightDrawerShow(this object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub RightDrawerShow(obj As Object)
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  id: LeftDrawerShow(System.Object)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  type: Method
+  source:
+    id: LeftDrawerShow
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 34
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void LeftDrawerShow(this object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub LeftDrawerShow(obj As Object)
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose
+  id: LeftDrawerClose
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: LeftDrawerClose()
+  nameWithType: AppSettings.LeftDrawerClose()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose()
+  type: Method
+  source:
+    id: LeftDrawerClose
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 43
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void LeftDrawerClose()
+    content.vb: Public Shared Sub LeftDrawerClose
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose
+  id: RightDrawerClose
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: RightDrawerClose()
+  nameWithType: AppSettings.RightDrawerClose()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose()
+  type: Method
+  source:
+    id: RightDrawerClose
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 62
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void RightDrawerClose()
+    content.vb: Public Shared Sub RightDrawerClose
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab
+  id: NextTab
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: NextTab()
+  nameWithType: AppSettings.NextTab()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab()
+  type: Method
+  source:
+    id: NextTab
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 81
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void NextTab()
+    content.vb: Public Shared Sub NextTab
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings
+  id: ShowLangSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: ShowLangSettings()
+  nameWithType: AppSettings.ShowLangSettings()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings()
+  type: Method
+  source:
+    id: ShowLangSettings
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 89
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void ShowLangSettings()
+    content.vb: Public Shared Sub ShowLangSettings
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory
+  id: FlushMemory
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  langs:
+  - csharp
+  - vb
+  name: FlushMemory()
+  nameWithType: AppSettings.FlushMemory()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory()
+  type: Method
+  source:
+    id: FlushMemory
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\AppSettings.cs
+    startLine: 93
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void FlushMemory()
+    content.vb: Public Shared Sub FlushMemory
+  overload: FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  name: ShellViewModel
+  nameWithType: ShellViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels
+  commentId: N:FasttraxxDG.FrontEndUI.ViewModels
+  name: FasttraxxDG.FrontEndUI.ViewModels
+  nameWithType: FasttraxxDG.FrontEndUI.ViewModels
+  fullName: FasttraxxDG.FrontEndUI.ViewModels
+- uid: MaterialDesignThemes.Wpf.DrawerHost
+  commentId: T:MaterialDesignThemes.Wpf.DrawerHost
+  parent: MaterialDesignThemes.Wpf
+  isExternal: true
+  name: DrawerHost
+  nameWithType: DrawerHost
+  fullName: MaterialDesignThemes.Wpf.DrawerHost
+- uid: MaterialDesignThemes.Wpf
+  commentId: N:MaterialDesignThemes.Wpf
+  isExternal: true
+  name: MaterialDesignThemes.Wpf
+  nameWithType: MaterialDesignThemes.Wpf
+  fullName: MaterialDesignThemes.Wpf
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase
+  name: ToTitleCase
+  nameWithType: AppSettings.ToTitleCase
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ToTitleCase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  name: RightDrawerShow
+  nameWithType: AppSettings.RightDrawerShow
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  name: LeftDrawerShow
+  nameWithType: AppSettings.LeftDrawerShow
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose
+  name: LeftDrawerClose
+  nameWithType: AppSettings.LeftDrawerClose
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerClose
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose
+  name: RightDrawerClose
+  nameWithType: AppSettings.RightDrawerClose
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerClose
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab
+  name: NextTab
+  nameWithType: AppSettings.NextTab
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.NextTab
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings
+  name: ShowLangSettings
+  nameWithType: AppSettings.ShowLangSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.ShowLangSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory
+  name: FlushMemory
+  nameWithType: AppSettings.FlushMemory
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory

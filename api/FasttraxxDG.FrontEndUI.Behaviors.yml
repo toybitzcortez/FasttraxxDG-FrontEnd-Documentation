@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Behaviors
+  commentId: N:FasttraxxDG.FrontEndUI.Behaviors
+  id: FasttraxxDG.FrontEndUI.Behaviors
+  children:
+  - FasttraxxDG.FrontEndUI.Behaviors.ResponsivenessBehavior
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Behaviors
+  nameWithType: FasttraxxDG.FrontEndUI.Behaviors
+  fullName: FasttraxxDG.FrontEndUI.Behaviors
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Behaviors.ResponsivenessBehavior
+  commentId: T:FasttraxxDG.FrontEndUI.Behaviors.ResponsivenessBehavior
+  name: ResponsivenessBehavior
+  nameWithType: ResponsivenessBehavior
+  fullName: FasttraxxDG.FrontEndUI.Behaviors.ResponsivenessBehavior

@@ -1,0 +1,1223 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  id: NumberConverter
+  parent: FasttraxxDG.FrontEndUI.Converters
+  children:
+  - FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  - FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: NumberConverter
+  nameWithType: NumberConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  type: Class
+  source:
+    id: NumberConverter
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\NumberConverter.cs
+    startLine: 5
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: 'public class NumberConverter : BaseValueConverter<NumberConverter>, IValueConverter'
+    content.vb: >-
+      Public Class NumberConverter
+          Inherits BaseValueConverter(Of NumberConverter)
+          Implements IValueConverter
+  inheritance:
+  - System.Object
+  - System.Windows.Markup.MarkupExtension
+  - FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}
+  implements:
+  - System.Windows.Data.IValueConverter
+  inheritedMembers:
+  - FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.ProvideValue(System.IServiceProvider)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.Converters.NumberConverter.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  id: Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  langs:
+  - csharp
+  - vb
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: NumberConverter.Convert(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\NumberConverter.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: targetType
+      type: System.Type
+    - id: parameter
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Convert(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overridden: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  overload: FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  id: ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: NumberConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    id: ConvertBack
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\NumberConverter.cs
+    startLine: 23
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: public override object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: targetType
+      type: System.Type
+    - id: parameter
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function ConvertBack(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overridden: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  overload: FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: FasttraxxDG.FrontEndUI.Converters
+  commentId: N:FasttraxxDG.FrontEndUI.Converters
+  name: FasttraxxDG.FrontEndUI.Converters
+  nameWithType: FasttraxxDG.FrontEndUI.Converters
+  fullName: FasttraxxDG.FrontEndUI.Converters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.Markup.MarkupExtension
+  commentId: T:System.Windows.Markup.MarkupExtension
+  parent: System.Windows.Markup
+  isExternal: true
+  name: MarkupExtension
+  nameWithType: MarkupExtension
+  fullName: System.Windows.Markup.MarkupExtension
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}
+  parent: FasttraxxDG.FrontEndUI.Converters
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  name: BaseValueConverter<NumberConverter>
+  nameWithType: BaseValueConverter<NumberConverter>
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>
+  nameWithType.vb: BaseValueConverter(Of NumberConverter)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter)
+  name.vb: BaseValueConverter(Of NumberConverter)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+    name: NumberConverter
+    nameWithType: NumberConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+    name: NumberConverter
+    nameWithType: NumberConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Data.IValueConverter
+  commentId: T:System.Windows.Data.IValueConverter
+  parent: System.Windows.Data
+  isExternal: true
+  name: IValueConverter
+  nameWithType: IValueConverter
+  fullName: System.Windows.Data.IValueConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.ProvideValue(System.IServiceProvider)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.ProvideValue(System.IServiceProvider)
+  parent: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+  name: ProvideValue(IServiceProvider)
+  nameWithType: BaseValueConverter<NumberConverter>.ProvideValue(IServiceProvider)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>.ProvideValue(System.IServiceProvider)
+  nameWithType.vb: BaseValueConverter(Of NumberConverter).ProvideValue(IServiceProvider)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter).ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter<NumberConverter>.ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>.ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter(Of NumberConverter).ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter).ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<NumberConverter, TDest>()
+  nameWithType: MapperHelper.MapTo<NumberConverter, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Converters.NumberConverter, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of NumberConverter, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter, TDest)()
+  name.vb: MapTo(Of NumberConverter, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<NumberConverter, TDest>
+    nameWithType: MapperHelper.MapTo<NumberConverter, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Converters.NumberConverter, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of NumberConverter, TDest)
+    nameWithType: MapperHelper.MapTo(Of NumberConverter, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Markup
+  commentId: N:System.Windows.Markup
+  isExternal: true
+  name: System.Windows.Markup
+  nameWithType: System.Windows.Markup
+  fullName: System.Windows.Markup
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  name: BaseValueConverter<T>
+  nameWithType: BaseValueConverter<T>
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>
+  nameWithType.vb: BaseValueConverter(Of T)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T)
+  name.vb: BaseValueConverter(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Data
+  commentId: N:System.Windows.Data
+  isExternal: true
+  name: System.Windows.Data
+  nameWithType: System.Windows.Data
+  fullName: System.Windows.Data
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+  isExternal: true
+  name: ProvideValue(IServiceProvider)
+  nameWithType: BaseValueConverter<T>.ProvideValue(IServiceProvider)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ProvideValue(System.IServiceProvider)
+  nameWithType.vb: BaseValueConverter(Of T).ProvideValue(IServiceProvider)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter<T>.ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter(Of T).ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<NumberConverter>.Convert(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of NumberConverter).Convert(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter).Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter<NumberConverter>.Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter(Of NumberConverter).Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter).Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert
+  name: Convert
+  nameWithType: NumberConverter.Convert
+  fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter.Convert
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  isExternal: true
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<T>.Convert(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of T).Convert(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter<T>.Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter(Of T).Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.NumberConverter}
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<NumberConverter>.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of NumberConverter).ConvertBack(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter).ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter<NumberConverter>.ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.NumberConverter>.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter(Of NumberConverter).ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.NumberConverter).ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack
+  name: ConvertBack
+  nameWithType: NumberConverter.ConvertBack
+  fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter.ConvertBack
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  isExternal: true
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<T>.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of T).ConvertBack(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter<T>.ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter(Of T).ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

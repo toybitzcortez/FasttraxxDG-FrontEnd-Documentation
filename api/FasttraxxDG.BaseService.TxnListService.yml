@@ -1,0 +1,3120 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseService.TxnListService
+  commentId: T:FasttraxxDG.BaseService.TxnListService
+  id: TxnListService
+  parent: FasttraxxDG.BaseService
+  children:
+  - FasttraxxDG.BaseService.TxnListService.#ctor(System.String)
+  - FasttraxxDG.BaseService.TxnListService.BankList
+  - FasttraxxDG.BaseService.TxnListService.CCServiceList
+  - FasttraxxDG.BaseService.TxnListService.DeliveryModeList
+  - FasttraxxDG.BaseService.TxnListService.PurposeList
+  - FasttraxxDG.BaseService.TxnListService.RelationshipsList
+  - FasttraxxDG.BaseService.TxnListService.RemitterTxnList(System.Int32,System.Int32)
+  - FasttraxxDG.BaseService.TxnListService.ServiceList
+  langs:
+  - csharp
+  - vb
+  name: TxnListService
+  nameWithType: TxnListService
+  fullName: FasttraxxDG.BaseService.TxnListService
+  type: Class
+  source:
+    id: TxnListService
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  syntax:
+    content: 'public class TxnListService : BaseDataAccess'
+    content.vb: >-
+      Public Class TxnListService
+
+          Inherits BaseDataAccess
+  inheritance:
+  - System.Object
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  inheritedMembers:
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ConnectionString
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync``1(System.String,Dapper.DynamicParameters)
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,{TU})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{{T}})
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseService.TxnListService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseService.TxnListService.#ctor(System.String)
+  commentId: M:FasttraxxDG.BaseService.TxnListService.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: TxnListService(String)
+  nameWithType: TxnListService.TxnListService(String)
+  fullName: FasttraxxDG.BaseService.TxnListService.TxnListService(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\ndefault constructor with <code data-dev-comment-type=\"paramref\" class=\"paramref\">connection</code>.\n"
+  example: []
+  syntax:
+    content: public TxnListService(string connection)
+    parameters:
+    - id: connection
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(connection As String)
+  overload: FasttraxxDG.BaseService.TxnListService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.RemitterTxnList(System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.BaseService.TxnListService.RemitterTxnList(System.Int32,System.Int32)
+  id: RemitterTxnList(System.Int32,System.Int32)
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: RemitterTxnList(Int32, Int32)
+  nameWithType: TxnListService.RemitterTxnList(Int32, Int32)
+  fullName: FasttraxxDG.BaseService.TxnListService.RemitterTxnList(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: RemitterTxnList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 24
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis method fetches remitter&apos;s txns filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">remitterId</code>\nand <code data-dev-comment-type=\"paramref\" class=\"paramref\">type</code> and return a list of <xref href=\"FasttraxxDG.BaseModel.Overall\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<Overall> RemitterTxnList(int remitterId, int type)
+    parameters:
+    - id: remitterId
+      type: System.Int32
+      description: ''
+    - id: type
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.Overall}
+      description: ''
+    content.vb: Public Function RemitterTxnList(remitterId As Integer, type As Integer) As List(Of Overall)
+  overload: FasttraxxDG.BaseService.TxnListService.RemitterTxnList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.RelationshipsList
+  commentId: M:FasttraxxDG.BaseService.TxnListService.RelationshipsList
+  id: RelationshipsList
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: RelationshipsList()
+  nameWithType: TxnListService.RelationshipsList()
+  fullName: FasttraxxDG.BaseService.TxnListService.RelationshipsList()
+  type: Method
+  source:
+    id: RelationshipsList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 38
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis method fetches relationship details and return a list of <xref href=\"FasttraxxDG.BaseModel.Relationship\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<Relationship> RelationshipsList()
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.Relationship}
+      description: ''
+    content.vb: Public Function RelationshipsList As List(Of Relationship)
+  overload: FasttraxxDG.BaseService.TxnListService.RelationshipsList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.BankList
+  commentId: M:FasttraxxDG.BaseService.TxnListService.BankList
+  id: BankList
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: BankList()
+  nameWithType: TxnListService.BankList()
+  fullName: FasttraxxDG.BaseService.TxnListService.BankList()
+  type: Method
+  source:
+    id: BankList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 46
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis mehod fetches bank details and return a list of <xref href=\"FasttraxxDG.BaseModel.BankData\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public List<BankData> BankList()
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.BankData}
+      description: ''
+    content.vb: Public Function BankList As List(Of BankData)
+  overload: FasttraxxDG.BaseService.TxnListService.BankList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.ServiceList
+  commentId: M:FasttraxxDG.BaseService.TxnListService.ServiceList
+  id: ServiceList
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: ServiceList()
+  nameWithType: TxnListService.ServiceList()
+  fullName: FasttraxxDG.BaseService.TxnListService.ServiceList()
+  type: Method
+  source:
+    id: ServiceList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 54
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis method fetches service details and return a list of <xref href=\"FasttraxxDG.BaseModel.ServiceData\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<ServiceData> ServiceList()
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.ServiceData}
+      description: ''
+    content.vb: Public Function ServiceList As List(Of ServiceData)
+  overload: FasttraxxDG.BaseService.TxnListService.ServiceList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.DeliveryModeList
+  commentId: M:FasttraxxDG.BaseService.TxnListService.DeliveryModeList
+  id: DeliveryModeList
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: DeliveryModeList()
+  nameWithType: TxnListService.DeliveryModeList()
+  fullName: FasttraxxDG.BaseService.TxnListService.DeliveryModeList()
+  type: Method
+  source:
+    id: DeliveryModeList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 62
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis method fetches deliverymode and return a list of <xref href=\"FasttraxxDG.BaseModel.DeliveryModeModel\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public List<DeliveryModeModel> DeliveryModeList()
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.DeliveryModeModel}
+      description: ''
+    content.vb: Public Function DeliveryModeList As List(Of DeliveryModeModel)
+  overload: FasttraxxDG.BaseService.TxnListService.DeliveryModeList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.CCServiceList
+  commentId: M:FasttraxxDG.BaseService.TxnListService.CCServiceList
+  id: CCServiceList
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: CCServiceList()
+  nameWithType: TxnListService.CCServiceList()
+  fullName: FasttraxxDG.BaseService.TxnListService.CCServiceList()
+  type: Method
+  source:
+    id: CCServiceList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 70
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis method fetches cash card details and return a list of <xref href=\"FasttraxxDG.BaseModel.CashCardData\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public List<CashCardData> CCServiceList()
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.CashCardData}
+      description: ''
+    content.vb: Public Function CCServiceList As List(Of CashCardData)
+  overload: FasttraxxDG.BaseService.TxnListService.CCServiceList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseService.TxnListService.PurposeList
+  commentId: M:FasttraxxDG.BaseService.TxnListService.PurposeList
+  id: PurposeList
+  parent: FasttraxxDG.BaseService.TxnListService
+  langs:
+  - csharp
+  - vb
+  name: PurposeList()
+  nameWithType: TxnListService.PurposeList()
+  fullName: FasttraxxDG.BaseService.TxnListService.PurposeList()
+  type: Method
+  source:
+    id: PurposeList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseService\Services\TxnListService.cs
+    startLine: 78
+  assemblies:
+  - FasttraxxDG.BaseService
+  namespace: FasttraxxDG.BaseService
+  summary: "\nthis method fetches purpose details and return a list of <xref href=\"FasttraxxDG.BaseModel.PurposeEntity\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public List<PurposeEntity> PurposeList()
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseModel.PurposeEntity}
+      description: ''
+    content.vb: Public Function PurposeList As List(Of PurposeEntity)
+  overload: FasttraxxDG.BaseService.TxnListService.PurposeList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseService
+  commentId: N:FasttraxxDG.BaseService
+  name: FasttraxxDG.BaseService
+  nameWithType: FasttraxxDG.BaseService
+  fullName: FasttraxxDG.BaseService
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  commentId: T:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  parent: FasttraxxDG.BaseService.DataAccess.Repository
+  name: BaseDataAccess
+  nameWithType: BaseDataAccess
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ConnectionString
+  commentId: P:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ConnectionString
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  name: ConnectionString
+  nameWithType: BaseDataAccess.ConnectionString
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ConnectionString
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+  name: LoadList<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.LoadList<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.LoadList(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList(Of T, TU)(System.String, TU)
+  name.vb: LoadList(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+    name: LoadList<T, TU>
+    nameWithType: BaseDataAccess.LoadList<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+    name: LoadList(Of T, TU)
+    nameWithType: BaseDataAccess.LoadList(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+  name: LoadListQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.LoadListQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.LoadListQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry(Of T, TU)(System.String, TU)
+  name.vb: LoadListQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+    name: LoadListQry<T, TU>
+    nameWithType: BaseDataAccess.LoadListQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+    name: LoadListQry(Of T, TU)
+    nameWithType: BaseDataAccess.LoadListQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+  name: GetData<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetData<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetData(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData(Of T, TU)(System.String, TU)
+  name.vb: GetData(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+    name: GetData<T, TU>
+    nameWithType: BaseDataAccess.GetData<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+    name: GetData(Of T, TU)
+    nameWithType: BaseDataAccess.GetData(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+  name: GetDataQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry(Of T, TU)(System.String, TU)
+  name.vb: GetDataQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+    name: GetDataQry<T, TU>
+    nameWithType: BaseDataAccess.GetDataQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+    name: GetDataQry(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+  name: CrudBase<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.CrudBase<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.CrudBase(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase(Of T, TU)(System.String, TU)
+  name.vb: CrudBase(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+    name: CrudBase<T, TU>
+    nameWithType: BaseDataAccess.CrudBase<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+    name: CrudBase(Of T, TU)
+    nameWithType: BaseDataAccess.CrudBase(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+  name: CrudBaseQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.CrudBaseQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.CrudBaseQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry(Of T, TU)(System.String, TU)
+  name.vb: CrudBaseQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+    name: CrudBaseQry<T, TU>
+    nameWithType: BaseDataAccess.CrudBaseQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+    name: CrudBaseQry(Of T, TU)
+    nameWithType: BaseDataAccess.CrudBaseQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+  name: Execute<TU>(String, TU)
+  nameWithType: BaseDataAccess.Execute<TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute<TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.Execute(Of TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute(Of TU)(System.String, TU)
+  name.vb: Execute(Of TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+    name: Execute<TU>
+    nameWithType: BaseDataAccess.Execute<TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute<TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+    name: Execute(Of TU)
+    nameWithType: BaseDataAccess.Execute(Of TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute(Of TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+  name: ExecuteQry<TU>(String, TU)
+  nameWithType: BaseDataAccess.ExecuteQry<TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry<TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.ExecuteQry(Of TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry(Of TU)(System.String, TU)
+  name.vb: ExecuteQry(Of TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+    name: ExecuteQry<TU>
+    nameWithType: BaseDataAccess.ExecuteQry<TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry<TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+    name: ExecuteQry(Of TU)
+    nameWithType: BaseDataAccess.ExecuteQry(Of TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry(Of TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+  name: GetDataAsync<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataAsync<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataAsync(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync(Of T, TU)(System.String, TU)
+  name.vb: GetDataAsync(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+    name: GetDataAsync<T, TU>
+    nameWithType: BaseDataAccess.GetDataAsync<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+    name: GetDataAsync(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataAsync(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+  name: LoadListAsync<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.LoadListAsync<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.LoadListAsync(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync(Of T, TU)(System.String, TU)
+  name.vb: LoadListAsync(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+    name: LoadListAsync<T, TU>
+    nameWithType: BaseDataAccess.LoadListAsync<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+    name: LoadListAsync(Of T, TU)
+    nameWithType: BaseDataAccess.LoadListAsync(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+  name: CrudBaseAsync<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.CrudBaseAsync<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.CrudBaseAsync(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync(Of T, TU)(System.String, TU)
+  name.vb: CrudBaseAsync(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+    name: CrudBaseAsync<T, TU>
+    nameWithType: BaseDataAccess.CrudBaseAsync<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+    name: CrudBaseAsync(Of T, TU)
+    nameWithType: BaseDataAccess.CrudBaseAsync(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+  name: ExecuteAsync<TU>(String, TU)
+  nameWithType: BaseDataAccess.ExecuteAsync<TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync<TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.ExecuteAsync(Of TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync(Of TU)(System.String, TU)
+  name.vb: ExecuteAsync(Of TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+    name: ExecuteAsync<TU>
+    nameWithType: BaseDataAccess.ExecuteAsync<TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync<TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+    name: ExecuteAsync(Of TU)
+    nameWithType: BaseDataAccess.ExecuteAsync(Of TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync(Of TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync``1(System.String,Dapper.DynamicParameters)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync``1(System.String,Dapper.DynamicParameters)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  isExternal: true
+  name: ExecuteReturnScalarAsync<T>(String, DynamicParameters)
+  nameWithType: BaseDataAccess.ExecuteReturnScalarAsync<T>(String, DynamicParameters)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync<T>(System.String, Dapper.DynamicParameters)
+  nameWithType.vb: BaseDataAccess.ExecuteReturnScalarAsync(Of T)(String, DynamicParameters)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync(Of T)(System.String, Dapper.DynamicParameters)
+  name.vb: ExecuteReturnScalarAsync(Of T)(String, DynamicParameters)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync``1(System.String,Dapper.DynamicParameters)
+    name: ExecuteReturnScalarAsync<T>
+    nameWithType: BaseDataAccess.ExecuteReturnScalarAsync<T>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Dapper.DynamicParameters
+    name: DynamicParameters
+    nameWithType: DynamicParameters
+    fullName: Dapper.DynamicParameters
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync``1(System.String,Dapper.DynamicParameters)
+    name: ExecuteReturnScalarAsync(Of T)
+    nameWithType: BaseDataAccess.ExecuteReturnScalarAsync(Of T)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteReturnScalarAsync(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Dapper.DynamicParameters
+    name: DynamicParameters
+    nameWithType: DynamicParameters
+    fullName: Dapper.DynamicParameters
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+  name: GetDataType<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataType<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataType(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType(Of T, TU)(System.String, TU)
+  name.vb: GetDataType(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+    name: GetDataType<T, TU>
+    nameWithType: BaseDataAccess.GetDataType<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+    name: GetDataType(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataType(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+  name: GetDataTypeQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataTypeQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataTypeQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry(Of T, TU)(System.String, TU)
+  name.vb: GetDataTypeQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+    name: GetDataTypeQry<T, TU>
+    nameWithType: BaseDataAccess.GetDataTypeQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+    name: GetDataTypeQry(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataTypeQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,{TU})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+  name: ExecuteUdt<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.ExecuteUdt<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.ExecuteUdt(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt(Of T, TU)(System.String, TU)
+  name.vb: ExecuteUdt(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+    name: ExecuteUdt<T, TU>
+    nameWithType: BaseDataAccess.ExecuteUdt<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+    name: ExecuteUdt(Of T, TU)
+    nameWithType: BaseDataAccess.ExecuteUdt(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{{T}})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  definition: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+  name: ToDataTable<T>(List<T>)
+  nameWithType: BaseDataAccess.ToDataTable<T>(List<T>)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable<T>(System.Collections.Generic.List<T>)
+  nameWithType.vb: BaseDataAccess.ToDataTable(Of T)(List(Of T))
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable(Of T)(System.Collections.Generic.List(Of T))
+  name.vb: ToDataTable(Of T)(List(Of T))
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+    name: ToDataTable<T>
+    nameWithType: BaseDataAccess.ToDataTable<T>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+    name: ToDataTable(Of T)
+    nameWithType: BaseDataAccess.ToDataTable(Of T)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+  parent: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  name: TestConnection()
+  nameWithType: BaseDataAccess.TestConnection()
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+    name: TestConnection
+    nameWithType: BaseDataAccess.TestConnection
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+    name: TestConnection
+    nameWithType: BaseDataAccess.TestConnection
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.TestConnection
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.TxnListService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TxnListService, TDest>()
+  nameWithType: MapperHelper.MapTo<TxnListService, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseService.TxnListService, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of TxnListService, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseService.TxnListService, TDest)()
+  name.vb: MapTo(Of TxnListService, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<TxnListService, TDest>
+    nameWithType: MapperHelper.MapTo<TxnListService, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseService.TxnListService, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of TxnListService, TDest)
+    nameWithType: MapperHelper.MapTo(Of TxnListService, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseService.TxnListService, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseService.DataAccess.Repository
+  commentId: N:FasttraxxDG.BaseService.DataAccess.Repository
+  name: FasttraxxDG.BaseService.DataAccess.Repository
+  nameWithType: FasttraxxDG.BaseService.DataAccess.Repository
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+  isExternal: true
+  name: LoadList<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.LoadList<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.LoadList(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList(Of T, TU)(System.String, TU)
+  name.vb: LoadList(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+    name: LoadList<T, TU>
+    nameWithType: BaseDataAccess.LoadList<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList``2(System.String,``1)
+    name: LoadList(Of T, TU)
+    nameWithType: BaseDataAccess.LoadList(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadList(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+  isExternal: true
+  name: LoadListQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.LoadListQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.LoadListQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry(Of T, TU)(System.String, TU)
+  name.vb: LoadListQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+    name: LoadListQry<T, TU>
+    nameWithType: BaseDataAccess.LoadListQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry``2(System.String,``1)
+    name: LoadListQry(Of T, TU)
+    nameWithType: BaseDataAccess.LoadListQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+  isExternal: true
+  name: GetData<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetData<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetData(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData(Of T, TU)(System.String, TU)
+  name.vb: GetData(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+    name: GetData<T, TU>
+    nameWithType: BaseDataAccess.GetData<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData``2(System.String,``1)
+    name: GetData(Of T, TU)
+    nameWithType: BaseDataAccess.GetData(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetData(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+  isExternal: true
+  name: GetDataQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry(Of T, TU)(System.String, TU)
+  name.vb: GetDataQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+    name: GetDataQry<T, TU>
+    nameWithType: BaseDataAccess.GetDataQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry``2(System.String,``1)
+    name: GetDataQry(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+  isExternal: true
+  name: CrudBase<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.CrudBase<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.CrudBase(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase(Of T, TU)(System.String, TU)
+  name.vb: CrudBase(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+    name: CrudBase<T, TU>
+    nameWithType: BaseDataAccess.CrudBase<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase``2(System.String,``1)
+    name: CrudBase(Of T, TU)
+    nameWithType: BaseDataAccess.CrudBase(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBase(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+  isExternal: true
+  name: CrudBaseQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.CrudBaseQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.CrudBaseQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry(Of T, TU)(System.String, TU)
+  name.vb: CrudBaseQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+    name: CrudBaseQry<T, TU>
+    nameWithType: BaseDataAccess.CrudBaseQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry``2(System.String,``1)
+    name: CrudBaseQry(Of T, TU)
+    nameWithType: BaseDataAccess.CrudBaseQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+  isExternal: true
+  name: Execute<TU>(String, TU)
+  nameWithType: BaseDataAccess.Execute<TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute<TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.Execute(Of TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute(Of TU)(System.String, TU)
+  name.vb: Execute(Of TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+    name: Execute<TU>
+    nameWithType: BaseDataAccess.Execute<TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute<TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute``1(System.String,``0)
+    name: Execute(Of TU)
+    nameWithType: BaseDataAccess.Execute(Of TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.Execute(Of TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+  isExternal: true
+  name: ExecuteQry<TU>(String, TU)
+  nameWithType: BaseDataAccess.ExecuteQry<TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry<TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.ExecuteQry(Of TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry(Of TU)(System.String, TU)
+  name.vb: ExecuteQry(Of TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+    name: ExecuteQry<TU>
+    nameWithType: BaseDataAccess.ExecuteQry<TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry<TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry``1(System.String,``0)
+    name: ExecuteQry(Of TU)
+    nameWithType: BaseDataAccess.ExecuteQry(Of TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteQry(Of TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+  isExternal: true
+  name: GetDataAsync<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataAsync<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataAsync(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync(Of T, TU)(System.String, TU)
+  name.vb: GetDataAsync(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+    name: GetDataAsync<T, TU>
+    nameWithType: BaseDataAccess.GetDataAsync<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync``2(System.String,``1)
+    name: GetDataAsync(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataAsync(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataAsync(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+  isExternal: true
+  name: LoadListAsync<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.LoadListAsync<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.LoadListAsync(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync(Of T, TU)(System.String, TU)
+  name.vb: LoadListAsync(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+    name: LoadListAsync<T, TU>
+    nameWithType: BaseDataAccess.LoadListAsync<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync``2(System.String,``1)
+    name: LoadListAsync(Of T, TU)
+    nameWithType: BaseDataAccess.LoadListAsync(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.LoadListAsync(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+  isExternal: true
+  name: CrudBaseAsync<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.CrudBaseAsync<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.CrudBaseAsync(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync(Of T, TU)(System.String, TU)
+  name.vb: CrudBaseAsync(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+    name: CrudBaseAsync<T, TU>
+    nameWithType: BaseDataAccess.CrudBaseAsync<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync``2(System.String,``1)
+    name: CrudBaseAsync(Of T, TU)
+    nameWithType: BaseDataAccess.CrudBaseAsync(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.CrudBaseAsync(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+  isExternal: true
+  name: ExecuteAsync<TU>(String, TU)
+  nameWithType: BaseDataAccess.ExecuteAsync<TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync<TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.ExecuteAsync(Of TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync(Of TU)(System.String, TU)
+  name.vb: ExecuteAsync(Of TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+    name: ExecuteAsync<TU>
+    nameWithType: BaseDataAccess.ExecuteAsync<TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync<TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync``1(System.String,``0)
+    name: ExecuteAsync(Of TU)
+    nameWithType: BaseDataAccess.ExecuteAsync(Of TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteAsync(Of TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+  isExternal: true
+  name: GetDataType<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataType<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataType(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType(Of T, TU)(System.String, TU)
+  name.vb: GetDataType(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+    name: GetDataType<T, TU>
+    nameWithType: BaseDataAccess.GetDataType<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType``2(System.String,``1)
+    name: GetDataType(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataType(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataType(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+  isExternal: true
+  name: GetDataTypeQry<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.GetDataTypeQry<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.GetDataTypeQry(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry(Of T, TU)(System.String, TU)
+  name.vb: GetDataTypeQry(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+    name: GetDataTypeQry<T, TU>
+    nameWithType: BaseDataAccess.GetDataTypeQry<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry``2(System.String,``1)
+    name: GetDataTypeQry(Of T, TU)
+    nameWithType: BaseDataAccess.GetDataTypeQry(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.GetDataTypeQry(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+  isExternal: true
+  name: ExecuteUdt<T, TU>(String, TU)
+  nameWithType: BaseDataAccess.ExecuteUdt<T, TU>(String, TU)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt<T, TU>(System.String, TU)
+  nameWithType.vb: BaseDataAccess.ExecuteUdt(Of T, TU)(String, TU)
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt(Of T, TU)(System.String, TU)
+  name.vb: ExecuteUdt(Of T, TU)(String, TU)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+    name: ExecuteUdt<T, TU>
+    nameWithType: BaseDataAccess.ExecuteUdt<T, TU>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt<T, TU>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt``2(System.String,``1)
+    name: ExecuteUdt(Of T, TU)
+    nameWithType: BaseDataAccess.ExecuteUdt(Of T, TU)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ExecuteUdt(Of T, TU)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TU
+    nameWithType: TU
+    fullName: TU
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+  commentId: M:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+  isExternal: true
+  name: ToDataTable<T>(List<T>)
+  nameWithType: BaseDataAccess.ToDataTable<T>(List<T>)
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable<T>(System.Collections.Generic.List<T>)
+  nameWithType.vb: BaseDataAccess.ToDataTable(Of T)(List(Of T))
+  fullName.vb: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable(Of T)(System.Collections.Generic.List(Of T))
+  name.vb: ToDataTable(Of T)(List(Of T))
+  spec.csharp:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+    name: ToDataTable<T>
+    nameWithType: BaseDataAccess.ToDataTable<T>
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable``1(System.Collections.Generic.List{``0})
+    name: ToDataTable(Of T)
+    nameWithType: BaseDataAccess.ToDataTable(Of T)
+    fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.ToDataTable(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseService.TxnListService.#ctor*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.#ctor
+  name: TxnListService
+  nameWithType: TxnListService.TxnListService
+  fullName: FasttraxxDG.BaseService.TxnListService.TxnListService
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseModel.Overall
+  commentId: T:FasttraxxDG.BaseModel.Overall
+  parent: FasttraxxDG.BaseModel
+  name: Overall
+  nameWithType: Overall
+  fullName: FasttraxxDG.BaseModel.Overall
+- uid: FasttraxxDG.BaseService.TxnListService.RemitterTxnList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.RemitterTxnList
+  name: RemitterTxnList
+  nameWithType: TxnListService.RemitterTxnList
+  fullName: FasttraxxDG.BaseService.TxnListService.RemitterTxnList
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.Overall}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.Overall}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Overall>
+  nameWithType: List<Overall>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.Overall>
+  nameWithType.vb: List(Of Overall)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.Overall)
+  name.vb: List(Of Overall)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.Overall
+    name: Overall
+    nameWithType: Overall
+    fullName: FasttraxxDG.BaseModel.Overall
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.Overall
+    name: Overall
+    nameWithType: Overall
+    fullName: FasttraxxDG.BaseModel.Overall
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: FasttraxxDG.BaseModel.Relationship
+  commentId: T:FasttraxxDG.BaseModel.Relationship
+  parent: FasttraxxDG.BaseModel
+  name: Relationship
+  nameWithType: Relationship
+  fullName: FasttraxxDG.BaseModel.Relationship
+- uid: FasttraxxDG.BaseService.TxnListService.RelationshipsList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.RelationshipsList
+  name: RelationshipsList
+  nameWithType: TxnListService.RelationshipsList
+  fullName: FasttraxxDG.BaseService.TxnListService.RelationshipsList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.Relationship}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.Relationship}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Relationship>
+  nameWithType: List<Relationship>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.Relationship>
+  nameWithType.vb: List(Of Relationship)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.Relationship)
+  name.vb: List(Of Relationship)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.Relationship
+    name: Relationship
+    nameWithType: Relationship
+    fullName: FasttraxxDG.BaseModel.Relationship
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.Relationship
+    name: Relationship
+    nameWithType: Relationship
+    fullName: FasttraxxDG.BaseModel.Relationship
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.BankData
+  commentId: T:FasttraxxDG.BaseModel.BankData
+  parent: FasttraxxDG.BaseModel
+  name: BankData
+  nameWithType: BankData
+  fullName: FasttraxxDG.BaseModel.BankData
+- uid: FasttraxxDG.BaseService.TxnListService.BankList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.BankList
+  name: BankList
+  nameWithType: TxnListService.BankList
+  fullName: FasttraxxDG.BaseService.TxnListService.BankList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.BankData}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.BankData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BankData>
+  nameWithType: List<BankData>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.BankData>
+  nameWithType.vb: List(Of BankData)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.BankData)
+  name.vb: List(Of BankData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.BankData
+    name: BankData
+    nameWithType: BankData
+    fullName: FasttraxxDG.BaseModel.BankData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.BankData
+    name: BankData
+    nameWithType: BankData
+    fullName: FasttraxxDG.BaseModel.BankData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.ServiceData
+  commentId: T:FasttraxxDG.BaseModel.ServiceData
+  parent: FasttraxxDG.BaseModel
+  name: ServiceData
+  nameWithType: ServiceData
+  fullName: FasttraxxDG.BaseModel.ServiceData
+- uid: FasttraxxDG.BaseService.TxnListService.ServiceList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.ServiceList
+  name: ServiceList
+  nameWithType: TxnListService.ServiceList
+  fullName: FasttraxxDG.BaseService.TxnListService.ServiceList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.ServiceData}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.ServiceData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ServiceData>
+  nameWithType: List<ServiceData>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.ServiceData>
+  nameWithType.vb: List(Of ServiceData)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.ServiceData)
+  name.vb: List(Of ServiceData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.ServiceData
+    name: ServiceData
+    nameWithType: ServiceData
+    fullName: FasttraxxDG.BaseModel.ServiceData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.ServiceData
+    name: ServiceData
+    nameWithType: ServiceData
+    fullName: FasttraxxDG.BaseModel.ServiceData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.DeliveryModeModel
+  commentId: T:FasttraxxDG.BaseModel.DeliveryModeModel
+  parent: FasttraxxDG.BaseModel
+  name: DeliveryModeModel
+  nameWithType: DeliveryModeModel
+  fullName: FasttraxxDG.BaseModel.DeliveryModeModel
+- uid: FasttraxxDG.BaseService.TxnListService.DeliveryModeList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.DeliveryModeList
+  name: DeliveryModeList
+  nameWithType: TxnListService.DeliveryModeList
+  fullName: FasttraxxDG.BaseService.TxnListService.DeliveryModeList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.DeliveryModeModel}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.DeliveryModeModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DeliveryModeModel>
+  nameWithType: List<DeliveryModeModel>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.DeliveryModeModel>
+  nameWithType.vb: List(Of DeliveryModeModel)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.DeliveryModeModel)
+  name.vb: List(Of DeliveryModeModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.DeliveryModeModel
+    name: DeliveryModeModel
+    nameWithType: DeliveryModeModel
+    fullName: FasttraxxDG.BaseModel.DeliveryModeModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.DeliveryModeModel
+    name: DeliveryModeModel
+    nameWithType: DeliveryModeModel
+    fullName: FasttraxxDG.BaseModel.DeliveryModeModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.CashCardData
+  commentId: T:FasttraxxDG.BaseModel.CashCardData
+  parent: FasttraxxDG.BaseModel
+  name: CashCardData
+  nameWithType: CashCardData
+  fullName: FasttraxxDG.BaseModel.CashCardData
+- uid: FasttraxxDG.BaseService.TxnListService.CCServiceList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.CCServiceList
+  name: CCServiceList
+  nameWithType: TxnListService.CCServiceList
+  fullName: FasttraxxDG.BaseService.TxnListService.CCServiceList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.CashCardData}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.CashCardData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<CashCardData>
+  nameWithType: List<CashCardData>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.CashCardData>
+  nameWithType.vb: List(Of CashCardData)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.CashCardData)
+  name.vb: List(Of CashCardData)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.CashCardData
+    name: CashCardData
+    nameWithType: CashCardData
+    fullName: FasttraxxDG.BaseModel.CashCardData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.CashCardData
+    name: CashCardData
+    nameWithType: CashCardData
+    fullName: FasttraxxDG.BaseModel.CashCardData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.PurposeEntity
+  commentId: T:FasttraxxDG.BaseModel.PurposeEntity
+  parent: FasttraxxDG.BaseModel
+  name: PurposeEntity
+  nameWithType: PurposeEntity
+  fullName: FasttraxxDG.BaseModel.PurposeEntity
+- uid: FasttraxxDG.BaseService.TxnListService.PurposeList*
+  commentId: Overload:FasttraxxDG.BaseService.TxnListService.PurposeList
+  name: PurposeList
+  nameWithType: TxnListService.PurposeList
+  fullName: FasttraxxDG.BaseService.TxnListService.PurposeList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseModel.PurposeEntity}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseModel.PurposeEntity}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PurposeEntity>
+  nameWithType: List<PurposeEntity>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseModel.PurposeEntity>
+  nameWithType.vb: List(Of PurposeEntity)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseModel.PurposeEntity)
+  name.vb: List(Of PurposeEntity)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseModel.PurposeEntity
+    name: PurposeEntity
+    nameWithType: PurposeEntity
+    fullName: FasttraxxDG.BaseModel.PurposeEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseModel.PurposeEntity
+    name: PurposeEntity
+    nameWithType: PurposeEntity
+    fullName: FasttraxxDG.BaseModel.PurposeEntity
+  - name: )
+    nameWithType: )
+    fullName: )

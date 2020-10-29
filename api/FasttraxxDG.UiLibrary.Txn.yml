@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UiLibrary.Txn
+  commentId: N:FasttraxxDG.UiLibrary.Txn
+  id: FasttraxxDG.UiLibrary.Txn
+  children:
+  - FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.UiLibrary.Txn
+  nameWithType: FasttraxxDG.UiLibrary.Txn
+  fullName: FasttraxxDG.UiLibrary.Txn
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.UiLibrary
+references:
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel
+  commentId: T:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel
+  parent: FasttraxxDG.UiLibrary.Txn
+  name: TxnSummaryVmModel
+  nameWithType: TxnSummaryVmModel
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel
+- uid: FasttraxxDG.UiLibrary.Txn
+  commentId: N:FasttraxxDG.UiLibrary.Txn
+  name: FasttraxxDG.UiLibrary.Txn
+  nameWithType: FasttraxxDG.UiLibrary.Txn
+  fullName: FasttraxxDG.UiLibrary.Txn

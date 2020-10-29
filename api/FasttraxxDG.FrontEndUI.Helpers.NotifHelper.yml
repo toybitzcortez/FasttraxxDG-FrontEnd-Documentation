@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  id: NotifHelper
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.Opt
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation(System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess(System.String)
+  langs:
+  - csharp
+  - vb
+  name: NotifHelper
+  nameWithType: NotifHelper
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  type: Class
+  source:
+    id: NotifHelper
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static class NotifHelper
+    content.vb: Public Module NotifHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.Opt
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.Opt
+  id: Opt
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: Opt
+  nameWithType: NotifHelper.Opt
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.Opt
+  type: Field
+  source:
+    id: Opt
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static readonly MessageOptions Opt
+    return:
+      type: ToastNotifications.Core.MessageOptions
+    content.vb: Public Shared ReadOnly Opt As MessageOptions
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError(System.String)
+  id: ShowError(System.String)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: ShowError(String)
+  nameWithType: NotifHelper.ShowError(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError(System.String)
+  type: Method
+  source:
+    id: ShowError
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 36
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void ShowError(this string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ShowError(message As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation(System.String)
+  id: ShowInformation(System.String)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: ShowInformation(String)
+  nameWithType: NotifHelper.ShowInformation(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation(System.String)
+  type: Method
+  source:
+    id: ShowInformation
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 41
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void ShowInformation(this string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ShowInformation(message As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess(System.String)
+  id: ShowSuccess(System.String)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: ShowSuccess(String)
+  nameWithType: NotifHelper.ShowSuccess(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess(System.String)
+  type: Method
+  source:
+    id: ShowSuccess
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 46
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void ShowSuccess(this string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ShowSuccess(message As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload
+  id: OnUnload
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: OnUnload()
+  nameWithType: NotifHelper.OnUnload()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload()
+  type: Method
+  source:
+    id: OnUnload
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 51
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void OnUnload()
+    content.vb: Public Shared Sub OnUnload
+  overload: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages(System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages(System.String)
+  id: ClearMessages(System.String)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearMessages(String)
+  nameWithType: NotifHelper.ClearMessages(String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages(System.String)
+  type: Method
+  source:
+    id: ClearMessages
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 55
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void ClearMessages(this string msg)
+    parameters:
+    - id: msg
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ClearMessages(msg As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll
+  id: ClearAll
+  parent: FasttraxxDG.FrontEndUI.Helpers.NotifHelper
+  langs:
+  - csharp
+  - vb
+  name: ClearAll()
+  nameWithType: NotifHelper.ClearAll()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll()
+  type: Method
+  source:
+    id: ClearAll
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\NotifHelper.cs
+    startLine: 59
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void ClearAll()
+    content.vb: Public Shared Sub ClearAll
+  overload: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ToastNotifications.Core.MessageOptions
+  commentId: T:ToastNotifications.Core.MessageOptions
+  parent: ToastNotifications.Core
+  isExternal: true
+  name: MessageOptions
+  nameWithType: MessageOptions
+  fullName: ToastNotifications.Core.MessageOptions
+- uid: ToastNotifications.Core
+  commentId: N:ToastNotifications.Core
+  isExternal: true
+  name: ToastNotifications.Core
+  nameWithType: ToastNotifications.Core
+  fullName: ToastNotifications.Core
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError
+  name: ShowError
+  nameWithType: NotifHelper.ShowError
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowError
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation
+  name: ShowInformation
+  nameWithType: NotifHelper.ShowInformation
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowInformation
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess
+  name: ShowSuccess
+  nameWithType: NotifHelper.ShowSuccess
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ShowSuccess
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload
+  name: OnUnload
+  nameWithType: NotifHelper.OnUnload
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.OnUnload
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages
+  name: ClearMessages
+  nameWithType: NotifHelper.ClearMessages
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearMessages
+- uid: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll
+  name: ClearAll
+  nameWithType: NotifHelper.ClearAll
+  fullName: FasttraxxDG.FrontEndUI.Helpers.NotifHelper.ClearAll

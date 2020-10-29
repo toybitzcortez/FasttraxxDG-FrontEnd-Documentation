@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.State.Main
+  commentId: N:FasttraxxDG.FrontEndUI.State.Main
+  id: FasttraxxDG.FrontEndUI.State.Main
+  children:
+  - FasttraxxDG.FrontEndUI.State.Main.IShellVm
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.State.Main
+  nameWithType: FasttraxxDG.FrontEndUI.State.Main
+  fullName: FasttraxxDG.FrontEndUI.State.Main
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.State.Main.IShellVm
+  commentId: T:FasttraxxDG.FrontEndUI.State.Main.IShellVm
+  name: IShellVm
+  nameWithType: IShellVm
+  fullName: FasttraxxDG.FrontEndUI.State.Main.IShellVm

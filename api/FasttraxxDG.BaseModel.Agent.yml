@@ -1,0 +1,1337 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseModel.Agent
+  commentId: T:FasttraxxDG.BaseModel.Agent
+  id: Agent
+  parent: FasttraxxDG.BaseModel
+  children:
+  - FasttraxxDG.BaseModel.Agent.Address
+  - FasttraxxDG.BaseModel.Agent.AgentID
+  - FasttraxxDG.BaseModel.Agent.AgentName
+  - FasttraxxDG.BaseModel.Agent.Arc
+  - FasttraxxDG.BaseModel.Agent.ArcExpiry
+  - FasttraxxDG.BaseModel.Agent.ArcPic
+  - FasttraxxDG.BaseModel.Agent.BirthDate
+  - FasttraxxDG.BaseModel.Agent.CashFund
+  - FasttraxxDG.BaseModel.Agent.Commission
+  - FasttraxxDG.BaseModel.Agent.CompanyID
+  - FasttraxxDG.BaseModel.Agent.CreatorID
+  - FasttraxxDG.BaseModel.Agent.DateCreated
+  - FasttraxxDG.BaseModel.Agent.Fullname
+  - FasttraxxDG.BaseModel.Agent.IsVip
+  - FasttraxxDG.BaseModel.Agent.Limit
+  - FasttraxxDG.BaseModel.Agent.ProfilePic
+  - FasttraxxDG.BaseModel.Agent.Remarks
+  - FasttraxxDG.BaseModel.Agent.SecurityFund
+  - FasttraxxDG.BaseModel.Agent.Telephone
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: Agent
+  fullName: FasttraxxDG.BaseModel.Agent
+  type: Class
+  source:
+    id: Agent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 4
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public class Agent
+    content.vb: Public Class Agent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseModel.Agent.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseModel.Agent.AgentID
+  commentId: P:FasttraxxDG.BaseModel.Agent.AgentID
+  id: AgentID
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: AgentID
+  nameWithType: Agent.AgentID
+  fullName: FasttraxxDG.BaseModel.Agent.AgentID
+  type: Property
+  source:
+    id: AgentID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int AgentID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AgentID As Integer
+  overload: FasttraxxDG.BaseModel.Agent.AgentID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.AgentName
+  commentId: P:FasttraxxDG.BaseModel.Agent.AgentName
+  id: AgentName
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: AgentName
+  nameWithType: Agent.AgentName
+  fullName: FasttraxxDG.BaseModel.Agent.AgentName
+  type: Property
+  source:
+    id: AgentName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string AgentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentName As String
+  overload: FasttraxxDG.BaseModel.Agent.AgentName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.CompanyID
+  commentId: P:FasttraxxDG.BaseModel.Agent.CompanyID
+  id: CompanyID
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: CompanyID
+  nameWithType: Agent.CompanyID
+  fullName: FasttraxxDG.BaseModel.Agent.CompanyID
+  type: Property
+  source:
+    id: CompanyID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int CompanyID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CompanyID As Integer
+  overload: FasttraxxDG.BaseModel.Agent.CompanyID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.CreatorID
+  commentId: P:FasttraxxDG.BaseModel.Agent.CreatorID
+  id: CreatorID
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: CreatorID
+  nameWithType: Agent.CreatorID
+  fullName: FasttraxxDG.BaseModel.Agent.CreatorID
+  type: Property
+  source:
+    id: CreatorID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 18
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int CreatorID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CreatorID As Integer
+  overload: FasttraxxDG.BaseModel.Agent.CreatorID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Address
+  commentId: P:FasttraxxDG.BaseModel.Agent.Address
+  id: Address
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Agent.Address
+  fullName: FasttraxxDG.BaseModel.Agent.Address
+  type: Property
+  source:
+    id: Address
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 22
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: FasttraxxDG.BaseModel.Agent.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Telephone
+  commentId: P:FasttraxxDG.BaseModel.Agent.Telephone
+  id: Telephone
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Telephone
+  nameWithType: Agent.Telephone
+  fullName: FasttraxxDG.BaseModel.Agent.Telephone
+  type: Property
+  source:
+    id: Telephone
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 26
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string Telephone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Telephone As String
+  overload: FasttraxxDG.BaseModel.Agent.Telephone*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.DateCreated
+  commentId: P:FasttraxxDG.BaseModel.Agent.DateCreated
+  id: DateCreated
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: DateCreated
+  nameWithType: Agent.DateCreated
+  fullName: FasttraxxDG.BaseModel.Agent.DateCreated
+  type: Property
+  source:
+    id: DateCreated
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 30
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public DateTime DateCreated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DateCreated As Date
+  overload: FasttraxxDG.BaseModel.Agent.DateCreated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Limit
+  commentId: P:FasttraxxDG.BaseModel.Agent.Limit
+  id: Limit
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: Agent.Limit
+  fullName: FasttraxxDG.BaseModel.Agent.Limit
+  type: Property
+  source:
+    id: Limit
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 34
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Limit As Double
+  overload: FasttraxxDG.BaseModel.Agent.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.CashFund
+  commentId: P:FasttraxxDG.BaseModel.Agent.CashFund
+  id: CashFund
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: CashFund
+  nameWithType: Agent.CashFund
+  fullName: FasttraxxDG.BaseModel.Agent.CashFund
+  type: Property
+  source:
+    id: CashFund
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 38
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double CashFund { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property CashFund As Double
+  overload: FasttraxxDG.BaseModel.Agent.CashFund*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Commission
+  commentId: P:FasttraxxDG.BaseModel.Agent.Commission
+  id: Commission
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Commission
+  nameWithType: Agent.Commission
+  fullName: FasttraxxDG.BaseModel.Agent.Commission
+  type: Property
+  source:
+    id: Commission
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 42
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double Commission { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Commission As Double
+  overload: FasttraxxDG.BaseModel.Agent.Commission*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Fullname
+  commentId: P:FasttraxxDG.BaseModel.Agent.Fullname
+  id: Fullname
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Fullname
+  nameWithType: Agent.Fullname
+  fullName: FasttraxxDG.BaseModel.Agent.Fullname
+  type: Property
+  source:
+    id: Fullname
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 46
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string Fullname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fullname As String
+  overload: FasttraxxDG.BaseModel.Agent.Fullname*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.BirthDate
+  commentId: P:FasttraxxDG.BaseModel.Agent.BirthDate
+  id: BirthDate
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: BirthDate
+  nameWithType: Agent.BirthDate
+  fullName: FasttraxxDG.BaseModel.Agent.BirthDate
+  type: Property
+  source:
+    id: BirthDate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 50
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public DateTime BirthDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property BirthDate As Date
+  overload: FasttraxxDG.BaseModel.Agent.BirthDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Arc
+  commentId: P:FasttraxxDG.BaseModel.Agent.Arc
+  id: Arc
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Arc
+  nameWithType: Agent.Arc
+  fullName: FasttraxxDG.BaseModel.Agent.Arc
+  type: Property
+  source:
+    id: Arc
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 54
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string Arc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Arc As String
+  overload: FasttraxxDG.BaseModel.Agent.Arc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.ArcPic
+  commentId: P:FasttraxxDG.BaseModel.Agent.ArcPic
+  id: ArcPic
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: ArcPic
+  nameWithType: Agent.ArcPic
+  fullName: FasttraxxDG.BaseModel.Agent.ArcPic
+  type: Property
+  source:
+    id: ArcPic
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 58
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public byte[] ArcPic { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ArcPic As Byte()
+  overload: FasttraxxDG.BaseModel.Agent.ArcPic*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.ArcExpiry
+  commentId: P:FasttraxxDG.BaseModel.Agent.ArcExpiry
+  id: ArcExpiry
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: ArcExpiry
+  nameWithType: Agent.ArcExpiry
+  fullName: FasttraxxDG.BaseModel.Agent.ArcExpiry
+  type: Property
+  source:
+    id: ArcExpiry
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 62
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public DateTime ArcExpiry { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ArcExpiry As Date
+  overload: FasttraxxDG.BaseModel.Agent.ArcExpiry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.SecurityFund
+  commentId: P:FasttraxxDG.BaseModel.Agent.SecurityFund
+  id: SecurityFund
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: SecurityFund
+  nameWithType: Agent.SecurityFund
+  fullName: FasttraxxDG.BaseModel.Agent.SecurityFund
+  type: Property
+  source:
+    id: SecurityFund
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 66
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public decimal SecurityFund { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property SecurityFund As Decimal
+  overload: FasttraxxDG.BaseModel.Agent.SecurityFund*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.ProfilePic
+  commentId: P:FasttraxxDG.BaseModel.Agent.ProfilePic
+  id: ProfilePic
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: ProfilePic
+  nameWithType: Agent.ProfilePic
+  fullName: FasttraxxDG.BaseModel.Agent.ProfilePic
+  type: Property
+  source:
+    id: ProfilePic
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 70
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public byte[] ProfilePic { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ProfilePic As Byte()
+  overload: FasttraxxDG.BaseModel.Agent.ProfilePic*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.IsVip
+  commentId: P:FasttraxxDG.BaseModel.Agent.IsVip
+  id: IsVip
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: IsVip
+  nameWithType: Agent.IsVip
+  fullName: FasttraxxDG.BaseModel.Agent.IsVip
+  type: Property
+  source:
+    id: IsVip
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 74
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public bool IsVip { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsVip As Boolean
+  overload: FasttraxxDG.BaseModel.Agent.IsVip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.Agent.Remarks
+  commentId: P:FasttraxxDG.BaseModel.Agent.Remarks
+  id: Remarks
+  parent: FasttraxxDG.BaseModel.Agent
+  langs:
+  - csharp
+  - vb
+  name: Remarks
+  nameWithType: Agent.Remarks
+  fullName: FasttraxxDG.BaseModel.Agent.Remarks
+  type: Property
+  source:
+    id: Remarks
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\Agent.cs
+    startLine: 78
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string Remarks { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Remarks As String
+  overload: FasttraxxDG.BaseModel.Agent.Remarks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.Agent.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<Agent, TDest>()
+  nameWithType: MapperHelper.MapTo<Agent, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.Agent, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of Agent, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.Agent, TDest)()
+  name.vb: MapTo(Of Agent, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<Agent, TDest>
+    nameWithType: MapperHelper.MapTo<Agent, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.Agent, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of Agent, TDest)
+    nameWithType: MapperHelper.MapTo(Of Agent, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.Agent, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseModel.Agent.AgentID*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.AgentID
+  name: AgentID
+  nameWithType: Agent.AgentID
+  fullName: FasttraxxDG.BaseModel.Agent.AgentID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseModel.Agent.AgentName*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.AgentName
+  name: AgentName
+  nameWithType: Agent.AgentName
+  fullName: FasttraxxDG.BaseModel.Agent.AgentName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseModel.Agent.CompanyID*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.CompanyID
+  name: CompanyID
+  nameWithType: Agent.CompanyID
+  fullName: FasttraxxDG.BaseModel.Agent.CompanyID
+- uid: FasttraxxDG.BaseModel.Agent.CreatorID*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.CreatorID
+  name: CreatorID
+  nameWithType: Agent.CreatorID
+  fullName: FasttraxxDG.BaseModel.Agent.CreatorID
+- uid: FasttraxxDG.BaseModel.Agent.Address*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Address
+  name: Address
+  nameWithType: Agent.Address
+  fullName: FasttraxxDG.BaseModel.Agent.Address
+- uid: FasttraxxDG.BaseModel.Agent.Telephone*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Telephone
+  name: Telephone
+  nameWithType: Agent.Telephone
+  fullName: FasttraxxDG.BaseModel.Agent.Telephone
+- uid: FasttraxxDG.BaseModel.Agent.DateCreated*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.DateCreated
+  name: DateCreated
+  nameWithType: Agent.DateCreated
+  fullName: FasttraxxDG.BaseModel.Agent.DateCreated
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: FasttraxxDG.BaseModel.Agent.Limit*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Limit
+  name: Limit
+  nameWithType: Agent.Limit
+  fullName: FasttraxxDG.BaseModel.Agent.Limit
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: FasttraxxDG.BaseModel.Agent.CashFund*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.CashFund
+  name: CashFund
+  nameWithType: Agent.CashFund
+  fullName: FasttraxxDG.BaseModel.Agent.CashFund
+- uid: FasttraxxDG.BaseModel.Agent.Commission*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Commission
+  name: Commission
+  nameWithType: Agent.Commission
+  fullName: FasttraxxDG.BaseModel.Agent.Commission
+- uid: FasttraxxDG.BaseModel.Agent.Fullname*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Fullname
+  name: Fullname
+  nameWithType: Agent.Fullname
+  fullName: FasttraxxDG.BaseModel.Agent.Fullname
+- uid: FasttraxxDG.BaseModel.Agent.BirthDate*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.BirthDate
+  name: BirthDate
+  nameWithType: Agent.BirthDate
+  fullName: FasttraxxDG.BaseModel.Agent.BirthDate
+- uid: FasttraxxDG.BaseModel.Agent.Arc*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Arc
+  name: Arc
+  nameWithType: Agent.Arc
+  fullName: FasttraxxDG.BaseModel.Agent.Arc
+- uid: FasttraxxDG.BaseModel.Agent.ArcPic*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.ArcPic
+  name: ArcPic
+  nameWithType: Agent.ArcPic
+  fullName: FasttraxxDG.BaseModel.Agent.ArcPic
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: FasttraxxDG.BaseModel.Agent.ArcExpiry*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.ArcExpiry
+  name: ArcExpiry
+  nameWithType: Agent.ArcExpiry
+  fullName: FasttraxxDG.BaseModel.Agent.ArcExpiry
+- uid: FasttraxxDG.BaseModel.Agent.SecurityFund*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.SecurityFund
+  name: SecurityFund
+  nameWithType: Agent.SecurityFund
+  fullName: FasttraxxDG.BaseModel.Agent.SecurityFund
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: FasttraxxDG.BaseModel.Agent.ProfilePic*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.ProfilePic
+  name: ProfilePic
+  nameWithType: Agent.ProfilePic
+  fullName: FasttraxxDG.BaseModel.Agent.ProfilePic
+- uid: FasttraxxDG.BaseModel.Agent.IsVip*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.IsVip
+  name: IsVip
+  nameWithType: Agent.IsVip
+  fullName: FasttraxxDG.BaseModel.Agent.IsVip
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: FasttraxxDG.BaseModel.Agent.Remarks*
+  commentId: Overload:FasttraxxDG.BaseModel.Agent.Remarks
+  name: Remarks
+  nameWithType: Agent.Remarks
+  fullName: FasttraxxDG.BaseModel.Agent.Remarks

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UnitTest
+  commentId: N:FasttraxxDG.UnitTest
+  id: FasttraxxDG.UnitTest
+  children:
+  - FasttraxxDG.UnitTest.FasttraxxDgUnitTest1
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.UnitTest
+  nameWithType: FasttraxxDG.UnitTest
+  fullName: FasttraxxDG.UnitTest
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.UnitTest
+references:
+- uid: FasttraxxDG.UnitTest.FasttraxxDgUnitTest1
+  commentId: T:FasttraxxDG.UnitTest.FasttraxxDgUnitTest1
+  name: FasttraxxDgUnitTest1
+  nameWithType: FasttraxxDgUnitTest1
+  fullName: FasttraxxDG.UnitTest.FasttraxxDgUnitTest1

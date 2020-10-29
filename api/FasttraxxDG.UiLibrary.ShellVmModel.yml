@@ -1,0 +1,2583 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UiLibrary.ShellVmModel
+  commentId: T:FasttraxxDG.UiLibrary.ShellVmModel
+  id: ShellVmModel
+  parent: FasttraxxDG.UiLibrary
+  children:
+  - FasttraxxDG.UiLibrary.ShellVmModel.Agent
+  - FasttraxxDG.UiLibrary.ShellVmModel.Available
+  - FasttraxxDG.UiLibrary.ShellVmModel.BackCommand
+  - FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged
+  - FasttraxxDG.UiLibrary.ShellVmModel.Balance
+  - FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand
+  - FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged
+  - FasttraxxDG.UiLibrary.ShellVmModel.Counter
+  - FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
+  - FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
+  - FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent
+  - FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand
+  - FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged
+  - FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent
+  - FasttraxxDG.UiLibrary.ShellVmModel.From
+  - FasttraxxDG.UiLibrary.ShellVmModel.HasAgent
+  - FasttraxxDG.UiLibrary.ShellVmModel.Icon
+  - FasttraxxDG.UiLibrary.ShellVmModel.IsAgent
+  - FasttraxxDG.UiLibrary.ShellVmModel.IsNotif
+  - FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints
+  - FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand
+  - FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged
+  - FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList
+  - FasttraxxDG.UiLibrary.ShellVmModel.NotifCount
+  - FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList
+  - FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected
+  - FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand
+  - FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged
+  - FasttraxxDG.UiLibrary.ShellVmModel.Rate
+  - FasttraxxDG.UiLibrary.ShellVmModel.RateAbove
+  - FasttraxxDG.UiLibrary.ShellVmModel.Selected
+  - FasttraxxDG.UiLibrary.ShellVmModel.SetPoints
+  - FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand
+  - FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged
+  - FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle
+  - FasttraxxDG.UiLibrary.ShellVmModel.SnackBg
+  - FasttraxxDG.UiLibrary.ShellVmModel.Timer
+  - FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif
+  - FasttraxxDG.UiLibrary.ShellVmModel.Title
+  - FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu
+  - FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding
+  - FasttraxxDG.UiLibrary.ShellVmModel.Visible
+  langs:
+  - csharp
+  - vb
+  name: ShellVmModel
+  nameWithType: ShellVmModel
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel
+  type: Class
+  source:
+    id: ShellVmModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: 'public class ShellVmModel : BaseViewModel, INotifyPropertyChanged, IDisposable'
+    content.vb: >-
+      Public Class ShellVmModel
+
+          Inherits BaseViewModel
+
+          Implements INotifyPropertyChanged, IDisposable
+  inheritance:
+  - System.Object
+  - FasttraxxDG.Base.NotifyChangedObject
+  - FasttraxxDG.Base.BaseViewModel
+  derivedClasses:
+  - FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.IDisposable
+  inheritedMembers:
+  - FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  - FasttraxxDG.Base.BaseViewModel.FocusRequested
+  - FasttraxxDG.Base.BaseViewModel.Error
+  - FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  - FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  - FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  - FasttraxxDG.Base.BaseViewModel.Dispose
+  - FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  - FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  - FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.UiLibrary.ShellVmModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.BackCommand
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.BackCommand
+  id: BackCommand
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: BackCommand
+  nameWithType: ShellVmModel.BackCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.BackCommand
+  type: Property
+  source:
+    id: BackCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand BackCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property BackCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.BackCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand
+  id: LoadCommand
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: LoadCommand
+  nameWithType: ShellVmModel.LoadCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand
+  type: Property
+  source:
+    id: LoadCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand LoadCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property LoadCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand
+  id: ConverterCommand
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: ConverterCommand
+  nameWithType: ShellVmModel.ConverterCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand
+  type: Property
+  source:
+    id: ConverterCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand ConverterCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property ConverterCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand
+  id: PrinterSettingsCommand
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: PrinterSettingsCommand
+  nameWithType: ShellVmModel.PrinterSettingsCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand
+  type: Property
+  source:
+    id: PrinterSettingsCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand PrinterSettingsCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property PrinterSettingsCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand
+  id: CurrentRateCommand
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentRateCommand
+  nameWithType: ShellVmModel.CurrentRateCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand
+  type: Property
+  source:
+    id: CurrentRateCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand CurrentRateCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property CurrentRateCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand
+  id: ShowLanguageCommand
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: ShowLanguageCommand
+  nameWithType: ShellVmModel.ShowLanguageCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand
+  type: Property
+  source:
+    id: ShowLanguageCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand ShowLanguageCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property ShowLanguageCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
+  id: CurrentContentBaseViewModel
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentContentBaseViewModel
+  nameWithType: ShellVmModel.CurrentContentBaseViewModel
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
+  type: Property
+  source:
+    id: CurrentContentBaseViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 55
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public object CurrentContentBaseViewModel { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property CurrentContentBaseViewModel As Object
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent
+  id: CurrentLeftContent
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentLeftContent
+  nameWithType: ShellVmModel.CurrentLeftContent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent
+  type: Property
+  source:
+    id: CurrentLeftContent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 67
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public object CurrentLeftContent { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property CurrentLeftContent As Object
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent
+  id: CurrentRightContent
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentRightContent
+  nameWithType: ShellVmModel.CurrentRightContent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent
+  type: Property
+  source:
+    id: CurrentRightContent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 79
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public object CurrentRightContent { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property CurrentRightContent As Object
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Visible
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Visible
+  id: Visible
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: ShellVmModel.Visible
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Visible
+  type: Property
+  source:
+    id: Visible
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 91
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool Visible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Visible As Boolean
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Visible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle
+  id: ShowTitle
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: ShowTitle
+  nameWithType: ShellVmModel.ShowTitle
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle
+  type: Property
+  source:
+    id: ShowTitle
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 101
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool ShowTitle { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowTitle As Boolean
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Title
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Title
+  id: Title
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ShellVmModel.Title
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Title
+  type: Property
+  source:
+    id: Title
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 111
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Selected
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Selected
+  id: Selected
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: ShellVmModel.Selected
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Selected
+  type: Property
+  source:
+    id: Selected
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 121
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public NotifBl Selected { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.BaseLogic.NotifBl
+    content.vb: Public Property Selected As NotifBl
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Selected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected
+  id: OutstandingSelected
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: OutstandingSelected
+  nameWithType: ShellVmModel.OutstandingSelected
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected
+  type: Property
+  source:
+    id: OutstandingSelected
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 131
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public NotifBl OutstandingSelected { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.BaseLogic.NotifBl
+    content.vb: Public Property OutstandingSelected As NotifBl
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.IsAgent
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.IsAgent
+  id: IsAgent
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: IsAgent
+  nameWithType: ShellVmModel.IsAgent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.IsAgent
+  type: Property
+  source:
+    id: IsAgent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 141
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool IsAgent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAgent As Boolean
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.IsAgent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Counter
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Counter
+  id: Counter
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Counter
+  nameWithType: ShellVmModel.Counter
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Counter
+  type: Property
+  source:
+    id: Counter
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 151
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int Counter { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Counter As Integer
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Counter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.NotifCount
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.NotifCount
+  id: NotifCount
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: NotifCount
+  nameWithType: ShellVmModel.NotifCount
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.NotifCount
+  type: Property
+  source:
+    id: NotifCount
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 161
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int NotifCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NotifCount As Integer
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.NotifCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList
+  id: NotifAlertList
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: NotifAlertList
+  nameWithType: ShellVmModel.NotifAlertList
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList
+  type: Property
+  source:
+    id: NotifAlertList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 171
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public ObservableCollection<NotifBl> NotifAlertList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.NotifBl}
+    content.vb: Public Property NotifAlertList As ObservableCollection(Of NotifBl)
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList
+  id: OutstandingList
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: OutstandingList
+  nameWithType: ShellVmModel.OutstandingList
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList
+  type: Property
+  source:
+    id: OutstandingList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 181
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public ObservableCollection<NotifBl> OutstandingList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.NotifBl}
+    content.vb: Public Property OutstandingList As ObservableCollection(Of NotifBl)
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
+  id: CreditLimit
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: CreditLimit
+  nameWithType: ShellVmModel.CreditLimit
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
+  type: Property
+  source:
+    id: CreditLimit
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 191
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public double CreditLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property CreditLimit As Double
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Balance
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Balance
+  id: Balance
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Balance
+  nameWithType: ShellVmModel.Balance
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Balance
+  type: Property
+  source:
+    id: Balance
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 201
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public double Balance { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Balance As Double
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Balance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Available
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Available
+  id: Available
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Available
+  nameWithType: ShellVmModel.Available
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Available
+  type: Property
+  source:
+    id: Available
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 211
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public double Available { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Available As Double
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Available*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.HasAgent
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.HasAgent
+  id: HasAgent
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: HasAgent
+  nameWithType: ShellVmModel.HasAgent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.HasAgent
+  type: Property
+  source:
+    id: HasAgent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 221
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool HasAgent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasAgent As Boolean
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.HasAgent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.IsNotif
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.IsNotif
+  id: IsNotif
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: IsNotif
+  nameWithType: ShellVmModel.IsNotif
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.IsNotif
+  type: Property
+  source:
+    id: IsNotif
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 231
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool IsNotif { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsNotif As Boolean
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.IsNotif*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Rate
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Rate
+  id: Rate
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Rate
+  nameWithType: ShellVmModel.Rate
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Rate
+  type: Property
+  source:
+    id: Rate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 241
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Rate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Rate As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Rate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.RateAbove
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.RateAbove
+  id: RateAbove
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: RateAbove
+  nameWithType: ShellVmModel.RateAbove
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.RateAbove
+  type: Property
+  source:
+    id: RateAbove
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 251
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string RateAbove { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RateAbove As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.RateAbove*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.SnackBg
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.SnackBg
+  id: SnackBg
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: SnackBg
+  nameWithType: ShellVmModel.SnackBg
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.SnackBg
+  type: Property
+  source:
+    id: SnackBg
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 261
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string SnackBg { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SnackBg As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.SnackBg*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu
+  id: TitleMenu
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: TitleMenu
+  nameWithType: ShellVmModel.TitleMenu
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu
+  type: Property
+  source:
+    id: TitleMenu
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 271
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string TitleMenu { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TitleMenu As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Icon
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Icon
+  id: Icon
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: ShellVmModel.Icon
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Icon
+  type: Property
+  source:
+    id: Icon
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 281
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Icon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Icon As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Agent
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Agent
+  id: Agent
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: ShellVmModel.Agent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Agent
+  type: Property
+  source:
+    id: Agent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 291
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Agent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Agent As String
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Agent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Timer
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.Timer
+  id: Timer
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: Timer
+  nameWithType: ShellVmModel.Timer
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Timer
+  type: Property
+  source:
+    id: Timer
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 301
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DispatcherTimer Timer { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Threading.DispatcherTimer
+    content.vb: Public Property Timer As DispatcherTimer
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.Timer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif
+  id: TimerNotif
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: TimerNotif
+  nameWithType: ShellVmModel.TimerNotif
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif
+  type: Property
+  source:
+    id: TimerNotif
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 311
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DispatcherTimer TimerNotif { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Threading.DispatcherTimer
+    content.vb: Public Property TimerNotif As DispatcherTimer
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.From
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.From
+  id: From
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: ShellVmModel.From
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.From
+  type: Property
+  source:
+    id: From
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 321
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DateTime From { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property From As Date
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.From*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding
+  id: TotalOutstanding
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: TotalOutstanding
+  nameWithType: ShellVmModel.TotalOutstanding
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding
+  type: Property
+  source:
+    id: TotalOutstanding
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 331
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int TotalOutstanding { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TotalOutstanding As Integer
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.SetPoints
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.SetPoints
+  id: SetPoints
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: SetPoints
+  nameWithType: ShellVmModel.SetPoints
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.SetPoints
+  type: Property
+  source:
+    id: SetPoints
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 341
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int SetPoints { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SetPoints As Integer
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.SetPoints*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints
+  id: IsSetPoints
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: IsSetPoints
+  nameWithType: ShellVmModel.IsSetPoints
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints
+  type: Property
+  source:
+    id: IsSetPoints
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 351
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool IsSetPoints { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSetPoints As Boolean
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged
+  id: BackStateChanged
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: BackStateChanged
+  nameWithType: ShellVmModel.BackStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged
+  type: Property
+  source:
+    id: BackStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 361
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action BackStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property BackStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged
+  id: LoadStateChanged
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: LoadStateChanged
+  nameWithType: ShellVmModel.LoadStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged
+  type: Property
+  source:
+    id: LoadStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 371
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action LoadStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property LoadStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged
+  id: ConverterStateChanged
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: ConverterStateChanged
+  nameWithType: ShellVmModel.ConverterStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged
+  type: Property
+  source:
+    id: ConverterStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 381
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action ConverterStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property ConverterStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged
+  id: PrinterSettingsStateChanged
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: PrinterSettingsStateChanged
+  nameWithType: ShellVmModel.PrinterSettingsStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged
+  type: Property
+  source:
+    id: PrinterSettingsStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 391
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action PrinterSettingsStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property PrinterSettingsStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged
+  id: CurrentRateStateChanged
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: CurrentRateStateChanged
+  nameWithType: ShellVmModel.CurrentRateStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged
+  type: Property
+  source:
+    id: CurrentRateStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 401
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action CurrentRateStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property CurrentRateStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged
+  id: ShowLanguageStateChanged
+  parent: FasttraxxDG.UiLibrary.ShellVmModel
+  langs:
+  - csharp
+  - vb
+  name: ShowLanguageStateChanged
+  nameWithType: ShellVmModel.ShowLanguageStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged
+  type: Property
+  source:
+    id: ShowLanguageStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Main\ShellVmModel.cs
+    startLine: 411
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action ShowLanguageStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property ShowLanguageStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.UiLibrary
+  commentId: N:FasttraxxDG.UiLibrary
+  name: FasttraxxDG.UiLibrary
+  nameWithType: FasttraxxDG.UiLibrary
+  fullName: FasttraxxDG.UiLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.Base.NotifyChangedObject
+  commentId: T:FasttraxxDG.Base.NotifyChangedObject
+  parent: FasttraxxDG.Base
+  name: NotifyChangedObject
+  nameWithType: NotifyChangedObject
+  fullName: FasttraxxDG.Base.NotifyChangedObject
+- uid: FasttraxxDG.Base.BaseViewModel
+  commentId: T:FasttraxxDG.Base.BaseViewModel
+  parent: FasttraxxDG.Base
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: FasttraxxDG.Base.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Item[String]
+  nameWithType: BaseViewModel.Item[String]
+  fullName: FasttraxxDG.Base.BaseViewModel.Item[System.String]
+  nameWithType.vb: BaseViewModel.Item(String)
+  fullName.vb: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.FocusRequested
+  commentId: E:FasttraxxDG.Base.BaseViewModel.FocusRequested
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: FocusRequested
+  nameWithType: BaseViewModel.FocusRequested
+  fullName: FasttraxxDG.Base.BaseViewModel.FocusRequested
+- uid: FasttraxxDG.Base.BaseViewModel.Error
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Error
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Error
+  nameWithType: BaseViewModel.Error
+  fullName: FasttraxxDG.Base.BaseViewModel.Error
+- uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnValidate(String)
+  nameWithType: BaseViewModel.OnValidate(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnFocusRequested(String)
+  nameWithType: BaseViewModel.OnFocusRequested(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  commentId: P:FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: IsDesignMode
+  nameWithType: BaseViewModel.IsDesignMode
+  fullName: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Dispose()
+  nameWithType: BaseViewModel.Dispose()
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BaseViewModel.Dispose(Boolean)
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  commentId: E:FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  name: PropertyChanged
+  nameWithType: NotifyChangedObject.PropertyChanged
+  fullName: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+- uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  commentId: M:FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: NotifyChangedObject.OnPropertyChanged(String)
+  fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<ShellVmModel, TDest>()
+  nameWithType: MapperHelper.MapTo<ShellVmModel, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.ShellVmModel, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of ShellVmModel, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.ShellVmModel, TDest)()
+  name.vb: MapTo(Of ShellVmModel, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<ShellVmModel, TDest>
+    nameWithType: MapperHelper.MapTo<ShellVmModel, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.ShellVmModel, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of ShellVmModel, TDest)
+    nameWithType: MapperHelper.MapTo(Of ShellVmModel, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.ShellVmModel, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.BackCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.BackCommand
+  name: BackCommand
+  nameWithType: ShellVmModel.BackCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.BackCommand
+- uid: FasttraxxDG.Base.DelegateCommand
+  commentId: T:FasttraxxDG.Base.DelegateCommand
+  parent: FasttraxxDG.Base
+  name: DelegateCommand
+  nameWithType: DelegateCommand
+  fullName: FasttraxxDG.Base.DelegateCommand
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand
+  name: LoadCommand
+  nameWithType: ShellVmModel.LoadCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.LoadCommand
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand
+  name: ConverterCommand
+  nameWithType: ShellVmModel.ConverterCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ConverterCommand
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand
+  name: PrinterSettingsCommand
+  nameWithType: ShellVmModel.PrinterSettingsCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsCommand
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand
+  name: CurrentRateCommand
+  nameWithType: ShellVmModel.CurrentRateCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateCommand
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand
+  name: ShowLanguageCommand
+  nameWithType: ShellVmModel.ShowLanguageCommand
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageCommand
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
+  name: CurrentContentBaseViewModel
+  nameWithType: ShellVmModel.CurrentContentBaseViewModel
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent
+  name: CurrentLeftContent
+  nameWithType: ShellVmModel.CurrentLeftContent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentLeftContent
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent
+  name: CurrentRightContent
+  nameWithType: ShellVmModel.CurrentRightContent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRightContent
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Visible*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Visible
+  name: Visible
+  nameWithType: ShellVmModel.Visible
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Visible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle
+  name: ShowTitle
+  nameWithType: ShellVmModel.ShowTitle
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ShowTitle
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Title*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Title
+  name: Title
+  nameWithType: ShellVmModel.Title
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Selected*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Selected
+  name: Selected
+  nameWithType: ShellVmModel.Selected
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Selected
+- uid: FasttraxxDG.BaseLogic.NotifBl
+  commentId: T:FasttraxxDG.BaseLogic.NotifBl
+  parent: FasttraxxDG.BaseLogic
+  name: NotifBl
+  nameWithType: NotifBl
+  fullName: FasttraxxDG.BaseLogic.NotifBl
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected
+  name: OutstandingSelected
+  nameWithType: ShellVmModel.OutstandingSelected
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingSelected
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.IsAgent*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.IsAgent
+  name: IsAgent
+  nameWithType: ShellVmModel.IsAgent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.IsAgent
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Counter*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Counter
+  name: Counter
+  nameWithType: ShellVmModel.Counter
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Counter
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.NotifCount*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.NotifCount
+  name: NotifCount
+  nameWithType: ShellVmModel.NotifCount
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.NotifCount
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList
+  name: NotifAlertList
+  nameWithType: ShellVmModel.NotifAlertList
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.NotifAlertList
+- uid: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.NotifBl}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.NotifBl}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<NotifBl>
+  nameWithType: ObservableCollection<NotifBl>
+  fullName: System.Collections.ObjectModel.ObservableCollection<FasttraxxDG.BaseLogic.NotifBl>
+  nameWithType.vb: ObservableCollection(Of NotifBl)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of FasttraxxDG.BaseLogic.NotifBl)
+  name.vb: ObservableCollection(Of NotifBl)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.NotifBl
+    name: NotifBl
+    nameWithType: NotifBl
+    fullName: FasttraxxDG.BaseLogic.NotifBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.NotifBl
+    name: NotifBl
+    nameWithType: NotifBl
+    fullName: FasttraxxDG.BaseLogic.NotifBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList
+  name: OutstandingList
+  nameWithType: ShellVmModel.OutstandingList
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.OutstandingList
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
+  name: CreditLimit
+  nameWithType: ShellVmModel.CreditLimit
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Balance*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Balance
+  name: Balance
+  nameWithType: ShellVmModel.Balance
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Balance
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Available*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Available
+  name: Available
+  nameWithType: ShellVmModel.Available
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Available
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.HasAgent*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.HasAgent
+  name: HasAgent
+  nameWithType: ShellVmModel.HasAgent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.HasAgent
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.IsNotif*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.IsNotif
+  name: IsNotif
+  nameWithType: ShellVmModel.IsNotif
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.IsNotif
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Rate*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Rate
+  name: Rate
+  nameWithType: ShellVmModel.Rate
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Rate
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.RateAbove*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.RateAbove
+  name: RateAbove
+  nameWithType: ShellVmModel.RateAbove
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.RateAbove
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.SnackBg*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.SnackBg
+  name: SnackBg
+  nameWithType: ShellVmModel.SnackBg
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.SnackBg
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu
+  name: TitleMenu
+  nameWithType: ShellVmModel.TitleMenu
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.TitleMenu
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Icon*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Icon
+  name: Icon
+  nameWithType: ShellVmModel.Icon
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Icon
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Agent*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Agent
+  name: Agent
+  nameWithType: ShellVmModel.Agent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Agent
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.Timer*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.Timer
+  name: Timer
+  nameWithType: ShellVmModel.Timer
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.Timer
+- uid: System.Windows.Threading.DispatcherTimer
+  commentId: T:System.Windows.Threading.DispatcherTimer
+  parent: System.Windows.Threading
+  isExternal: true
+  name: DispatcherTimer
+  nameWithType: DispatcherTimer
+  fullName: System.Windows.Threading.DispatcherTimer
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  isExternal: true
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif
+  name: TimerNotif
+  nameWithType: ShellVmModel.TimerNotif
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.TimerNotif
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.From*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.From
+  name: From
+  nameWithType: ShellVmModel.From
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.From
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding
+  name: TotalOutstanding
+  nameWithType: ShellVmModel.TotalOutstanding
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.TotalOutstanding
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.SetPoints*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.SetPoints
+  name: SetPoints
+  nameWithType: ShellVmModel.SetPoints
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.SetPoints
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints
+  name: IsSetPoints
+  nameWithType: ShellVmModel.IsSetPoints
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.IsSetPoints
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged
+  name: BackStateChanged
+  nameWithType: ShellVmModel.BackStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.BackStateChanged
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged
+  name: LoadStateChanged
+  nameWithType: ShellVmModel.LoadStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.LoadStateChanged
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged
+  name: ConverterStateChanged
+  nameWithType: ShellVmModel.ConverterStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ConverterStateChanged
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged
+  name: PrinterSettingsStateChanged
+  nameWithType: ShellVmModel.PrinterSettingsStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.PrinterSettingsStateChanged
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged
+  name: CurrentRateStateChanged
+  nameWithType: ShellVmModel.CurrentRateStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentRateStateChanged
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged
+  name: ShowLanguageStateChanged
+  nameWithType: ShellVmModel.ShowLanguageStateChanged
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.ShowLanguageStateChanged

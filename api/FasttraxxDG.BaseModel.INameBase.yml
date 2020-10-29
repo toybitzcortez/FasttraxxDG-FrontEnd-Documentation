@@ -1,0 +1,911 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseModel.INameBase
+  commentId: T:FasttraxxDG.BaseModel.INameBase
+  id: INameBase
+  parent: FasttraxxDG.BaseModel
+  children:
+  - FasttraxxDG.BaseModel.INameBase.Active
+  - FasttraxxDG.BaseModel.INameBase.Address1
+  - FasttraxxDG.BaseModel.INameBase.BirthDate
+  - FasttraxxDG.BaseModel.INameBase.CreatorID
+  - FasttraxxDG.BaseModel.INameBase.Email
+  - FasttraxxDG.BaseModel.INameBase.FirstName
+  - FasttraxxDG.BaseModel.INameBase.Gender
+  - FasttraxxDG.BaseModel.INameBase.LastName
+  - FasttraxxDG.BaseModel.INameBase.LastTxn
+  - FasttraxxDG.BaseModel.INameBase.MiddleName
+  - FasttraxxDG.BaseModel.INameBase.Mobile1
+  - FasttraxxDG.BaseModel.INameBase.Mobile2
+  - FasttraxxDG.BaseModel.INameBase.ModifierID
+  - FasttraxxDG.BaseModel.INameBase.Remarks
+  - FasttraxxDG.BaseModel.INameBase.Telephone1
+  - FasttraxxDG.BaseModel.INameBase.Telephone2
+  langs:
+  - csharp
+  - vb
+  name: INameBase
+  nameWithType: INameBase
+  fullName: FasttraxxDG.BaseModel.INameBase
+  type: Interface
+  source:
+    id: INameBase
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 4
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public interface INameBase
+    content.vb: Public Interface INameBase
+  extensionMethods:
+  - FasttraxxDG.BaseModel.INameBase.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: FasttraxxDG.BaseModel.INameBase.FirstName
+  commentId: P:FasttraxxDG.BaseModel.INameBase.FirstName
+  id: FirstName
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: INameBase.FirstName
+  fullName: FasttraxxDG.BaseModel.INameBase.FirstName
+  type: Property
+  source:
+    id: FirstName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property FirstName As String
+  overload: FasttraxxDG.BaseModel.INameBase.FirstName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.MiddleName
+  commentId: P:FasttraxxDG.BaseModel.INameBase.MiddleName
+  id: MiddleName
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: INameBase.MiddleName
+  fullName: FasttraxxDG.BaseModel.INameBase.MiddleName
+  type: Property
+  source:
+    id: MiddleName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MiddleName As String
+  overload: FasttraxxDG.BaseModel.INameBase.MiddleName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.LastName
+  commentId: P:FasttraxxDG.BaseModel.INameBase.LastName
+  id: LastName
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: INameBase.LastName
+  fullName: FasttraxxDG.BaseModel.INameBase.LastName
+  type: Property
+  source:
+    id: LastName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property LastName As String
+  overload: FasttraxxDG.BaseModel.INameBase.LastName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Telephone1
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Telephone1
+  id: Telephone1
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Telephone1
+  nameWithType: INameBase.Telephone1
+  fullName: FasttraxxDG.BaseModel.INameBase.Telephone1
+  type: Property
+  source:
+    id: Telephone1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Telephone1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Telephone1 As String
+  overload: FasttraxxDG.BaseModel.INameBase.Telephone1*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Telephone2
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Telephone2
+  id: Telephone2
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Telephone2
+  nameWithType: INameBase.Telephone2
+  fullName: FasttraxxDG.BaseModel.INameBase.Telephone2
+  type: Property
+  source:
+    id: Telephone2
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Telephone2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Telephone2 As String
+  overload: FasttraxxDG.BaseModel.INameBase.Telephone2*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Mobile1
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Mobile1
+  id: Mobile1
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Mobile1
+  nameWithType: INameBase.Mobile1
+  fullName: FasttraxxDG.BaseModel.INameBase.Mobile1
+  type: Property
+  source:
+    id: Mobile1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Mobile1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Mobile1 As String
+  overload: FasttraxxDG.BaseModel.INameBase.Mobile1*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Mobile2
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Mobile2
+  id: Mobile2
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Mobile2
+  nameWithType: INameBase.Mobile2
+  fullName: FasttraxxDG.BaseModel.INameBase.Mobile2
+  type: Property
+  source:
+    id: Mobile2
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Mobile2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Mobile2 As String
+  overload: FasttraxxDG.BaseModel.INameBase.Mobile2*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Gender
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Gender
+  id: Gender
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: INameBase.Gender
+  fullName: FasttraxxDG.BaseModel.INameBase.Gender
+  type: Property
+  source:
+    id: Gender
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Gender { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Gender As String
+  overload: FasttraxxDG.BaseModel.INameBase.Gender*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.BirthDate
+  commentId: P:FasttraxxDG.BaseModel.INameBase.BirthDate
+  id: BirthDate
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: BirthDate
+  nameWithType: INameBase.BirthDate
+  fullName: FasttraxxDG.BaseModel.INameBase.BirthDate
+  type: Property
+  source:
+    id: BirthDate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: DateTime? BirthDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Property BirthDate As Date?
+  overload: FasttraxxDG.BaseModel.INameBase.BirthDate*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Remarks
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Remarks
+  id: Remarks
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Remarks
+  nameWithType: INameBase.Remarks
+  fullName: FasttraxxDG.BaseModel.INameBase.Remarks
+  type: Property
+  source:
+    id: Remarks
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Remarks { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Remarks As String
+  overload: FasttraxxDG.BaseModel.INameBase.Remarks*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.LastTxn
+  commentId: P:FasttraxxDG.BaseModel.INameBase.LastTxn
+  id: LastTxn
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: LastTxn
+  nameWithType: INameBase.LastTxn
+  fullName: FasttraxxDG.BaseModel.INameBase.LastTxn
+  type: Property
+  source:
+    id: LastTxn
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: DateTime? LastTxn { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Property LastTxn As Date?
+  overload: FasttraxxDG.BaseModel.INameBase.LastTxn*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Address1
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Address1
+  id: Address1
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: INameBase.Address1
+  fullName: FasttraxxDG.BaseModel.INameBase.Address1
+  type: Property
+  source:
+    id: Address1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 17
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Address1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Address1 As String
+  overload: FasttraxxDG.BaseModel.INameBase.Address1*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.CreatorID
+  commentId: P:FasttraxxDG.BaseModel.INameBase.CreatorID
+  id: CreatorID
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: CreatorID
+  nameWithType: INameBase.CreatorID
+  fullName: FasttraxxDG.BaseModel.INameBase.CreatorID
+  type: Property
+  source:
+    id: CreatorID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 18
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: int CreatorID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CreatorID As Integer
+  overload: FasttraxxDG.BaseModel.INameBase.CreatorID*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.ModifierID
+  commentId: P:FasttraxxDG.BaseModel.INameBase.ModifierID
+  id: ModifierID
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: ModifierID
+  nameWithType: INameBase.ModifierID
+  fullName: FasttraxxDG.BaseModel.INameBase.ModifierID
+  type: Property
+  source:
+    id: ModifierID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 19
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: int ModifierID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ModifierID As Integer
+  overload: FasttraxxDG.BaseModel.INameBase.ModifierID*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Email
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Email
+  id: Email
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: INameBase.Email
+  fullName: FasttraxxDG.BaseModel.INameBase.Email
+  type: Property
+  source:
+    id: Email
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 20
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Email As String
+  overload: FasttraxxDG.BaseModel.INameBase.Email*
+  modifiers.csharp:
+  - get
+  - set
+- uid: FasttraxxDG.BaseModel.INameBase.Active
+  commentId: P:FasttraxxDG.BaseModel.INameBase.Active
+  id: Active
+  parent: FasttraxxDG.BaseModel.INameBase
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: INameBase.Active
+  fullName: FasttraxxDG.BaseModel.INameBase.Active
+  type: Property
+  source:
+    id: Active
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\Base\INameBase.cs
+    startLine: 21
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: int Active { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Active As Integer
+  overload: FasttraxxDG.BaseModel.INameBase.Active*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: FasttraxxDG.BaseModel.INameBase.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<INameBase, TDest>()
+  nameWithType: MapperHelper.MapTo<INameBase, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.INameBase, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of INameBase, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.INameBase, TDest)()
+  name.vb: MapTo(Of INameBase, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<INameBase, TDest>
+    nameWithType: MapperHelper.MapTo<INameBase, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.INameBase, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of INameBase, TDest)
+    nameWithType: MapperHelper.MapTo(Of INameBase, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.INameBase, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseModel.INameBase.FirstName*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.FirstName
+  name: FirstName
+  nameWithType: INameBase.FirstName
+  fullName: FasttraxxDG.BaseModel.INameBase.FirstName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseModel.INameBase.MiddleName*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.MiddleName
+  name: MiddleName
+  nameWithType: INameBase.MiddleName
+  fullName: FasttraxxDG.BaseModel.INameBase.MiddleName
+- uid: FasttraxxDG.BaseModel.INameBase.LastName*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.LastName
+  name: LastName
+  nameWithType: INameBase.LastName
+  fullName: FasttraxxDG.BaseModel.INameBase.LastName
+- uid: FasttraxxDG.BaseModel.INameBase.Telephone1*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Telephone1
+  name: Telephone1
+  nameWithType: INameBase.Telephone1
+  fullName: FasttraxxDG.BaseModel.INameBase.Telephone1
+- uid: FasttraxxDG.BaseModel.INameBase.Telephone2*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Telephone2
+  name: Telephone2
+  nameWithType: INameBase.Telephone2
+  fullName: FasttraxxDG.BaseModel.INameBase.Telephone2
+- uid: FasttraxxDG.BaseModel.INameBase.Mobile1*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Mobile1
+  name: Mobile1
+  nameWithType: INameBase.Mobile1
+  fullName: FasttraxxDG.BaseModel.INameBase.Mobile1
+- uid: FasttraxxDG.BaseModel.INameBase.Mobile2*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Mobile2
+  name: Mobile2
+  nameWithType: INameBase.Mobile2
+  fullName: FasttraxxDG.BaseModel.INameBase.Mobile2
+- uid: FasttraxxDG.BaseModel.INameBase.Gender*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Gender
+  name: Gender
+  nameWithType: INameBase.Gender
+  fullName: FasttraxxDG.BaseModel.INameBase.Gender
+- uid: FasttraxxDG.BaseModel.INameBase.BirthDate*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.BirthDate
+  name: BirthDate
+  nameWithType: INameBase.BirthDate
+  fullName: FasttraxxDG.BaseModel.INameBase.BirthDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.INameBase.Remarks*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Remarks
+  name: Remarks
+  nameWithType: INameBase.Remarks
+  fullName: FasttraxxDG.BaseModel.INameBase.Remarks
+- uid: FasttraxxDG.BaseModel.INameBase.LastTxn*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.LastTxn
+  name: LastTxn
+  nameWithType: INameBase.LastTxn
+  fullName: FasttraxxDG.BaseModel.INameBase.LastTxn
+- uid: FasttraxxDG.BaseModel.INameBase.Address1*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Address1
+  name: Address1
+  nameWithType: INameBase.Address1
+  fullName: FasttraxxDG.BaseModel.INameBase.Address1
+- uid: FasttraxxDG.BaseModel.INameBase.CreatorID*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.CreatorID
+  name: CreatorID
+  nameWithType: INameBase.CreatorID
+  fullName: FasttraxxDG.BaseModel.INameBase.CreatorID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseModel.INameBase.ModifierID*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.ModifierID
+  name: ModifierID
+  nameWithType: INameBase.ModifierID
+  fullName: FasttraxxDG.BaseModel.INameBase.ModifierID
+- uid: FasttraxxDG.BaseModel.INameBase.Email*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Email
+  name: Email
+  nameWithType: INameBase.Email
+  fullName: FasttraxxDG.BaseModel.INameBase.Email
+- uid: FasttraxxDG.BaseModel.INameBase.Active*
+  commentId: Overload:FasttraxxDG.BaseModel.INameBase.Active
+  name: Active
+  nameWithType: INameBase.Active
+  fullName: FasttraxxDG.BaseModel.INameBase.Active

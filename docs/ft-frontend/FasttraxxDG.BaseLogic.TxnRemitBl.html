@@ -1,0 +1,784 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TxnRemitBl
+   | FasttraxxDG FrontEnd </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TxnRemitBl
+   | FasttraxxDG FrontEnd ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../images/ft_gt_logo01.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/frontend.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl">
+  
+  
+  <h1 id="FasttraxxDG_BaseLogic_TxnRemitBl" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl" class="text-break">Class TxnRemitBl
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html">TxnRemit</a></div>
+    <div class="level2"><a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html">TxnRemitData</a></div>
+    <div class="level3"><span class="xref">TxnRemitBl</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnBB.html">ITxnBB</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.IAccountCC.html">IAccountCC</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnDD.html">ITxnDD</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnBase.html">ITxnBase</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnFS.html">ITxnFS</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnPickup.html">ITxnPickup</a></div>
+    <div><a class="xref" href="FasttraxxDG.BaseModel.ITxnRemitParam.html">ITxnRemitParam</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_BankID">TxnRemitData.BankID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Branch">TxnRemitData.Branch</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_AccountNumber">TxnRemitData.AccountNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Batch">TxnRemitData.Batch</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_ControlNumber">TxnRemitData.ControlNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_AccountName">TxnRemitData.AccountName</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Address1">TxnRemitData.Address1</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Address2">TxnRemitData.Address2</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_City">TxnRemitData.City</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Province">TxnRemitData.Province</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Zip">TxnRemitData.Zip</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_FoodID">TxnRemitData.FoodID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_PickupID">TxnRemitData.PickupID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_Address">TxnRemitData.Address</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_ContactNumber">TxnRemitData.ContactNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_DeliveryDate">TxnRemitData.DeliveryDate</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_UploadingType">TxnRemitData.UploadingType</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_CashCardID">TxnRemitData.CashCardID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_CashCardNumber">TxnRemitData.CashCardNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemitData.html#FasttraxxDG_BaseModel_TxnRemitData_CashCardName">TxnRemitData.CashCardName</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ID">TxnRemit.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_RemitterID">TxnRemit.RemitterID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_BeneficiaryID">TxnRemit.BeneficiaryID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_AccountID">TxnRemit.AccountID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateEntry">TxnRemit.DateEntry</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateCreated">TxnRemit.DateCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_StatusID">TxnRemit.StatusID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_CreatorID">TxnRemit.CreatorID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ModifierID">TxnRemit.ModifierID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ModifiedDate">TxnRemit.ModifiedDate</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_NT">TxnRemit.NT</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Peso">TxnRemit.Peso</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Rate">TxnRemit.Rate</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ServiceCharge">TxnRemit.ServiceCharge</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_AmountPaid">TxnRemit.AmountPaid</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Change">TxnRemit.Change</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_BranchID">TxnRemit.BranchID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Approve">TxnRemit.Approve</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Paid">TxnRemit.Paid</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateDelivered">TxnRemit.DateDelivered</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DateApproved">TxnRemit.DateApproved</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Remarks">TxnRemit.Remarks</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Discount">TxnRemit.Discount</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ForwarderID">TxnRemit.ForwarderID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_OnHold">TxnRemit.OnHold</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Verification">TxnRemit.Verification</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_DatePaid">TxnRemit.DatePaid</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Excess">TxnRemit.Excess</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_ModeOfPayment">TxnRemit.ModeOfPayment</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Commission">TxnRemit.Commission</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_GroupID">TxnRemit.GroupID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Amla">TxnRemit.Amla</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_AmlaRemarks">TxnRemit.AmlaRemarks</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_MessageSent">TxnRemit.MessageSent</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_PurposeID">TxnRemit.PurposeID</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved1">TxnRemit.Reserved1</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved2">TxnRemit.Reserved2</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved3">TxnRemit.Reserved3</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved4">TxnRemit.Reserved4</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_Reserved5">TxnRemit.Reserved5</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.TxnRemit.html#FasttraxxDG_BaseModel_TxnRemit_TxnID">TxnRemit.TxnID</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FasttraxxDG.BaseLogic.html">FasttraxxDG.BaseLogic</a></h6>
+  <h6><strong>Assembly</strong>: FasttraxxDG.BaseLogic.dll</h6>
+  <h5 id="FasttraxxDG_BaseLogic_TxnRemitBl_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TxnRemitBl : TxnRemitData, ITxnBB, IAccountCC, ITxnDD, ITxnBase, ITxnFS, ITxnPickup, ITxnRemitParam</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_Charge_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.Charge*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_Charge" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.Charge">Charge</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Charge { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_Nt_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.Nt*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_Nt" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.Nt">Nt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Nt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_WAgentID_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_WAgentID" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID">WAgentID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? WAgentID { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddBB_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddBB_FasttraxxDG_BaseLogic_TxnRemitBl_System_Int32_System_String_System_String_System_String_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String)">TxnRemitAddBB(TxnRemitBl, Int32, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>this method insert txndd data and return entity model of <a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnRemitBl TxnRemitAddBB(TxnRemitBl txn, int bankId, string branch, string accountNum, string accountName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td><span class="parametername">txn</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">bankId</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">branch</span></td>
+        <td><p>Optional</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">accountNum</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">accountName</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddCC_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddCC_FasttraxxDG_BaseLogic_TxnRemitBl_System_Int32_System_String_System_String_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String)">TxnRemitAddCC(TxnRemitBl, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>this method insert txncc data and return entity model of <a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnRemitBl TxnRemitAddCC(TxnRemitBl txn, int cashcardId, string cashcardNum, string cashcardName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td><span class="parametername">txn</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cashcardId</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cashcardNum</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">cashcardName</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddDD_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddDD_FasttraxxDG_BaseLogic_TxnRemitBl_System_Int32_System_String_System_String_System_String_System_String_System_String_System_String_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">TxnRemitAddDD(TxnRemitBl, Int32, String, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>this method insert txndd data and return entity model of <a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnRemitBl TxnRemitAddDD(TxnRemitBl txn, int doortodoorId, string address1, string address2, string city, string region, string contactNum, string zip)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td><span class="parametername">txn</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">doortodoorId</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">address1</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">address2</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">city</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contactNum</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">zip</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddFood_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddFood_FasttraxxDG_BaseLogic_TxnRemitBl_System_Int32_System_String_System_String_System_DateTime_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.DateTime)">TxnRemitAddFood(TxnRemitBl, Int32, String, String, DateTime)</h4>
+  <div class="markdown level1 summary"><p>this method insert txn food data and return entity model of <a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnRemitBl TxnRemitAddFood(TxnRemitBl txn, int foodId, string address, string contactNum, DateTime deliveryDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td><span class="parametername">txn</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">foodId</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">address</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contactNum</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">deliveryDate</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddPickup_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup*"></a>
+  <h4 id="FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddPickup_FasttraxxDG_BaseLogic_TxnRemitBl_System_Int32_System_String_" data-uid="FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String)">TxnRemitAddPickup(TxnRemitBl, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>this method insert txn pickup data and return entity model of <a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TxnRemitBl TxnRemitAddPickup(TxnRemitBl txn, int pickupId, string address)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td><span class="parametername">txn</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pickupId</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">address</span></td>
+        <td><p>Required</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseLogic.TxnRemitBl.html">TxnRemitBl</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnBB.html">ITxnBB</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.IAccountCC.html">IAccountCC</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnDD.html">ITxnDD</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnBase.html">ITxnBase</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnFS.html">ITxnFS</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnPickup.html">ITxnPickup</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseModel.ITxnRemitParam.html">ITxnRemitParam</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseLogic.MapperHelper.html#FasttraxxDG_BaseLogic_MapperHelper_MapTo__2___0_">MapperHelper.MapTo&lt;TSource, TDest&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_RightDrawerShow_System_Object_">AppSettings.RightDrawerShow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_LeftDrawerShow_System_Object_">AppSettings.LeftDrawerShow(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2020 FasttraxxDG
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseService.DataAccess.Repository
+  commentId: N:FasttraxxDG.BaseService.DataAccess.Repository
+  id: FasttraxxDG.BaseService.DataAccess.Repository
+  children:
+  - FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.BaseService.DataAccess.Repository
+  nameWithType: FasttraxxDG.BaseService.DataAccess.Repository
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.BaseService
+references:
+- uid: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  commentId: T:FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+  parent: FasttraxxDG.BaseService.DataAccess.Repository
+  name: BaseDataAccess
+  nameWithType: BaseDataAccess
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess
+- uid: FasttraxxDG.BaseService.DataAccess.Repository
+  commentId: N:FasttraxxDG.BaseService.DataAccess.Repository
+  name: FasttraxxDG.BaseService.DataAccess.Repository
+  nameWithType: FasttraxxDG.BaseService.DataAccess.Repository
+  fullName: FasttraxxDG.BaseService.DataAccess.Repository

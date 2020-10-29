@@ -1,0 +1,2020 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  id: RemDetailsControlViewModel
+  parent: FasttraxxDG.FrontEndUI.ViewModels
+  children:
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1
+  langs:
+  - csharp
+  - vb
+  name: RemDetailsControlViewModel
+  nameWithType: RemDetailsControlViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  type: Class
+  source:
+    id: RemDetailsControlViewModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: 'public class RemDetailsControlViewModel : BaseViewModel, INotifyPropertyChanged, IDisposable, IDataErrorInfo'
+    content.vb: >-
+      Public Class RemDetailsControlViewModel
+          Inherits BaseViewModel
+          Implements INotifyPropertyChanged, IDisposable, IDataErrorInfo
+  inheritance:
+  - System.Object
+  - FasttraxxDG.Base.NotifyChangedObject
+  - FasttraxxDG.Base.BaseViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.IDisposable
+  - System.ComponentModel.IDataErrorInfo
+  inheritedMembers:
+  - FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  - FasttraxxDG.Base.BaseViewModel.FocusRequested
+  - FasttraxxDG.Base.BaseViewModel.Error
+  - FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  - FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  - FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  - FasttraxxDG.Base.BaseViewModel.Dispose
+  - FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  - FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  - FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname
+  id: Firstname
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: RemDetailsControlViewModel.Firstname
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname
+  type: Property
+  source:
+    id: Firstname
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 43
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "{0} is required")]
+
+      [RegularExpression("^[a-zA-Z'\\s]{1,100}$", ErrorMessage = "Enter a valid {0}!")]
+
+      public string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required(ErrorMessage:="{0} is required")>
+
+      <RegularExpression("^[a-zA-Z'\s]{1,100}$", ErrorMessage:="Enter a valid {0}!")>
+
+      Public Property Firstname As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: '{0} is required'
+  - type: System.ComponentModel.DataAnnotations.RegularExpressionAttribute
+    ctor: System.ComponentModel.DataAnnotations.RegularExpressionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^[a-zA-Z'\s]{1,100}$
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Enter a valid {0}!
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename
+  id: Middlename
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Middlename
+  nameWithType: RemDetailsControlViewModel.Middlename
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename
+  type: Property
+  source:
+    id: Middlename
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 47
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Middlename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Middlename As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname
+  id: Lastname
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: RemDetailsControlViewModel.Lastname
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname
+  type: Property
+  source:
+    id: Lastname
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 49
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "{0} is required")]
+
+      [RegularExpression("^[a-zA-Z'\\s]{1,100}$", ErrorMessage = "Enter a valid {0}!")]
+
+      public string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required(ErrorMessage:="{0} is required")>
+
+      <RegularExpression("^[a-zA-Z'\s]{1,100}$", ErrorMessage:="Enter a valid {0}!")>
+
+      Public Property Lastname As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: '{0} is required'
+  - type: System.ComponentModel.DataAnnotations.RegularExpressionAttribute
+    ctor: System.ComponentModel.DataAnnotations.RegularExpressionAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ^[a-zA-Z'\s]{1,100}$
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Enter a valid {0}!
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID
+  id: MemberID
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: MemberID
+  nameWithType: RemDetailsControlViewModel.MemberID
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID
+  type: Property
+  source:
+    id: MemberID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 53
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string MemberID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MemberID As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1
+  id: Address1
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: RemDetailsControlViewModel.Address1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1
+  type: Property
+  source:
+    id: Address1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 54
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Address1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address1 As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1
+  id: Mobile1
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mobile1
+  nameWithType: RemDetailsControlViewModel.Mobile1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1
+  type: Property
+  source:
+    id: Mobile1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 55
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Mobile1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mobile1 As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2
+  id: Mobile2
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Mobile2
+  nameWithType: RemDetailsControlViewModel.Mobile2
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2
+  type: Property
+  source:
+    id: Mobile2
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 56
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Mobile2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mobile2 As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1
+  id: Telephone1
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Telephone1
+  nameWithType: RemDetailsControlViewModel.Telephone1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1
+  type: Property
+  source:
+    id: Telephone1
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 57
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Telephone1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Telephone1 As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent
+  id: Agent
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: RemDetailsControlViewModel.Agent
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent
+  type: Property
+  source:
+    id: Agent
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 58
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Agent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Agent As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate
+  id: BirthDate
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: BirthDate
+  nameWithType: RemDetailsControlViewModel.BirthDate
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate
+  type: Property
+  source:
+    id: BirthDate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 59
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public DateTime? BirthDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property BirthDate As Date?
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport
+  id: Passport
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Passport
+  nameWithType: RemDetailsControlViewModel.Passport
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport
+  type: Property
+  source:
+    id: Passport
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 60
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Passport { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Passport As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email
+  id: Email
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: RemDetailsControlViewModel.Email
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email
+  type: Property
+  source:
+    id: Email
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 61
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks
+  id: Remarks
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Remarks
+  nameWithType: RemDetailsControlViewModel.Remarks
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks
+  type: Property
+  source:
+    id: Remarks
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 62
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public string Remarks { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Remarks As String
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male
+  id: Male
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Male
+  nameWithType: RemDetailsControlViewModel.Male
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male
+  type: Property
+  source:
+    id: Male
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 63
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public bool Male { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Male As Boolean
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female
+  id: Female
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: Female
+  nameWithType: RemDetailsControlViewModel.Female
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female
+  type: Property
+  source:
+    id: Female
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 64
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public bool Female { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Female As Boolean
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList
+  id: TaiwanCompaniesList
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: TaiwanCompaniesList
+  nameWithType: RemDetailsControlViewModel.TaiwanCompaniesList
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList
+  type: Property
+  source:
+    id: TaiwanCompaniesList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 65
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public ObservableCollection<TaiwanAddressBl> TaiwanCompaniesList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.TaiwanAddressBl}
+    content.vb: Public Property TaiwanCompaniesList As ObservableCollection(Of TaiwanAddressBl)
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList
+  id: PhCitiesList
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: PhCitiesList
+  nameWithType: RemDetailsControlViewModel.PhCitiesList
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList
+  type: Property
+  source:
+    id: PhCitiesList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 67
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public ObservableCollection<CityBl> PhCitiesList { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.CityBl}
+    content.vb: Public Property PhCitiesList As ObservableCollection(Of CityBl)
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany
+  id: SelectedTaiwanCompany
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: SelectedTaiwanCompany
+  nameWithType: RemDetailsControlViewModel.SelectedTaiwanCompany
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany
+  type: Property
+  source:
+    id: SelectedTaiwanCompany
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 73
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "Company is required")]
+
+      public TaiwanAddressBl SelectedTaiwanCompany { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.BaseLogic.TaiwanAddressBl
+    content.vb: >-
+      <Required(ErrorMessage:="Company is required")>
+
+      Public Property SelectedTaiwanCompany As TaiwanAddressBl
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Company is required
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity
+  id: SelectedPhCity
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: SelectedPhCity
+  nameWithType: RemDetailsControlViewModel.SelectedPhCity
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity
+  type: Property
+  source:
+    id: SelectedPhCity
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 76
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: >-
+      [Required(ErrorMessage = "Birth Place is required")]
+
+      public CityBl SelectedPhCity { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.BaseLogic.CityBl
+    content.vb: >-
+      <Required(ErrorMessage:="Birth Place is required")>
+
+      Public Property SelectedPhCity As CityBl
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: ErrorMessage
+      type: System.String
+      value: Birth Place is required
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand
+  id: AddressCommand
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: AddressCommand
+  nameWithType: RemDetailsControlViewModel.AddressCommand
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand
+  type: Property
+  source:
+    id: AddressCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 83
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public ICommand AddressCommand { get; set; }
+    parameters: []
+    return:
+      type: System.Windows.Input.ICommand
+    content.vb: Public Property AddressCommand As ICommand
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput
+  id: IsValidInput
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsValidInput()
+  nameWithType: RemDetailsControlViewModel.IsValidInput()
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput()
+  type: Method
+  source:
+    id: IsValidInput
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 85
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public bool IsValidInput()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsValidInput As Boolean
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid
+  id: IsValid
+  parent: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel
+  langs:
+  - csharp
+  - vb
+  name: IsValid()
+  nameWithType: RemDetailsControlViewModel.IsValid()
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid()
+  type: Method
+  source:
+    id: IsValid
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Remitter\ViewModels\RemDetailsControlViewModel.cs
+    startLine: 162
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.ViewModels
+  syntax:
+    content: public bool IsValid()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsValid As Boolean
+  overload: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.FrontEndUI.ViewModels
+  commentId: N:FasttraxxDG.FrontEndUI.ViewModels
+  name: FasttraxxDG.FrontEndUI.ViewModels
+  nameWithType: FasttraxxDG.FrontEndUI.ViewModels
+  fullName: FasttraxxDG.FrontEndUI.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.Base.NotifyChangedObject
+  commentId: T:FasttraxxDG.Base.NotifyChangedObject
+  parent: FasttraxxDG.Base
+  name: NotifyChangedObject
+  nameWithType: NotifyChangedObject
+  fullName: FasttraxxDG.Base.NotifyChangedObject
+- uid: FasttraxxDG.Base.BaseViewModel
+  commentId: T:FasttraxxDG.Base.BaseViewModel
+  parent: FasttraxxDG.Base
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: FasttraxxDG.Base.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ComponentModel.IDataErrorInfo
+  commentId: T:System.ComponentModel.IDataErrorInfo
+  parent: System.ComponentModel
+  isExternal: true
+  name: IDataErrorInfo
+  nameWithType: IDataErrorInfo
+  fullName: System.ComponentModel.IDataErrorInfo
+- uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Item[String]
+  nameWithType: BaseViewModel.Item[String]
+  fullName: FasttraxxDG.Base.BaseViewModel.Item[System.String]
+  nameWithType.vb: BaseViewModel.Item(String)
+  fullName.vb: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.FocusRequested
+  commentId: E:FasttraxxDG.Base.BaseViewModel.FocusRequested
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: FocusRequested
+  nameWithType: BaseViewModel.FocusRequested
+  fullName: FasttraxxDG.Base.BaseViewModel.FocusRequested
+- uid: FasttraxxDG.Base.BaseViewModel.Error
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Error
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Error
+  nameWithType: BaseViewModel.Error
+  fullName: FasttraxxDG.Base.BaseViewModel.Error
+- uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnValidate(String)
+  nameWithType: BaseViewModel.OnValidate(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnFocusRequested(String)
+  nameWithType: BaseViewModel.OnFocusRequested(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  commentId: P:FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: IsDesignMode
+  nameWithType: BaseViewModel.IsDesignMode
+  fullName: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Dispose()
+  nameWithType: BaseViewModel.Dispose()
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BaseViewModel.Dispose(Boolean)
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  commentId: E:FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  name: PropertyChanged
+  nameWithType: NotifyChangedObject.PropertyChanged
+  fullName: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+- uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  commentId: M:FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: NotifyChangedObject.OnPropertyChanged(String)
+  fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<RemDetailsControlViewModel, TDest>()
+  nameWithType: MapperHelper.MapTo<RemDetailsControlViewModel, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of RemDetailsControlViewModel, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel, TDest)()
+  name.vb: MapTo(Of RemDetailsControlViewModel, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<RemDetailsControlViewModel, TDest>
+    nameWithType: MapperHelper.MapTo<RemDetailsControlViewModel, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of RemDetailsControlViewModel, TDest)
+    nameWithType: MapperHelper.MapTo(Of RemDetailsControlViewModel, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname
+  name: Firstname
+  nameWithType: RemDetailsControlViewModel.Firstname
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Firstname
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename
+  name: Middlename
+  nameWithType: RemDetailsControlViewModel.Middlename
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Middlename
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname
+  name: Lastname
+  nameWithType: RemDetailsControlViewModel.Lastname
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Lastname
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID
+  name: MemberID
+  nameWithType: RemDetailsControlViewModel.MemberID
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.MemberID
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1
+  name: Address1
+  nameWithType: RemDetailsControlViewModel.Address1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Address1
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1
+  name: Mobile1
+  nameWithType: RemDetailsControlViewModel.Mobile1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile1
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2
+  name: Mobile2
+  nameWithType: RemDetailsControlViewModel.Mobile2
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Mobile2
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1
+  name: Telephone1
+  nameWithType: RemDetailsControlViewModel.Telephone1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Telephone1
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent
+  name: Agent
+  nameWithType: RemDetailsControlViewModel.Agent
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Agent
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate
+  name: BirthDate
+  nameWithType: RemDetailsControlViewModel.BirthDate
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.BirthDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport
+  name: Passport
+  nameWithType: RemDetailsControlViewModel.Passport
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Passport
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email
+  name: Email
+  nameWithType: RemDetailsControlViewModel.Email
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Email
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks
+  name: Remarks
+  nameWithType: RemDetailsControlViewModel.Remarks
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Remarks
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male
+  name: Male
+  nameWithType: RemDetailsControlViewModel.Male
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Male
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female
+  name: Female
+  nameWithType: RemDetailsControlViewModel.Female
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.Female
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList
+  name: TaiwanCompaniesList
+  nameWithType: RemDetailsControlViewModel.TaiwanCompaniesList
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.TaiwanCompaniesList
+- uid: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.TaiwanAddressBl}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.TaiwanAddressBl}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<TaiwanAddressBl>
+  nameWithType: ObservableCollection<TaiwanAddressBl>
+  fullName: System.Collections.ObjectModel.ObservableCollection<FasttraxxDG.BaseLogic.TaiwanAddressBl>
+  nameWithType.vb: ObservableCollection(Of TaiwanAddressBl)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of FasttraxxDG.BaseLogic.TaiwanAddressBl)
+  name.vb: ObservableCollection(Of TaiwanAddressBl)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.TaiwanAddressBl
+    name: TaiwanAddressBl
+    nameWithType: TaiwanAddressBl
+    fullName: FasttraxxDG.BaseLogic.TaiwanAddressBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.TaiwanAddressBl
+    name: TaiwanAddressBl
+    nameWithType: TaiwanAddressBl
+    fullName: FasttraxxDG.BaseLogic.TaiwanAddressBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList
+  name: PhCitiesList
+  nameWithType: RemDetailsControlViewModel.PhCitiesList
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.PhCitiesList
+- uid: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.CityBl}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.CityBl}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<CityBl>
+  nameWithType: ObservableCollection<CityBl>
+  fullName: System.Collections.ObjectModel.ObservableCollection<FasttraxxDG.BaseLogic.CityBl>
+  nameWithType.vb: ObservableCollection(Of CityBl)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of FasttraxxDG.BaseLogic.CityBl)
+  name.vb: ObservableCollection(Of CityBl)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.CityBl
+    name: CityBl
+    nameWithType: CityBl
+    fullName: FasttraxxDG.BaseLogic.CityBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.CityBl
+    name: CityBl
+    nameWithType: CityBl
+    fullName: FasttraxxDG.BaseLogic.CityBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany
+  name: SelectedTaiwanCompany
+  nameWithType: RemDetailsControlViewModel.SelectedTaiwanCompany
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedTaiwanCompany
+- uid: FasttraxxDG.BaseLogic.TaiwanAddressBl
+  commentId: T:FasttraxxDG.BaseLogic.TaiwanAddressBl
+  parent: FasttraxxDG.BaseLogic
+  name: TaiwanAddressBl
+  nameWithType: TaiwanAddressBl
+  fullName: FasttraxxDG.BaseLogic.TaiwanAddressBl
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity
+  name: SelectedPhCity
+  nameWithType: RemDetailsControlViewModel.SelectedPhCity
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.SelectedPhCity
+- uid: FasttraxxDG.BaseLogic.CityBl
+  commentId: T:FasttraxxDG.BaseLogic.CityBl
+  parent: FasttraxxDG.BaseLogic
+  name: CityBl
+  nameWithType: CityBl
+  fullName: FasttraxxDG.BaseLogic.CityBl
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand
+  name: AddressCommand
+  nameWithType: RemDetailsControlViewModel.AddressCommand
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.AddressCommand
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput
+  name: IsValidInput
+  nameWithType: RemDetailsControlViewModel.IsValidInput
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValidInput
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid*
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid
+  name: IsValid
+  nameWithType: RemDetailsControlViewModel.IsValid
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemDetailsControlViewModel.IsValid

@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UiLibrary.BranchList
+  commentId: N:FasttraxxDG.UiLibrary.BranchList
+  id: FasttraxxDG.UiLibrary.BranchList
+  children:
+  - FasttraxxDG.UiLibrary.BranchList.BdoBranches
+  - FasttraxxDG.UiLibrary.BranchList.BpiBranches
+  - FasttraxxDG.UiLibrary.BranchList.BranchUiModel
+  - FasttraxxDG.UiLibrary.BranchList.ChinabankBranches
+  - FasttraxxDG.UiLibrary.BranchList.LbpBranches
+  - FasttraxxDG.UiLibrary.BranchList.MetrobankBranches
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.UiLibrary.BranchList
+  nameWithType: FasttraxxDG.UiLibrary.BranchList
+  fullName: FasttraxxDG.UiLibrary.BranchList
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.UiLibrary
+references:
+- uid: FasttraxxDG.UiLibrary.BranchList.BdoBranches
+  commentId: T:FasttraxxDG.UiLibrary.BranchList.BdoBranches
+  name: BdoBranches
+  nameWithType: BdoBranches
+  fullName: FasttraxxDG.UiLibrary.BranchList.BdoBranches
+- uid: FasttraxxDG.UiLibrary.BranchList.BpiBranches
+  commentId: T:FasttraxxDG.UiLibrary.BranchList.BpiBranches
+  name: BpiBranches
+  nameWithType: BpiBranches
+  fullName: FasttraxxDG.UiLibrary.BranchList.BpiBranches
+- uid: FasttraxxDG.UiLibrary.BranchList.BranchUiModel
+  commentId: T:FasttraxxDG.UiLibrary.BranchList.BranchUiModel
+  name: BranchUiModel
+  nameWithType: BranchUiModel
+  fullName: FasttraxxDG.UiLibrary.BranchList.BranchUiModel
+- uid: FasttraxxDG.UiLibrary.BranchList.ChinabankBranches
+  commentId: T:FasttraxxDG.UiLibrary.BranchList.ChinabankBranches
+  name: ChinabankBranches
+  nameWithType: ChinabankBranches
+  fullName: FasttraxxDG.UiLibrary.BranchList.ChinabankBranches
+- uid: FasttraxxDG.UiLibrary.BranchList.LbpBranches
+  commentId: T:FasttraxxDG.UiLibrary.BranchList.LbpBranches
+  name: LbpBranches
+  nameWithType: LbpBranches
+  fullName: FasttraxxDG.UiLibrary.BranchList.LbpBranches
+- uid: FasttraxxDG.UiLibrary.BranchList.MetrobankBranches
+  commentId: T:FasttraxxDG.UiLibrary.BranchList.MetrobankBranches
+  name: MetrobankBranches
+  nameWithType: MetrobankBranches
+  fullName: FasttraxxDG.UiLibrary.BranchList.MetrobankBranches

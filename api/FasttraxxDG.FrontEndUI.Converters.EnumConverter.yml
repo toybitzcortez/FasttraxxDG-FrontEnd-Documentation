@@ -1,0 +1,1276 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  id: EnumConverter
+  parent: FasttraxxDG.FrontEndUI.Converters
+  children:
+  - FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  - FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  - FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription(System.Enum)
+  langs:
+  - csharp
+  - vb
+  name: EnumConverter
+  nameWithType: EnumConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  type: Class
+  source:
+    id: EnumConverter
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\EnumConverter.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: 'public class EnumConverter : BaseValueConverter<EnumConverter>, IValueConverter'
+    content.vb: >-
+      Public Class EnumConverter
+          Inherits BaseValueConverter(Of EnumConverter)
+          Implements IValueConverter
+  inheritance:
+  - System.Object
+  - System.Windows.Markup.MarkupExtension
+  - FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}
+  implements:
+  - System.Windows.Data.IValueConverter
+  inheritedMembers:
+  - FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.ProvideValue(System.IServiceProvider)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.FrontEndUI.Converters.EnumConverter.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  id: Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  langs:
+  - csharp
+  - vb
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: EnumConverter.Convert(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\EnumConverter.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: targetType
+      type: System.Type
+    - id: parameter
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Convert(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overridden: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  overload: FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  id: ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: EnumConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  type: Method
+  source:
+    id: ConvertBack
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\EnumConverter.cs
+    startLine: 19
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: public override object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: targetType
+      type: System.Type
+    - id: parameter
+      type: System.Object
+    - id: culture
+      type: System.Globalization.CultureInfo
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function ConvertBack(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overridden: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  overload: FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription(System.Enum)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription(System.Enum)
+  id: GetDescription(System.Enum)
+  parent: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(Enum)
+  nameWithType: EnumConverter.GetDescription(Enum)
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription(System.Enum)
+  type: Method
+  source:
+    id: GetDescription
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Converters\EnumConverter.cs
+    startLine: 24
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Converters
+  syntax:
+    content: public static string GetDescription(Enum enum)
+    parameters:
+    - id: enum
+      type: System.Enum
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDescription(enum As  Enum) As String
+  overload: FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: FasttraxxDG.FrontEndUI.Converters
+  commentId: N:FasttraxxDG.FrontEndUI.Converters
+  name: FasttraxxDG.FrontEndUI.Converters
+  nameWithType: FasttraxxDG.FrontEndUI.Converters
+  fullName: FasttraxxDG.FrontEndUI.Converters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.Markup.MarkupExtension
+  commentId: T:System.Windows.Markup.MarkupExtension
+  parent: System.Windows.Markup
+  isExternal: true
+  name: MarkupExtension
+  nameWithType: MarkupExtension
+  fullName: System.Windows.Markup.MarkupExtension
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}
+  parent: FasttraxxDG.FrontEndUI.Converters
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  name: BaseValueConverter<EnumConverter>
+  nameWithType: BaseValueConverter<EnumConverter>
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>
+  nameWithType.vb: BaseValueConverter(Of EnumConverter)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter)
+  name.vb: BaseValueConverter(Of EnumConverter)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+    name: EnumConverter
+    nameWithType: EnumConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+    name: EnumConverter
+    nameWithType: EnumConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Data.IValueConverter
+  commentId: T:System.Windows.Data.IValueConverter
+  parent: System.Windows.Data
+  isExternal: true
+  name: IValueConverter
+  nameWithType: IValueConverter
+  fullName: System.Windows.Data.IValueConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.ProvideValue(System.IServiceProvider)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.ProvideValue(System.IServiceProvider)
+  parent: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+  name: ProvideValue(IServiceProvider)
+  nameWithType: BaseValueConverter<EnumConverter>.ProvideValue(IServiceProvider)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>.ProvideValue(System.IServiceProvider)
+  nameWithType.vb: BaseValueConverter(Of EnumConverter).ProvideValue(IServiceProvider)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter).ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter<EnumConverter>.ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>.ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter(Of EnumConverter).ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter).ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<EnumConverter, TDest>()
+  nameWithType: MapperHelper.MapTo<EnumConverter, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Converters.EnumConverter, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of EnumConverter, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter, TDest)()
+  name.vb: MapTo(Of EnumConverter, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<EnumConverter, TDest>
+    nameWithType: MapperHelper.MapTo<EnumConverter, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.FrontEndUI.Converters.EnumConverter, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of EnumConverter, TDest)
+    nameWithType: MapperHelper.MapTo(Of EnumConverter, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Markup
+  commentId: N:System.Windows.Markup
+  isExternal: true
+  name: System.Windows.Markup
+  nameWithType: System.Windows.Markup
+  fullName: System.Windows.Markup
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  name: BaseValueConverter<T>
+  nameWithType: BaseValueConverter<T>
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>
+  nameWithType.vb: BaseValueConverter(Of T)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T)
+  name.vb: BaseValueConverter(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Data
+  commentId: N:System.Windows.Data
+  isExternal: true
+  name: System.Windows.Data
+  nameWithType: System.Windows.Data
+  fullName: System.Windows.Data
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+  isExternal: true
+  name: ProvideValue(IServiceProvider)
+  nameWithType: BaseValueConverter<T>.ProvideValue(IServiceProvider)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ProvideValue(System.IServiceProvider)
+  nameWithType.vb: BaseValueConverter(Of T).ProvideValue(IServiceProvider)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ProvideValue(System.IServiceProvider)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter<T>.ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ProvideValue(System.IServiceProvider)
+    name: ProvideValue
+    nameWithType: BaseValueConverter(Of T).ProvideValue
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ProvideValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<EnumConverter>.Convert(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of EnumConverter).Convert(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter).Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter<EnumConverter>.Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter(Of EnumConverter).Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter).Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert
+  name: Convert
+  nameWithType: EnumConverter.Convert
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter.Convert
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  isExternal: true
+  name: Convert(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<T>.Convert(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of T).Convert(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).Convert(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter<T>.Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: Convert
+    nameWithType: BaseValueConverter(Of T).Convert
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).Convert
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  parent: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter{FasttraxxDG.FrontEndUI.Converters.EnumConverter}
+  definition: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<EnumConverter>.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of EnumConverter).ConvertBack(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter).ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter<EnumConverter>.ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<FasttraxxDG.FrontEndUI.Converters.EnumConverter>.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter(Of EnumConverter).ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of FasttraxxDG.FrontEndUI.Converters.EnumConverter).ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack
+  name: ConvertBack
+  nameWithType: EnumConverter.ConvertBack
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter.ConvertBack
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  commentId: M:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+  isExternal: true
+  name: ConvertBack(Object, Type, Object, CultureInfo)
+  nameWithType: BaseValueConverter<T>.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  nameWithType.vb: BaseValueConverter(Of T).ConvertBack(Object, Type, Object, CultureInfo)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ConvertBack(System.Object, System.Type, System.Object, System.Globalization.CultureInfo)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter<T>.ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>.ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)
+    name: ConvertBack
+    nameWithType: BaseValueConverter(Of T).ConvertBack
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T).ConvertBack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Globalization.CultureInfo
+    name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription
+  name: GetDescription
+  nameWithType: EnumConverter.GetDescription
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter.GetDescription
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

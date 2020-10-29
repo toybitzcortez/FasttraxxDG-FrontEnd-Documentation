@@ -1,0 +1,830 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.Base.DGDialogVModel
+  commentId: T:FasttraxxDG.Base.DGDialogVModel
+  id: DGDialogVModel
+  parent: FasttraxxDG.Base
+  children:
+  - FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  - FasttraxxDG.Base.DGDialogVModel.ShowResultDialog(System.String,System.String,System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
+  langs:
+  - csharp
+  - vb
+  name: DGDialogVModel
+  nameWithType: DGDialogVModel
+  fullName: FasttraxxDG.Base.DGDialogVModel
+  type: Class
+  source:
+    id: DGDialogVModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Dialog\DGDialogVModel.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: public sealed class DGDialogVModel
+    content.vb: Public NotInheritable Class DGDialogVModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.Base.DGDialogVModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowAlertDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.DGDialogVModel
+  langs:
+  - csharp
+  - vb
+  name: ShowAlertDialog(String, PackIconKind, Object, Nullable<Double>, Nullable<Double>)
+  nameWithType: DGDialogVModel.ShowAlertDialog(String, PackIconKind, Object, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog(System.String, MaterialDesignThemes.Wpf.PackIconKind, System.Object, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowAlertDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Dialog\DGDialogVModel.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: public static void ShowAlertDialog(string title, PackIconKind kind, object obj, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: kind
+      type: MaterialDesignThemes.Wpf.PackIconKind
+    - id: obj
+      type: System.Object
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    content.vb: Public Shared Sub ShowAlertDialog(title As String, kind As PackIconKind, obj As Object, width As Double? = Nothing, height As Double? = Nothing)
+  overload: FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog*
+  nameWithType.vb: DGDialogVModel.ShowAlertDialog(String, PackIconKind, Object, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog(System.String, MaterialDesignThemes.Wpf.PackIconKind, System.Object, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowAlertDialog(String, PackIconKind, Object, Nullable(Of Double), Nullable(Of Double))
+- uid: FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  commentId: M:FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  id: ShowAInfoDialog(System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double})
+  parent: FasttraxxDG.Base.DGDialogVModel
+  langs:
+  - csharp
+  - vb
+  name: ShowAInfoDialog(String, PackIconKind, Object, Nullable<Double>, Nullable<Double>)
+  nameWithType: DGDialogVModel.ShowAInfoDialog(String, PackIconKind, Object, Nullable<Double>, Nullable<Double>)
+  fullName: FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog(System.String, MaterialDesignThemes.Wpf.PackIconKind, System.Object, System.Nullable<System.Double>, System.Nullable<System.Double>)
+  type: Method
+  source:
+    id: ShowAInfoDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Dialog\DGDialogVModel.cs
+    startLine: 33
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: public static void ShowAInfoDialog(string title, PackIconKind kind, object obj, double? width = default(double? ), double? height = default(double? ))
+    parameters:
+    - id: title
+      type: System.String
+    - id: kind
+      type: MaterialDesignThemes.Wpf.PackIconKind
+    - id: obj
+      type: System.Object
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    content.vb: Public Shared Sub ShowAInfoDialog(title As String, kind As PackIconKind, obj As Object, width As Double? = Nothing, height As Double? = Nothing)
+  overload: FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog*
+  nameWithType.vb: DGDialogVModel.ShowAInfoDialog(String, PackIconKind, Object, Nullable(Of Double), Nullable(Of Double))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog(System.String, MaterialDesignThemes.Wpf.PackIconKind, System.Object, System.Nullable(Of System.Double), System.Nullable(Of System.Double))
+  name.vb: ShowAInfoDialog(String, PackIconKind, Object, Nullable(Of Double), Nullable(Of Double))
+- uid: FasttraxxDG.Base.DGDialogVModel.ShowResultDialog(System.String,System.String,System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
+  commentId: M:FasttraxxDG.Base.DGDialogVModel.ShowResultDialog(System.String,System.String,System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
+  id: ShowResultDialog(System.String,System.String,System.String,MaterialDesignThemes.Wpf.PackIconKind,System.Object,System.Nullable{System.Double},System.Nullable{System.Double},System.String)
+  parent: FasttraxxDG.Base.DGDialogVModel
+  langs:
+  - csharp
+  - vb
+  name: ShowResultDialog(String, String, String, PackIconKind, Object, Nullable<Double>, Nullable<Double>, String)
+  nameWithType: DGDialogVModel.ShowResultDialog(String, String, String, PackIconKind, Object, Nullable<Double>, Nullable<Double>, String)
+  fullName: FasttraxxDG.Base.DGDialogVModel.ShowResultDialog(System.String, System.String, System.String, MaterialDesignThemes.Wpf.PackIconKind, System.Object, System.Nullable<System.Double>, System.Nullable<System.Double>, System.String)
+  type: Method
+  source:
+    id: ShowResultDialog
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.Base\Dialog\DGDialogVModel.cs
+    startLine: 54
+  assemblies:
+  - FasttraxxDG.Base
+  namespace: FasttraxxDG.Base
+  syntax:
+    content: public static bool ShowResultDialog(string title, string okText, string cancelText, PackIconKind kind, object obj, double? width = default(double? ), double? height = default(double? ), string borderColorr = "F57C00")
+    parameters:
+    - id: title
+      type: System.String
+    - id: okText
+      type: System.String
+    - id: cancelText
+      type: System.String
+    - id: kind
+      type: MaterialDesignThemes.Wpf.PackIconKind
+    - id: obj
+      type: System.Object
+    - id: width
+      type: System.Nullable{System.Double}
+    - id: height
+      type: System.Nullable{System.Double}
+    - id: borderColorr
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ShowResultDialog(title As String, okText As String, cancelText As String, kind As PackIconKind, obj As Object, width As Double? = Nothing, height As Double? = Nothing, borderColorr As String = "F57C00") As Boolean
+  overload: FasttraxxDG.Base.DGDialogVModel.ShowResultDialog*
+  nameWithType.vb: DGDialogVModel.ShowResultDialog(String, String, String, PackIconKind, Object, Nullable(Of Double), Nullable(Of Double), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.Base.DGDialogVModel.ShowResultDialog(System.String, System.String, System.String, MaterialDesignThemes.Wpf.PackIconKind, System.Object, System.Nullable(Of System.Double), System.Nullable(Of System.Double), System.String)
+  name.vb: ShowResultDialog(String, String, String, PackIconKind, Object, Nullable(Of Double), Nullable(Of Double), String)
+references:
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.DGDialogVModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<DGDialogVModel, TDest>()
+  nameWithType: MapperHelper.MapTo<DGDialogVModel, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.DGDialogVModel, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of DGDialogVModel, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.DGDialogVModel, TDest)()
+  name.vb: MapTo(Of DGDialogVModel, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<DGDialogVModel, TDest>
+    nameWithType: MapperHelper.MapTo<DGDialogVModel, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.Base.DGDialogVModel, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of DGDialogVModel, TDest)
+    nameWithType: MapperHelper.MapTo(Of DGDialogVModel, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.Base.DGDialogVModel, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog*
+  commentId: Overload:FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog
+  name: ShowAlertDialog
+  nameWithType: DGDialogVModel.ShowAlertDialog
+  fullName: FasttraxxDG.Base.DGDialogVModel.ShowAlertDialog
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: MaterialDesignThemes.Wpf.PackIconKind
+  commentId: T:MaterialDesignThemes.Wpf.PackIconKind
+  parent: MaterialDesignThemes.Wpf
+  isExternal: true
+  name: PackIconKind
+  nameWithType: PackIconKind
+  fullName: MaterialDesignThemes.Wpf.PackIconKind
+- uid: System.Nullable{System.Double}
+  commentId: T:System.Nullable{System.Double}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Double>
+  nameWithType: Nullable<Double>
+  fullName: System.Nullable<System.Double>
+  nameWithType.vb: Nullable(Of Double)
+  fullName.vb: System.Nullable(Of System.Double)
+  name.vb: Nullable(Of Double)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: MaterialDesignThemes.Wpf
+  commentId: N:MaterialDesignThemes.Wpf
+  isExternal: true
+  name: MaterialDesignThemes.Wpf
+  nameWithType: MaterialDesignThemes.Wpf
+  fullName: MaterialDesignThemes.Wpf
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog*
+  commentId: Overload:FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog
+  name: ShowAInfoDialog
+  nameWithType: DGDialogVModel.ShowAInfoDialog
+  fullName: FasttraxxDG.Base.DGDialogVModel.ShowAInfoDialog
+- uid: FasttraxxDG.Base.DGDialogVModel.ShowResultDialog*
+  commentId: Overload:FasttraxxDG.Base.DGDialogVModel.ShowResultDialog
+  name: ShowResultDialog
+  nameWithType: DGDialogVModel.ShowResultDialog
+  fullName: FasttraxxDG.Base.DGDialogVModel.ShowResultDialog
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,972 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExcelHelper
+   | FasttraxxDG FrontEnd </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExcelHelper
+   | FasttraxxDG FrontEnd ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../images/ft_gt_logo01.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/frontend.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper">
+  
+  
+  <h1 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper" class="text-break">Class ExcelHelper
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ExcelHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.html">FasttraxxDG.FrontEndUI.Helpers</a></h6>
+  <h6><strong>Assembly</strong>: FasttraxxDG.FrontEndUI.dll</h6>
+  <h5 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExcelHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper__ctor_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper__ctor_System_String_System_String_System_String_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.#ctor(System.String,System.String,System.String)">ExcelHelper(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExcelHelper(string worksheetName, string foldername, string filename)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">worksheetName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">foldername</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper__excelPackage" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._excelPackage">_excelPackage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ExcelPackage _excelPackage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OfficeOpenXml.ExcelPackage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper__fileInfo" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._fileInfo">_fileInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly FileInfo _fileInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.FileInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper__worksheet" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper._worksheet">_worksheet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ExcelWorksheet _worksheet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OfficeOpenXml.ExcelWorksheet</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddBorder_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddBorder_System_String_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddBorder(System.String)">AddBorder(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddBorder(string range)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_System_Int32_System_Int32_System_Object_System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})">AddValue(Int32, Int32, Object, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(int row, int column, dynamic value, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_System_Int32_System_Int32_System_Object_System_Nullable_System_Boolean__System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.Nullable{System.Boolean},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})">AddValue(Int32, Int32, Object, Nullable&lt;Boolean&gt;, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(int row, int column, dynamic value, bool? wrapText, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">wrapText</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_System_Int32_System_Int32_System_Object_System_String_System_Boolean_System_Nullable_FasttraxxDG_UiLibrary_XlsBorder__System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__System_Nullable_System_Drawing_Color__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})">AddValue(Int32, Int32, Object, String, Boolean, Nullable&lt;XlsBorder&gt;, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;, Nullable&lt;Color&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(int row, int column, dynamic value, string format, bool bold, XlsBorder? border = default(XlsBorder? ), XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ), Color? bgColor = default(Color? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bold</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsBorder.html">XlsBorder</a>&gt;</td>
+        <td><span class="parametername">border</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.Color</span>&gt;</td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_System_Int32_System_Int32_System_Object_System_String_System_Boolean_System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__System_Nullable_System_Drawing_Color__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Boolean,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign},System.Nullable{System.Drawing.Color})">AddValue(Int32, Int32, Object, String, Boolean, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;, Nullable&lt;Color&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(int row, int column, dynamic value, string format, bool bold, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ), Color? bgColor = default(Color? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bold</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.Color</span>&gt;</td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_System_Int32_System_Int32_System_Object_System_String_System_Nullable_FasttraxxDG_UiLibrary_XlsBorder__System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsBorder},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})">AddValue(Int32, Int32, Object, String, Nullable&lt;XlsBorder&gt;, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(int row, int column, dynamic value, string format, XlsBorder? border = default(XlsBorder? ), XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsBorder.html">XlsBorder</a>&gt;</td>
+        <td><span class="parametername">border</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_AddValue_System_Int32_System_Int32_System_Object_System_String_System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.AddValue(System.Int32,System.Int32,System.Object,System.String,System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})">AddValue(Int32, Int32, Object, String, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(int row, int column, dynamic value, string format, XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_CleanUp_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_CleanUp_OfficeOpenXml_ExcelPackage_OfficeOpenXml_ExcelWorksheet_System_IO_FileInfo_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.CleanUp(OfficeOpenXml.ExcelPackage,OfficeOpenXml.ExcelWorksheet,System.IO.FileInfo)">CleanUp(ExcelPackage, ExcelWorksheet, FileInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CleanUp(ExcelPackage package, ExcelWorksheet worksheet, FileInfo file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OfficeOpenXml.ExcelPackage</span></td>
+        <td><span class="parametername">package</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OfficeOpenXml.ExcelWorksheet</span></td>
+        <td><span class="parametername">worksheet</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.FileInfo</span></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_PrintSettings_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_PrintSettings" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.PrintSettings">PrintSettings()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PrintSettings()</code></pre>
+  </div>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetBgColor_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetBgColor_System_String_System_Nullable_System_Drawing_Color__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBgColor(System.String,System.Nullable{System.Drawing.Color})">SetBgColor(String, Nullable&lt;Color&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBgColor(string range, Color? bgColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.Color</span>&gt;</td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetBold_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetBold_System_String_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetBold(System.String)">SetBold(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBold(string range)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetColumnWidth_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetColumnWidth_System_Int32_System_Int32_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetColumnWidth(System.Int32,System.Int32)">SetColumnWidth(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColumnWidth(int col, int width)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">col</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetFontNameAndSize_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetFontNameAndSize_System_String_System_Int32_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontNameAndSize(System.String,System.Int32)">SetFontNameAndSize(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFontNameAndSize(string name, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetFontSize_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetFontSize_System_Int32_System_Int32_System_Int32_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFontSize(System.Int32,System.Int32,System.Int32)">SetFontSize(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFontSize(int row, int col, int size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">col</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetFormula_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetFormula_System_Int32_System_Int32_System_String_System_String_System_Boolean_System_Nullable_System_Drawing_Color__System_Nullable_FasttraxxDG_UiLibrary_XlsVAlign__System_Nullable_FasttraxxDG_UiLibrary_XlsHAlign__" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetFormula(System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Nullable{System.Drawing.Color},System.Nullable{FasttraxxDG.UiLibrary.XlsVAlign},System.Nullable{FasttraxxDG.UiLibrary.XlsHAlign})">SetFormula(Int32, Int32, String, String, Boolean, Nullable&lt;Color&gt;, Nullable&lt;XlsVAlign&gt;, Nullable&lt;XlsHAlign&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFormula(int row, int col, string formula, string format, bool isBold, Color? bgColor = default(Color? ), XlsVAlign? vAlign = default(XlsVAlign? ), XlsHAlign? hAlign = default(XlsHAlign? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">col</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">formula</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isBold</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Drawing.Color</span>&gt;</td>
+        <td><span class="parametername">bgColor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsVAlign.html">XlsVAlign</a>&gt;</td>
+        <td><span class="parametername">vAlign</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="FasttraxxDG.UiLibrary.XlsHAlign.html">XlsHAlign</a>&gt;</td>
+        <td><span class="parametername">hAlign</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetHalignment_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetHalignment_System_String_System_String_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetHalignment(System.String,System.String)">SetHalignment(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHalignment(string range, string align = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">align</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetRowHeight_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetRowHeight_System_Int32_System_Int32_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetRowHeight(System.Int32,System.Int32)">SetRowHeight(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRowHeight(int row, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetValignment_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_SetValignment_System_String_System_String_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.SetValignment(System.String,System.String)">SetValignment(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValignment(string range, string align = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">align</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_ShowExport_" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport*"></a>
+  <h4 id="FasttraxxDG_FrontEndUI_Helpers_ExcelHelper_ShowExport" data-uid="FasttraxxDG.FrontEndUI.Helpers.ExcelHelper.ShowExport">ShowExport()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowExport()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseLogic.MapperHelper.html#FasttraxxDG_BaseLogic_MapperHelper_MapTo__2___0_">MapperHelper.MapTo&lt;TSource, TDest&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_RightDrawerShow_System_Object_">AppSettings.RightDrawerShow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_LeftDrawerShow_System_Object_">AppSettings.LeftDrawerShow(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2020 FasttraxxDG
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

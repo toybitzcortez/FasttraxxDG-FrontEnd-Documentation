@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views
+  commentId: N:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views
+  id: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views
+  children:
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView
+  - FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views
+  nameWithType: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView
+  name: AccountBbDetailsView
+  nameWithType: AccountBbDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView
+  name: AccountCcDetailsView
+  nameWithType: AccountCcDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView
+  name: AccountDdDetailsView
+  nameWithType: AccountDdDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView
+  name: AccountFoodDetailsView
+  nameWithType: AccountFoodDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView
+  name: AccountPickupDetailsView
+  nameWithType: AccountPickupDetailsView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView
+  name: AccountPickupView
+  nameWithType: AccountPickupView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView
+  commentId: T:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView
+  name: AccountSelectView
+  nameWithType: AccountSelectView
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView

@@ -1,0 +1,1030 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseModel.CashCardService
+  commentId: T:FasttraxxDG.BaseModel.CashCardService
+  id: CashCardService
+  parent: FasttraxxDG.BaseModel
+  children:
+  - FasttraxxDG.BaseModel.CashCardService.Allow
+  - FasttraxxDG.BaseModel.CashCardService.CashCardID
+  - FasttraxxDG.BaseModel.CashCardService.CashCardName
+  - FasttraxxDG.BaseModel.CashCardService.ForwarderID
+  - FasttraxxDG.BaseModel.CashCardService.GroupID
+  - FasttraxxDG.BaseModel.CashCardService.Limit
+  - FasttraxxDG.BaseModel.CashCardService.OrgID
+  - FasttraxxDG.BaseModel.CashCardService.ServiceCharge
+  langs:
+  - csharp
+  - vb
+  name: CashCardService
+  nameWithType: CashCardService
+  fullName: FasttraxxDG.BaseModel.CashCardService
+  type: Class
+  source:
+    id: CashCardService
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 2
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: 'public class CashCardService : IOrgBase, IServiceBase, ICashCardService'
+    content.vb: >-
+      Public Class CashCardService
+
+          Implements IOrgBase, IServiceBase, ICashCardService
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - FasttraxxDG.BaseModel.CashCardData
+  implements:
+  - FasttraxxDG.BaseModel.IOrgBase
+  - FasttraxxDG.BaseModel.IServiceBase
+  - FasttraxxDG.BaseModel.ICashCardService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseModel.CashCardService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseModel.CashCardService.CashCardID
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.CashCardID
+  id: CashCardID
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: CashCardID
+  nameWithType: CashCardService.CashCardID
+  fullName: FasttraxxDG.BaseModel.CashCardService.CashCardID
+  type: Property
+  source:
+    id: CashCardID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 4
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int CashCardID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CashCardID As Integer
+  overload: FasttraxxDG.BaseModel.CashCardService.CashCardID*
+  implements:
+  - FasttraxxDG.BaseModel.ICashCardService.CashCardID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.CashCardName
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.CashCardName
+  id: CashCardName
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: CashCardName
+  nameWithType: CashCardService.CashCardName
+  fullName: FasttraxxDG.BaseModel.CashCardService.CashCardName
+  type: Property
+  source:
+    id: CashCardName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public string CashCardName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CashCardName As String
+  overload: FasttraxxDG.BaseModel.CashCardService.CashCardName*
+  implements:
+  - FasttraxxDG.BaseModel.ICashCardService.CashCardName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.GroupID
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.GroupID
+  id: GroupID
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: GroupID
+  nameWithType: CashCardService.GroupID
+  fullName: FasttraxxDG.BaseModel.CashCardService.GroupID
+  type: Property
+  source:
+    id: GroupID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int GroupID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupID As Integer
+  overload: FasttraxxDG.BaseModel.CashCardService.GroupID*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.GroupID
+  - FasttraxxDG.BaseModel.ICashCardService.GroupID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.ServiceCharge
+  id: ServiceCharge
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: ServiceCharge
+  nameWithType: CashCardService.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.CashCardService.ServiceCharge
+  type: Property
+  source:
+    id: ServiceCharge
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double ServiceCharge { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ServiceCharge As Double
+  overload: FasttraxxDG.BaseModel.CashCardService.ServiceCharge*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+  - FasttraxxDG.BaseModel.ICashCardService.ServiceCharge
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.Limit
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.Limit
+  id: Limit
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: CashCardService.Limit
+  fullName: FasttraxxDG.BaseModel.CashCardService.Limit
+  type: Property
+  source:
+    id: Limit
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 20
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Limit As Double
+  overload: FasttraxxDG.BaseModel.CashCardService.Limit*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.Limit
+  - FasttraxxDG.BaseModel.ICashCardService.Limit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.ForwarderID
+  id: ForwarderID
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: ForwarderID
+  nameWithType: CashCardService.ForwarderID
+  fullName: FasttraxxDG.BaseModel.CashCardService.ForwarderID
+  type: Property
+  source:
+    id: ForwarderID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 24
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int ForwarderID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ForwarderID As Integer
+  overload: FasttraxxDG.BaseModel.CashCardService.ForwarderID*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+  - FasttraxxDG.BaseModel.ICashCardService.ForwarderID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.OrgID
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.OrgID
+  id: OrgID
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: OrgID
+  nameWithType: CashCardService.OrgID
+  fullName: FasttraxxDG.BaseModel.CashCardService.OrgID
+  type: Property
+  source:
+    id: OrgID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 28
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int OrgID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrgID As Integer
+  overload: FasttraxxDG.BaseModel.CashCardService.OrgID*
+  implements:
+  - FasttraxxDG.BaseModel.IOrgBase.OrgID
+  - FasttraxxDG.BaseModel.IServiceBase.OrgID
+  - FasttraxxDG.BaseModel.ICashCardService.OrgID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.CashCardService.Allow
+  commentId: P:FasttraxxDG.BaseModel.CashCardService.Allow
+  id: Allow
+  parent: FasttraxxDG.BaseModel.CashCardService
+  langs:
+  - csharp
+  - vb
+  name: Allow
+  nameWithType: CashCardService.Allow
+  fullName: FasttraxxDG.BaseModel.CashCardService.Allow
+  type: Property
+  source:
+    id: Allow
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\CashCardService.cs
+    startLine: 32
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public bool Allow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Allow As Boolean
+  overload: FasttraxxDG.BaseModel.CashCardService.Allow*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.Allow
+  - FasttraxxDG.BaseModel.ICashCardService.Allow
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.IOrgBase
+  commentId: T:FasttraxxDG.BaseModel.IOrgBase
+  parent: FasttraxxDG.BaseModel
+  name: IOrgBase
+  nameWithType: IOrgBase
+  fullName: FasttraxxDG.BaseModel.IOrgBase
+- uid: FasttraxxDG.BaseModel.IServiceBase
+  commentId: T:FasttraxxDG.BaseModel.IServiceBase
+  parent: FasttraxxDG.BaseModel
+  name: IServiceBase
+  nameWithType: IServiceBase
+  fullName: FasttraxxDG.BaseModel.IServiceBase
+- uid: FasttraxxDG.BaseModel.ICashCardService
+  commentId: T:FasttraxxDG.BaseModel.ICashCardService
+  parent: FasttraxxDG.BaseModel
+  name: ICashCardService
+  nameWithType: ICashCardService
+  fullName: FasttraxxDG.BaseModel.ICashCardService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.CashCardService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<CashCardService, TDest>()
+  nameWithType: MapperHelper.MapTo<CashCardService, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.CashCardService, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of CashCardService, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.CashCardService, TDest)()
+  name.vb: MapTo(Of CashCardService, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<CashCardService, TDest>
+    nameWithType: MapperHelper.MapTo<CashCardService, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.CashCardService, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of CashCardService, TDest)
+    nameWithType: MapperHelper.MapTo(Of CashCardService, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.CashCardService, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseModel.CashCardService.CashCardID*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.CashCardID
+  name: CashCardID
+  nameWithType: CashCardService.CashCardID
+  fullName: FasttraxxDG.BaseModel.CashCardService.CashCardID
+- uid: FasttraxxDG.BaseModel.ICashCardService.CashCardID
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.CashCardID
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: CashCardID
+  nameWithType: ICashCardService.CashCardID
+  fullName: FasttraxxDG.BaseModel.ICashCardService.CashCardID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseModel.CashCardService.CashCardName*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.CashCardName
+  name: CashCardName
+  nameWithType: CashCardService.CashCardName
+  fullName: FasttraxxDG.BaseModel.CashCardService.CashCardName
+- uid: FasttraxxDG.BaseModel.ICashCardService.CashCardName
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.CashCardName
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: CashCardName
+  nameWithType: ICashCardService.CashCardName
+  fullName: FasttraxxDG.BaseModel.ICashCardService.CashCardName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseModel.CashCardService.GroupID*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.GroupID
+  name: GroupID
+  nameWithType: CashCardService.GroupID
+  fullName: FasttraxxDG.BaseModel.CashCardService.GroupID
+- uid: FasttraxxDG.BaseModel.IServiceBase.GroupID
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.GroupID
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: GroupID
+  nameWithType: IServiceBase.GroupID
+  fullName: FasttraxxDG.BaseModel.IServiceBase.GroupID
+- uid: FasttraxxDG.BaseModel.ICashCardService.GroupID
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.GroupID
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: GroupID
+  nameWithType: ICashCardService.GroupID
+  fullName: FasttraxxDG.BaseModel.ICashCardService.GroupID
+- uid: FasttraxxDG.BaseModel.CashCardService.ServiceCharge*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.ServiceCharge
+  name: ServiceCharge
+  nameWithType: CashCardService.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.CashCardService.ServiceCharge
+- uid: FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: ServiceCharge
+  nameWithType: IServiceBase.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+- uid: FasttraxxDG.BaseModel.ICashCardService.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.ServiceCharge
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: ServiceCharge
+  nameWithType: ICashCardService.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.ICashCardService.ServiceCharge
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: FasttraxxDG.BaseModel.CashCardService.Limit*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.Limit
+  name: Limit
+  nameWithType: CashCardService.Limit
+  fullName: FasttraxxDG.BaseModel.CashCardService.Limit
+- uid: FasttraxxDG.BaseModel.IServiceBase.Limit
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.Limit
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: Limit
+  nameWithType: IServiceBase.Limit
+  fullName: FasttraxxDG.BaseModel.IServiceBase.Limit
+- uid: FasttraxxDG.BaseModel.ICashCardService.Limit
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.Limit
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: Limit
+  nameWithType: ICashCardService.Limit
+  fullName: FasttraxxDG.BaseModel.ICashCardService.Limit
+- uid: FasttraxxDG.BaseModel.CashCardService.ForwarderID*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.ForwarderID
+  name: ForwarderID
+  nameWithType: CashCardService.ForwarderID
+  fullName: FasttraxxDG.BaseModel.CashCardService.ForwarderID
+- uid: FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: ForwarderID
+  nameWithType: IServiceBase.ForwarderID
+  fullName: FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+- uid: FasttraxxDG.BaseModel.ICashCardService.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.ForwarderID
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: ForwarderID
+  nameWithType: ICashCardService.ForwarderID
+  fullName: FasttraxxDG.BaseModel.ICashCardService.ForwarderID
+- uid: FasttraxxDG.BaseModel.CashCardService.OrgID*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.OrgID
+  name: OrgID
+  nameWithType: CashCardService.OrgID
+  fullName: FasttraxxDG.BaseModel.CashCardService.OrgID
+- uid: FasttraxxDG.BaseModel.IOrgBase.OrgID
+  commentId: P:FasttraxxDG.BaseModel.IOrgBase.OrgID
+  parent: FasttraxxDG.BaseModel.IOrgBase
+  name: OrgID
+  nameWithType: IOrgBase.OrgID
+  fullName: FasttraxxDG.BaseModel.IOrgBase.OrgID
+- uid: FasttraxxDG.BaseModel.IServiceBase.OrgID
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.OrgID
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: OrgID
+  nameWithType: IServiceBase.OrgID
+  fullName: FasttraxxDG.BaseModel.IServiceBase.OrgID
+- uid: FasttraxxDG.BaseModel.ICashCardService.OrgID
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.OrgID
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: OrgID
+  nameWithType: ICashCardService.OrgID
+  fullName: FasttraxxDG.BaseModel.ICashCardService.OrgID
+- uid: FasttraxxDG.BaseModel.CashCardService.Allow*
+  commentId: Overload:FasttraxxDG.BaseModel.CashCardService.Allow
+  name: Allow
+  nameWithType: CashCardService.Allow
+  fullName: FasttraxxDG.BaseModel.CashCardService.Allow
+- uid: FasttraxxDG.BaseModel.IServiceBase.Allow
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.Allow
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: Allow
+  nameWithType: IServiceBase.Allow
+  fullName: FasttraxxDG.BaseModel.IServiceBase.Allow
+- uid: FasttraxxDG.BaseModel.ICashCardService.Allow
+  commentId: P:FasttraxxDG.BaseModel.ICashCardService.Allow
+  parent: FasttraxxDG.BaseModel.ICashCardService
+  name: Allow
+  nameWithType: ICashCardService.Allow
+  fullName: FasttraxxDG.BaseModel.ICashCardService.Allow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

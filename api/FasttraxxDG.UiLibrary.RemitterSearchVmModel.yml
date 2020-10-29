@@ -1,0 +1,1971 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  commentId: T:FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  id: RemitterSearchVmModel
+  parent: FasttraxxDG.UiLibrary
+  children:
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.List
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible
+  langs:
+  - csharp
+  - vb
+  name: RemitterSearchVmModel
+  nameWithType: RemitterSearchVmModel
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  type: Class
+  source:
+    id: RemitterSearchVmModel
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 7
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: 'public class RemitterSearchVmModel : BaseViewModel, INotifyPropertyChanged, IDisposable'
+    content.vb: >-
+      Public Class RemitterSearchVmModel
+
+          Inherits BaseViewModel
+
+          Implements INotifyPropertyChanged, IDisposable
+  inheritance:
+  - System.Object
+  - FasttraxxDG.Base.NotifyChangedObject
+  - FasttraxxDG.Base.BaseViewModel
+  derivedClasses:
+  - FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.IDisposable
+  inheritedMembers:
+  - FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  - FasttraxxDG.Base.BaseViewModel.FocusRequested
+  - FasttraxxDG.Base.BaseViewModel.Error
+  - FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  - FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  - FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  - FasttraxxDG.Base.BaseViewModel.Dispose
+  - FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  - FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  - FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.UiLibrary.RemitterSearchVmModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand
+  id: SearchCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchCommand
+  nameWithType: RemitterSearchVmModel.SearchCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand
+  type: Property
+  source:
+    id: SearchCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand SearchCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property SearchCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand
+  id: SaveCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SaveCommand
+  nameWithType: RemitterSearchVmModel.SaveCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand
+  type: Property
+  source:
+    id: SaveCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand SaveCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property SaveCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand
+  id: SearchOptionCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchOptionCommand
+  nameWithType: RemitterSearchVmModel.SearchOptionCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand
+  type: Property
+  source:
+    id: SearchOptionCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand SearchOptionCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property SearchOptionCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand
+  id: AddCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: AddCommand
+  nameWithType: RemitterSearchVmModel.AddCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand
+  type: Property
+  source:
+    id: AddCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand AddCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property AddCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand
+  id: SearchIdCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchIdCommand
+  nameWithType: RemitterSearchVmModel.SearchIdCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand
+  type: Property
+  source:
+    id: SearchIdCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 13
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand SearchIdCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property SearchIdCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand
+  id: SearchArcCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchArcCommand
+  nameWithType: RemitterSearchVmModel.SearchArcCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand
+  type: Property
+  source:
+    id: SearchArcCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 14
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand SearchArcCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property SearchArcCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand
+  id: LoadCommand
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: LoadCommand
+  nameWithType: RemitterSearchVmModel.LoadCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand
+  type: Property
+  source:
+    id: LoadCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public DelegateCommand LoadCommand { get; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public ReadOnly Property LoadCommand As DelegateCommand
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount
+  id: RecordCount
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: RecordCount
+  nameWithType: RemitterSearchVmModel.RecordCount
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount
+  type: Property
+  source:
+    id: RecordCount
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 36
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public int RecordCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecordCount As Integer
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible
+  id: Visible
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: RemitterSearchVmModel.Visible
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible
+  type: Property
+  source:
+    id: Visible
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 46
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public bool Visible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Visible As Boolean
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId
+  id: RemitterId
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: RemitterId
+  nameWithType: RemitterSearchVmModel.RemitterId
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId
+  type: Property
+  source:
+    id: RemitterId
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 56
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string RemitterId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RemitterId As String
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected
+  id: SearchSelected
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchSelected
+  nameWithType: RemitterSearchVmModel.SearchSelected
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected
+  type: Property
+  source:
+    id: SearchSelected
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 66
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string SearchSelected { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SearchSelected As String
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName
+  id: FirstName
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: RemitterSearchVmModel.FirstName
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName
+  type: Property
+  source:
+    id: FirstName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 76
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName
+  id: LastName
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: RemitterSearchVmModel.LastName
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName
+  type: Property
+  source:
+    id: LastName
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 86
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter
+  id: Filter
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: RemitterSearchVmModel.Filter
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter
+  type: Property
+  source:
+    id: Filter
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 96
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Filter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Filter As String
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc
+  id: Arc
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: Arc
+  nameWithType: RemitterSearchVmModel.Arc
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc
+  type: Property
+  source:
+    id: Arc
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 106
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public string Arc { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Arc As String
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.List
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.List
+  id: List
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: RemitterSearchVmModel.List
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.List
+  type: Property
+  source:
+    id: List
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 116
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public ObservableCollection<RemitterBl> List { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.RemitterBl}
+    content.vb: Public Property List As ObservableCollection(Of RemitterBl)
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.List*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption
+  id: SearchOption
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchOption
+  nameWithType: RemitterSearchVmModel.SearchOption
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption
+  type: Property
+  source:
+    id: SearchOption
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 126
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public ObservableCollection<string> SearchOption { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.String}
+    content.vb: Public Property SearchOption As ObservableCollection(Of String)
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected
+  id: Selected
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: RemitterSearchVmModel.Selected
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected
+  type: Property
+  source:
+    id: Selected
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 136
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public RemitterBl Selected { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.BaseLogic.RemitterBl
+    content.vb: Public Property Selected As RemitterBl
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged
+  id: InitiationStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: InitiationStateChanged
+  nameWithType: RemitterSearchVmModel.InitiationStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged
+  type: Property
+  source:
+    id: InitiationStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 147
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action InitiationStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property InitiationStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged
+  id: NextStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: NextStateChanged
+  nameWithType: RemitterSearchVmModel.NextStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged
+  type: Property
+  source:
+    id: NextStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 157
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action NextStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property NextStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged
+  id: SearchfieldStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchfieldStateChanged
+  nameWithType: RemitterSearchVmModel.SearchfieldStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged
+  type: Property
+  source:
+    id: SearchfieldStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 167
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action SearchfieldStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property SearchfieldStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged
+  id: SearchoptionStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchoptionStateChanged
+  nameWithType: RemitterSearchVmModel.SearchoptionStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged
+  type: Property
+  source:
+    id: SearchoptionStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 177
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action SearchoptionStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property SearchoptionStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged
+  id: AddStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: AddStateChanged
+  nameWithType: RemitterSearchVmModel.AddStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged
+  type: Property
+  source:
+    id: AddStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 187
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action AddStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property AddStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged
+  id: SearchMemberIdStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchMemberIdStateChanged
+  nameWithType: RemitterSearchVmModel.SearchMemberIdStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged
+  type: Property
+  source:
+    id: SearchMemberIdStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 197
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action SearchMemberIdStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property SearchMemberIdStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged
+  commentId: P:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged
+  id: SearchArcStateChanged
+  parent: FasttraxxDG.UiLibrary.RemitterSearchVmModel
+  langs:
+  - csharp
+  - vb
+  name: SearchArcStateChanged
+  nameWithType: RemitterSearchVmModel.SearchArcStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged
+  type: Property
+  source:
+    id: SearchArcStateChanged
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.UiLibrary\Remitter\RemitterSearchVmModel.cs
+    startLine: 207
+  assemblies:
+  - FasttraxxDG.UiLibrary
+  namespace: FasttraxxDG.UiLibrary
+  syntax:
+    content: public Action SearchArcStateChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Action
+    content.vb: Public Property SearchArcStateChanged As Action
+  overload: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.UiLibrary
+  commentId: N:FasttraxxDG.UiLibrary
+  name: FasttraxxDG.UiLibrary
+  nameWithType: FasttraxxDG.UiLibrary
+  fullName: FasttraxxDG.UiLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.Base.NotifyChangedObject
+  commentId: T:FasttraxxDG.Base.NotifyChangedObject
+  parent: FasttraxxDG.Base
+  name: NotifyChangedObject
+  nameWithType: NotifyChangedObject
+  fullName: FasttraxxDG.Base.NotifyChangedObject
+- uid: FasttraxxDG.Base.BaseViewModel
+  commentId: T:FasttraxxDG.Base.BaseViewModel
+  parent: FasttraxxDG.Base
+  name: BaseViewModel
+  nameWithType: BaseViewModel
+  fullName: FasttraxxDG.Base.BaseViewModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Item[String]
+  nameWithType: BaseViewModel.Item[String]
+  fullName: FasttraxxDG.Base.BaseViewModel.Item[System.String]
+  nameWithType.vb: BaseViewModel.Item(String)
+  fullName.vb: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Item(System.String)
+    name: Item
+    nameWithType: BaseViewModel.Item
+    fullName: FasttraxxDG.Base.BaseViewModel.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.FocusRequested
+  commentId: E:FasttraxxDG.Base.BaseViewModel.FocusRequested
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: FocusRequested
+  nameWithType: BaseViewModel.FocusRequested
+  fullName: FasttraxxDG.Base.BaseViewModel.FocusRequested
+- uid: FasttraxxDG.Base.BaseViewModel.Error
+  commentId: P:FasttraxxDG.Base.BaseViewModel.Error
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Error
+  nameWithType: BaseViewModel.Error
+  fullName: FasttraxxDG.Base.BaseViewModel.Error
+- uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnValidate(String)
+  nameWithType: BaseViewModel.OnValidate(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnValidate(System.String)
+    name: OnValidate
+    nameWithType: BaseViewModel.OnValidate
+    fullName: FasttraxxDG.Base.BaseViewModel.OnValidate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: OnFocusRequested(String)
+  nameWithType: BaseViewModel.OnFocusRequested(String)
+  fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.OnFocusRequested(System.String)
+    name: OnFocusRequested
+    nameWithType: BaseViewModel.OnFocusRequested
+    fullName: FasttraxxDG.Base.BaseViewModel.OnFocusRequested
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  commentId: P:FasttraxxDG.Base.BaseViewModel.IsDesignMode
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: IsDesignMode
+  nameWithType: BaseViewModel.IsDesignMode
+  fullName: FasttraxxDG.Base.BaseViewModel.IsDesignMode
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose
+  parent: FasttraxxDG.Base.BaseViewModel
+  name: Dispose()
+  nameWithType: BaseViewModel.Dispose()
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose()
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  commentId: M:FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  parent: FasttraxxDG.Base.BaseViewModel
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BaseViewModel.Dispose(Boolean)
+  fullName: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.BaseViewModel.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BaseViewModel.Dispose
+    fullName: FasttraxxDG.Base.BaseViewModel.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  commentId: E:FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  name: PropertyChanged
+  nameWithType: NotifyChangedObject.PropertyChanged
+  fullName: FasttraxxDG.Base.NotifyChangedObject.PropertyChanged
+- uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  commentId: M:FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  parent: FasttraxxDG.Base.NotifyChangedObject
+  isExternal: true
+  name: OnPropertyChanged(String)
+  nameWithType: NotifyChangedObject.OnPropertyChanged(String)
+  fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+  spec.csharp:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    nameWithType: NotifyChangedObject.OnPropertyChanged
+    fullName: FasttraxxDG.Base.NotifyChangedObject.OnPropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<RemitterSearchVmModel, TDest>()
+  nameWithType: MapperHelper.MapTo<RemitterSearchVmModel, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.RemitterSearchVmModel, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of RemitterSearchVmModel, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.RemitterSearchVmModel, TDest)()
+  name.vb: MapTo(Of RemitterSearchVmModel, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<RemitterSearchVmModel, TDest>
+    nameWithType: MapperHelper.MapTo<RemitterSearchVmModel, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.UiLibrary.RemitterSearchVmModel, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of RemitterSearchVmModel, TDest)
+    nameWithType: MapperHelper.MapTo(Of RemitterSearchVmModel, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.UiLibrary.RemitterSearchVmModel, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand
+  name: SearchCommand
+  nameWithType: RemitterSearchVmModel.SearchCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchCommand
+- uid: FasttraxxDG.Base.DelegateCommand
+  commentId: T:FasttraxxDG.Base.DelegateCommand
+  parent: FasttraxxDG.Base
+  name: DelegateCommand
+  nameWithType: DelegateCommand
+  fullName: FasttraxxDG.Base.DelegateCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand
+  name: SaveCommand
+  nameWithType: RemitterSearchVmModel.SaveCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SaveCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand
+  name: SearchOptionCommand
+  nameWithType: RemitterSearchVmModel.SearchOptionCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOptionCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand
+  name: AddCommand
+  nameWithType: RemitterSearchVmModel.AddCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand
+  name: SearchIdCommand
+  nameWithType: RemitterSearchVmModel.SearchIdCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchIdCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand
+  name: SearchArcCommand
+  nameWithType: RemitterSearchVmModel.SearchArcCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand
+  name: LoadCommand
+  nameWithType: RemitterSearchVmModel.LoadCommand
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LoadCommand
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount
+  name: RecordCount
+  nameWithType: RemitterSearchVmModel.RecordCount
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RecordCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible
+  name: Visible
+  nameWithType: RemitterSearchVmModel.Visible
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Visible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId
+  name: RemitterId
+  nameWithType: RemitterSearchVmModel.RemitterId
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.RemitterId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected
+  name: SearchSelected
+  nameWithType: RemitterSearchVmModel.SearchSelected
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchSelected
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName
+  name: FirstName
+  nameWithType: RemitterSearchVmModel.FirstName
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.FirstName
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName
+  name: LastName
+  nameWithType: RemitterSearchVmModel.LastName
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.LastName
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter
+  name: Filter
+  nameWithType: RemitterSearchVmModel.Filter
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Filter
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc
+  name: Arc
+  nameWithType: RemitterSearchVmModel.Arc
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Arc
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.List*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.List
+  name: List
+  nameWithType: RemitterSearchVmModel.List
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.List
+- uid: System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.RemitterBl}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{FasttraxxDG.BaseLogic.RemitterBl}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<RemitterBl>
+  nameWithType: ObservableCollection<RemitterBl>
+  fullName: System.Collections.ObjectModel.ObservableCollection<FasttraxxDG.BaseLogic.RemitterBl>
+  nameWithType.vb: ObservableCollection(Of RemitterBl)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of FasttraxxDG.BaseLogic.RemitterBl)
+  name.vb: ObservableCollection(Of RemitterBl)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.RemitterBl
+    name: RemitterBl
+    nameWithType: RemitterBl
+    fullName: FasttraxxDG.BaseLogic.RemitterBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.RemitterBl
+    name: RemitterBl
+    nameWithType: RemitterBl
+    fullName: FasttraxxDG.BaseLogic.RemitterBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption
+  name: SearchOption
+  nameWithType: RemitterSearchVmModel.SearchOption
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchOption
+- uid: System.Collections.ObjectModel.ObservableCollection{System.String}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<String>
+  nameWithType: ObservableCollection<String>
+  fullName: System.Collections.ObjectModel.ObservableCollection<System.String>
+  nameWithType.vb: ObservableCollection(Of String)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of System.String)
+  name.vb: ObservableCollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected
+  name: Selected
+  nameWithType: RemitterSearchVmModel.Selected
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.Selected
+- uid: FasttraxxDG.BaseLogic.RemitterBl
+  commentId: T:FasttraxxDG.BaseLogic.RemitterBl
+  parent: FasttraxxDG.BaseLogic
+  name: RemitterBl
+  nameWithType: RemitterBl
+  fullName: FasttraxxDG.BaseLogic.RemitterBl
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged
+  name: InitiationStateChanged
+  nameWithType: RemitterSearchVmModel.InitiationStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.InitiationStateChanged
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged
+  name: NextStateChanged
+  nameWithType: RemitterSearchVmModel.NextStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.NextStateChanged
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged
+  name: SearchfieldStateChanged
+  nameWithType: RemitterSearchVmModel.SearchfieldStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchfieldStateChanged
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged
+  name: SearchoptionStateChanged
+  nameWithType: RemitterSearchVmModel.SearchoptionStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchoptionStateChanged
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged
+  name: AddStateChanged
+  nameWithType: RemitterSearchVmModel.AddStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.AddStateChanged
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged
+  name: SearchMemberIdStateChanged
+  nameWithType: RemitterSearchVmModel.SearchMemberIdStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchMemberIdStateChanged
+- uid: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged*
+  commentId: Overload:FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged
+  name: SearchArcStateChanged
+  nameWithType: RemitterSearchVmModel.SearchArcStateChanged
+  fullName: FasttraxxDG.UiLibrary.RemitterSearchVmModel.SearchArcStateChanged

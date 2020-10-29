@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  id: ImageHelper
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  children:
+  - FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap(System.Windows.Media.Imaging.BitmapImage)
+  - FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap(System.Drawing.Bitmap)
+  - FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Double,System.String)
+  - FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte(System.Windows.Media.ImageSource,System.Int32,System.Int32)
+  - FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ImageHelper
+  nameWithType: ImageHelper
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  type: Class
+  source:
+    id: ImageHelper
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ImageHelper.cs
+    startLine: 15
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static class ImageHelper
+    content.vb: Public Module ImageHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte(System.Windows.Media.ImageSource,System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte(System.Windows.Media.ImageSource,System.Int32,System.Int32)
+  id: ImgSourceToByte(System.Windows.Media.ImageSource,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  langs:
+  - csharp
+  - vb
+  name: ImgSourceToByte(ImageSource, Int32, Int32)
+  nameWithType: ImageHelper.ImgSourceToByte(ImageSource, Int32, Int32)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte(System.Windows.Media.ImageSource, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: ImgSourceToByte
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ImageHelper.cs
+    startLine: 17
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static byte[] ImgSourceToByte(this ImageSource img, int width = 525, int height = 330)
+    parameters:
+    - id: img
+      type: System.Windows.Media.ImageSource
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ImgSourceToByte(img As ImageSource, width As Integer = 525, height As Integer = 330) As Byte()
+  overload: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage(System.Byte[])
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage(System.Byte[])
+  id: LoadImage(System.Byte[])
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadImage(Byte[])
+  nameWithType: ImageHelper.LoadImage(Byte[])
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage(System.Byte[])
+  type: Method
+  source:
+    id: LoadImage
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ImageHelper.cs
+    startLine: 40
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static BitmapImage LoadImage(this byte[] imageData)
+    parameters:
+    - id: imageData
+      type: System.Byte[]
+    return:
+      type: System.Windows.Media.Imaging.BitmapImage
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function LoadImage(imageData As Byte()) As BitmapImage
+  overload: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage*
+  nameWithType.vb: ImageHelper.LoadImage(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage(System.Byte())
+  name.vb: LoadImage(Byte())
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap(System.Windows.Media.Imaging.BitmapImage)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap(System.Windows.Media.Imaging.BitmapImage)
+  id: BitmapImage2Bitmap(System.Windows.Media.Imaging.BitmapImage)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  langs:
+  - csharp
+  - vb
+  name: BitmapImage2Bitmap(BitmapImage)
+  nameWithType: ImageHelper.BitmapImage2Bitmap(BitmapImage)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap(System.Windows.Media.Imaging.BitmapImage)
+  type: Method
+  source:
+    id: BitmapImage2Bitmap
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ImageHelper.cs
+    startLine: 58
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static Bitmap BitmapImage2Bitmap(this BitmapImage bitmapImage)
+    parameters:
+    - id: bitmapImage
+      type: System.Windows.Media.Imaging.BitmapImage
+    return:
+      type: System.Drawing.Bitmap
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BitmapImage2Bitmap(bitmapImage As BitmapImage) As Bitmap
+  overload: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap(System.Drawing.Bitmap)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap(System.Drawing.Bitmap)
+  id: CreateBitmapSourceFromBitmap(System.Drawing.Bitmap)
+  isExtensionMethod: true
+  parent: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateBitmapSourceFromBitmap(Bitmap)
+  nameWithType: ImageHelper.CreateBitmapSourceFromBitmap(Bitmap)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap(System.Drawing.Bitmap)
+  type: Method
+  source:
+    id: CreateBitmapSourceFromBitmap
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ImageHelper.cs
+    startLine: 69
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static BitmapSource CreateBitmapSourceFromBitmap(this Bitmap bitmap)
+    parameters:
+    - id: bitmap
+      type: System.Drawing.Bitmap
+    return:
+      type: System.Windows.Media.Imaging.BitmapSource
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateBitmapSourceFromBitmap(bitmap As Bitmap) As BitmapSource
+  overload: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Double,System.String)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Double,System.String)
+  id: GenerateImage(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Double,System.String)
+  parent: FasttraxxDG.FrontEndUI.Helpers.ImageHelper
+  langs:
+  - csharp
+  - vb
+  name: GenerateImage(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, Double, String)
+  nameWithType: ImageHelper.GenerateImage(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, Double, String)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime, System.Double, System.String)
+  type: Method
+  source:
+    id: GenerateImage
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.FrontEndUI\FasttraxxDG.FrontEndUI\Helpers\ImageHelper.cs
+    startLine: 81
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+  namespace: FasttraxxDG.FrontEndUI.Helpers
+  syntax:
+    content: public static void GenerateImage(string remitter, string txnId, string forwarder, string forwarderAccount, string tel, string beneficiary, string bank, string account, string beneTel, string beneAddress, string nt, string arc, string expiry, DateTime date, double peso, string remarks)
+    parameters:
+    - id: remitter
+      type: System.String
+    - id: txnId
+      type: System.String
+    - id: forwarder
+      type: System.String
+    - id: forwarderAccount
+      type: System.String
+    - id: tel
+      type: System.String
+    - id: beneficiary
+      type: System.String
+    - id: bank
+      type: System.String
+    - id: account
+      type: System.String
+    - id: beneTel
+      type: System.String
+    - id: beneAddress
+      type: System.String
+    - id: nt
+      type: System.String
+    - id: arc
+      type: System.String
+    - id: expiry
+      type: System.String
+    - id: date
+      type: System.DateTime
+    - id: peso
+      type: System.Double
+    - id: remarks
+      type: System.String
+    content.vb: Public Shared Sub GenerateImage(remitter As String, txnId As String, forwarder As String, forwarderAccount As String, tel As String, beneficiary As String, bank As String, account As String, beneTel As String, beneAddress As String, nt As String, arc As String, expiry As String, date As Date, peso As Double, remarks As String)
+  overload: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte
+  name: ImgSourceToByte
+  nameWithType: ImageHelper.ImgSourceToByte
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.ImgSourceToByte
+- uid: System.Windows.Media.ImageSource
+  commentId: T:System.Windows.Media.ImageSource
+  parent: System.Windows.Media
+  isExternal: true
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: System.Windows.Media.ImageSource
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage
+  name: LoadImage
+  nameWithType: ImageHelper.LoadImage
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.LoadImage
+- uid: System.Windows.Media.Imaging.BitmapImage
+  commentId: T:System.Windows.Media.Imaging.BitmapImage
+  parent: System.Windows.Media.Imaging
+  isExternal: true
+  name: BitmapImage
+  nameWithType: BitmapImage
+  fullName: System.Windows.Media.Imaging.BitmapImage
+- uid: System.Windows.Media.Imaging
+  commentId: N:System.Windows.Media.Imaging
+  isExternal: true
+  name: System.Windows.Media.Imaging
+  nameWithType: System.Windows.Media.Imaging
+  fullName: System.Windows.Media.Imaging
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap
+  name: BitmapImage2Bitmap
+  nameWithType: ImageHelper.BitmapImage2Bitmap
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.BitmapImage2Bitmap
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap
+  name: CreateBitmapSourceFromBitmap
+  nameWithType: ImageHelper.CreateBitmapSourceFromBitmap
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.CreateBitmapSourceFromBitmap
+- uid: System.Windows.Media.Imaging.BitmapSource
+  commentId: T:System.Windows.Media.Imaging.BitmapSource
+  parent: System.Windows.Media.Imaging
+  isExternal: true
+  name: BitmapSource
+  nameWithType: BitmapSource
+  fullName: System.Windows.Media.Imaging.BitmapSource
+- uid: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage*
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage
+  name: GenerateImage
+  nameWithType: ImageHelper.GenerateImage
+  fullName: FasttraxxDG.FrontEndUI.Helpers.ImageHelper.GenerateImage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

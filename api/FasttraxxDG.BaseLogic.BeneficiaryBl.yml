@@ -1,0 +1,1611 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl
+  commentId: T:FasttraxxDG.BaseLogic.BeneficiaryBl
+  id: BeneficiaryBl
+  parent: FasttraxxDG.BaseLogic
+  children:
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists(System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd(System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet(System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch(System.String,System.String,System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate(System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2(System.Int32,System.Int32,System.String)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList(System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary(System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction(System.Int32,System.String)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList(System.Int32,System.Int32)
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryBl
+  nameWithType: BeneficiaryBl
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl
+  type: Class
+  source:
+    id: BeneficiaryBl
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: 'public class BeneficiaryBl : BeneficiaryData, INameBase'
+    content.vb: >-
+      Public Class BeneficiaryBl
+
+          Inherits BeneficiaryData
+
+          Implements INameBase
+  inheritance:
+  - System.Object
+  - FasttraxxDG.BaseModel.Beneficiary
+  - FasttraxxDG.BaseModel.BeneficiaryData
+  implements:
+  - FasttraxxDG.BaseModel.INameBase
+  inheritedMembers:
+  - FasttraxxDG.BaseModel.BeneficiaryData.RemitterID
+  - FasttraxxDG.BaseModel.BeneficiaryData.RelationID
+  - FasttraxxDG.BaseModel.BeneficiaryData.Fullname
+  - FasttraxxDG.BaseModel.BeneficiaryData.Remitter
+  - FasttraxxDG.BaseModel.BeneficiaryData.Beneficiary
+  - FasttraxxDG.BaseModel.BeneficiaryData.ServiceMode
+  - FasttraxxDG.BaseModel.BeneficiaryData.TxnID
+  - FasttraxxDG.BaseModel.BeneficiaryData.DateEntry
+  - FasttraxxDG.BaseModel.BeneficiaryData.StatusName
+  - FasttraxxDG.BaseModel.BeneficiaryData.AccountNumber
+  - FasttraxxDG.BaseModel.BeneficiaryData.Peso
+  - FasttraxxDG.BaseModel.BeneficiaryData.Nt
+  - FasttraxxDG.BaseModel.BeneficiaryData.LastTransaction
+  - FasttraxxDG.BaseModel.BeneficiaryData.Occupation
+  - FasttraxxDG.BaseModel.Beneficiary.BeneficiaryID
+  - FasttraxxDG.BaseModel.Beneficiary.Alternate
+  - FasttraxxDG.BaseModel.Beneficiary.Address2
+  - FasttraxxDG.BaseModel.Beneficiary.City
+  - FasttraxxDG.BaseModel.Beneficiary.Province
+  - FasttraxxDG.BaseModel.Beneficiary.Zip
+  - FasttraxxDG.BaseModel.Beneficiary.DateCreated
+  - FasttraxxDG.BaseModel.Beneficiary.CityID
+  - FasttraxxDG.BaseModel.Beneficiary.Standard
+  - FasttraxxDG.BaseModel.Beneficiary.Watchout
+  - FasttraxxDG.BaseModel.Beneficiary.FirstName
+  - FasttraxxDG.BaseModel.Beneficiary.MiddleName
+  - FasttraxxDG.BaseModel.Beneficiary.LastName
+  - FasttraxxDG.BaseModel.Beneficiary.Telephone1
+  - FasttraxxDG.BaseModel.Beneficiary.Telephone2
+  - FasttraxxDG.BaseModel.Beneficiary.Mobile1
+  - FasttraxxDG.BaseModel.Beneficiary.Mobile2
+  - FasttraxxDG.BaseModel.Beneficiary.Gender
+  - FasttraxxDG.BaseModel.Beneficiary.BirthDate
+  - FasttraxxDG.BaseModel.Beneficiary.Remarks
+  - FasttraxxDG.BaseModel.Beneficiary.LastTxn
+  - FasttraxxDG.BaseModel.Beneficiary.Address1
+  - FasttraxxDG.BaseModel.Beneficiary.CreatorID
+  - FasttraxxDG.BaseModel.Beneficiary.ModifierID
+  - FasttraxxDG.BaseModel.Beneficiary.Email
+  - FasttraxxDG.BaseModel.Beneficiary.Active
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseLogic.BeneficiaryBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand
+  commentId: P:FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand
+  id: EditCommand
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: EditCommand
+  nameWithType: BeneficiaryBl.EditCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand
+  type: Property
+  source:
+    id: EditCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 11
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public DelegateCommand EditCommand { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public Property EditCommand As DelegateCommand
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand
+  commentId: P:FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand
+  id: HideCommand
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: HideCommand
+  nameWithType: BeneficiaryBl.HideCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand
+  type: Property
+  source:
+    id: HideCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public DelegateCommand HideCommand { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public Property HideCommand As DelegateCommand
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand
+  commentId: P:FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand
+  id: UnhideBeneCommand
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: UnhideBeneCommand
+  nameWithType: BeneficiaryBl.UnhideBeneCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand
+  type: Property
+  source:
+    id: UnhideBeneCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 21
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public DelegateCommand UnhideBeneCommand { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public Property UnhideBeneCommand As DelegateCommand
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand
+  commentId: P:FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand
+  id: ShowRecordCommand
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: ShowRecordCommand
+  nameWithType: BeneficiaryBl.ShowRecordCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand
+  type: Property
+  source:
+    id: ShowRecordCommand
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 26
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public DelegateCommand ShowRecordCommand { get; set; }
+    parameters: []
+    return:
+      type: FasttraxxDG.Base.DelegateCommand
+    content.vb: Public Property ShowRecordCommand As DelegateCommand
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd(System.Int32)
+  id: BeneficiaryAdd(System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryAdd(Int32)
+  nameWithType: BeneficiaryBl.BeneficiaryAdd(Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd(System.Int32)
+  type: Method
+  source:
+    id: BeneficiaryAdd
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 36
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis mehtod insert new beneficiary data and return <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public BeneficiaryBl BeneficiaryAdd(int creatorId)
+    parameters:
+    - id: creatorId
+      type: System.Int32
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.BeneficiaryBl
+      description: ''
+    content.vb: Public Function BeneficiaryAdd(creatorId As Integer) As BeneficiaryBl
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate(System.Int32)
+  id: BeneficiaryUpdate(System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryUpdate(Int32)
+  nameWithType: BeneficiaryBl.BeneficiaryUpdate(Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate(System.Int32)
+  type: Method
+  source:
+    id: BeneficiaryUpdate
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 49
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis mehod update beneficiary data by and return <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public BeneficiaryBl BeneficiaryUpdate(int modifierId)
+    parameters:
+    - id: modifierId
+      type: System.Int32
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.BeneficiaryBl
+      description: ''
+    content.vb: Public Function BeneficiaryUpdate(modifierId As Integer) As BeneficiaryBl
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList(System.Int32,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList(System.Int32,System.Int32)
+  id: RemitterBeneList(System.Int32,System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: RemitterBeneList(Int32, Int32)
+  nameWithType: BeneficiaryBl.RemitterBeneList(Int32, Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: RemitterBeneList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 64
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetches bene data filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">remitterId</code>\nand <code data-dev-comment-type=\"paramref\" class=\"paramref\">companyId</code> and return list of <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>.\n\n"
+  example: []
+  syntax:
+    content: public List<BeneficiaryBl> RemitterBeneList(int remitterId, int companyId)
+    parameters:
+    - id: remitterId
+      type: System.Int32
+      description: ''
+    - id: companyId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.BeneficiaryBl}
+      description: ''
+    content.vb: Public Function RemitterBeneList(remitterId As Integer, companyId As Integer) As List(Of BeneficiaryBl)
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList(System.Int32)
+  id: BeneRecordList(System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneRecordList(Int32)
+  nameWithType: BeneficiaryBl.BeneRecordList(Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList(System.Int32)
+  type: Method
+  source:
+    id: BeneRecordList
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 77
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\n/// this method fetches beneficiary data filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneficiaryId</code>\nand return list of <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>.\nand return list of <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<BeneficiaryBl> BeneRecordList(int beneficiaryId)
+    parameters:
+    - id: beneficiaryId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.BeneficiaryBl}
+      description: ''
+    content.vb: Public Function BeneRecordList(beneficiaryId As Integer) As List(Of BeneficiaryBl)
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary(System.Int32)
+  id: GetBeneficiary(System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: GetBeneficiary(Int32)
+  nameWithType: BeneficiaryBl.GetBeneficiary(Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary(System.Int32)
+  type: Method
+  source:
+    id: GetBeneficiary
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 89
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method get bene data filter by <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneficiaryId</code> and return <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>.\nand return <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public BeneficiaryBl GetBeneficiary(int beneficiaryId)
+    parameters:
+    - id: beneficiaryId
+      type: System.Int32
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.BeneficiaryBl
+      description: ''
+    content.vb: Public Function GetBeneficiary(beneficiaryId As Integer) As BeneficiaryBl
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet(System.Int32)
+  id: BeneficiaryIsActiveGet(System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryIsActiveGet(Int32)
+  nameWithType: BeneficiaryBl.BeneficiaryIsActiveGet(Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet(System.Int32)
+  type: Method
+  source:
+    id: BeneficiaryIsActiveGet
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 100
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if bene is already active by <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneficiaryId</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool BeneficiaryIsActiveGet(int beneficiaryId)
+    parameters:
+    - id: beneficiaryId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function BeneficiaryIsActiveGet(beneficiaryId As Integer) As Boolean
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet
+  id: BeneficiaryMobileFakeGet
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryMobileFakeGet()
+  nameWithType: BeneficiaryBl.BeneficiaryMobileFakeGet()
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet()
+  type: Method
+  source:
+    id: BeneficiaryMobileFakeGet
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 109
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method get fake mobile for bene and return a string.\n"
+  example: []
+  syntax:
+    content: public string BeneficiaryMobileFakeGet()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function BeneficiaryMobileFakeGet As String
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2(System.Int32,System.Int32,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2(System.Int32,System.Int32,System.String)
+  id: BeneficiaryUpdateTelephone2(System.Int32,System.Int32,System.String)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryUpdateTelephone2(Int32, Int32, String)
+  nameWithType: BeneficiaryBl.BeneficiaryUpdateTelephone2(Int32, Int32, String)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    id: BeneficiaryUpdateTelephone2
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 122
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method update bene tel2 using <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneId</code>\n, <code data-dev-comment-type=\"paramref\" class=\"paramref\">userId</code> and <code data-dev-comment-type=\"paramref\" class=\"paramref\">tel2</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool BeneficiaryUpdateTelephone2(int beneId, int userId, string tel2)
+    parameters:
+    - id: beneId
+      type: System.Int32
+      description: ''
+    - id: userId
+      type: System.Int32
+      description: ''
+    - id: tel2
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function BeneficiaryUpdateTelephone2(beneId As Integer, userId As Integer, tel2 As String) As Boolean
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists(System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists(System.Int32)
+  id: BeneAccountExists(System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneAccountExists(Int32)
+  nameWithType: BeneficiaryBl.BeneAccountExists(Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists(System.Int32)
+  type: Method
+  source:
+    id: BeneAccountExists
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 133
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if bene already exists in account records\nby <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneficiaryId</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool BeneAccountExists(int beneficiaryId)
+    parameters:
+    - id: beneficiaryId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function BeneAccountExists(beneficiaryId As Integer) As Boolean
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction(System.Int32,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction(System.Int32,System.String)
+  id: Has14DaysTransaction(System.Int32,System.String)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: Has14DaysTransaction(Int32, String)
+  nameWithType: BeneficiaryBl.Has14DaysTransaction(Int32, String)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction(System.Int32, System.String)
+  type: Method
+  source:
+    id: Has14DaysTransaction
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 145
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method check if bene has txns within 14 days using <code data-dev-comment-type=\"paramref\" class=\"paramref\">beneficiaryId</code>\nand <code data-dev-comment-type=\"paramref\" class=\"paramref\">acctNumber</code> and return a boolean.\n"
+  example: []
+  syntax:
+    content: public bool Has14DaysTransaction(int beneficiaryId, string acctNumber)
+    parameters:
+    - id: beneficiaryId
+      type: System.Int32
+      description: ''
+    - id: acctNumber
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function Has14DaysTransaction(beneficiaryId As Integer, acctNumber As String) As Boolean
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch(System.String,System.String,System.Int32)
+  commentId: M:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch(System.String,System.String,System.Int32)
+  id: BeneficiaryNameSearch(System.String,System.String,System.Int32)
+  parent: FasttraxxDG.BaseLogic.BeneficiaryBl
+  langs:
+  - csharp
+  - vb
+  name: BeneficiaryNameSearch(String, String, Int32)
+  nameWithType: BeneficiaryBl.BeneficiaryNameSearch(String, String, Int32)
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    id: BeneficiaryNameSearch
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\BeneficiaryBl.cs
+    startLine: 158
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method fetches bene data using <code data-dev-comment-type=\"paramref\" class=\"paramref\">firstName</code>, <code data-dev-comment-type=\"paramref\" class=\"paramref\">lastName</code>\nand <code data-dev-comment-type=\"paramref\" class=\"paramref\">companyId</code> and return list of <xref href=\"FasttraxxDG.BaseLogic.BeneficiaryBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public List<BeneficiaryBl> BeneficiaryNameSearch(string firstName, string lastName, int companyId)
+    parameters:
+    - id: firstName
+      type: System.String
+      description: ''
+    - id: lastName
+      type: System.String
+      description: ''
+    - id: companyId
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Collections.Generic.List{FasttraxxDG.BaseLogic.BeneficiaryBl}
+      description: ''
+    content.vb: Public Function BeneficiaryNameSearch(firstName As String, lastName As String, companyId As Integer) As List(Of BeneficiaryBl)
+  overload: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.Beneficiary
+  commentId: T:FasttraxxDG.BaseModel.Beneficiary
+  parent: FasttraxxDG.BaseModel
+  name: Beneficiary
+  nameWithType: Beneficiary
+  fullName: FasttraxxDG.BaseModel.Beneficiary
+- uid: FasttraxxDG.BaseModel.BeneficiaryData
+  commentId: T:FasttraxxDG.BaseModel.BeneficiaryData
+  parent: FasttraxxDG.BaseModel
+  name: BeneficiaryData
+  nameWithType: BeneficiaryData
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData
+- uid: FasttraxxDG.BaseModel.INameBase
+  commentId: T:FasttraxxDG.BaseModel.INameBase
+  parent: FasttraxxDG.BaseModel
+  name: INameBase
+  nameWithType: INameBase
+  fullName: FasttraxxDG.BaseModel.INameBase
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.RemitterID
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.RemitterID
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: RemitterID
+  nameWithType: BeneficiaryData.RemitterID
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.RemitterID
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.RelationID
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.RelationID
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: RelationID
+  nameWithType: BeneficiaryData.RelationID
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.RelationID
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.Fullname
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.Fullname
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: Fullname
+  nameWithType: BeneficiaryData.Fullname
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.Fullname
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.Remitter
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.Remitter
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: Remitter
+  nameWithType: BeneficiaryData.Remitter
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.Remitter
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.Beneficiary
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.Beneficiary
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: Beneficiary
+  nameWithType: BeneficiaryData.Beneficiary
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.Beneficiary
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.ServiceMode
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.ServiceMode
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: ServiceMode
+  nameWithType: BeneficiaryData.ServiceMode
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.ServiceMode
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.TxnID
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.TxnID
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: TxnID
+  nameWithType: BeneficiaryData.TxnID
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.TxnID
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.DateEntry
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.DateEntry
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: DateEntry
+  nameWithType: BeneficiaryData.DateEntry
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.DateEntry
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.StatusName
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.StatusName
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: StatusName
+  nameWithType: BeneficiaryData.StatusName
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.StatusName
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.AccountNumber
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.AccountNumber
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: AccountNumber
+  nameWithType: BeneficiaryData.AccountNumber
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.AccountNumber
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.Peso
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.Peso
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: Peso
+  nameWithType: BeneficiaryData.Peso
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.Peso
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.Nt
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.Nt
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: Nt
+  nameWithType: BeneficiaryData.Nt
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.Nt
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.LastTransaction
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.LastTransaction
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: LastTransaction
+  nameWithType: BeneficiaryData.LastTransaction
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.LastTransaction
+- uid: FasttraxxDG.BaseModel.BeneficiaryData.Occupation
+  commentId: P:FasttraxxDG.BaseModel.BeneficiaryData.Occupation
+  parent: FasttraxxDG.BaseModel.BeneficiaryData
+  name: Occupation
+  nameWithType: BeneficiaryData.Occupation
+  fullName: FasttraxxDG.BaseModel.BeneficiaryData.Occupation
+- uid: FasttraxxDG.BaseModel.Beneficiary.BeneficiaryID
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.BeneficiaryID
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: BeneficiaryID
+  nameWithType: Beneficiary.BeneficiaryID
+  fullName: FasttraxxDG.BaseModel.Beneficiary.BeneficiaryID
+- uid: FasttraxxDG.BaseModel.Beneficiary.Alternate
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Alternate
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Alternate
+  nameWithType: Beneficiary.Alternate
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Alternate
+- uid: FasttraxxDG.BaseModel.Beneficiary.Address2
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Address2
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Address2
+  nameWithType: Beneficiary.Address2
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Address2
+- uid: FasttraxxDG.BaseModel.Beneficiary.City
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.City
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: City
+  nameWithType: Beneficiary.City
+  fullName: FasttraxxDG.BaseModel.Beneficiary.City
+- uid: FasttraxxDG.BaseModel.Beneficiary.Province
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Province
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Province
+  nameWithType: Beneficiary.Province
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Province
+- uid: FasttraxxDG.BaseModel.Beneficiary.Zip
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Zip
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Zip
+  nameWithType: Beneficiary.Zip
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Zip
+- uid: FasttraxxDG.BaseModel.Beneficiary.DateCreated
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.DateCreated
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: DateCreated
+  nameWithType: Beneficiary.DateCreated
+  fullName: FasttraxxDG.BaseModel.Beneficiary.DateCreated
+- uid: FasttraxxDG.BaseModel.Beneficiary.CityID
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.CityID
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: CityID
+  nameWithType: Beneficiary.CityID
+  fullName: FasttraxxDG.BaseModel.Beneficiary.CityID
+- uid: FasttraxxDG.BaseModel.Beneficiary.Standard
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Standard
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Standard
+  nameWithType: Beneficiary.Standard
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Standard
+- uid: FasttraxxDG.BaseModel.Beneficiary.Watchout
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Watchout
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Watchout
+  nameWithType: Beneficiary.Watchout
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Watchout
+- uid: FasttraxxDG.BaseModel.Beneficiary.FirstName
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.FirstName
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: FirstName
+  nameWithType: Beneficiary.FirstName
+  fullName: FasttraxxDG.BaseModel.Beneficiary.FirstName
+- uid: FasttraxxDG.BaseModel.Beneficiary.MiddleName
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.MiddleName
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: MiddleName
+  nameWithType: Beneficiary.MiddleName
+  fullName: FasttraxxDG.BaseModel.Beneficiary.MiddleName
+- uid: FasttraxxDG.BaseModel.Beneficiary.LastName
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.LastName
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: LastName
+  nameWithType: Beneficiary.LastName
+  fullName: FasttraxxDG.BaseModel.Beneficiary.LastName
+- uid: FasttraxxDG.BaseModel.Beneficiary.Telephone1
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Telephone1
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Telephone1
+  nameWithType: Beneficiary.Telephone1
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Telephone1
+- uid: FasttraxxDG.BaseModel.Beneficiary.Telephone2
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Telephone2
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Telephone2
+  nameWithType: Beneficiary.Telephone2
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Telephone2
+- uid: FasttraxxDG.BaseModel.Beneficiary.Mobile1
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Mobile1
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Mobile1
+  nameWithType: Beneficiary.Mobile1
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Mobile1
+- uid: FasttraxxDG.BaseModel.Beneficiary.Mobile2
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Mobile2
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Mobile2
+  nameWithType: Beneficiary.Mobile2
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Mobile2
+- uid: FasttraxxDG.BaseModel.Beneficiary.Gender
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Gender
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Gender
+  nameWithType: Beneficiary.Gender
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Gender
+- uid: FasttraxxDG.BaseModel.Beneficiary.BirthDate
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.BirthDate
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: BirthDate
+  nameWithType: Beneficiary.BirthDate
+  fullName: FasttraxxDG.BaseModel.Beneficiary.BirthDate
+- uid: FasttraxxDG.BaseModel.Beneficiary.Remarks
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Remarks
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Remarks
+  nameWithType: Beneficiary.Remarks
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Remarks
+- uid: FasttraxxDG.BaseModel.Beneficiary.LastTxn
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.LastTxn
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: LastTxn
+  nameWithType: Beneficiary.LastTxn
+  fullName: FasttraxxDG.BaseModel.Beneficiary.LastTxn
+- uid: FasttraxxDG.BaseModel.Beneficiary.Address1
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Address1
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Address1
+  nameWithType: Beneficiary.Address1
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Address1
+- uid: FasttraxxDG.BaseModel.Beneficiary.CreatorID
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.CreatorID
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: CreatorID
+  nameWithType: Beneficiary.CreatorID
+  fullName: FasttraxxDG.BaseModel.Beneficiary.CreatorID
+- uid: FasttraxxDG.BaseModel.Beneficiary.ModifierID
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.ModifierID
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: ModifierID
+  nameWithType: Beneficiary.ModifierID
+  fullName: FasttraxxDG.BaseModel.Beneficiary.ModifierID
+- uid: FasttraxxDG.BaseModel.Beneficiary.Email
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Email
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Email
+  nameWithType: Beneficiary.Email
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Email
+- uid: FasttraxxDG.BaseModel.Beneficiary.Active
+  commentId: P:FasttraxxDG.BaseModel.Beneficiary.Active
+  parent: FasttraxxDG.BaseModel.Beneficiary
+  name: Active
+  nameWithType: Beneficiary.Active
+  fullName: FasttraxxDG.BaseModel.Beneficiary.Active
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<BeneficiaryBl, TDest>()
+  nameWithType: MapperHelper.MapTo<BeneficiaryBl, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.BeneficiaryBl, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of BeneficiaryBl, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.BeneficiaryBl, TDest)()
+  name.vb: MapTo(Of BeneficiaryBl, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<BeneficiaryBl, TDest>
+    nameWithType: MapperHelper.MapTo<BeneficiaryBl, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.BeneficiaryBl, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of BeneficiaryBl, TDest)
+    nameWithType: MapperHelper.MapTo(Of BeneficiaryBl, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.BeneficiaryBl, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand
+  name: EditCommand
+  nameWithType: BeneficiaryBl.EditCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.EditCommand
+- uid: FasttraxxDG.Base.DelegateCommand
+  commentId: T:FasttraxxDG.Base.DelegateCommand
+  parent: FasttraxxDG.Base
+  name: DelegateCommand
+  nameWithType: DelegateCommand
+  fullName: FasttraxxDG.Base.DelegateCommand
+- uid: FasttraxxDG.Base
+  commentId: N:FasttraxxDG.Base
+  name: FasttraxxDG.Base
+  nameWithType: FasttraxxDG.Base
+  fullName: FasttraxxDG.Base
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand
+  name: HideCommand
+  nameWithType: BeneficiaryBl.HideCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.HideCommand
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand
+  name: UnhideBeneCommand
+  nameWithType: BeneficiaryBl.UnhideBeneCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.UnhideBeneCommand
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand
+  name: ShowRecordCommand
+  nameWithType: BeneficiaryBl.ShowRecordCommand
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.ShowRecordCommand
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl
+  commentId: T:FasttraxxDG.BaseLogic.BeneficiaryBl
+  parent: FasttraxxDG.BaseLogic
+  name: BeneficiaryBl
+  nameWithType: BeneficiaryBl
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd
+  name: BeneficiaryAdd
+  nameWithType: BeneficiaryBl.BeneficiaryAdd
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryAdd
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate
+  name: BeneficiaryUpdate
+  nameWithType: BeneficiaryBl.BeneficiaryUpdate
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdate
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList
+  name: RemitterBeneList
+  nameWithType: BeneficiaryBl.RemitterBeneList
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.RemitterBeneList
+- uid: System.Collections.Generic.List{FasttraxxDG.BaseLogic.BeneficiaryBl}
+  commentId: T:System.Collections.Generic.List{FasttraxxDG.BaseLogic.BeneficiaryBl}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BeneficiaryBl>
+  nameWithType: List<BeneficiaryBl>
+  fullName: System.Collections.Generic.List<FasttraxxDG.BaseLogic.BeneficiaryBl>
+  nameWithType.vb: List(Of BeneficiaryBl)
+  fullName.vb: System.Collections.Generic.List(Of FasttraxxDG.BaseLogic.BeneficiaryBl)
+  name.vb: List(Of BeneficiaryBl)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FasttraxxDG.BaseLogic.BeneficiaryBl
+    name: BeneficiaryBl
+    nameWithType: BeneficiaryBl
+    fullName: FasttraxxDG.BaseLogic.BeneficiaryBl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FasttraxxDG.BaseLogic.BeneficiaryBl
+    name: BeneficiaryBl
+    nameWithType: BeneficiaryBl
+    fullName: FasttraxxDG.BaseLogic.BeneficiaryBl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList
+  name: BeneRecordList
+  nameWithType: BeneficiaryBl.BeneRecordList
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneRecordList
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary
+  name: GetBeneficiary
+  nameWithType: BeneficiaryBl.GetBeneficiary
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.GetBeneficiary
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet
+  name: BeneficiaryIsActiveGet
+  nameWithType: BeneficiaryBl.BeneficiaryIsActiveGet
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryIsActiveGet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet
+  name: BeneficiaryMobileFakeGet
+  nameWithType: BeneficiaryBl.BeneficiaryMobileFakeGet
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryMobileFakeGet
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2
+  name: BeneficiaryUpdateTelephone2
+  nameWithType: BeneficiaryBl.BeneficiaryUpdateTelephone2
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryUpdateTelephone2
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists
+  name: BeneAccountExists
+  nameWithType: BeneficiaryBl.BeneAccountExists
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneAccountExists
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction
+  name: Has14DaysTransaction
+  nameWithType: BeneficiaryBl.Has14DaysTransaction
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.Has14DaysTransaction
+- uid: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch*
+  commentId: Overload:FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch
+  name: BeneficiaryNameSearch
+  nameWithType: BeneficiaryBl.BeneficiaryNameSearch
+  fullName: FasttraxxDG.BaseLogic.BeneficiaryBl.BeneficiaryNameSearch

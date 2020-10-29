@@ -1,0 +1,1579 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl
+  commentId: T:FasttraxxDG.BaseLogic.TxnRemitBl
+  id: TxnRemitBl
+  parent: FasttraxxDG.BaseLogic
+  children:
+  - FasttraxxDG.BaseLogic.TxnRemitBl.Charge
+  - FasttraxxDG.BaseLogic.TxnRemitBl.Nt
+  - FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String)
+  - FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String)
+  - FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)
+  - FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.DateTime)
+  - FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String)
+  - FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID
+  langs:
+  - csharp
+  - vb
+  name: TxnRemitBl
+  nameWithType: TxnRemitBl
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl
+  type: Class
+  source:
+    id: TxnRemitBl
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 6
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: 'public class TxnRemitBl : TxnRemitData, ITxnBB, IAccountCC, ITxnDD, ITxnBase, ITxnFS, ITxnPickup, ITxnRemitParam'
+    content.vb: >-
+      Public Class TxnRemitBl
+
+          Inherits TxnRemitData
+
+          Implements ITxnBB, IAccountCC, ITxnDD, ITxnBase, ITxnFS, ITxnPickup, ITxnRemitParam
+  inheritance:
+  - System.Object
+  - FasttraxxDG.BaseModel.TxnRemit
+  - FasttraxxDG.BaseModel.TxnRemitData
+  implements:
+  - FasttraxxDG.BaseModel.ITxnBB
+  - FasttraxxDG.BaseModel.IAccountCC
+  - FasttraxxDG.BaseModel.ITxnDD
+  - FasttraxxDG.BaseModel.ITxnBase
+  - FasttraxxDG.BaseModel.ITxnFS
+  - FasttraxxDG.BaseModel.ITxnPickup
+  - FasttraxxDG.BaseModel.ITxnRemitParam
+  inheritedMembers:
+  - FasttraxxDG.BaseModel.TxnRemitData.BankID
+  - FasttraxxDG.BaseModel.TxnRemitData.Branch
+  - FasttraxxDG.BaseModel.TxnRemitData.AccountNumber
+  - FasttraxxDG.BaseModel.TxnRemitData.Batch
+  - FasttraxxDG.BaseModel.TxnRemitData.ControlNumber
+  - FasttraxxDG.BaseModel.TxnRemitData.AccountName
+  - FasttraxxDG.BaseModel.TxnRemitData.Address1
+  - FasttraxxDG.BaseModel.TxnRemitData.Address2
+  - FasttraxxDG.BaseModel.TxnRemitData.City
+  - FasttraxxDG.BaseModel.TxnRemitData.Province
+  - FasttraxxDG.BaseModel.TxnRemitData.Zip
+  - FasttraxxDG.BaseModel.TxnRemitData.FoodID
+  - FasttraxxDG.BaseModel.TxnRemitData.PickupID
+  - FasttraxxDG.BaseModel.TxnRemitData.Address
+  - FasttraxxDG.BaseModel.TxnRemitData.ContactNumber
+  - FasttraxxDG.BaseModel.TxnRemitData.DeliveryDate
+  - FasttraxxDG.BaseModel.TxnRemitData.UploadingType
+  - FasttraxxDG.BaseModel.TxnRemitData.CashCardID
+  - FasttraxxDG.BaseModel.TxnRemitData.CashCardNumber
+  - FasttraxxDG.BaseModel.TxnRemitData.CashCardName
+  - FasttraxxDG.BaseModel.TxnRemit.ID
+  - FasttraxxDG.BaseModel.TxnRemit.RemitterID
+  - FasttraxxDG.BaseModel.TxnRemit.BeneficiaryID
+  - FasttraxxDG.BaseModel.TxnRemit.AccountID
+  - FasttraxxDG.BaseModel.TxnRemit.DateEntry
+  - FasttraxxDG.BaseModel.TxnRemit.DateCreated
+  - FasttraxxDG.BaseModel.TxnRemit.StatusID
+  - FasttraxxDG.BaseModel.TxnRemit.CreatorID
+  - FasttraxxDG.BaseModel.TxnRemit.ModifierID
+  - FasttraxxDG.BaseModel.TxnRemit.ModifiedDate
+  - FasttraxxDG.BaseModel.TxnRemit.NT
+  - FasttraxxDG.BaseModel.TxnRemit.Peso
+  - FasttraxxDG.BaseModel.TxnRemit.Rate
+  - FasttraxxDG.BaseModel.TxnRemit.ServiceCharge
+  - FasttraxxDG.BaseModel.TxnRemit.AmountPaid
+  - FasttraxxDG.BaseModel.TxnRemit.Change
+  - FasttraxxDG.BaseModel.TxnRemit.BranchID
+  - FasttraxxDG.BaseModel.TxnRemit.Approve
+  - FasttraxxDG.BaseModel.TxnRemit.Paid
+  - FasttraxxDG.BaseModel.TxnRemit.DateDelivered
+  - FasttraxxDG.BaseModel.TxnRemit.DateApproved
+  - FasttraxxDG.BaseModel.TxnRemit.Remarks
+  - FasttraxxDG.BaseModel.TxnRemit.Discount
+  - FasttraxxDG.BaseModel.TxnRemit.ForwarderID
+  - FasttraxxDG.BaseModel.TxnRemit.OnHold
+  - FasttraxxDG.BaseModel.TxnRemit.Verification
+  - FasttraxxDG.BaseModel.TxnRemit.DatePaid
+  - FasttraxxDG.BaseModel.TxnRemit.Excess
+  - FasttraxxDG.BaseModel.TxnRemit.ModeOfPayment
+  - FasttraxxDG.BaseModel.TxnRemit.Commission
+  - FasttraxxDG.BaseModel.TxnRemit.GroupID
+  - FasttraxxDG.BaseModel.TxnRemit.Amla
+  - FasttraxxDG.BaseModel.TxnRemit.AmlaRemarks
+  - FasttraxxDG.BaseModel.TxnRemit.MessageSent
+  - FasttraxxDG.BaseModel.TxnRemit.PurposeID
+  - FasttraxxDG.BaseModel.TxnRemit.Reserved1
+  - FasttraxxDG.BaseModel.TxnRemit.Reserved2
+  - FasttraxxDG.BaseModel.TxnRemit.Reserved3
+  - FasttraxxDG.BaseModel.TxnRemit.Reserved4
+  - FasttraxxDG.BaseModel.TxnRemit.Reserved5
+  - FasttraxxDG.BaseModel.TxnRemit.TxnID
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseLogic.TxnRemitBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.Nt
+  commentId: P:FasttraxxDG.BaseLogic.TxnRemitBl.Nt
+  id: Nt
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: Nt
+  nameWithType: TxnRemitBl.Nt
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.Nt
+  type: Property
+  source:
+    id: Nt
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public decimal Nt { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Nt As Decimal
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.Nt*
+  implements:
+  - FasttraxxDG.BaseModel.ITxnRemitParam.Nt
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.Charge
+  commentId: P:FasttraxxDG.BaseLogic.TxnRemitBl.Charge
+  id: Charge
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: Charge
+  nameWithType: TxnRemitBl.Charge
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.Charge
+  type: Property
+  source:
+    id: Charge
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 9
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public decimal Charge { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Charge As Decimal
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.Charge*
+  implements:
+  - FasttraxxDG.BaseModel.ITxnRemitParam.Charge
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID
+  commentId: P:FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID
+  id: WAgentID
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: WAgentID
+  nameWithType: TxnRemitBl.WAgentID
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID
+  type: Property
+  source:
+    id: WAgentID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 10
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  syntax:
+    content: public int? WAgentID { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property WAgentID As Integer?
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID*
+  implements:
+  - FasttraxxDG.BaseModel.ITxnRemitParam.WAgentID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String)
+  id: TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String)
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: TxnRemitAddBB(TxnRemitBl, Int32, String, String, String)
+  nameWithType: TxnRemitBl.TxnRemitAddBB(TxnRemitBl, Int32, String, String, String)
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl, System.Int32, System.String, System.String, System.String)
+  type: Method
+  source:
+    id: TxnRemitAddBB
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 21
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert txndd data and return entity model of <xref href=\"FasttraxxDG.BaseLogic.TxnRemitBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public TxnRemitBl TxnRemitAddBB(TxnRemitBl txn, int bankId, string branch, string accountNum, string accountName)
+    parameters:
+    - id: txn
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: <xref href="FasttraxxDG.BaseLogic.TxnRemitBl" data-throw-if-not-resolved="false"></xref>
+    - id: bankId
+      type: System.Int32
+      description: <code data-dev-comment-type="paramref" class="paramref">bankId</code>
+    - id: branch
+      type: System.String
+      description: <code data-dev-comment-type="paramref" class="paramref">branch</code>
+    - id: accountNum
+      type: System.String
+      description: <code data-dev-comment-type="paramref" class="paramref">accountNum</code>
+    - id: accountName
+      type: System.String
+      description: <code data-dev-comment-type="paramref" class="paramref">accountName</code>
+    return:
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: ''
+    content.vb: Public Function TxnRemitAddBB(txn As TxnRemitBl, bankId As Integer, branch As String, accountNum As String, accountName As String) As TxnRemitBl
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String)
+  id: TxnRemitAddCC(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String)
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: TxnRemitAddCC(TxnRemitBl, Int32, String, String)
+  nameWithType: TxnRemitBl.TxnRemitAddCC(TxnRemitBl, Int32, String, String)
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC(FasttraxxDG.BaseLogic.TxnRemitBl, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    id: TxnRemitAddCC
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 37
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert txncc data and return entity model of <xref href=\"FasttraxxDG.BaseLogic.TxnRemitBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public TxnRemitBl TxnRemitAddCC(TxnRemitBl txn, int cashcardId, string cashcardNum, string cashcardName)
+    parameters:
+    - id: txn
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: <xref href="FasttraxxDG.BaseLogic.TxnRemitBl" data-throw-if-not-resolved="false"></xref>
+    - id: cashcardId
+      type: System.Int32
+      description: ''
+    - id: cashcardNum
+      type: System.String
+      description: ''
+    - id: cashcardName
+      type: System.String
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: ''
+    content.vb: Public Function TxnRemitAddCC(txn As TxnRemitBl, cashcardId As Integer, cashcardNum As String, cashcardName As String) As TxnRemitBl
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)
+  id: TxnRemitAddDD(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: TxnRemitAddDD(TxnRemitBl, Int32, String, String, String, String, String, String)
+  nameWithType: TxnRemitBl.TxnRemitAddDD(TxnRemitBl, Int32, String, String, String, String, String, String)
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD(FasttraxxDG.BaseLogic.TxnRemitBl, System.Int32, System.String, System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    id: TxnRemitAddDD
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 56
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert txndd data and return entity model of <xref href=\"FasttraxxDG.BaseLogic.TxnRemitBl\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public TxnRemitBl TxnRemitAddDD(TxnRemitBl txn, int doortodoorId, string address1, string address2, string city, string region, string contactNum, string zip)
+    parameters:
+    - id: txn
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: <xref href="FasttraxxDG.BaseLogic.TxnRemitBl" data-throw-if-not-resolved="false"></xref>
+    - id: doortodoorId
+      type: System.Int32
+      description: ''
+    - id: address1
+      type: System.String
+      description: ''
+    - id: address2
+      type: System.String
+      description: ''
+    - id: city
+      type: System.String
+      description: ''
+    - id: region
+      type: System.String
+      description: ''
+    - id: contactNum
+      type: System.String
+      description: ''
+    - id: zip
+      type: System.String
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: ''
+    content.vb: Public Function TxnRemitAddDD(txn As TxnRemitBl, doortodoorId As Integer, address1 As String, address2 As String, city As String, region As String, contactNum As String, zip As String) As TxnRemitBl
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.DateTime)
+  commentId: M:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.DateTime)
+  id: TxnRemitAddFood(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.DateTime)
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: TxnRemitAddFood(TxnRemitBl, Int32, String, String, DateTime)
+  nameWithType: TxnRemitBl.TxnRemitAddFood(TxnRemitBl, Int32, String, String, DateTime)
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood(FasttraxxDG.BaseLogic.TxnRemitBl, System.Int32, System.String, System.String, System.DateTime)
+  type: Method
+  source:
+    id: TxnRemitAddFood
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 74
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert txn food data and return entity model of <xref href=\"FasttraxxDG.BaseLogic.TxnRemitBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public TxnRemitBl TxnRemitAddFood(TxnRemitBl txn, int foodId, string address, string contactNum, DateTime deliveryDate)
+    parameters:
+    - id: txn
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: <xref href="FasttraxxDG.BaseLogic.TxnRemitBl" data-throw-if-not-resolved="false"></xref>
+    - id: foodId
+      type: System.Int32
+      description: ''
+    - id: address
+      type: System.String
+      description: ''
+    - id: contactNum
+      type: System.String
+      description: ''
+    - id: deliveryDate
+      type: System.DateTime
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: ''
+    content.vb: Public Function TxnRemitAddFood(txn As TxnRemitBl, foodId As Integer, address As String, contactNum As String, deliveryDate As Date) As TxnRemitBl
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String)
+  commentId: M:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String)
+  id: TxnRemitAddPickup(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String)
+  parent: FasttraxxDG.BaseLogic.TxnRemitBl
+  langs:
+  - csharp
+  - vb
+  name: TxnRemitAddPickup(TxnRemitBl, Int32, String)
+  nameWithType: TxnRemitBl.TxnRemitAddPickup(TxnRemitBl, Int32, String)
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup(FasttraxxDG.BaseLogic.TxnRemitBl, System.Int32, System.String)
+  type: Method
+  source:
+    id: TxnRemitAddPickup
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseLogic\BL\TxnRemitBl.cs
+    startLine: 88
+  assemblies:
+  - FasttraxxDG.BaseLogic
+  namespace: FasttraxxDG.BaseLogic
+  summary: "\nthis method insert txn pickup data and return entity model of <xref href=\"FasttraxxDG.BaseLogic.TxnRemitBl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public TxnRemitBl TxnRemitAddPickup(TxnRemitBl txn, int pickupId, string address)
+    parameters:
+    - id: txn
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: <xref href="FasttraxxDG.BaseLogic.TxnRemitBl" data-throw-if-not-resolved="false"></xref>
+    - id: pickupId
+      type: System.Int32
+      description: ''
+    - id: address
+      type: System.String
+      description: ''
+    return:
+      type: FasttraxxDG.BaseLogic.TxnRemitBl
+      description: ''
+    content.vb: Public Function TxnRemitAddPickup(txn As TxnRemitBl, pickupId As Integer, address As String) As TxnRemitBl
+  overload: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.TxnRemit
+  commentId: T:FasttraxxDG.BaseModel.TxnRemit
+  parent: FasttraxxDG.BaseModel
+  name: TxnRemit
+  nameWithType: TxnRemit
+  fullName: FasttraxxDG.BaseModel.TxnRemit
+- uid: FasttraxxDG.BaseModel.TxnRemitData
+  commentId: T:FasttraxxDG.BaseModel.TxnRemitData
+  parent: FasttraxxDG.BaseModel
+  name: TxnRemitData
+  nameWithType: TxnRemitData
+  fullName: FasttraxxDG.BaseModel.TxnRemitData
+- uid: FasttraxxDG.BaseModel.ITxnBB
+  commentId: T:FasttraxxDG.BaseModel.ITxnBB
+  parent: FasttraxxDG.BaseModel
+  name: ITxnBB
+  nameWithType: ITxnBB
+  fullName: FasttraxxDG.BaseModel.ITxnBB
+- uid: FasttraxxDG.BaseModel.IAccountCC
+  commentId: T:FasttraxxDG.BaseModel.IAccountCC
+  parent: FasttraxxDG.BaseModel
+  name: IAccountCC
+  nameWithType: IAccountCC
+  fullName: FasttraxxDG.BaseModel.IAccountCC
+- uid: FasttraxxDG.BaseModel.ITxnDD
+  commentId: T:FasttraxxDG.BaseModel.ITxnDD
+  parent: FasttraxxDG.BaseModel
+  name: ITxnDD
+  nameWithType: ITxnDD
+  fullName: FasttraxxDG.BaseModel.ITxnDD
+- uid: FasttraxxDG.BaseModel.ITxnBase
+  commentId: T:FasttraxxDG.BaseModel.ITxnBase
+  parent: FasttraxxDG.BaseModel
+  name: ITxnBase
+  nameWithType: ITxnBase
+  fullName: FasttraxxDG.BaseModel.ITxnBase
+- uid: FasttraxxDG.BaseModel.ITxnFS
+  commentId: T:FasttraxxDG.BaseModel.ITxnFS
+  parent: FasttraxxDG.BaseModel
+  name: ITxnFS
+  nameWithType: ITxnFS
+  fullName: FasttraxxDG.BaseModel.ITxnFS
+- uid: FasttraxxDG.BaseModel.ITxnPickup
+  commentId: T:FasttraxxDG.BaseModel.ITxnPickup
+  parent: FasttraxxDG.BaseModel
+  name: ITxnPickup
+  nameWithType: ITxnPickup
+  fullName: FasttraxxDG.BaseModel.ITxnPickup
+- uid: FasttraxxDG.BaseModel.ITxnRemitParam
+  commentId: T:FasttraxxDG.BaseModel.ITxnRemitParam
+  parent: FasttraxxDG.BaseModel
+  name: ITxnRemitParam
+  nameWithType: ITxnRemitParam
+  fullName: FasttraxxDG.BaseModel.ITxnRemitParam
+- uid: FasttraxxDG.BaseModel.TxnRemitData.BankID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.BankID
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: BankID
+  nameWithType: TxnRemitData.BankID
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.BankID
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Branch
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Branch
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Branch
+  nameWithType: TxnRemitData.Branch
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Branch
+- uid: FasttraxxDG.BaseModel.TxnRemitData.AccountNumber
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.AccountNumber
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: AccountNumber
+  nameWithType: TxnRemitData.AccountNumber
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.AccountNumber
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Batch
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Batch
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Batch
+  nameWithType: TxnRemitData.Batch
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Batch
+- uid: FasttraxxDG.BaseModel.TxnRemitData.ControlNumber
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.ControlNumber
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: ControlNumber
+  nameWithType: TxnRemitData.ControlNumber
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.ControlNumber
+- uid: FasttraxxDG.BaseModel.TxnRemitData.AccountName
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.AccountName
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: AccountName
+  nameWithType: TxnRemitData.AccountName
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.AccountName
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Address1
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Address1
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Address1
+  nameWithType: TxnRemitData.Address1
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Address1
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Address2
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Address2
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Address2
+  nameWithType: TxnRemitData.Address2
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Address2
+- uid: FasttraxxDG.BaseModel.TxnRemitData.City
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.City
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: City
+  nameWithType: TxnRemitData.City
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.City
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Province
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Province
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Province
+  nameWithType: TxnRemitData.Province
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Province
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Zip
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Zip
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Zip
+  nameWithType: TxnRemitData.Zip
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Zip
+- uid: FasttraxxDG.BaseModel.TxnRemitData.FoodID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.FoodID
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: FoodID
+  nameWithType: TxnRemitData.FoodID
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.FoodID
+- uid: FasttraxxDG.BaseModel.TxnRemitData.PickupID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.PickupID
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: PickupID
+  nameWithType: TxnRemitData.PickupID
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.PickupID
+- uid: FasttraxxDG.BaseModel.TxnRemitData.Address
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.Address
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: Address
+  nameWithType: TxnRemitData.Address
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.Address
+- uid: FasttraxxDG.BaseModel.TxnRemitData.ContactNumber
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.ContactNumber
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: ContactNumber
+  nameWithType: TxnRemitData.ContactNumber
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.ContactNumber
+- uid: FasttraxxDG.BaseModel.TxnRemitData.DeliveryDate
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.DeliveryDate
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: DeliveryDate
+  nameWithType: TxnRemitData.DeliveryDate
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.DeliveryDate
+- uid: FasttraxxDG.BaseModel.TxnRemitData.UploadingType
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.UploadingType
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: UploadingType
+  nameWithType: TxnRemitData.UploadingType
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.UploadingType
+- uid: FasttraxxDG.BaseModel.TxnRemitData.CashCardID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.CashCardID
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: CashCardID
+  nameWithType: TxnRemitData.CashCardID
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.CashCardID
+- uid: FasttraxxDG.BaseModel.TxnRemitData.CashCardNumber
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.CashCardNumber
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: CashCardNumber
+  nameWithType: TxnRemitData.CashCardNumber
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.CashCardNumber
+- uid: FasttraxxDG.BaseModel.TxnRemitData.CashCardName
+  commentId: P:FasttraxxDG.BaseModel.TxnRemitData.CashCardName
+  parent: FasttraxxDG.BaseModel.TxnRemitData
+  name: CashCardName
+  nameWithType: TxnRemitData.CashCardName
+  fullName: FasttraxxDG.BaseModel.TxnRemitData.CashCardName
+- uid: FasttraxxDG.BaseModel.TxnRemit.ID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.ID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: ID
+  nameWithType: TxnRemit.ID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.ID
+- uid: FasttraxxDG.BaseModel.TxnRemit.RemitterID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.RemitterID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: RemitterID
+  nameWithType: TxnRemit.RemitterID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.RemitterID
+- uid: FasttraxxDG.BaseModel.TxnRemit.BeneficiaryID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.BeneficiaryID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: BeneficiaryID
+  nameWithType: TxnRemit.BeneficiaryID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.BeneficiaryID
+- uid: FasttraxxDG.BaseModel.TxnRemit.AccountID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.AccountID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: AccountID
+  nameWithType: TxnRemit.AccountID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.AccountID
+- uid: FasttraxxDG.BaseModel.TxnRemit.DateEntry
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.DateEntry
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: DateEntry
+  nameWithType: TxnRemit.DateEntry
+  fullName: FasttraxxDG.BaseModel.TxnRemit.DateEntry
+- uid: FasttraxxDG.BaseModel.TxnRemit.DateCreated
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.DateCreated
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: DateCreated
+  nameWithType: TxnRemit.DateCreated
+  fullName: FasttraxxDG.BaseModel.TxnRemit.DateCreated
+- uid: FasttraxxDG.BaseModel.TxnRemit.StatusID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.StatusID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: StatusID
+  nameWithType: TxnRemit.StatusID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.StatusID
+- uid: FasttraxxDG.BaseModel.TxnRemit.CreatorID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.CreatorID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: CreatorID
+  nameWithType: TxnRemit.CreatorID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.CreatorID
+- uid: FasttraxxDG.BaseModel.TxnRemit.ModifierID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.ModifierID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: ModifierID
+  nameWithType: TxnRemit.ModifierID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.ModifierID
+- uid: FasttraxxDG.BaseModel.TxnRemit.ModifiedDate
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.ModifiedDate
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: ModifiedDate
+  nameWithType: TxnRemit.ModifiedDate
+  fullName: FasttraxxDG.BaseModel.TxnRemit.ModifiedDate
+- uid: FasttraxxDG.BaseModel.TxnRemit.NT
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.NT
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: NT
+  nameWithType: TxnRemit.NT
+  fullName: FasttraxxDG.BaseModel.TxnRemit.NT
+- uid: FasttraxxDG.BaseModel.TxnRemit.Peso
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Peso
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Peso
+  nameWithType: TxnRemit.Peso
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Peso
+- uid: FasttraxxDG.BaseModel.TxnRemit.Rate
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Rate
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Rate
+  nameWithType: TxnRemit.Rate
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Rate
+- uid: FasttraxxDG.BaseModel.TxnRemit.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.ServiceCharge
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: ServiceCharge
+  nameWithType: TxnRemit.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.TxnRemit.ServiceCharge
+- uid: FasttraxxDG.BaseModel.TxnRemit.AmountPaid
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.AmountPaid
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: AmountPaid
+  nameWithType: TxnRemit.AmountPaid
+  fullName: FasttraxxDG.BaseModel.TxnRemit.AmountPaid
+- uid: FasttraxxDG.BaseModel.TxnRemit.Change
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Change
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Change
+  nameWithType: TxnRemit.Change
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Change
+- uid: FasttraxxDG.BaseModel.TxnRemit.BranchID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.BranchID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: BranchID
+  nameWithType: TxnRemit.BranchID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.BranchID
+- uid: FasttraxxDG.BaseModel.TxnRemit.Approve
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Approve
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Approve
+  nameWithType: TxnRemit.Approve
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Approve
+- uid: FasttraxxDG.BaseModel.TxnRemit.Paid
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Paid
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Paid
+  nameWithType: TxnRemit.Paid
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Paid
+- uid: FasttraxxDG.BaseModel.TxnRemit.DateDelivered
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.DateDelivered
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: DateDelivered
+  nameWithType: TxnRemit.DateDelivered
+  fullName: FasttraxxDG.BaseModel.TxnRemit.DateDelivered
+- uid: FasttraxxDG.BaseModel.TxnRemit.DateApproved
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.DateApproved
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: DateApproved
+  nameWithType: TxnRemit.DateApproved
+  fullName: FasttraxxDG.BaseModel.TxnRemit.DateApproved
+- uid: FasttraxxDG.BaseModel.TxnRemit.Remarks
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Remarks
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Remarks
+  nameWithType: TxnRemit.Remarks
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Remarks
+- uid: FasttraxxDG.BaseModel.TxnRemit.Discount
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Discount
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Discount
+  nameWithType: TxnRemit.Discount
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Discount
+- uid: FasttraxxDG.BaseModel.TxnRemit.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.ForwarderID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: ForwarderID
+  nameWithType: TxnRemit.ForwarderID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.ForwarderID
+- uid: FasttraxxDG.BaseModel.TxnRemit.OnHold
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.OnHold
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: OnHold
+  nameWithType: TxnRemit.OnHold
+  fullName: FasttraxxDG.BaseModel.TxnRemit.OnHold
+- uid: FasttraxxDG.BaseModel.TxnRemit.Verification
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Verification
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Verification
+  nameWithType: TxnRemit.Verification
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Verification
+- uid: FasttraxxDG.BaseModel.TxnRemit.DatePaid
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.DatePaid
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: DatePaid
+  nameWithType: TxnRemit.DatePaid
+  fullName: FasttraxxDG.BaseModel.TxnRemit.DatePaid
+- uid: FasttraxxDG.BaseModel.TxnRemit.Excess
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Excess
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Excess
+  nameWithType: TxnRemit.Excess
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Excess
+- uid: FasttraxxDG.BaseModel.TxnRemit.ModeOfPayment
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.ModeOfPayment
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: ModeOfPayment
+  nameWithType: TxnRemit.ModeOfPayment
+  fullName: FasttraxxDG.BaseModel.TxnRemit.ModeOfPayment
+- uid: FasttraxxDG.BaseModel.TxnRemit.Commission
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Commission
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Commission
+  nameWithType: TxnRemit.Commission
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Commission
+- uid: FasttraxxDG.BaseModel.TxnRemit.GroupID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.GroupID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: GroupID
+  nameWithType: TxnRemit.GroupID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.GroupID
+- uid: FasttraxxDG.BaseModel.TxnRemit.Amla
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Amla
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Amla
+  nameWithType: TxnRemit.Amla
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Amla
+- uid: FasttraxxDG.BaseModel.TxnRemit.AmlaRemarks
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.AmlaRemarks
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: AmlaRemarks
+  nameWithType: TxnRemit.AmlaRemarks
+  fullName: FasttraxxDG.BaseModel.TxnRemit.AmlaRemarks
+- uid: FasttraxxDG.BaseModel.TxnRemit.MessageSent
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.MessageSent
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: MessageSent
+  nameWithType: TxnRemit.MessageSent
+  fullName: FasttraxxDG.BaseModel.TxnRemit.MessageSent
+- uid: FasttraxxDG.BaseModel.TxnRemit.PurposeID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.PurposeID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: PurposeID
+  nameWithType: TxnRemit.PurposeID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.PurposeID
+- uid: FasttraxxDG.BaseModel.TxnRemit.Reserved1
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Reserved1
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Reserved1
+  nameWithType: TxnRemit.Reserved1
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Reserved1
+- uid: FasttraxxDG.BaseModel.TxnRemit.Reserved2
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Reserved2
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Reserved2
+  nameWithType: TxnRemit.Reserved2
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Reserved2
+- uid: FasttraxxDG.BaseModel.TxnRemit.Reserved3
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Reserved3
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Reserved3
+  nameWithType: TxnRemit.Reserved3
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Reserved3
+- uid: FasttraxxDG.BaseModel.TxnRemit.Reserved4
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Reserved4
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Reserved4
+  nameWithType: TxnRemit.Reserved4
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Reserved4
+- uid: FasttraxxDG.BaseModel.TxnRemit.Reserved5
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.Reserved5
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: Reserved5
+  nameWithType: TxnRemit.Reserved5
+  fullName: FasttraxxDG.BaseModel.TxnRemit.Reserved5
+- uid: FasttraxxDG.BaseModel.TxnRemit.TxnID
+  commentId: P:FasttraxxDG.BaseModel.TxnRemit.TxnID
+  parent: FasttraxxDG.BaseModel.TxnRemit
+  name: TxnID
+  nameWithType: TxnRemit.TxnID
+  fullName: FasttraxxDG.BaseModel.TxnRemit.TxnID
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TxnRemitBl, TDest>()
+  nameWithType: MapperHelper.MapTo<TxnRemitBl, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.TxnRemitBl, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of TxnRemitBl, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.TxnRemitBl, TDest)()
+  name.vb: MapTo(Of TxnRemitBl, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<TxnRemitBl, TDest>
+    nameWithType: MapperHelper.MapTo<TxnRemitBl, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseLogic.TxnRemitBl, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of TxnRemitBl, TDest)
+    nameWithType: MapperHelper.MapTo(Of TxnRemitBl, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseLogic.TxnRemitBl, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.Nt*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.Nt
+  name: Nt
+  nameWithType: TxnRemitBl.Nt
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.Nt
+- uid: FasttraxxDG.BaseModel.ITxnRemitParam.Nt
+  commentId: P:FasttraxxDG.BaseModel.ITxnRemitParam.Nt
+  parent: FasttraxxDG.BaseModel.ITxnRemitParam
+  name: Nt
+  nameWithType: ITxnRemitParam.Nt
+  fullName: FasttraxxDG.BaseModel.ITxnRemitParam.Nt
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.Charge*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.Charge
+  name: Charge
+  nameWithType: TxnRemitBl.Charge
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.Charge
+- uid: FasttraxxDG.BaseModel.ITxnRemitParam.Charge
+  commentId: P:FasttraxxDG.BaseModel.ITxnRemitParam.Charge
+  parent: FasttraxxDG.BaseModel.ITxnRemitParam
+  name: Charge
+  nameWithType: ITxnRemitParam.Charge
+  fullName: FasttraxxDG.BaseModel.ITxnRemitParam.Charge
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID
+  name: WAgentID
+  nameWithType: TxnRemitBl.WAgentID
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.WAgentID
+- uid: FasttraxxDG.BaseModel.ITxnRemitParam.WAgentID
+  commentId: P:FasttraxxDG.BaseModel.ITxnRemitParam.WAgentID
+  parent: FasttraxxDG.BaseModel.ITxnRemitParam
+  name: WAgentID
+  nameWithType: ITxnRemitParam.WAgentID
+  fullName: FasttraxxDG.BaseModel.ITxnRemitParam.WAgentID
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl
+  commentId: T:FasttraxxDG.BaseLogic.TxnRemitBl
+  parent: FasttraxxDG.BaseLogic
+  name: TxnRemitBl
+  nameWithType: TxnRemitBl
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB
+  name: TxnRemitAddBB
+  nameWithType: TxnRemitBl.TxnRemitAddBB
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC
+  name: TxnRemitAddCC
+  nameWithType: TxnRemitBl.TxnRemitAddCC
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddCC
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD
+  name: TxnRemitAddDD
+  nameWithType: TxnRemitBl.TxnRemitAddDD
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddDD
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood
+  name: TxnRemitAddFood
+  nameWithType: TxnRemitBl.TxnRemitAddFood
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddFood
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup*
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup
+  name: TxnRemitAddPickup
+  nameWithType: TxnRemitBl.TxnRemitAddPickup
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddPickup

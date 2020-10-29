@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI
+  commentId: N:FasttraxxDG.FrontEndUI
+  id: FasttraxxDG.FrontEndUI
+  children:
+  - FasttraxxDG.FrontEndUI.App
+  - FasttraxxDG.FrontEndUI.BaseMainControl
+  - FasttraxxDG.FrontEndUI.ReportHelper
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI
+  nameWithType: FasttraxxDG.FrontEndUI
+  fullName: FasttraxxDG.FrontEndUI
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.App
+  commentId: T:FasttraxxDG.FrontEndUI.App
+  name: App
+  nameWithType: App
+  fullName: FasttraxxDG.FrontEndUI.App
+- uid: FasttraxxDG.FrontEndUI.BaseMainControl
+  commentId: T:FasttraxxDG.FrontEndUI.BaseMainControl
+  name: BaseMainControl
+  nameWithType: BaseMainControl
+  fullName: FasttraxxDG.FrontEndUI.BaseMainControl
+- uid: FasttraxxDG.FrontEndUI.ReportHelper
+  commentId: T:FasttraxxDG.FrontEndUI.ReportHelper
+  name: ReportHelper
+  nameWithType: ReportHelper
+  fullName: FasttraxxDG.FrontEndUI.ReportHelper

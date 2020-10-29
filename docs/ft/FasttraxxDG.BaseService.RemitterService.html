@@ -1,0 +1,1137 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RemitterService
+   | FasttraxxDG FrontEnd </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RemitterService
+   | FasttraxxDG FrontEnd ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../images/ft_gt_logo01.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/frontend.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FasttraxxDG.BaseService.RemitterService">
+  
+  
+  <h1 id="FasttraxxDG_BaseService_RemitterService" data-uid="FasttraxxDG.BaseService.RemitterService" class="text-break">Class RemitterService
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html">BaseDataAccess</a></div>
+    <div class="level2"><span class="xref">RemitterService</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_ConnectionString">BaseDataAccess.ConnectionString</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_LoadList__2_System_String___1_">BaseDataAccess.LoadList&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_LoadListQry__2_System_String___1_">BaseDataAccess.LoadListQry&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_GetData__2_System_String___1_">BaseDataAccess.GetData&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_GetDataQry__2_System_String___1_">BaseDataAccess.GetDataQry&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_CrudBase__2_System_String___1_">BaseDataAccess.CrudBase&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_CrudBaseQry__2_System_String___1_">BaseDataAccess.CrudBaseQry&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_Execute__1_System_String___0_">BaseDataAccess.Execute&lt;TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_ExecuteQry__1_System_String___0_">BaseDataAccess.ExecuteQry&lt;TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_GetDataAsync__2_System_String___1_">BaseDataAccess.GetDataAsync&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_LoadListAsync__2_System_String___1_">BaseDataAccess.LoadListAsync&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_CrudBaseAsync__2_System_String___1_">BaseDataAccess.CrudBaseAsync&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_ExecuteAsync__1_System_String___0_">BaseDataAccess.ExecuteAsync&lt;TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_ExecuteReturnScalarAsync__1_System_String_Dapper_DynamicParameters_">BaseDataAccess.ExecuteReturnScalarAsync&lt;T&gt;(String, DynamicParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_GetDataType__2_System_String___1_">BaseDataAccess.GetDataType&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_GetDataTypeQry__2_System_String___1_">BaseDataAccess.GetDataTypeQry&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_ExecuteUdt__2_System_String___1_">BaseDataAccess.ExecuteUdt&lt;T, TU&gt;(String, TU)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_ToDataTable__1_System_Collections_Generic_List___0__">BaseDataAccess.ToDataTable&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.BaseService.DataAccess.Repository.BaseDataAccess.html#FasttraxxDG_BaseService_DataAccess_Repository_BaseDataAccess_TestConnection">BaseDataAccess.TestConnection()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FasttraxxDG.BaseService.html">FasttraxxDG.BaseService</a></h6>
+  <h6><strong>Assembly</strong>: FasttraxxDG.BaseService.dll</h6>
+  <h5 id="FasttraxxDG_BaseService_RemitterService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RemitterService : BaseDataAccess</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="FasttraxxDG_BaseService_RemitterService__ctor_" data-uid="FasttraxxDG.BaseService.RemitterService.#ctor*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService__ctor_System_String_" data-uid="FasttraxxDG.BaseService.RemitterService.#ctor(System.String)">RemitterService(String)</h4>
+  <div class="markdown level1 summary"><p>default constructor with <code data-dev-comment-type="paramref" class="paramref">connection</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RemitterService(string connection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemBeneExists_" data-uid="FasttraxxDG.BaseService.RemitterService.RemBeneExists*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemBeneExists_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemBeneExists(System.Int32)">RemBeneExists(Int32)</h4>
+  <div class="markdown level1 summary"><p>this method check if remitter has beneficiaries filter by <code data-dev-comment-type="paramref" class="paramref">remitterId</code> and return a boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemBeneExists(int remitterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemBeneExists_" data-uid="FasttraxxDG.BaseService.RemitterService.RemBeneExists*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemBeneExists_System_Int32_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemBeneExists(System.Int32,System.Int32)">RemBeneExists(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method check if remitter and bene has relation
+filter by <code data-dev-comment-type="paramref" class="paramref">remitterId</code> and <code data-dev-comment-type="paramref" class="paramref">beneficiaryId</code> and return a boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemBeneExists(int remitterId, int beneficiaryId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">beneficiaryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemBeneGet_" data-uid="FasttraxxDG.BaseService.RemitterService.RemBeneGet*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemBeneGet_System_Int32_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemBeneGet(System.Int32,System.Int32)">RemBeneGet(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method get remitter and bene relation filter by <code data-dev-comment-type="paramref" class="paramref">remitterId</code> <code data-dev-comment-type="paramref" class="paramref">beneficiaryId</code> and return a <a class="xref" href="FasttraxxDG.BaseModel.RemBene.html">RemBene</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RemBene RemBeneGet(int remitterId, int beneficiaryId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">beneficiaryId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseModel.RemBene.html">RemBene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterAdd_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterAdd*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterAdd_System_String_System_String_System_String_System_String_System_Int32_System_Int32_System_String_System_Nullable_System_DateTime__System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Nullable_System_DateTime__System_DateTime_System_Byte___System_Int32_System_String_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterAdd(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.DateTime,System.Byte[],System.Int32,System.String)">RemitterAdd(String, String, String, String, Int32, Int32, String, Nullable&lt;DateTime&gt;, String, String, String, String, String, String, String, Nullable&lt;DateTime&gt;, DateTime, Byte[], Int32, String)</h4>
+  <div class="markdown level1 summary"><p>this method insert remitter details and return a <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Remitter RemitterAdd(string fname, string lname, string mname, string memberId, int companyId, int cityId, string email, DateTime? birthdate, string passport, string gender, string mobile1, string mobile2, string telephone1, string agent, string arcNumber, DateTime? issueDate, DateTime expiryDate, byte[] arcPic1, int creatorId, string remarks)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">lname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memberId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">companyId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cityId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">birthdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passport</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">gender</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mobile1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mobile2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">telephone1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">agent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arcNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">issueDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">expiryDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">arcPic1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">creatorId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">remarks</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterArcExists_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterArcExists*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterArcExists_System_String_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterArcExists(System.String)">RemitterArcExists(String)</h4>
+  <div class="markdown level1 summary"><p>this method check if ARC exists in remitter records filter by <code data-dev-comment-type="paramref" class="paramref">arcNumber</code> and return a boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemitterArcExists(string arcNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arcNumber</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterCompanySearchList_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterCompanySearchList*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterCompanySearchList_System_String_System_Int32_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterCompanySearchList(System.String,System.Int32,System.Int32)">RemitterCompanySearchList(String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method fetches remitter details filter by company and return a list of <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Remitter&gt; RemitterCompanySearchList(string company, int dynamicId, int type = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">company</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dynamicId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterGet_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterGet*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterGet_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterGet(System.Int32)">RemitterGet(Int32)</h4>
+  <div class="markdown level1 summary"><p>this method get remitter details filter by <code data-dev-comment-type="paramref" class="paramref">remitterId</code> and return a <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Remitter RemitterGet(int remitterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterGetArc_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterGetArc*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterGetArc_System_String_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterGetArc(System.String,System.Int32)">RemitterGetArc(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method fetch remitter filter by ARC and return a <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Remitter RemitterGetArc(string arc, int companyId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">companyId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterGetMemberId_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterGetMemberId*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterGetMemberId_System_String_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterGetMemberId(System.String,System.Int32)">RemitterGetMemberId(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method fetch remitter details filter by <code data-dev-comment-type="paramref" class="paramref">id</code> and <code data-dev-comment-type="paramref" class="paramref">companyid</code> and return a <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Remitter RemitterGetMemberId(string id, int companyid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">companyid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterHasPendingTxn_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterHasPendingTxn*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterHasPendingTxn_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterHasPendingTxn(System.Int32)">RemitterHasPendingTxn(Int32)</h4>
+  <div class="markdown level1 summary"><p>this method check if remitter has pending txn/txns filter by <code data-dev-comment-type="paramref" class="paramref">remitterId</code> and return a boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemitterHasPendingTxn(int remitterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterHasUnclaimed_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterHasUnclaimed*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterHasUnclaimed_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterHasUnclaimed(System.Int32)">RemitterHasUnclaimed(Int32)</h4>
+  <div class="markdown level1 summary"><p>this method check if remitter has unclaimed txn/txns filter by <code data-dev-comment-type="paramref" class="paramref">remitterId</code> and return a boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemitterHasUnclaimed(int remitterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterMemberIdExists_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterMemberIdExists*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterMemberIdExists_System_String_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterMemberIdExists(System.String)">RemitterMemberIdExists(String)</h4>
+  <div class="markdown level1 summary"><p>this method check if member id exists in remitter records filter by <code data-dev-comment-type="paramref" class="paramref">memberId</code> and return a boolean.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemitterMemberIdExists(string memberId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memberId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterMobileFakeGet_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterMobileFakeGet*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterMobileFakeGet" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterMobileFakeGet">RemitterMobileFakeGet()</h4>
+  <div class="markdown level1 summary"><p>this method generate remitter fake mobile number and return a string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RemitterMobileFakeGet()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterNameSearchList_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterNameSearchList*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterNameSearchList_System_String_System_String_System_Int32_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterNameSearchList(System.String,System.String,System.Int32,System.Int32)">RemitterNameSearchList(String, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method fetches remitter details filter by name and return a list of <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Remitter&gt; RemitterNameSearchList(string lastName, string firstName, int dynamicId, int type = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">lastName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">firstName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dynamicId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterPhoneSearchList_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterPhoneSearchList*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterPhoneSearchList_System_String_System_Int32_System_Int32_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterPhoneSearchList(System.String,System.Int32,System.Int32)">RemitterPhoneSearchList(String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>this method fetches remitter details filter by phone and return a list of <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Remitter&gt; RemitterPhoneSearchList(string phone, int dynamicId, int type = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">phone</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dynamicId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="FasttraxxDG_BaseService_RemitterService_RemitterUpdate_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterUpdate*"></a>
+  <h4 id="FasttraxxDG_BaseService_RemitterService_RemitterUpdate_System_Int32_System_String_System_String_System_String_System_String_System_Int32_System_Int32_System_String_System_Nullable_System_DateTime__System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Nullable_System_DateTime__System_DateTime_System_Byte___System_Int32_System_String_System_String_" data-uid="FasttraxxDG.BaseService.RemitterService.RemitterUpdate(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.DateTime,System.Byte[],System.Int32,System.String,System.String)">RemitterUpdate(Int32, String, String, String, String, Int32, Int32, String, Nullable&lt;DateTime&gt;, String, String, String, String, String, String, String, Nullable&lt;DateTime&gt;, DateTime, Byte[], Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>this method update remitter details and return a <a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Remitter RemitterUpdate(int remitterId, string fname, string lname, string mname, string memberId, int companyId, int cityId, string email, DateTime? birthdate, string passport, string gender, string mobile1, string mobile2, string telephone1, string agent, string arcNumber, DateTime? issueDate, DateTime expiryDate, byte[] arcPic1, int modifierId, string remarks, string proxy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">remitterId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">lname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memberId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">companyId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cityId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">birthdate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">passport</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">gender</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mobile1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mobile2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">telephone1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">agent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arcNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td><span class="parametername">issueDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">expiryDate</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">arcPic1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">modifierId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">remarks</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">proxy</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FasttraxxDG.BaseModel.Remitter.html">Remitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FasttraxxDG.BaseLogic.MapperHelper.html#FasttraxxDG_BaseLogic_MapperHelper_MapTo__2___0_">MapperHelper.MapTo&lt;TSource, TDest&gt;(TSource)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_RightDrawerShow_System_Object_">AppSettings.RightDrawerShow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_LeftDrawerShow_System_Object_">AppSettings.LeftDrawerShow(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright 2020 FasttraxxDG
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

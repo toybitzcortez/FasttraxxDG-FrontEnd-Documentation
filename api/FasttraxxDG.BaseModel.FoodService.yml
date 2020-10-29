@@ -1,0 +1,1007 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.BaseModel.FoodService
+  commentId: T:FasttraxxDG.BaseModel.FoodService
+  id: FoodService
+  parent: FasttraxxDG.BaseModel
+  children:
+  - FasttraxxDG.BaseModel.FoodService.Allow
+  - FasttraxxDG.BaseModel.FoodService.FoodID
+  - FasttraxxDG.BaseModel.FoodService.ForwarderID
+  - FasttraxxDG.BaseModel.FoodService.GroupID
+  - FasttraxxDG.BaseModel.FoodService.Limit
+  - FasttraxxDG.BaseModel.FoodService.MealPackageID
+  - FasttraxxDG.BaseModel.FoodService.OrgID
+  - FasttraxxDG.BaseModel.FoodService.ServiceCharge
+  langs:
+  - csharp
+  - vb
+  name: FoodService
+  nameWithType: FoodService
+  fullName: FasttraxxDG.BaseModel.FoodService
+  type: Class
+  source:
+    id: FoodService
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 2
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: 'public class FoodService : IServiceBase, IFoodService'
+    content.vb: >-
+      Public Class FoodService
+
+          Implements IServiceBase, IFoodService
+  inheritance:
+  - System.Object
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase
+  - FasttraxxDG.BaseModel.IFoodService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - FasttraxxDG.BaseModel.FoodService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FasttraxxDG.BaseModel.FoodService.FoodID
+  commentId: P:FasttraxxDG.BaseModel.FoodService.FoodID
+  id: FoodID
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: FoodID
+  nameWithType: FoodService.FoodID
+  fullName: FasttraxxDG.BaseModel.FoodService.FoodID
+  type: Property
+  source:
+    id: FoodID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 4
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int FoodID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FoodID As Integer
+  overload: FasttraxxDG.BaseModel.FoodService.FoodID*
+  implements:
+  - FasttraxxDG.BaseModel.IFoodService.FoodID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.MealPackageID
+  commentId: P:FasttraxxDG.BaseModel.FoodService.MealPackageID
+  id: MealPackageID
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: MealPackageID
+  nameWithType: FoodService.MealPackageID
+  fullName: FasttraxxDG.BaseModel.FoodService.MealPackageID
+  type: Property
+  source:
+    id: MealPackageID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 8
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int MealPackageID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MealPackageID As Integer
+  overload: FasttraxxDG.BaseModel.FoodService.MealPackageID*
+  implements:
+  - FasttraxxDG.BaseModel.IFoodService.MealPackageID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.GroupID
+  commentId: P:FasttraxxDG.BaseModel.FoodService.GroupID
+  id: GroupID
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: GroupID
+  nameWithType: FoodService.GroupID
+  fullName: FasttraxxDG.BaseModel.FoodService.GroupID
+  type: Property
+  source:
+    id: GroupID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 12
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int GroupID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property GroupID As Integer
+  overload: FasttraxxDG.BaseModel.FoodService.GroupID*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.GroupID
+  - FasttraxxDG.BaseModel.IFoodService.GroupID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.FoodService.ServiceCharge
+  id: ServiceCharge
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: ServiceCharge
+  nameWithType: FoodService.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.FoodService.ServiceCharge
+  type: Property
+  source:
+    id: ServiceCharge
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 16
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double ServiceCharge { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ServiceCharge As Double
+  overload: FasttraxxDG.BaseModel.FoodService.ServiceCharge*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+  - FasttraxxDG.BaseModel.IFoodService.ServiceCharge
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.Limit
+  commentId: P:FasttraxxDG.BaseModel.FoodService.Limit
+  id: Limit
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: FoodService.Limit
+  fullName: FasttraxxDG.BaseModel.FoodService.Limit
+  type: Property
+  source:
+    id: Limit
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 20
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public double Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Limit As Double
+  overload: FasttraxxDG.BaseModel.FoodService.Limit*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.Limit
+  - FasttraxxDG.BaseModel.IFoodService.Limit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.FoodService.ForwarderID
+  id: ForwarderID
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: ForwarderID
+  nameWithType: FoodService.ForwarderID
+  fullName: FasttraxxDG.BaseModel.FoodService.ForwarderID
+  type: Property
+  source:
+    id: ForwarderID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 24
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int ForwarderID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ForwarderID As Integer
+  overload: FasttraxxDG.BaseModel.FoodService.ForwarderID*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+  - FasttraxxDG.BaseModel.IFoodService.ForwarderID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.OrgID
+  commentId: P:FasttraxxDG.BaseModel.FoodService.OrgID
+  id: OrgID
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: OrgID
+  nameWithType: FoodService.OrgID
+  fullName: FasttraxxDG.BaseModel.FoodService.OrgID
+  type: Property
+  source:
+    id: OrgID
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 28
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public int OrgID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OrgID As Integer
+  overload: FasttraxxDG.BaseModel.FoodService.OrgID*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.OrgID
+  - FasttraxxDG.BaseModel.IFoodService.OrgID
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FasttraxxDG.BaseModel.FoodService.Allow
+  commentId: P:FasttraxxDG.BaseModel.FoodService.Allow
+  id: Allow
+  parent: FasttraxxDG.BaseModel.FoodService
+  langs:
+  - csharp
+  - vb
+  name: Allow
+  nameWithType: FoodService.Allow
+  fullName: FasttraxxDG.BaseModel.FoodService.Allow
+  type: Property
+  source:
+    id: Allow
+    path: C:\Project\FasttraxxDG\FasttraxxDG-FrontEnd\Code\FasttraxxDG.BaseModel\Models\FoodService.cs
+    startLine: 32
+  assemblies:
+  - FasttraxxDG.BaseModel
+  namespace: FasttraxxDG.BaseModel
+  syntax:
+    content: public bool Allow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Allow As Boolean
+  overload: FasttraxxDG.BaseModel.FoodService.Allow*
+  implements:
+  - FasttraxxDG.BaseModel.IServiceBase.Allow
+  - FasttraxxDG.BaseModel.IFoodService.Allow
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FasttraxxDG.BaseModel
+  commentId: N:FasttraxxDG.BaseModel
+  name: FasttraxxDG.BaseModel
+  nameWithType: FasttraxxDG.BaseModel
+  fullName: FasttraxxDG.BaseModel
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FasttraxxDG.BaseModel.IServiceBase
+  commentId: T:FasttraxxDG.BaseModel.IServiceBase
+  parent: FasttraxxDG.BaseModel
+  name: IServiceBase
+  nameWithType: IServiceBase
+  fullName: FasttraxxDG.BaseModel.IServiceBase
+- uid: FasttraxxDG.BaseModel.IFoodService
+  commentId: T:FasttraxxDG.BaseModel.IFoodService
+  parent: FasttraxxDG.BaseModel
+  name: IFoodService
+  nameWithType: IFoodService
+  fullName: FasttraxxDG.BaseModel.IFoodService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseModel.FoodService.FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  parent: FasttraxxDG.BaseLogic.MapperHelper
+  definition: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<FoodService, TDest>()
+  nameWithType: MapperHelper.MapTo<FoodService, TDest>()
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.FoodService, TDest>()
+  nameWithType.vb: MapperHelper.MapTo(Of FoodService, TDest)()
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.FoodService, TDest)()
+  name.vb: MapTo(Of FoodService, TDest)()
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo<FoodService, TDest>
+    nameWithType: MapperHelper.MapTo<FoodService, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<FasttraxxDG.BaseModel.FoodService, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2
+    name: MapTo(Of FoodService, TDest)
+    nameWithType: MapperHelper.MapTo(Of FoodService, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of FasttraxxDG.BaseModel.FoodService, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  name: RightDrawerShow()
+  nameWithType: AppSettings.RightDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  parent: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  definition: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  name: LeftDrawerShow()
+  nameWithType: AppSettings.LeftDrawerShow()
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow()
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  commentId: M:FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+  name: MapTo<TSource, TDest>(TSource)
+  nameWithType: MapperHelper.MapTo<TSource, TDest>(TSource)
+  fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>(TSource)
+  nameWithType.vb: MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  fullName.vb: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)(TSource)
+  name.vb: MapTo(Of TSource, TDest)(TSource)
+  spec.csharp:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo<TSource, TDest>
+    nameWithType: MapperHelper.MapTo<TSource, TDest>
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo<TSource, TDest>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.BaseLogic.MapperHelper.MapTo``2(``0)
+    name: MapTo(Of TSource, TDest)
+    nameWithType: MapperHelper.MapTo(Of TSource, TDest)
+    fullName: FasttraxxDG.BaseLogic.MapperHelper.MapTo(Of TSource, TDest)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic.MapperHelper
+  commentId: T:FasttraxxDG.BaseLogic.MapperHelper
+  parent: FasttraxxDG.BaseLogic
+  name: MapperHelper
+  nameWithType: MapperHelper
+  fullName: FasttraxxDG.BaseLogic.MapperHelper
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  isExternal: true
+  name: RightDrawerShow(Object)
+  nameWithType: AppSettings.RightDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow(System.Object)
+    name: RightDrawerShow
+    nameWithType: AppSettings.RightDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.RightDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
+  parent: FasttraxxDG.FrontEndUI.Helpers
+  name: AppSettings
+  nameWithType: AppSettings
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  isExternal: true
+  name: LeftDrawerShow(Object)
+  nameWithType: AppSettings.LeftDrawerShow(Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow(System.Object)
+    name: LeftDrawerShow
+    nameWithType: AppSettings.LeftDrawerShow
+    fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.LeftDrawerShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.BaseLogic
+  commentId: N:FasttraxxDG.BaseLogic
+  name: FasttraxxDG.BaseLogic
+  nameWithType: FasttraxxDG.BaseLogic
+  fullName: FasttraxxDG.BaseLogic
+- uid: FasttraxxDG.FrontEndUI.Helpers
+  commentId: N:FasttraxxDG.FrontEndUI.Helpers
+  name: FasttraxxDG.FrontEndUI.Helpers
+  nameWithType: FasttraxxDG.FrontEndUI.Helpers
+  fullName: FasttraxxDG.FrontEndUI.Helpers
+- uid: FasttraxxDG.BaseModel.FoodService.FoodID*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.FoodID
+  name: FoodID
+  nameWithType: FoodService.FoodID
+  fullName: FasttraxxDG.BaseModel.FoodService.FoodID
+- uid: FasttraxxDG.BaseModel.IFoodService.FoodID
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.FoodID
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: FoodID
+  nameWithType: IFoodService.FoodID
+  fullName: FasttraxxDG.BaseModel.IFoodService.FoodID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FasttraxxDG.BaseModel.FoodService.MealPackageID*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.MealPackageID
+  name: MealPackageID
+  nameWithType: FoodService.MealPackageID
+  fullName: FasttraxxDG.BaseModel.FoodService.MealPackageID
+- uid: FasttraxxDG.BaseModel.IFoodService.MealPackageID
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.MealPackageID
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: MealPackageID
+  nameWithType: IFoodService.MealPackageID
+  fullName: FasttraxxDG.BaseModel.IFoodService.MealPackageID
+- uid: FasttraxxDG.BaseModel.FoodService.GroupID*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.GroupID
+  name: GroupID
+  nameWithType: FoodService.GroupID
+  fullName: FasttraxxDG.BaseModel.FoodService.GroupID
+- uid: FasttraxxDG.BaseModel.IServiceBase.GroupID
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.GroupID
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: GroupID
+  nameWithType: IServiceBase.GroupID
+  fullName: FasttraxxDG.BaseModel.IServiceBase.GroupID
+- uid: FasttraxxDG.BaseModel.IFoodService.GroupID
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.GroupID
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: GroupID
+  nameWithType: IFoodService.GroupID
+  fullName: FasttraxxDG.BaseModel.IFoodService.GroupID
+- uid: FasttraxxDG.BaseModel.FoodService.ServiceCharge*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.ServiceCharge
+  name: ServiceCharge
+  nameWithType: FoodService.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.FoodService.ServiceCharge
+- uid: FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: ServiceCharge
+  nameWithType: IServiceBase.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.IServiceBase.ServiceCharge
+- uid: FasttraxxDG.BaseModel.IFoodService.ServiceCharge
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.ServiceCharge
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: ServiceCharge
+  nameWithType: IFoodService.ServiceCharge
+  fullName: FasttraxxDG.BaseModel.IFoodService.ServiceCharge
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: FasttraxxDG.BaseModel.FoodService.Limit*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.Limit
+  name: Limit
+  nameWithType: FoodService.Limit
+  fullName: FasttraxxDG.BaseModel.FoodService.Limit
+- uid: FasttraxxDG.BaseModel.IServiceBase.Limit
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.Limit
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: Limit
+  nameWithType: IServiceBase.Limit
+  fullName: FasttraxxDG.BaseModel.IServiceBase.Limit
+- uid: FasttraxxDG.BaseModel.IFoodService.Limit
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.Limit
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: Limit
+  nameWithType: IFoodService.Limit
+  fullName: FasttraxxDG.BaseModel.IFoodService.Limit
+- uid: FasttraxxDG.BaseModel.FoodService.ForwarderID*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.ForwarderID
+  name: ForwarderID
+  nameWithType: FoodService.ForwarderID
+  fullName: FasttraxxDG.BaseModel.FoodService.ForwarderID
+- uid: FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: ForwarderID
+  nameWithType: IServiceBase.ForwarderID
+  fullName: FasttraxxDG.BaseModel.IServiceBase.ForwarderID
+- uid: FasttraxxDG.BaseModel.IFoodService.ForwarderID
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.ForwarderID
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: ForwarderID
+  nameWithType: IFoodService.ForwarderID
+  fullName: FasttraxxDG.BaseModel.IFoodService.ForwarderID
+- uid: FasttraxxDG.BaseModel.FoodService.OrgID*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.OrgID
+  name: OrgID
+  nameWithType: FoodService.OrgID
+  fullName: FasttraxxDG.BaseModel.FoodService.OrgID
+- uid: FasttraxxDG.BaseModel.IServiceBase.OrgID
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.OrgID
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: OrgID
+  nameWithType: IServiceBase.OrgID
+  fullName: FasttraxxDG.BaseModel.IServiceBase.OrgID
+- uid: FasttraxxDG.BaseModel.IFoodService.OrgID
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.OrgID
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: OrgID
+  nameWithType: IFoodService.OrgID
+  fullName: FasttraxxDG.BaseModel.IFoodService.OrgID
+- uid: FasttraxxDG.BaseModel.FoodService.Allow*
+  commentId: Overload:FasttraxxDG.BaseModel.FoodService.Allow
+  name: Allow
+  nameWithType: FoodService.Allow
+  fullName: FasttraxxDG.BaseModel.FoodService.Allow
+- uid: FasttraxxDG.BaseModel.IServiceBase.Allow
+  commentId: P:FasttraxxDG.BaseModel.IServiceBase.Allow
+  parent: FasttraxxDG.BaseModel.IServiceBase
+  name: Allow
+  nameWithType: IServiceBase.Allow
+  fullName: FasttraxxDG.BaseModel.IServiceBase.Allow
+- uid: FasttraxxDG.BaseModel.IFoodService.Allow
+  commentId: P:FasttraxxDG.BaseModel.IFoodService.Allow
+  parent: FasttraxxDG.BaseModel.IFoodService
+  name: Allow
+  nameWithType: IFoodService.Allow
+  fullName: FasttraxxDG.BaseModel.IFoodService.Allow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

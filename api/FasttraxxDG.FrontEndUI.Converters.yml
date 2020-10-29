@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: FasttraxxDG.FrontEndUI.Converters
+  commentId: N:FasttraxxDG.FrontEndUI.Converters
+  id: FasttraxxDG.FrontEndUI.Converters
+  children:
+  - FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  - FasttraxxDG.FrontEndUI.Converters.BoolToVisibilityConverter
+  - FasttraxxDG.FrontEndUI.Converters.ComboIntToString
+  - FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  - FasttraxxDG.FrontEndUI.Converters.MenuConverter
+  - FasttraxxDG.FrontEndUI.Converters.NotConverter
+  - FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  - FasttraxxDG.FrontEndUI.Converters.PasswordHelper
+  - FasttraxxDG.FrontEndUI.Converters.PositiveConverter
+  - FasttraxxDG.FrontEndUI.Converters.StringRgbToBrushConverter
+  - FasttraxxDG.FrontEndUI.Converters.StringToFontWeigthConverter
+  - FasttraxxDG.FrontEndUI.Converters.ZoomBorder
+  langs:
+  - csharp
+  - vb
+  name: FasttraxxDG.FrontEndUI.Converters
+  nameWithType: FasttraxxDG.FrontEndUI.Converters
+  fullName: FasttraxxDG.FrontEndUI.Converters
+  type: Namespace
+  assemblies:
+  - FasttraxxDG.FrontEndUI
+references:
+- uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+  name: BaseValueConverter<T>
+  nameWithType: BaseValueConverter<T>
+  fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter<T>
+  nameWithType.vb: BaseValueConverter(Of T)
+  fullName.vb: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter(Of T)
+  name.vb: BaseValueConverter(Of T)
+  spec.csharp:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter`1
+    name: BaseValueConverter
+    nameWithType: BaseValueConverter
+    fullName: FasttraxxDG.FrontEndUI.Converters.BaseValueConverter
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FasttraxxDG.FrontEndUI.Converters.BoolToVisibilityConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.BoolToVisibilityConverter
+  name: BoolToVisibilityConverter
+  nameWithType: BoolToVisibilityConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.BoolToVisibilityConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.ComboIntToString
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.ComboIntToString
+  name: ComboIntToString
+  nameWithType: ComboIntToString
+  fullName: FasttraxxDG.FrontEndUI.Converters.ComboIntToString
+- uid: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.EnumConverter
+  name: EnumConverter
+  nameWithType: EnumConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.EnumConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.MenuConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.MenuConverter
+  name: MenuConverter
+  nameWithType: MenuConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.MenuConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.NotConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.NotConverter
+  name: NotConverter
+  nameWithType: NotConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.NotConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.NumberConverter
+  name: NumberConverter
+  nameWithType: NumberConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.NumberConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.ZoomBorder
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.ZoomBorder
+  name: ZoomBorder
+  nameWithType: ZoomBorder
+  fullName: FasttraxxDG.FrontEndUI.Converters.ZoomBorder
+- uid: FasttraxxDG.FrontEndUI.Converters.PasswordHelper
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.PasswordHelper
+  name: PasswordHelper
+  nameWithType: PasswordHelper
+  fullName: FasttraxxDG.FrontEndUI.Converters.PasswordHelper
+- uid: FasttraxxDG.FrontEndUI.Converters.PositiveConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.PositiveConverter
+  name: PositiveConverter
+  nameWithType: PositiveConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.PositiveConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.StringRgbToBrushConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.StringRgbToBrushConverter
+  name: StringRgbToBrushConverter
+  nameWithType: StringRgbToBrushConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.StringRgbToBrushConverter
+- uid: FasttraxxDG.FrontEndUI.Converters.StringToFontWeigthConverter
+  commentId: T:FasttraxxDG.FrontEndUI.Converters.StringToFontWeigthConverter
+  name: StringToFontWeigthConverter
+  nameWithType: StringToFontWeigthConverter
+  fullName: FasttraxxDG.FrontEndUI.Converters.StringToFontWeigthConverter
