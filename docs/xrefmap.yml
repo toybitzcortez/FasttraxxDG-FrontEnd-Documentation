@@ -24263,6 +24263,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.ShellViewModel
   nameWithType: ShellViewModel.ShellViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Back
+  name: Back()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_Back
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Back
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Back()
+  nameWithType: ShellViewModel.Back()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Back*
+  name: Back
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_Back_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Back
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Back
+  nameWithType: ShellViewModel.Back
 - uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.ChangedPage(System.Object,System.String)
   name: ChangedPage(Object, String)
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_ChangedPage_System_Object_System_String_
@@ -24276,6 +24289,32 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.ChangedPage
   nameWithType: ShellViewModel.ChangedPage
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Load
+  name: Load()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_Load
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Load
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Load()
+  nameWithType: ShellViewModel.Load()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Load*
+  name: Load
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_Load_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Load
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Load
+  nameWithType: ShellViewModel.Load
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Login
+  name: Login()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_Login
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Login
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Login()
+  nameWithType: ShellViewModel.Login()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Login*
+  name: Login
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_Login_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Login
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.Login
+  nameWithType: ShellViewModel.Login
 - uid: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.MenuVm
   name: MenuVm
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ShellViewModel_MenuVm
