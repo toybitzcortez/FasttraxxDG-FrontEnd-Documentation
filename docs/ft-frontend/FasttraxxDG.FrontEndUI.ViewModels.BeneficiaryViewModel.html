@@ -335,12 +335,12 @@ and set the selected sender info to bene</p>
     <pre><code class="lang-csharp hljs">public void SameSender()</code></pre>
   </div>
   <h5 id="FasttraxxDG_FrontEndUI_ViewModels_BeneficiaryViewModel_SameSender_examples">Examples</h5>
-  <pre><code>Firstname = DataHelper.Remitter.LastName;
-Middlename = DataHelper.Remitter.MiddleName;
-Lastname = DataHelper.Remitter.LastName;
-BirthDate = DataHelper.Remitter.BirthDate;
-Male = DataHelper.Remitter.Gender.Equals(&quot;M&quot;);
-Female = DataHelper.Remitter.Gender.Equals(&quot;F&quot;);</code></pre>
+  <pre><code>Beneficiary.Firstname = Remitter.LastName;
+Beneficiary.Middlename = Remitter.MiddleName;
+Beneficiary.Lastname = Remitter.LastName;
+Beneficiary.BirthDate = Remitter.BirthDate;
+Beneficiary.Male = Remitter.Gender.Equals(&quot;M&quot;);
+Beneficiary.Female = Remitter.Gender.Equals(&quot;F&quot;);</code></pre>
 
   <a id="FasttraxxDG_FrontEndUI_ViewModels_BeneficiaryViewModel_Save_" data-uid="FasttraxxDG.FrontEndUI.ViewModels.BeneficiaryViewModel.Save*"></a>
   <h4 id="FasttraxxDG_FrontEndUI_ViewModels_BeneficiaryViewModel_Save" data-uid="FasttraxxDG.FrontEndUI.ViewModels.BeneficiaryViewModel.Save">Save()</h4>
