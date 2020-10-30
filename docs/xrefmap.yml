@@ -23980,6 +23980,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.RemitterRecordViewModel
   nameWithType: RemitterRecordViewModel.RemitterRecordViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Back
+  name: Back()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Back
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Back
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Back()
+  nameWithType: RemitterRecordViewModel.Back()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Back*
+  name: Back
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Back_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Back
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Back
+  nameWithType: RemitterRecordViewModel.Back
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.BackCommand
   name: BackCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_BackCommand
@@ -23993,6 +24006,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.BackCommand
   nameWithType: RemitterRecordViewModel.BackCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Copy(System.Int32)
+  name: Copy(Int32)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Copy_System_Int32_
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Copy(System.Int32)
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Copy(System.Int32)
+  nameWithType: RemitterRecordViewModel.Copy(Int32)
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Copy*
+  name: Copy
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Copy_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Copy
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Copy
+  nameWithType: RemitterRecordViewModel.Copy
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyAssistCommand
   name: CopyAssistCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_CopyAssistCommand
@@ -24045,6 +24071,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyDeleteCommand
   nameWithType: RemitterRecordViewModel.CopyDeleteCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt(FasttraxxDG.BaseLogic.TxnListBl)
+  name: CopyEreceipt(TxnListBl)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_CopyEreceipt_FasttraxxDG_BaseLogic_TxnListBl_
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt(FasttraxxDG.BaseLogic.TxnListBl)
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt(FasttraxxDG.BaseLogic.TxnListBl)
+  nameWithType: RemitterRecordViewModel.CopyEreceipt(TxnListBl)
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt*
+  name: CopyEreceipt
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_CopyEreceipt_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt
+  nameWithType: RemitterRecordViewModel.CopyEreceipt
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.ExportCommand
   name: ExportCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_ExportCommand
@@ -24084,6 +24123,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.LoadCommand
   nameWithType: RemitterRecordViewModel.LoadCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Refresh
+  name: Refresh()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Refresh
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Refresh
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Refresh()
+  nameWithType: RemitterRecordViewModel.Refresh()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Refresh*
+  name: Refresh
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Refresh_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Refresh
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Refresh
+  nameWithType: RemitterRecordViewModel.Refresh
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.RemitterID
   name: RemitterID
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_RemitterID
@@ -24123,6 +24175,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Selected
   nameWithType: RemitterRecordViewModel.Selected
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetCurrentSelection
+  name: SetCurrentSelection()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_SetCurrentSelection
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetCurrentSelection
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetCurrentSelection()
+  nameWithType: RemitterRecordViewModel.SetCurrentSelection()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetCurrentSelection*
+  name: SetCurrentSelection
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_SetCurrentSelection_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetCurrentSelection
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetCurrentSelection
+  nameWithType: RemitterRecordViewModel.SetCurrentSelection
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.SetSelection
   name: SetSelection
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_SetSelection
