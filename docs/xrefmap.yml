@@ -24084,6 +24084,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.CopyEreceipt
   nameWithType: RemitterRecordViewModel.CopyEreceipt
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Export
+  name: Export()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Export
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Export
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Export()
+  nameWithType: RemitterRecordViewModel.Export()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Export*
+  name: Export
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_Export_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Export
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.Export
+  nameWithType: RemitterRecordViewModel.Export
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.ExportCommand
   name: ExportCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterRecordViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterRecordViewModel_ExportCommand
@@ -24220,6 +24233,32 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.RemitterSearchViewModel
   nameWithType: RemitterSearchViewModel.RemitterSearchViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Add
+  name: Add()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_Add
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Add
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Add()
+  nameWithType: RemitterSearchViewModel.Add()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Add*
+  name: Add
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_Add_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Add
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Add
+  nameWithType: RemitterSearchViewModel.Add
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Initiation
+  name: Initiation()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_Initiation
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Initiation
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Initiation()
+  nameWithType: RemitterSearchViewModel.Initiation()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Initiation*
+  name: Initiation
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_Initiation_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Initiation
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Initiation
+  nameWithType: RemitterSearchViewModel.Initiation
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.IsNotAgent
   name: IsNotAgent
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_IsNotAgent
@@ -24233,6 +24272,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.IsNotAgent
   nameWithType: RemitterSearchViewModel.IsNotAgent
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Next
+  name: Next()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_Next
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Next
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Next()
+  nameWithType: RemitterSearchViewModel.Next()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Next*
+  name: Next
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_Next_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Next
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Next
+  nameWithType: RemitterSearchViewModel.Next
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.NextTabCommand
   name: NextTabCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_NextTabCommand
@@ -24259,6 +24311,58 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.Refresh
   nameWithType: RemitterSearchViewModel.Refresh
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchArc
+  name: SearchArc()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchArc
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchArc
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchArc()
+  nameWithType: RemitterSearchViewModel.SearchArc()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchArc*
+  name: SearchArc
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchArc_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchArc
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchArc
+  nameWithType: RemitterSearchViewModel.SearchArc
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchField
+  name: SearchField()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchField
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchField
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchField()
+  nameWithType: RemitterSearchViewModel.SearchField()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchField*
+  name: SearchField
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchField_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchField
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchField
+  nameWithType: RemitterSearchViewModel.SearchField
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchMemberId
+  name: SearchMemberId()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchMemberId
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchMemberId
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchMemberId()
+  nameWithType: RemitterSearchViewModel.SearchMemberId()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchMemberId*
+  name: SearchMemberId
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchMemberId_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchMemberId
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchMemberId
+  nameWithType: RemitterSearchViewModel.SearchMemberId
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchOptionSet
+  name: SearchOptionSet()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchOptionSet
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchOptionSet
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchOptionSet()
+  nameWithType: RemitterSearchViewModel.SearchOptionSet()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchOptionSet*
+  name: SearchOptionSet
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterSearchViewModel_SearchOptionSet_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchOptionSet
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterSearchViewModel.SearchOptionSet
+  nameWithType: RemitterSearchViewModel.SearchOptionSet
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterViewModel
   name: RemitterViewModel
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterViewModel.html
