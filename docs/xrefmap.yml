@@ -23195,6 +23195,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.CloseDrawerCommand
   nameWithType: LanguageSettingsViewModel.CloseDrawerCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.SaveLang
+  name: SaveLang()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_LanguageSettingsViewModel_SaveLang
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.SaveLang
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.SaveLang()
+  nameWithType: LanguageSettingsViewModel.SaveLang()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.SaveLang*
+  name: SaveLang
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_LanguageSettingsViewModel_SaveLang_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.SaveLang
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.SaveLang
+  nameWithType: LanguageSettingsViewModel.SaveLang
 - uid: FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.Selected
   name: Selected
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.LanguageSettingsViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_LanguageSettingsViewModel_Selected
@@ -23417,6 +23430,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.EnabledAndShowTitle
   nameWithType: RateViewModel.EnabledAndShowTitle
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Initiation
+  name: Initiation()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RateViewModel_Initiation
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Initiation
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Initiation()
+  nameWithType: RateViewModel.Initiation()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Initiation*
+  name: Initiation
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RateViewModel_Initiation_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Initiation
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Initiation
+  nameWithType: RateViewModel.Initiation
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.Load
   name: Load()
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RateViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RateViewModel_Load
