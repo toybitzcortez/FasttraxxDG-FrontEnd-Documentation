@@ -23253,6 +23253,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.LoginAsync
   nameWithType: LoginViewModel.LoginAsync
+- uid: FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.SaveLang
+  name: SaveLang()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_LoginViewModel_SaveLang
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.SaveLang
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.SaveLang()
+  nameWithType: LoginViewModel.SaveLang()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.SaveLang*
+  name: SaveLang
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_LoginViewModel_SaveLang_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.SaveLang
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.LoginViewModel.SaveLang
+  nameWithType: LoginViewModel.SaveLang
 - uid: FasttraxxDG.FrontEndUI.ViewModels.LogsDoubleViewModel
   name: LogsDoubleViewModel
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.LogsDoubleViewModel.html
@@ -26416,6 +26429,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.AccountSelectVmModel.CurrentPage
   nameWithType: AccountSelectVmModel.CurrentPage
+- uid: FasttraxxDG.UiLibrary.AccountSelectVmModel.Filter(FasttraxxDG.BaseLogic.AccountBl)
+  name: Filter(AccountBl)
+  href: ft-frontend/FasttraxxDG.UiLibrary.AccountSelectVmModel.html#FasttraxxDG_UiLibrary_AccountSelectVmModel_Filter_FasttraxxDG_BaseLogic_AccountBl_
+  commentId: M:FasttraxxDG.UiLibrary.AccountSelectVmModel.Filter(FasttraxxDG.BaseLogic.AccountBl)
+  fullName: FasttraxxDG.UiLibrary.AccountSelectVmModel.Filter(FasttraxxDG.BaseLogic.AccountBl)
+  nameWithType: AccountSelectVmModel.Filter(AccountBl)
+- uid: FasttraxxDG.UiLibrary.AccountSelectVmModel.Filter*
+  name: Filter
+  href: ft-frontend/FasttraxxDG.UiLibrary.AccountSelectVmModel.html#FasttraxxDG_UiLibrary_AccountSelectVmModel_Filter_
+  commentId: Overload:FasttraxxDG.UiLibrary.AccountSelectVmModel.Filter
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.AccountSelectVmModel.Filter
+  nameWithType: AccountSelectVmModel.Filter
 - uid: FasttraxxDG.UiLibrary.AccountSelectVmModel.IsVisible
   name: IsVisible
   href: ft-frontend/FasttraxxDG.UiLibrary.AccountSelectVmModel.html#FasttraxxDG_UiLibrary_AccountSelectVmModel_IsVisible
