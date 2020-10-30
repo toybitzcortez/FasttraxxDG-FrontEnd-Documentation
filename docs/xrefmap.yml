@@ -22659,6 +22659,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.CaptureCommand
   nameWithType: ArcControlViewModel.CaptureCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearArcPic
+  name: ClearArcPic()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ArcControlViewModel_ClearArcPic
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearArcPic
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearArcPic()
+  nameWithType: ArcControlViewModel.ClearArcPic()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearArcPic*
+  name: ClearArcPic
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ArcControlViewModel_ClearArcPic_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearArcPic
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearArcPic
+  nameWithType: ArcControlViewModel.ClearArcPic
 - uid: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.ClearCommand
   name: ClearCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ArcControlViewModel_ClearCommand
@@ -22802,6 +22815,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.Points
   nameWithType: ArcControlViewModel.Points
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImage
+  name: SelectImage()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ArcControlViewModel_SelectImage
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImage
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImage()
+  nameWithType: ArcControlViewModel.SelectImage()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImage*
+  name: SelectImage
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ArcControlViewModel_SelectImage_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImage
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImage
+  nameWithType: ArcControlViewModel.SelectImage
 - uid: FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.SelectImageCommand
   name: SelectImageCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ArcControlViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_ArcControlViewModel_SelectImageCommand
