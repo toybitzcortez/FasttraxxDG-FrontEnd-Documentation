@@ -23786,6 +23786,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.RemitterOutstandingViewModel
   nameWithType: RemitterOutstandingViewModel.RemitterOutstandingViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.Back
+  name: Back()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterOutstandingViewModel_Back
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.Back
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.Back()
+  nameWithType: RemitterOutstandingViewModel.Back()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.Back*
+  name: Back
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterOutstandingViewModel_Back_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.Back
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.Back
+  nameWithType: RemitterOutstandingViewModel.Back
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.BackCommand
   name: BackCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterOutstandingViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterOutstandingViewModel_BackCommand
@@ -23870,6 +23883,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.RemitterPendingViewModel
   nameWithType: RemitterPendingViewModel.RemitterPendingViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.Back
+  name: Back()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterPendingViewModel_Back
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.Back
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.Back()
+  nameWithType: RemitterPendingViewModel.Back()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.Back*
+  name: Back
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterPendingViewModel_Back_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.Back
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.Back
+  nameWithType: RemitterPendingViewModel.Back
 - uid: FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.BackCommand
   name: BackCommand
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.RemitterPendingViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_RemitterPendingViewModel_BackCommand
