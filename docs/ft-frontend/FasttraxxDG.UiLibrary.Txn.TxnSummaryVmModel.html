@@ -97,6 +97,7 @@
     <h5>Implements</h5>
     <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
     <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.ComponentModel.IDataErrorInfo</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -156,7 +157,7 @@
   <h6><strong>Assembly</strong>: FasttraxxDG.UiLibrary.dll</h6>
   <h5 id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TxnSummaryVmModel : BaseViewModel, INotifyPropertyChanged, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TxnSummaryVmModel : BaseViewModel, INotifyPropertyChanged, IDisposable, IDataErrorInfo</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -471,6 +472,29 @@
       </tr>
     </tbody>
   </table>
+  <a id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Charge_" data-uid="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Charge" data-uid="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge">Charge</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Charge { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_CurrentView_" data-uid="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.CurrentView*"></a>
   <h4 id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_CurrentView" data-uid="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.CurrentView">CurrentView</h4>
   <div class="markdown level1 summary"></div>
@@ -525,7 +549,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Discount { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public decimal Discount { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -537,7 +561,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><span class="xref">System.Decimal</span></td>
         <td><p>Get and Set the value of <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Discount">Discount</a></p>
 </td>
       </tr>
@@ -549,7 +573,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Extra { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public decimal Extra { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -561,7 +585,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><span class="xref">System.Decimal</span></td>
         <td><p>Get and Set the value of <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Extra">Extra</a></p>
 </td>
       </tr>
@@ -717,7 +741,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Nt { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Nt is required&quot;)]
+public decimal Nt { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -729,7 +754,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><span class="xref">System.Decimal</span></td>
         <td><p>Get and Set the value of <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Nt">Nt</a></p>
 </td>
       </tr>
@@ -741,7 +766,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Peso { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Peso is required.&quot;)]
+public decimal Peso { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -753,7 +779,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><span class="xref">System.Decimal</span></td>
         <td><p>Get and Set the value of <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Peso">Peso</a></p>
 </td>
       </tr>
@@ -898,7 +924,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span></td>
-        <td></td>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SaveStateChanged">SaveStateChanged</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -908,7 +935,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PurposeBl SelectedPurpose { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Purpose is required.&quot;)]
+public PurposeBl SelectedPurpose { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -993,7 +1021,35 @@
     <tbody>
       <tr>
         <td><a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnType.html">TxnType</a></td>
-        <td></td>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_TxnType">TxnType</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_IsValid_" data-uid="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.IsValid*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_IsValid" data-uid="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.IsValid">IsValid()</h4>
+  <div class="markdown level1 summary"><p>This Method use to validate regex and required field</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>boolean</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1003,6 +1059,9 @@
   </div>
   <div>
       <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.IDataErrorInfo</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

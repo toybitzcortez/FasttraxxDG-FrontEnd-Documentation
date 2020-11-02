@@ -98,6 +98,7 @@
     <h5>Implements</h5>
     <div><span class="xref">System.ComponentModel.INotifyPropertyChanged</span></div>
     <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.ComponentModel.IDataErrorInfo</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -207,6 +208,12 @@
       <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_TxnType">TxnSummaryVmModel.TxnType</a>
     </div>
     <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Charge">TxnSummaryVmModel.Charge</a>
+    </div>
+    <div>
+      <a class="xref" href="FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_IsValid">TxnSummaryVmModel.IsValid()</a>
+    </div>
+    <div>
       <a class="xref" href="FasttraxxDG.Base.BaseViewModel.html#FasttraxxDG_Base_BaseViewModel_Item_System_String_">BaseViewModel.Item[String]</a>
     </div>
     <div>
@@ -262,7 +269,7 @@
   <h6><strong>Assembly</strong>: FasttraxxDG.FrontEndUI.dll</h6>
   <h5 id="FasttraxxDG_FrontEndUI_ViewModels_TxnSummaryViewModel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TxnSummaryViewModel : TxnSummaryVmModel, INotifyPropertyChanged, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class TxnSummaryViewModel : TxnSummaryVmModel, INotifyPropertyChanged, IDisposable, IDataErrorInfo</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -452,6 +459,9 @@ Relationships = new ObservableCollection&lt;RelationsBl>(_relationsBl.Relationsh
   </div>
   <div>
       <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.ComponentModel.IDataErrorInfo</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
