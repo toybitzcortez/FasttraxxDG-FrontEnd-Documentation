@@ -4566,7 +4566,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.html",
-          "hash": "ITFm5M20hXtS42X4Dxoi3Q=="
+          "hash": "xfLk49etxvcLqgUAvHfMUw=="
         }
       },
       "is_incremental": false,
@@ -5418,7 +5418,19 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html",
-          "hash": "do/+EGtCbf76ASLmEVmM/g=="
+          "hash": "OY1NVVWPjUe4S1ZKndxORA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnType.html",
+          "hash": "QXKXU8BiIwLpTSBzNkDGWA=="
         }
       },
       "is_incremental": false,
@@ -5430,7 +5442,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.UiLibrary.Txn.html",
-          "hash": "qwHG5CWcy+VTKsyuaSpyew=="
+          "hash": "pc0K6JwFjiTkO/HUdAPkVg=="
         }
       },
       "is_incremental": false,
@@ -5574,7 +5586,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/toc.html",
-          "hash": "IjHrcsZSDaHLgukVfX8DmQ=="
+          "hash": "bXMxS/iBpVzmtp2KNLOK8A=="
         }
       },
       "is_incremental": false,
@@ -5656,8 +5668,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 460,
-          "skipped_file_count": 459
+          "total_file_count": 461,
+          "skipped_file_count": 456
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
