@@ -5341,6 +5341,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.BaseModel.AccountFsData.AccountTypeID
   nameWithType: AccountFsData.AccountTypeID
+- uid: FasttraxxDG.BaseModel.AccountFsData.AccountTypeName
+  name: AccountTypeName
+  href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_AccountTypeName
+  commentId: P:FasttraxxDG.BaseModel.AccountFsData.AccountTypeName
+  fullName: FasttraxxDG.BaseModel.AccountFsData.AccountTypeName
+  nameWithType: AccountFsData.AccountTypeName
+- uid: FasttraxxDG.BaseModel.AccountFsData.AccountTypeName*
+  name: AccountTypeName
+  href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_AccountTypeName_
+  commentId: Overload:FasttraxxDG.BaseModel.AccountFsData.AccountTypeName
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseModel.AccountFsData.AccountTypeName
+  nameWithType: AccountFsData.AccountTypeName
 - uid: FasttraxxDG.BaseModel.AccountFsData.Address
   name: Address
   href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_Address
@@ -5549,6 +5562,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.BaseModel.AccountFsData.MealPackageID
   nameWithType: AccountFsData.MealPackageID
+- uid: FasttraxxDG.BaseModel.AccountFsData.MealPackageName
+  name: MealPackageName
+  href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_MealPackageName
+  commentId: P:FasttraxxDG.BaseModel.AccountFsData.MealPackageName
+  fullName: FasttraxxDG.BaseModel.AccountFsData.MealPackageName
+  nameWithType: AccountFsData.MealPackageName
+- uid: FasttraxxDG.BaseModel.AccountFsData.MealPackageName*
+  name: MealPackageName
+  href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_MealPackageName_
+  commentId: Overload:FasttraxxDG.BaseModel.AccountFsData.MealPackageName
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseModel.AccountFsData.MealPackageName
+  nameWithType: AccountFsData.MealPackageName
 - uid: FasttraxxDG.BaseModel.AccountFsData.OrgID
   name: OrgID
   href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_OrgID
@@ -5575,6 +5601,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.BaseModel.AccountFsData.Remarks
   nameWithType: AccountFsData.Remarks
+- uid: FasttraxxDG.BaseModel.AccountFsData.RestaurantName
+  name: RestaurantName
+  href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_RestaurantName
+  commentId: P:FasttraxxDG.BaseModel.AccountFsData.RestaurantName
+  fullName: FasttraxxDG.BaseModel.AccountFsData.RestaurantName
+  nameWithType: AccountFsData.RestaurantName
+- uid: FasttraxxDG.BaseModel.AccountFsData.RestaurantName*
+  name: RestaurantName
+  href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_RestaurantName_
+  commentId: Overload:FasttraxxDG.BaseModel.AccountFsData.RestaurantName
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseModel.AccountFsData.RestaurantName
+  nameWithType: AccountFsData.RestaurantName
 - uid: FasttraxxDG.BaseModel.AccountFsData.ServiceCharge
   name: ServiceCharge
   href: ft-frontend/FasttraxxDG.BaseModel.AccountFsData.html#FasttraxxDG_BaseModel_AccountFsData_ServiceCharge
@@ -30215,6 +30254,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.FsBl
   nameWithType: TxnSummaryVmModel.FsBl
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Height
+  name: Height
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Height
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Height
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Height
+  nameWithType: TxnSummaryVmModel.Height
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Height*
+  name: Height
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Height_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Height
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Height
+  nameWithType: TxnSummaryVmModel.Height
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.IsValid
   name: IsValid()
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_IsValid
@@ -30332,6 +30384,58 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PickupBl
   nameWithType: TxnSummaryVmModel.PickupBl
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer
+  name: Printer
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printer
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer
+  nameWithType: TxnSummaryVmModel.Printer
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer*
+  name: Printer
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printer_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer
+  nameWithType: TxnSummaryVmModel.Printer
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer2
+  name: Printer2
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printer2
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer2
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer2
+  nameWithType: TxnSummaryVmModel.Printer2
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer2*
+  name: Printer2
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printer2_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer2
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printer2
+  nameWithType: TxnSummaryVmModel.Printer2
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers
+  name: Printers
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printers
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers
+  nameWithType: TxnSummaryVmModel.Printers
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers*
+  name: Printers
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printers_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers
+  nameWithType: TxnSummaryVmModel.Printers
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2
+  name: Printers2
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printers2
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2
+  nameWithType: TxnSummaryVmModel.Printers2
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2*
+  name: Printers2
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Printers2_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2
+  nameWithType: TxnSummaryVmModel.Printers2
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Purposes
   name: Purposes
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Purposes
@@ -30397,6 +30501,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SaveStateChanged
   nameWithType: TxnSummaryVmModel.SaveStateChanged
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPrinter
+  name: SelectedPrinter
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SelectedPrinter
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPrinter
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPrinter
+  nameWithType: TxnSummaryVmModel.SelectedPrinter
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPrinter*
+  name: SelectedPrinter
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SelectedPrinter_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPrinter
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPrinter
+  nameWithType: TxnSummaryVmModel.SelectedPrinter
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.SelectedPurpose
   name: SelectedPurpose
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_SelectedPurpose
@@ -30449,6 +30566,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.TxnType
   nameWithType: TxnSummaryVmModel.TxnType
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Width
+  name: Width
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Width
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Width
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Width
+  nameWithType: TxnSummaryVmModel.Width
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Width*
+  name: Width
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Width_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Width
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Width
+  nameWithType: TxnSummaryVmModel.Width
 - uid: FasttraxxDG.UiLibrary.Txn.TxnType
   name: TxnType
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnType.html
