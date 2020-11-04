@@ -174,7 +174,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrintModel(string remitter, string txnId, string forwarder, string forwarderAccount, string senderTel, string beneficiary, string bank, string accountNumber, string beneTel, string beneAddress, string nt, string arcNumber, string expiry, DateTime dte)</code></pre>
+    <pre><code class="lang-csharp hljs">public PrintModel(string remitter, string txnId, string forwarder, string forwarderAccount, string senderTel, string beneficiary, string bank, string accountNumber, string beneTel, string beneAddress, string nt, string arcNumber, string expiry, DateTime txnDate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,7 +253,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.DateTime</span></td>
-        <td><span class="parametername">dte</span></td>
+        <td><span class="parametername">txnDate</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -265,7 +265,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrintModel(string remitter, string txnId, string forwarder, string forwarderAccount, string senderTel, string beneficiary, string bank, string accountNumber, string beneTel, string beneAddress, string nt, string arcNumber, string expiry, DateTime dte, PrinterSettings printerSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public PrintModel(string remitter, string txnId, string forwarder, string forwarderAccount, string senderTel, string beneficiary, string bank, string accountNumber, string beneTel, string beneAddress, string nt, string arcNumber, string expiry, DateTime txnDate, PrinterSettings printerSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -344,7 +344,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.DateTime</span></td>
-        <td><span class="parametername">dte</span></td>
+        <td><span class="parametername">txnDate</span></td>
         <td></td>
       </tr>
       <tr>
@@ -500,30 +500,6 @@
       </tr>
     </tbody>
   </table>
-  <a id="FasttraxxDG_UiLibrary_PrintModel_Dte_" data-uid="FasttraxxDG.UiLibrary.PrintModel.Dte*"></a>
-  <h4 id="FasttraxxDG_UiLibrary_PrintModel_Dte" data-uid="FasttraxxDG.UiLibrary.PrintModel.Dte">Dte</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime Dte { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Dte">Dte</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <a id="FasttraxxDG_UiLibrary_PrintModel_Expiry_" data-uid="FasttraxxDG.UiLibrary.PrintModel.Expiry*"></a>
   <h4 id="FasttraxxDG_UiLibrary_PrintModel_Expiry" data-uid="FasttraxxDG.UiLibrary.PrintModel.Expiry">Expiry</h4>
   <div class="markdown level1 summary"></div>
@@ -567,7 +543,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Forwarder">Forwarder</a></p>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Forwarder">Forwarder</a> with OnPropertyChanged() value property</p>
 </td>
       </tr>
     </tbody>
@@ -591,7 +567,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_ForwarderAccount">ForwarderAccount</a></p>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_ForwarderAccount">ForwarderAccount</a> with OnPropertyChanged() value property</p>
 </td>
       </tr>
     </tbody>
@@ -615,7 +591,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Nt">Nt</a> with OnPropertyChanged() value property</p>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Nt">Nt</a></p>
 </td>
       </tr>
     </tbody>
@@ -692,6 +668,30 @@
       </tr>
     </tbody>
   </table>
+  <a id="FasttraxxDG_UiLibrary_PrintModel_TxnDate_" data-uid="FasttraxxDG.UiLibrary.PrintModel.TxnDate*"></a>
+  <h4 id="FasttraxxDG_UiLibrary_PrintModel_TxnDate" data-uid="FasttraxxDG.UiLibrary.PrintModel.TxnDate">TxnDate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime TxnDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_TxnDate">TxnDate</a> with OnPropertyChanged() value property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <a id="FasttraxxDG_UiLibrary_PrintModel_TxnID_" data-uid="FasttraxxDG.UiLibrary.PrintModel.TxnID*"></a>
   <h4 id="FasttraxxDG_UiLibrary_PrintModel_TxnID" data-uid="FasttraxxDG.UiLibrary.PrintModel.TxnID">TxnID</h4>
   <div class="markdown level1 summary"></div>
@@ -711,7 +711,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_TxnID">TxnID</a></p>
+        <td><p>get and set the value of <a class="xref" href="FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_TxnID">TxnID</a> with OnPropertyChanged() value property</p>
 </td>
       </tr>
     </tbody>
