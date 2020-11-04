@@ -18358,6 +18358,32 @@ references:
   commentId: T:FasttraxxDG.FrontEndUI.App
   fullName: FasttraxxDG.FrontEndUI.App
   nameWithType: App
+- uid: FasttraxxDG.FrontEndUI.App.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.App.html#FasttraxxDG_FrontEndUI_App_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.App.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.App.InitializeComponent()
+  nameWithType: App.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.App.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.App.html#FasttraxxDG_FrontEndUI_App_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.App.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.App.InitializeComponent
+  nameWithType: App.InitializeComponent
+- uid: FasttraxxDG.FrontEndUI.App.Main
+  name: Main()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.App.html#FasttraxxDG_FrontEndUI_App_Main
+  commentId: M:FasttraxxDG.FrontEndUI.App.Main
+  fullName: FasttraxxDG.FrontEndUI.App.Main()
+  nameWithType: App.Main()
+- uid: FasttraxxDG.FrontEndUI.App.Main*
+  name: Main
+  href: ft-frontend/FasttraxxDG.FrontEndUI.App.html#FasttraxxDG_FrontEndUI_App_Main_
+  commentId: Overload:FasttraxxDG.FrontEndUI.App.Main
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.App.Main
+  nameWithType: App.Main
 - uid: FasttraxxDG.FrontEndUI.App.OnStartup(System.Windows.StartupEventArgs)
   name: OnStartup(StartupEventArgs)
   href: ft-frontend/FasttraxxDG.FrontEndUI.App.html#FasttraxxDG_FrontEndUI_App_OnStartup_System_Windows_StartupEventArgs_
@@ -18631,6 +18657,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.AccountBbDetailsView
   nameWithType: AccountBbDetailsView.AccountBbDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountBbDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.InitializeComponent()
+  nameWithType: AccountBbDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountBbDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.InitializeComponent
+  nameWithType: AccountBbDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView
   name: AccountCcDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.html
@@ -18650,6 +18689,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.AccountCcDetailsView
   nameWithType: AccountCcDetailsView.AccountCcDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountCcDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.InitializeComponent()
+  nameWithType: AccountCcDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountCcDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.InitializeComponent
+  nameWithType: AccountCcDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView
   name: AccountDdDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.html
@@ -18669,6 +18721,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.AccountDdDetailsView
   nameWithType: AccountDdDetailsView.AccountDdDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountDdDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.InitializeComponent()
+  nameWithType: AccountDdDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountDdDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.InitializeComponent
+  nameWithType: AccountDdDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView
   name: AccountFoodDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.html
@@ -18688,6 +18753,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.AccountFoodDetailsView
   nameWithType: AccountFoodDetailsView.AccountFoodDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountFoodDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.InitializeComponent()
+  nameWithType: AccountFoodDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountFoodDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.InitializeComponent
+  nameWithType: AccountFoodDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView
   name: AccountPickupDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.html
@@ -18707,6 +18785,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.AccountPickupDetailsView
   nameWithType: AccountPickupDetailsView.AccountPickupDetailsView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountPickupDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.InitializeComponent()
+  nameWithType: AccountPickupDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountPickupDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.InitializeComponent
+  nameWithType: AccountPickupDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView
   name: AccountPickupView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.html
@@ -18726,6 +18817,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.AccountPickupView
   nameWithType: AccountPickupView.AccountPickupView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountPickupView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.InitializeComponent()
+  nameWithType: AccountPickupView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountPickupView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.InitializeComponent
+  nameWithType: AccountPickupView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView
   name: AccountSelectView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.html
@@ -18745,6 +18849,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.AccountSelectView
   nameWithType: AccountSelectView.AccountSelectView
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountSelectView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent()
+  nameWithType: AccountSelectView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.html#FasttraxxDG_FrontEndUI_Beneficiary_Account_Views_AccountSelectView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent
+  nameWithType: AccountSelectView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Commands
   name: FasttraxxDG.FrontEndUI.Commands
   href: ft-frontend/FasttraxxDG.FrontEndUI.Commands.html
@@ -19118,6 +19235,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Controls.ItemMenuView.ItemMenuView
   nameWithType: ItemMenuView.ItemMenuView
+- uid: FasttraxxDG.FrontEndUI.Controls.ItemMenuView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Controls.ItemMenuView.html#FasttraxxDG_FrontEndUI_Controls_ItemMenuView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Controls.ItemMenuView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Controls.ItemMenuView.InitializeComponent()
+  nameWithType: ItemMenuView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Controls.ItemMenuView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Controls.ItemMenuView.html#FasttraxxDG_FrontEndUI_Controls_ItemMenuView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Controls.ItemMenuView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Controls.ItemMenuView.InitializeComponent
+  nameWithType: ItemMenuView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Controls.ItemMenuViewModel
   name: ItemMenuViewModel
   href: ft-frontend/FasttraxxDG.FrontEndUI.Controls.ItemMenuViewModel.html
@@ -20814,6 +20944,31 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Helpers.Printer.Runv2
   nameWithType: Printer.Runv2
+- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService
+  name: PrinterService
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html
+  commentId: T:FasttraxxDG.FrontEndUI.Helpers.PrinterService
+  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService
+  nameWithType: PrinterService
+- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)
+  name: Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_DateTime_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime)
+  nameWithType: PrinterService.Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime)
+- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Drawing.Printing.PrinterSettings)
+  name: Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, PrinterSettings)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_DateTime_System_Drawing_Printing_PrinterSettings_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Drawing.Printing.PrinterSettings)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime, System.Drawing.Printing.PrinterSettings)
+  nameWithType: PrinterService.Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, PrinterSettings)
+- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print*
+  name: Print
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print
+  nameWithType: PrinterService.Print
 - uid: FasttraxxDG.FrontEndUI.Helpers.Security
   name: FasttraxxDG.FrontEndUI.Helpers.Security
   href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.Security.html
@@ -21190,6 +21345,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.TxnSummaryCcDetailsView
   nameWithType: TxnSummaryCcDetailsView.TxnSummaryCcDetailsView
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.html#FasttraxxDG_FrontEndUI_Transaction_Views_TxnSummaryCcDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.InitializeComponent()
+  nameWithType: TxnSummaryCcDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.html#FasttraxxDG_FrontEndUI_Transaction_Views_TxnSummaryCcDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.InitializeComponent
+  nameWithType: TxnSummaryCcDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView
   name: TxnSummaryDdDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.html
@@ -21209,6 +21377,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.TxnSummaryDdDetailsView
   nameWithType: TxnSummaryDdDetailsView.TxnSummaryDdDetailsView
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.html#FasttraxxDG_FrontEndUI_Transaction_Views_TxnSummaryDdDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent()
+  nameWithType: TxnSummaryDdDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.html#FasttraxxDG_FrontEndUI_Transaction_Views_TxnSummaryDdDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent
+  nameWithType: TxnSummaryDdDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.ViewModels
   name: FasttraxxDG.FrontEndUI.ViewModels
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.html
@@ -25179,6 +25360,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.AboveLimitAlerView
   nameWithType: AboveLimitAlerView.AboveLimitAlerView
+- uid: FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.html#FasttraxxDG_FrontEndUI_Views_AboveLimitAlerView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.InitializeComponent()
+  nameWithType: AboveLimitAlerView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.html#FasttraxxDG_FrontEndUI_Views_AboveLimitAlerView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.InitializeComponent
+  nameWithType: AboveLimitAlerView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AccountBbView
   name: AccountBbView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountBbView.html
@@ -25198,6 +25392,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AccountBbView.AccountBbView
   nameWithType: AccountBbView.AccountBbView
+- uid: FasttraxxDG.FrontEndUI.Views.AccountBbView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountBbView.html#FasttraxxDG_FrontEndUI_Views_AccountBbView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AccountBbView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountBbView.InitializeComponent()
+  nameWithType: AccountBbView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AccountBbView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountBbView.html#FasttraxxDG_FrontEndUI_Views_AccountBbView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AccountBbView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountBbView.InitializeComponent
+  nameWithType: AccountBbView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AccountCcView
   name: AccountCcView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountCcView.html
@@ -25217,6 +25424,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AccountCcView.AccountCcView
   nameWithType: AccountCcView.AccountCcView
+- uid: FasttraxxDG.FrontEndUI.Views.AccountCcView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountCcView.html#FasttraxxDG_FrontEndUI_Views_AccountCcView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AccountCcView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountCcView.InitializeComponent()
+  nameWithType: AccountCcView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AccountCcView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountCcView.html#FasttraxxDG_FrontEndUI_Views_AccountCcView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AccountCcView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountCcView.InitializeComponent
+  nameWithType: AccountCcView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AccountDdView
   name: AccountDdView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountDdView.html
@@ -25236,6 +25456,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AccountDdView.AccountDdView
   nameWithType: AccountDdView.AccountDdView
+- uid: FasttraxxDG.FrontEndUI.Views.AccountDdView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountDdView.html#FasttraxxDG_FrontEndUI_Views_AccountDdView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AccountDdView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountDdView.InitializeComponent()
+  nameWithType: AccountDdView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AccountDdView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountDdView.html#FasttraxxDG_FrontEndUI_Views_AccountDdView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AccountDdView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountDdView.InitializeComponent
+  nameWithType: AccountDdView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AccountFoodView
   name: AccountFoodView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountFoodView.html
@@ -25255,6 +25488,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AccountFoodView.AccountFoodView
   nameWithType: AccountFoodView.AccountFoodView
+- uid: FasttraxxDG.FrontEndUI.Views.AccountFoodView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountFoodView.html#FasttraxxDG_FrontEndUI_Views_AccountFoodView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AccountFoodView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountFoodView.InitializeComponent()
+  nameWithType: AccountFoodView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AccountFoodView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountFoodView.html#FasttraxxDG_FrontEndUI_Views_AccountFoodView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AccountFoodView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountFoodView.InitializeComponent
+  nameWithType: AccountFoodView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AccountView
   name: AccountView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountView.html
@@ -25274,6 +25520,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AccountView.AccountView
   nameWithType: AccountView.AccountView
+- uid: FasttraxxDG.FrontEndUI.Views.AccountView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountView.html#FasttraxxDG_FrontEndUI_Views_AccountView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AccountView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountView.InitializeComponent()
+  nameWithType: AccountView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AccountView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountView.html#FasttraxxDG_FrontEndUI_Views_AccountView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AccountView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AccountView.InitializeComponent
+  nameWithType: AccountView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AgentSummarView
   name: AgentSummarView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AgentSummarView.html
@@ -25293,6 +25552,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AgentSummarView.AgentSummarView
   nameWithType: AgentSummarView.AgentSummarView
+- uid: FasttraxxDG.FrontEndUI.Views.AgentSummarView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AgentSummarView.html#FasttraxxDG_FrontEndUI_Views_AgentSummarView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AgentSummarView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AgentSummarView.InitializeComponent()
+  nameWithType: AgentSummarView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AgentSummarView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AgentSummarView.html#FasttraxxDG_FrontEndUI_Views_AgentSummarView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AgentSummarView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AgentSummarView.InitializeComponent
+  nameWithType: AgentSummarView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.AppSettingsView
   name: AppSettingsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AppSettingsView.html
@@ -25312,6 +25584,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.AppSettingsView.AppSettingsView
   nameWithType: AppSettingsView.AppSettingsView
+- uid: FasttraxxDG.FrontEndUI.Views.AppSettingsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AppSettingsView.html#FasttraxxDG_FrontEndUI_Views_AppSettingsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.AppSettingsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.AppSettingsView.InitializeComponent()
+  nameWithType: AppSettingsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.AppSettingsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.AppSettingsView.html#FasttraxxDG_FrontEndUI_Views_AppSettingsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.AppSettingsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.AppSettingsView.InitializeComponent
+  nameWithType: AppSettingsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.ArcControlView
   name: ArcControlView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcControlView.html
@@ -25331,6 +25616,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.ArcControlView.ArcControlView
   nameWithType: ArcControlView.ArcControlView
+- uid: FasttraxxDG.FrontEndUI.Views.ArcControlView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcControlView.html#FasttraxxDG_FrontEndUI_Views_ArcControlView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.ArcControlView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.ArcControlView.InitializeComponent()
+  nameWithType: ArcControlView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.ArcControlView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcControlView.html#FasttraxxDG_FrontEndUI_Views_ArcControlView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.ArcControlView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.ArcControlView.InitializeComponent
+  nameWithType: ArcControlView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.ArcPrintOutView
   name: ArcPrintOutView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.html
@@ -25350,6 +25648,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.ArcPrintOutView
   nameWithType: ArcPrintOutView.ArcPrintOutView
+- uid: FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.html#FasttraxxDG_FrontEndUI_Views_ArcPrintOutView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.InitializeComponent()
+  nameWithType: ArcPrintOutView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.html#FasttraxxDG_FrontEndUI_Views_ArcPrintOutView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.InitializeComponent
+  nameWithType: ArcPrintOutView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.BeneficiaryView
   name: BeneficiaryView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneficiaryView.html
@@ -25369,6 +25680,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.BeneficiaryView.BeneficiaryView
   nameWithType: BeneficiaryView.BeneficiaryView
+- uid: FasttraxxDG.FrontEndUI.Views.BeneficiaryView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneficiaryView.html#FasttraxxDG_FrontEndUI_Views_BeneficiaryView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.BeneficiaryView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.BeneficiaryView.InitializeComponent()
+  nameWithType: BeneficiaryView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.BeneficiaryView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneficiaryView.html#FasttraxxDG_FrontEndUI_Views_BeneficiaryView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.BeneficiaryView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.BeneficiaryView.InitializeComponent
+  nameWithType: BeneficiaryView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.BeneSearchView
   name: BeneSearchView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSearchView.html
@@ -25388,6 +25712,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.BeneSearchView.BeneSearchView
   nameWithType: BeneSearchView.BeneSearchView
+- uid: FasttraxxDG.FrontEndUI.Views.BeneSearchView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSearchView.html#FasttraxxDG_FrontEndUI_Views_BeneSearchView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.BeneSearchView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.BeneSearchView.InitializeComponent()
+  nameWithType: BeneSearchView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.BeneSearchView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSearchView.html#FasttraxxDG_FrontEndUI_Views_BeneSearchView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.BeneSearchView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.BeneSearchView.InitializeComponent
+  nameWithType: BeneSearchView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.BeneSelectView
   name: BeneSelectView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSelectView.html
@@ -25407,6 +25744,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.BeneSelectView.BeneSelectView
   nameWithType: BeneSelectView.BeneSelectView
+- uid: FasttraxxDG.FrontEndUI.Views.BeneSelectView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSelectView.html#FasttraxxDG_FrontEndUI_Views_BeneSelectView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.BeneSelectView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.BeneSelectView.InitializeComponent()
+  nameWithType: BeneSelectView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.BeneSelectView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSelectView.html#FasttraxxDG_FrontEndUI_Views_BeneSelectView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.BeneSelectView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.BeneSelectView.InitializeComponent
+  nameWithType: BeneSelectView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.ConverterView
   name: ConverterView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ConverterView.html
@@ -25426,6 +25776,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.ConverterView.ConverterView
   nameWithType: ConverterView.ConverterView
+- uid: FasttraxxDG.FrontEndUI.Views.ConverterView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ConverterView.html#FasttraxxDG_FrontEndUI_Views_ConverterView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.ConverterView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.ConverterView.InitializeComponent()
+  nameWithType: ConverterView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.ConverterView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ConverterView.html#FasttraxxDG_FrontEndUI_Views_ConverterView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.ConverterView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.ConverterView.InitializeComponent
+  nameWithType: ConverterView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.DashboardView
   name: DashboardView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.DashboardView.html
@@ -25445,6 +25808,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.DashboardView.DashboardView
   nameWithType: DashboardView.DashboardView
+- uid: FasttraxxDG.FrontEndUI.Views.DashboardView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.DashboardView.html#FasttraxxDG_FrontEndUI_Views_DashboardView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.DashboardView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.DashboardView.InitializeComponent()
+  nameWithType: DashboardView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.DashboardView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.DashboardView.html#FasttraxxDG_FrontEndUI_Views_DashboardView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.DashboardView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.DashboardView.InitializeComponent
+  nameWithType: DashboardView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.LanguageSettingsView
   name: LanguageSettingsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.html
@@ -25464,6 +25840,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.LanguageSettingsView
   nameWithType: LanguageSettingsView.LanguageSettingsView
+- uid: FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.html#FasttraxxDG_FrontEndUI_Views_LanguageSettingsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.InitializeComponent()
+  nameWithType: LanguageSettingsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.html#FasttraxxDG_FrontEndUI_Views_LanguageSettingsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.InitializeComponent
+  nameWithType: LanguageSettingsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.LoginView
   name: LoginView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LoginView.html
@@ -25483,6 +25872,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.LoginView.LoginView
   nameWithType: LoginView.LoginView
+- uid: FasttraxxDG.FrontEndUI.Views.LoginView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LoginView.html#FasttraxxDG_FrontEndUI_Views_LoginView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.LoginView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.LoginView.InitializeComponent()
+  nameWithType: LoginView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.LoginView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LoginView.html#FasttraxxDG_FrontEndUI_Views_LoginView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.LoginView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.LoginView.InitializeComponent
+  nameWithType: LoginView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.LogsDoubleView
   name: LogsDoubleView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsDoubleView.html
@@ -25502,6 +25904,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.LogsDoubleView.LogsDoubleView
   nameWithType: LogsDoubleView.LogsDoubleView
+- uid: FasttraxxDG.FrontEndUI.Views.LogsDoubleView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsDoubleView.html#FasttraxxDG_FrontEndUI_Views_LogsDoubleView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.LogsDoubleView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.LogsDoubleView.InitializeComponent()
+  nameWithType: LogsDoubleView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.LogsDoubleView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsDoubleView.html#FasttraxxDG_FrontEndUI_Views_LogsDoubleView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.LogsDoubleView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.LogsDoubleView.InitializeComponent
+  nameWithType: LogsDoubleView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.LogsView
   name: LogsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsView.html
@@ -25521,6 +25936,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.LogsView.LogsView
   nameWithType: LogsView.LogsView
+- uid: FasttraxxDG.FrontEndUI.Views.LogsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsView.html#FasttraxxDG_FrontEndUI_Views_LogsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.LogsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.LogsView.InitializeComponent()
+  nameWithType: LogsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.LogsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsView.html#FasttraxxDG_FrontEndUI_Views_LogsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.LogsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.LogsView.InitializeComponent
+  nameWithType: LogsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.MobileReportView
   name: MobileReportView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileReportView.html
@@ -25540,6 +25968,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.MobileReportView.MobileReportView
   nameWithType: MobileReportView.MobileReportView
+- uid: FasttraxxDG.FrontEndUI.Views.MobileReportView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileReportView.html#FasttraxxDG_FrontEndUI_Views_MobileReportView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.MobileReportView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.MobileReportView.InitializeComponent()
+  nameWithType: MobileReportView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.MobileReportView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileReportView.html#FasttraxxDG_FrontEndUI_Views_MobileReportView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.MobileReportView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.MobileReportView.InitializeComponent
+  nameWithType: MobileReportView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.MobileTxnListView
   name: MobileTxnListView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileTxnListView.html
@@ -25559,6 +26000,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.MobileTxnListView.MobileTxnListView
   nameWithType: MobileTxnListView.MobileTxnListView
+- uid: FasttraxxDG.FrontEndUI.Views.MobileTxnListView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileTxnListView.html#FasttraxxDG_FrontEndUI_Views_MobileTxnListView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.MobileTxnListView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.MobileTxnListView.InitializeComponent()
+  nameWithType: MobileTxnListView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.MobileTxnListView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileTxnListView.html#FasttraxxDG_FrontEndUI_Views_MobileTxnListView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.MobileTxnListView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.MobileTxnListView.InitializeComponent
+  nameWithType: MobileTxnListView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.OnlineTrackerView
   name: OnlineTrackerView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.html
@@ -25578,6 +26032,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.OnlineTrackerView
   nameWithType: OnlineTrackerView.OnlineTrackerView
+- uid: FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.html#FasttraxxDG_FrontEndUI_Views_OnlineTrackerView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.InitializeComponent()
+  nameWithType: OnlineTrackerView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.html#FasttraxxDG_FrontEndUI_Views_OnlineTrackerView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.InitializeComponent
+  nameWithType: OnlineTrackerView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.PaymentView
   name: PaymentView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.PaymentView.html
@@ -25597,6 +26064,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.PaymentView.PaymentView
   nameWithType: PaymentView.PaymentView
+- uid: FasttraxxDG.FrontEndUI.Views.PaymentView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.PaymentView.html#FasttraxxDG_FrontEndUI_Views_PaymentView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.PaymentView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.PaymentView.InitializeComponent()
+  nameWithType: PaymentView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.PaymentView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.PaymentView.html#FasttraxxDG_FrontEndUI_Views_PaymentView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.PaymentView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.PaymentView.InitializeComponent
+  nameWithType: PaymentView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.PrinterSettingsView
   name: PrinterSettingsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.html
@@ -25616,6 +26096,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.PrinterSettingsView
   nameWithType: PrinterSettingsView.PrinterSettingsView
+- uid: FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.html#FasttraxxDG_FrontEndUI_Views_PrinterSettingsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.InitializeComponent()
+  nameWithType: PrinterSettingsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.html#FasttraxxDG_FrontEndUI_Views_PrinterSettingsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.InitializeComponent
+  nameWithType: PrinterSettingsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RateView
   name: RateView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RateView.html
@@ -25635,6 +26128,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RateView.RateView
   nameWithType: RateView.RateView
+- uid: FasttraxxDG.FrontEndUI.Views.RateView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RateView.html#FasttraxxDG_FrontEndUI_Views_RateView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RateView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RateView.InitializeComponent()
+  nameWithType: RateView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RateView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RateView.html#FasttraxxDG_FrontEndUI_Views_RateView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RateView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RateView.InitializeComponent
+  nameWithType: RateView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemDetailsControlView
   name: RemDetailsControlView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.html
@@ -25654,6 +26160,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.RemDetailsControlView
   nameWithType: RemDetailsControlView.RemDetailsControlView
+- uid: FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.html#FasttraxxDG_FrontEndUI_Views_RemDetailsControlView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.InitializeComponent()
+  nameWithType: RemDetailsControlView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.html#FasttraxxDG_FrontEndUI_Views_RemDetailsControlView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.InitializeComponent
+  nameWithType: RemDetailsControlView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView
   name: RemitterCompanyAddressView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.html
@@ -25673,6 +26192,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.RemitterCompanyAddressView
   nameWithType: RemitterCompanyAddressView.RemitterCompanyAddressView
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.html#FasttraxxDG_FrontEndUI_Views_RemitterCompanyAddressView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.InitializeComponent()
+  nameWithType: RemitterCompanyAddressView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.html#FasttraxxDG_FrontEndUI_Views_RemitterCompanyAddressView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.InitializeComponent
+  nameWithType: RemitterCompanyAddressView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView
   name: RemitterOutstandingView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.html
@@ -25692,6 +26224,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.RemitterOutstandingView
   nameWithType: RemitterOutstandingView.RemitterOutstandingView
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.html#FasttraxxDG_FrontEndUI_Views_RemitterOutstandingView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.InitializeComponent()
+  nameWithType: RemitterOutstandingView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.html#FasttraxxDG_FrontEndUI_Views_RemitterOutstandingView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.InitializeComponent
+  nameWithType: RemitterOutstandingView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemitterPendingView
   name: RemitterPendingView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterPendingView.html
@@ -25711,6 +26256,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemitterPendingView.RemitterPendingView
   nameWithType: RemitterPendingView.RemitterPendingView
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterPendingView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterPendingView.html#FasttraxxDG_FrontEndUI_Views_RemitterPendingView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemitterPendingView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterPendingView.InitializeComponent()
+  nameWithType: RemitterPendingView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterPendingView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterPendingView.html#FasttraxxDG_FrontEndUI_Views_RemitterPendingView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemitterPendingView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterPendingView.InitializeComponent
+  nameWithType: RemitterPendingView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemitterRecordView
   name: RemitterRecordView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterRecordView.html
@@ -25730,6 +26288,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemitterRecordView.RemitterRecordView
   nameWithType: RemitterRecordView.RemitterRecordView
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterRecordView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterRecordView.html#FasttraxxDG_FrontEndUI_Views_RemitterRecordView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemitterRecordView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterRecordView.InitializeComponent()
+  nameWithType: RemitterRecordView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterRecordView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterRecordView.html#FasttraxxDG_FrontEndUI_Views_RemitterRecordView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemitterRecordView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterRecordView.InitializeComponent
+  nameWithType: RemitterRecordView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemitterSearchView
   name: RemitterSearchView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterSearchView.html
@@ -25749,6 +26320,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemitterSearchView.RemitterSearchView
   nameWithType: RemitterSearchView.RemitterSearchView
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterSearchView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterSearchView.html#FasttraxxDG_FrontEndUI_Views_RemitterSearchView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemitterSearchView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterSearchView.InitializeComponent()
+  nameWithType: RemitterSearchView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterSearchView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterSearchView.html#FasttraxxDG_FrontEndUI_Views_RemitterSearchView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemitterSearchView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterSearchView.InitializeComponent
+  nameWithType: RemitterSearchView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.RemitterView
   name: RemitterView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterView.html
@@ -25768,6 +26352,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.RemitterView.RemitterView
   nameWithType: RemitterView.RemitterView
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterView.html#FasttraxxDG_FrontEndUI_Views_RemitterView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.RemitterView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterView.InitializeComponent()
+  nameWithType: RemitterView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.RemitterView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterView.html#FasttraxxDG_FrontEndUI_Views_RemitterView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.RemitterView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.RemitterView.InitializeComponent
+  nameWithType: RemitterView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.ShellView
   name: ShellView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ShellView.html
@@ -25787,6 +26384,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.ShellView.ShellView
   nameWithType: ShellView.ShellView
+- uid: FasttraxxDG.FrontEndUI.Views.ShellView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ShellView.html#FasttraxxDG_FrontEndUI_Views_ShellView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.ShellView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.ShellView.InitializeComponent()
+  nameWithType: ShellView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.ShellView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ShellView.html#FasttraxxDG_FrontEndUI_Views_ShellView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.ShellView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.ShellView.InitializeComponent
+  nameWithType: ShellView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.SignatureForm
   name: SignatureForm
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.SignatureForm.html
@@ -25890,6 +26500,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.TxnListView.TxnListView
   nameWithType: TxnListView.TxnListView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnListView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnListView.html#FasttraxxDG_FrontEndUI_Views_TxnListView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnListView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnListView.InitializeComponent()
+  nameWithType: TxnListView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnListView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnListView.html#FasttraxxDG_FrontEndUI_Views_TxnListView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnListView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnListView.InitializeComponent
+  nameWithType: TxnListView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView
   name: TxnSummaryBbDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.html
@@ -25909,6 +26532,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.TxnSummaryBbDetailsView
   nameWithType: TxnSummaryBbDetailsView.TxnSummaryBbDetailsView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryBbDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.InitializeComponent()
+  nameWithType: TxnSummaryBbDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryBbDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.InitializeComponent
+  nameWithType: TxnSummaryBbDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView
   name: TxnSummaryFoodDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.html
@@ -25928,6 +26564,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.TxnSummaryFoodDetailsView
   nameWithType: TxnSummaryFoodDetailsView.TxnSummaryFoodDetailsView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryFoodDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.InitializeComponent()
+  nameWithType: TxnSummaryFoodDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryFoodDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.InitializeComponent
+  nameWithType: TxnSummaryFoodDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView
   name: TxnSummaryPickupDetailsView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.html
@@ -25947,6 +26596,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.TxnSummaryPickupDetailsView
   nameWithType: TxnSummaryPickupDetailsView.TxnSummaryPickupDetailsView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryPickupDetailsView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.InitializeComponent()
+  nameWithType: TxnSummaryPickupDetailsView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryPickupDetailsView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.InitializeComponent
+  nameWithType: TxnSummaryPickupDetailsView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryView
   name: TxnSummaryView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryView.html
@@ -25966,6 +26628,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryView.TxnSummaryView
   nameWithType: TxnSummaryView.TxnSummaryView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent()
+  nameWithType: TxnSummaryView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryView.html#FasttraxxDG_FrontEndUI_Views_TxnSummaryView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent
+  nameWithType: TxnSummaryView.InitializeComponent
 - uid: FasttraxxDG.UiLibrary
   name: FasttraxxDG.UiLibrary
   href: ft-frontend/FasttraxxDG.UiLibrary.html
