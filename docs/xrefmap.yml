@@ -20950,18 +20950,12 @@ references:
   commentId: T:FasttraxxDG.FrontEndUI.Helpers.PrinterService
   fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService
   nameWithType: PrinterService
-- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)
-  name: Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime)
-  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_DateTime_
-  commentId: M:FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)
-  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime)
-  nameWithType: PrinterService.Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime)
-- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Drawing.Printing.PrinterSettings)
-  name: Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, PrinterSettings)
-  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_DateTime_System_Drawing_Printing_PrinterSettings_
-  commentId: M:FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Drawing.Printing.PrinterSettings)
-  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime, System.Drawing.Printing.PrinterSettings)
-  nameWithType: PrinterService.Print(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, PrinterSettings)
+- uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(FasttraxxDG.UiLibrary.PrintModel,FasttraxxDG.UiLibrary.PrintType)
+  name: Print(PrintModel, PrintType)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_FasttraxxDG_UiLibrary_PrintModel_FasttraxxDG_UiLibrary_PrintType_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(FasttraxxDG.UiLibrary.PrintModel,FasttraxxDG.UiLibrary.PrintType)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print(FasttraxxDG.UiLibrary.PrintModel, FasttraxxDG.UiLibrary.PrintType)
+  nameWithType: PrinterService.Print(PrintModel, PrintType)
 - uid: FasttraxxDG.FrontEndUI.Helpers.PrinterService.Print*
   name: Print
   href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.PrinterService.html#FasttraxxDG_FrontEndUI_Helpers_PrinterService_Print_
@@ -28882,6 +28876,250 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.PrinterSettingsVmModel.CloseDrawerCommand
   nameWithType: PrinterSettingsVmModel.CloseDrawerCommand
+- uid: FasttraxxDG.UiLibrary.PrintModel
+  name: PrintModel
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html
+  commentId: T:FasttraxxDG.UiLibrary.PrintModel
+  fullName: FasttraxxDG.UiLibrary.PrintModel
+  nameWithType: PrintModel
+- uid: FasttraxxDG.UiLibrary.PrintModel.#ctor
+  name: PrintModel()
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel__ctor
+  commentId: M:FasttraxxDG.UiLibrary.PrintModel.#ctor
+  fullName: FasttraxxDG.UiLibrary.PrintModel.PrintModel()
+  nameWithType: PrintModel.PrintModel()
+- uid: FasttraxxDG.UiLibrary.PrintModel.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)
+  name: PrintModel(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime)
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel__ctor_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_DateTime_
+  commentId: M:FasttraxxDG.UiLibrary.PrintModel.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)
+  fullName: FasttraxxDG.UiLibrary.PrintModel.PrintModel(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime)
+  nameWithType: PrintModel.PrintModel(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime)
+- uid: FasttraxxDG.UiLibrary.PrintModel.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Drawing.Printing.PrinterSettings)
+  name: PrintModel(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, PrinterSettings)
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel__ctor_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_DateTime_System_Drawing_Printing_PrinterSettings_
+  commentId: M:FasttraxxDG.UiLibrary.PrintModel.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Drawing.Printing.PrinterSettings)
+  fullName: FasttraxxDG.UiLibrary.PrintModel.PrintModel(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.DateTime, System.Drawing.Printing.PrinterSettings)
+  nameWithType: PrintModel.PrintModel(String, String, String, String, String, String, String, String, String, String, String, String, String, DateTime, PrinterSettings)
+- uid: FasttraxxDG.UiLibrary.PrintModel.#ctor*
+  name: PrintModel
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel__ctor_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.PrintModel
+  nameWithType: PrintModel.PrintModel
+- uid: FasttraxxDG.UiLibrary.PrintModel.AccountNumber
+  name: AccountNumber
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_AccountNumber
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.AccountNumber
+  fullName: FasttraxxDG.UiLibrary.PrintModel.AccountNumber
+  nameWithType: PrintModel.AccountNumber
+- uid: FasttraxxDG.UiLibrary.PrintModel.AccountNumber*
+  name: AccountNumber
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_AccountNumber_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.AccountNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.AccountNumber
+  nameWithType: PrintModel.AccountNumber
+- uid: FasttraxxDG.UiLibrary.PrintModel.ArcNumber
+  name: ArcNumber
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_ArcNumber
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.ArcNumber
+  fullName: FasttraxxDG.UiLibrary.PrintModel.ArcNumber
+  nameWithType: PrintModel.ArcNumber
+- uid: FasttraxxDG.UiLibrary.PrintModel.ArcNumber*
+  name: ArcNumber
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_ArcNumber_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.ArcNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.ArcNumber
+  nameWithType: PrintModel.ArcNumber
+- uid: FasttraxxDG.UiLibrary.PrintModel.Bank
+  name: Bank
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Bank
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Bank
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Bank
+  nameWithType: PrintModel.Bank
+- uid: FasttraxxDG.UiLibrary.PrintModel.Bank*
+  name: Bank
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Bank_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Bank
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Bank
+  nameWithType: PrintModel.Bank
+- uid: FasttraxxDG.UiLibrary.PrintModel.BeneAddress
+  name: BeneAddress
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_BeneAddress
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.BeneAddress
+  fullName: FasttraxxDG.UiLibrary.PrintModel.BeneAddress
+  nameWithType: PrintModel.BeneAddress
+- uid: FasttraxxDG.UiLibrary.PrintModel.BeneAddress*
+  name: BeneAddress
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_BeneAddress_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.BeneAddress
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.BeneAddress
+  nameWithType: PrintModel.BeneAddress
+- uid: FasttraxxDG.UiLibrary.PrintModel.Beneficiary
+  name: Beneficiary
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Beneficiary
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Beneficiary
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Beneficiary
+  nameWithType: PrintModel.Beneficiary
+- uid: FasttraxxDG.UiLibrary.PrintModel.Beneficiary*
+  name: Beneficiary
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Beneficiary_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Beneficiary
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Beneficiary
+  nameWithType: PrintModel.Beneficiary
+- uid: FasttraxxDG.UiLibrary.PrintModel.BeneTel
+  name: BeneTel
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_BeneTel
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.BeneTel
+  fullName: FasttraxxDG.UiLibrary.PrintModel.BeneTel
+  nameWithType: PrintModel.BeneTel
+- uid: FasttraxxDG.UiLibrary.PrintModel.BeneTel*
+  name: BeneTel
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_BeneTel_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.BeneTel
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.BeneTel
+  nameWithType: PrintModel.BeneTel
+- uid: FasttraxxDG.UiLibrary.PrintModel.Dte
+  name: Dte
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Dte
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Dte
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Dte
+  nameWithType: PrintModel.Dte
+- uid: FasttraxxDG.UiLibrary.PrintModel.Dte*
+  name: Dte
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Dte_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Dte
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Dte
+  nameWithType: PrintModel.Dte
+- uid: FasttraxxDG.UiLibrary.PrintModel.Expiry
+  name: Expiry
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Expiry
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Expiry
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Expiry
+  nameWithType: PrintModel.Expiry
+- uid: FasttraxxDG.UiLibrary.PrintModel.Expiry*
+  name: Expiry
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Expiry_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Expiry
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Expiry
+  nameWithType: PrintModel.Expiry
+- uid: FasttraxxDG.UiLibrary.PrintModel.Forwarder
+  name: Forwarder
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Forwarder
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Forwarder
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Forwarder
+  nameWithType: PrintModel.Forwarder
+- uid: FasttraxxDG.UiLibrary.PrintModel.Forwarder*
+  name: Forwarder
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Forwarder_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Forwarder
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Forwarder
+  nameWithType: PrintModel.Forwarder
+- uid: FasttraxxDG.UiLibrary.PrintModel.ForwarderAccount
+  name: ForwarderAccount
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_ForwarderAccount
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.ForwarderAccount
+  fullName: FasttraxxDG.UiLibrary.PrintModel.ForwarderAccount
+  nameWithType: PrintModel.ForwarderAccount
+- uid: FasttraxxDG.UiLibrary.PrintModel.ForwarderAccount*
+  name: ForwarderAccount
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_ForwarderAccount_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.ForwarderAccount
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.ForwarderAccount
+  nameWithType: PrintModel.ForwarderAccount
+- uid: FasttraxxDG.UiLibrary.PrintModel.Nt
+  name: Nt
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Nt
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Nt
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Nt
+  nameWithType: PrintModel.Nt
+- uid: FasttraxxDG.UiLibrary.PrintModel.Nt*
+  name: Nt
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Nt_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Nt
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Nt
+  nameWithType: PrintModel.Nt
+- uid: FasttraxxDG.UiLibrary.PrintModel.PrinterSettings
+  name: PrinterSettings
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_PrinterSettings
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.PrinterSettings
+  fullName: FasttraxxDG.UiLibrary.PrintModel.PrinterSettings
+  nameWithType: PrintModel.PrinterSettings
+- uid: FasttraxxDG.UiLibrary.PrintModel.PrinterSettings*
+  name: PrinterSettings
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_PrinterSettings_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.PrinterSettings
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.PrinterSettings
+  nameWithType: PrintModel.PrinterSettings
+- uid: FasttraxxDG.UiLibrary.PrintModel.Remitter
+  name: Remitter
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Remitter
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.Remitter
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Remitter
+  nameWithType: PrintModel.Remitter
+- uid: FasttraxxDG.UiLibrary.PrintModel.Remitter*
+  name: Remitter
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_Remitter_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.Remitter
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.Remitter
+  nameWithType: PrintModel.Remitter
+- uid: FasttraxxDG.UiLibrary.PrintModel.SenderTel
+  name: SenderTel
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_SenderTel
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.SenderTel
+  fullName: FasttraxxDG.UiLibrary.PrintModel.SenderTel
+  nameWithType: PrintModel.SenderTel
+- uid: FasttraxxDG.UiLibrary.PrintModel.SenderTel*
+  name: SenderTel
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_SenderTel_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.SenderTel
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.SenderTel
+  nameWithType: PrintModel.SenderTel
+- uid: FasttraxxDG.UiLibrary.PrintModel.TxnID
+  name: TxnID
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_TxnID
+  commentId: P:FasttraxxDG.UiLibrary.PrintModel.TxnID
+  fullName: FasttraxxDG.UiLibrary.PrintModel.TxnID
+  nameWithType: PrintModel.TxnID
+- uid: FasttraxxDG.UiLibrary.PrintModel.TxnID*
+  name: TxnID
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintModel.html#FasttraxxDG_UiLibrary_PrintModel_TxnID_
+  commentId: Overload:FasttraxxDG.UiLibrary.PrintModel.TxnID
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.PrintModel.TxnID
+  nameWithType: PrintModel.TxnID
+- uid: FasttraxxDG.UiLibrary.PrintType
+  name: PrintType
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintType.html
+  commentId: T:FasttraxxDG.UiLibrary.PrintType
+  fullName: FasttraxxDG.UiLibrary.PrintType
+  nameWithType: PrintType
+- uid: FasttraxxDG.UiLibrary.PrintType.Normal
+  name: Normal
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintType.html#FasttraxxDG_UiLibrary_PrintType_Normal
+  commentId: F:FasttraxxDG.UiLibrary.PrintType.Normal
+  fullName: FasttraxxDG.UiLibrary.PrintType.Normal
+  nameWithType: PrintType.Normal
+- uid: FasttraxxDG.UiLibrary.PrintType.PrinterSetings
+  name: PrinterSetings
+  href: ft-frontend/FasttraxxDG.UiLibrary.PrintType.html#FasttraxxDG_UiLibrary_PrintType_PrinterSetings
+  commentId: F:FasttraxxDG.UiLibrary.PrintType.PrinterSetings
+  fullName: FasttraxxDG.UiLibrary.PrintType.PrinterSetings
+  nameWithType: PrintType.PrinterSetings
 - uid: FasttraxxDG.UiLibrary.RateVmModel
   name: RateVmModel
   href: ft-frontend/FasttraxxDG.UiLibrary.RateVmModel.html
@@ -30731,6 +30969,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Printers2
   nameWithType: TxnSummaryVmModel.Printers2
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PrintModel
+  name: PrintModel
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_PrintModel
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PrintModel
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PrintModel
+  nameWithType: TxnSummaryVmModel.PrintModel
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PrintModel*
+  name: PrintModel
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_PrintModel_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PrintModel
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.PrintModel
+  nameWithType: TxnSummaryVmModel.PrintModel
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Purposes
   name: Purposes
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Purposes
