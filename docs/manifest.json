@@ -3306,7 +3306,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.App.html",
-          "hash": "EeptuDCKS2HX1TC05pZ8Og=="
+          "hash": "baY8vhnQBD4LZ3FP4Z7+dw=="
         }
       },
       "is_incremental": false,
@@ -3354,7 +3354,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountBbDetailsView.html",
-          "hash": "II/CfZRRlrKB0kC9ZPRT6w=="
+          "hash": "0F/lHYUh/s20sqsmm+PlLA=="
         }
       },
       "is_incremental": false,
@@ -3366,7 +3366,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountCcDetailsView.html",
-          "hash": "SptGtLi4A5Lbi3tLiMdbfQ=="
+          "hash": "rn/z7QUjoQeduF1/6xv5Vw=="
         }
       },
       "is_incremental": false,
@@ -3378,7 +3378,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountDdDetailsView.html",
-          "hash": "RG7TYDKx9TJ9oTrVHGzrxQ=="
+          "hash": "wrHXOExB01LIJvP8YIRzUg=="
         }
       },
       "is_incremental": false,
@@ -3390,7 +3390,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountFoodDetailsView.html",
-          "hash": "/ce+qOnzLCBdrEEBtrXDLA=="
+          "hash": "SHLXvkhHPtr6kkgU9PFQkA=="
         }
       },
       "is_incremental": false,
@@ -3402,7 +3402,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupDetailsView.html",
-          "hash": "xKYi58r9EM4sYLU4gTFcgw=="
+          "hash": "lrPni8uGXjlvYrejmOIoRA=="
         }
       },
       "is_incremental": false,
@@ -3414,7 +3414,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountPickupView.html",
-          "hash": "v6kohFBZD13nuXQbQDtABA=="
+          "hash": "TStiRlWcf93aypftGvLuug=="
         }
       },
       "is_incremental": false,
@@ -3426,7 +3426,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.html",
-          "hash": "EZMA7qTYHDWPVcu78kmApw=="
+          "hash": "BZgyB2cDPdvLMcTNepBitg=="
         }
       },
       "is_incremental": false,
@@ -3522,7 +3522,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Controls.ItemMenuView.html",
-          "hash": "H+9y2Q45S06+RG29swxsLQ=="
+          "hash": "aV9QAGK3NNrey+r8BNfhrg=="
         }
       },
       "is_incremental": false,
@@ -3786,7 +3786,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Helpers.ImageHelper.html",
-          "hash": "Vvh+146hq+DFGaFwbMWOdQ=="
+          "hash": "ZERjA+/lBV9++ORQgNOpOw=="
         }
       },
       "is_incremental": false,
@@ -3811,6 +3811,18 @@
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Helpers.NotifHelper.html",
           "hash": "qEmRoTs3VzavJ+eMOinoag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Helpers.Printer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Helpers.Printer.html",
+          "hash": "v5hbA/4jYYt94BTCpYKXeQ=="
         }
       },
       "is_incremental": false,
@@ -3882,7 +3894,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Helpers.html",
-          "hash": "3hRSjPYQnnMoxYo+3k+GiA=="
+          "hash": "jP3DKkmYZFa8X6sOE7kpHg=="
         }
       },
       "is_incremental": false,
@@ -3954,7 +3966,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryCcDetailsView.html",
-          "hash": "7ADQ9j4IYw3tl91dgCF+6g=="
+          "hash": "enncPD2Fnqma9YbGIUbaXg=="
         }
       },
       "is_incremental": false,
@@ -3966,7 +3978,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.html",
-          "hash": "FMZz8NaO55BnBtq5Z/dEqA=="
+          "hash": "5LsnIevvbgz7CvnYwI44Kg=="
         }
       },
       "is_incremental": false,
@@ -4566,7 +4578,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.html",
-          "hash": "5cvAt8yvebRGin2txQWwgw=="
+          "hash": "hZ6eZslLkupvtfKD/GfYdA=="
         }
       },
       "is_incremental": false,
@@ -4590,7 +4602,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AboveLimitAlerView.html",
-          "hash": "/RsY+0Z+ByXu6QNBtsn1/w=="
+          "hash": "MKcL8AhX7GCJ2U41dCSdaA=="
         }
       },
       "is_incremental": false,
@@ -4602,7 +4614,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountBbView.html",
-          "hash": "L8VQW5Kqmp9Pyk5krzClzA=="
+          "hash": "xgFp/rq6drzcjiSjQAexQA=="
         }
       },
       "is_incremental": false,
@@ -4614,7 +4626,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountCcView.html",
-          "hash": "Y30+izfHEHoptcB7j6/TIw=="
+          "hash": "SB/OOf9DKQV8fe3BPn//dg=="
         }
       },
       "is_incremental": false,
@@ -4626,7 +4638,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountDdView.html",
-          "hash": "tHg7ARQ65XyPqft/yfqtuA=="
+          "hash": "xh2E4Hu0va9uNkv/o2wa7Q=="
         }
       },
       "is_incremental": false,
@@ -4638,7 +4650,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountFoodView.html",
-          "hash": "VkmwpwjDjF6MR/4PoT/0iQ=="
+          "hash": "JTouILs68DCrYfkt+r3voA=="
         }
       },
       "is_incremental": false,
@@ -4650,7 +4662,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AccountView.html",
-          "hash": "n5Kby4hJy2dk9jHyUpKoTg=="
+          "hash": "V0GxpyS5PvmKGFEwF9+/QQ=="
         }
       },
       "is_incremental": false,
@@ -4662,7 +4674,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AgentSummarView.html",
-          "hash": "T7Ok7u/8+xyV+enH4kiEbQ=="
+          "hash": "/bkWatF1H17lzXmFp2u6Mw=="
         }
       },
       "is_incremental": false,
@@ -4674,7 +4686,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.AppSettingsView.html",
-          "hash": "t1DvQuWhgtl2Or8DnFEsWw=="
+          "hash": "9NMy9xataH/Q/vpV3oGNtA=="
         }
       },
       "is_incremental": false,
@@ -4686,7 +4698,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcControlView.html",
-          "hash": "HYjYw+rFDrkt1gq/6iiqsg=="
+          "hash": "6R7GMvGqkwvtzB6afPH7OA=="
         }
       },
       "is_incremental": false,
@@ -4698,7 +4710,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.ArcPrintOutView.html",
-          "hash": "6kh4QeIDPIdRYF62IWpUGg=="
+          "hash": "LH3QQKt9VEafonEQdbwbtw=="
         }
       },
       "is_incremental": false,
@@ -4710,7 +4722,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSearchView.html",
-          "hash": "gnS0c6WrJjEnWZMovljYvQ=="
+          "hash": "LpVMppG5LsZFyQKUmGHd5w=="
         }
       },
       "is_incremental": false,
@@ -4722,7 +4734,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneSelectView.html",
-          "hash": "fFSeuUWz7MhtWMuLcuP8wg=="
+          "hash": "OHoLN09tndPVe77TTxCOPw=="
         }
       },
       "is_incremental": false,
@@ -4734,7 +4746,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.BeneficiaryView.html",
-          "hash": "7nlhoDrQMSEfCPOW36VN5A=="
+          "hash": "t50qePFEE2W7qfrLCgP5Ig=="
         }
       },
       "is_incremental": false,
@@ -4746,7 +4758,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.ConverterView.html",
-          "hash": "NthGSFdGbcwIskvPPARb4g=="
+          "hash": "CMC3jWf98Lu5uerJX2L9lg=="
         }
       },
       "is_incremental": false,
@@ -4758,7 +4770,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.DashboardView.html",
-          "hash": "aEMUYiyAVgxMzcrtHrJI6Q=="
+          "hash": "zTAeupJCYJ60x7BGcdEKXA=="
         }
       },
       "is_incremental": false,
@@ -4770,7 +4782,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.LanguageSettingsView.html",
-          "hash": "2GuKdOdmC4X53Jzn+zS1qg=="
+          "hash": "TJQcrClpbfnQ5DZvcCDtEQ=="
         }
       },
       "is_incremental": false,
@@ -4782,7 +4794,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.LoginView.html",
-          "hash": "Y1JwnULWzgVAWKJ7nXye6Q=="
+          "hash": "5epUNgJgCRSrzmym4ro1hA=="
         }
       },
       "is_incremental": false,
@@ -4794,7 +4806,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsDoubleView.html",
-          "hash": "FVL52rIDPWEFMMI856/Qdg=="
+          "hash": "Su7LuWPCKGTj1tgvB6lDOQ=="
         }
       },
       "is_incremental": false,
@@ -4806,7 +4818,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.LogsView.html",
-          "hash": "P9sZZfSFzWosqXUvGO2YyA=="
+          "hash": "hlCaI/utRX7JyLCnAT8fgg=="
         }
       },
       "is_incremental": false,
@@ -4818,7 +4830,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileReportView.html",
-          "hash": "dyVHuYtoiItUVnLovyJo5A=="
+          "hash": "S2Cw28sxcz345/DkPn3Hrw=="
         }
       },
       "is_incremental": false,
@@ -4830,7 +4842,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.MobileTxnListView.html",
-          "hash": "N0bbfNUhCro7Xm0ZMLYO/w=="
+          "hash": "Mpftd4q93Rw5y+UhPRUlHQ=="
         }
       },
       "is_incremental": false,
@@ -4842,7 +4854,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.OnlineTrackerView.html",
-          "hash": "Jh9DfPuDNrCQtcwaacittw=="
+          "hash": "2BhjUftupCVIH0plajdhfQ=="
         }
       },
       "is_incremental": false,
@@ -4854,7 +4866,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.PaymentView.html",
-          "hash": "rGSKYiK9yPcUwxc6dcCn1g=="
+          "hash": "X0QaocY8Gp1IVxnQIq8qFw=="
         }
       },
       "is_incremental": false,
@@ -4866,7 +4878,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.PrinterSettingsView.html",
-          "hash": "rSadrURJapffxJR/6IRAXA=="
+          "hash": "LJl/YmEojNLQyOIA73NJkQ=="
         }
       },
       "is_incremental": false,
@@ -4878,7 +4890,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RateView.html",
-          "hash": "2gNXasFTtpVlEjgoY7b/Nw=="
+          "hash": "Jrb42PIfCU6wRpGdR2xizw=="
         }
       },
       "is_incremental": false,
@@ -4890,7 +4902,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemDetailsControlView.html",
-          "hash": "//3VerJ6oGljrIOSbhAmeg=="
+          "hash": "4z5YPGyDAStME8vd8IpIxg=="
         }
       },
       "is_incremental": false,
@@ -4902,7 +4914,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterCompanyAddressView.html",
-          "hash": "fuF9GlxMvzfG+xfaWBINlg=="
+          "hash": "2LrfsaNUcAOTTYwm18CWnQ=="
         }
       },
       "is_incremental": false,
@@ -4914,7 +4926,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterOutstandingView.html",
-          "hash": "2mo+uVTboG1VlOU+EQ+Upg=="
+          "hash": "aMxonsailjOl60yqh5LlOA=="
         }
       },
       "is_incremental": false,
@@ -4926,7 +4938,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterPendingView.html",
-          "hash": "nJJDyOUzNNudXOGzepQ3hg=="
+          "hash": "cvzN3ui2o8FW/tF3Bby4Ig=="
         }
       },
       "is_incremental": false,
@@ -4938,7 +4950,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterRecordView.html",
-          "hash": "+ASmEsK3TK6khYpcaSqWrg=="
+          "hash": "8IREURaUl2nh4QHqjSOEeQ=="
         }
       },
       "is_incremental": false,
@@ -4950,7 +4962,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterSearchView.html",
-          "hash": "3sFfRBZngWJcthFtvemeXg=="
+          "hash": "hY+FvtW9pg4M+Afb1RjhaQ=="
         }
       },
       "is_incremental": false,
@@ -4962,7 +4974,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.RemitterView.html",
-          "hash": "+X8mbxxlMaIC2RbjJIng2Q=="
+          "hash": "vr+ZBMudClKEynTIuXZR8Q=="
         }
       },
       "is_incremental": false,
@@ -4974,7 +4986,19 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.ShellView.html",
-          "hash": "liT1nzQAWu0/I75Nzei7mA=="
+          "hash": "dIBLnqQGtJhcDGXJpwVKtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.SignatureForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.SignatureForm.html",
+          "hash": "VOtrAQS8UGyIiqXQLRHbqw=="
         }
       },
       "is_incremental": false,
@@ -4986,7 +5010,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnListView.html",
-          "hash": "EZEcFMHuJXHYnod5wuMTWA=="
+          "hash": "uXLqT1EZlt4SnPnHxeGdmg=="
         }
       },
       "is_incremental": false,
@@ -4998,7 +5022,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryBbDetailsView.html",
-          "hash": "B8ahwsYgh74nS8jguDOI3A=="
+          "hash": "Tq7TSozLfLs5C07rLwsr2A=="
         }
       },
       "is_incremental": false,
@@ -5010,7 +5034,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryFoodDetailsView.html",
-          "hash": "q2muayNHKGtx7VDIx+BaDA=="
+          "hash": "02CNjVNQNkTzlEb4b+Xzeg=="
         }
       },
       "is_incremental": false,
@@ -5022,7 +5046,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryPickupDetailsView.html",
-          "hash": "KBXgbbv7PGSKVByycGlm8Q=="
+          "hash": "A07JFtlc+iwHgxfIDDtNaQ=="
         }
       },
       "is_incremental": false,
@@ -5034,7 +5058,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnSummaryView.html",
-          "hash": "zXDuO/wk3PrHrpgYVPixRA=="
+          "hash": "84vZFzvASOOAm60u4yLeIw=="
         }
       },
       "is_incremental": false,
@@ -5046,7 +5070,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.FrontEndUI.Views.html",
-          "hash": "qFtoppcKwlopmb032ZNPLw=="
+          "hash": "oH4G6/ieBnFwksmKVLoCwA=="
         }
       },
       "is_incremental": false,
@@ -5418,7 +5442,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html",
-          "hash": "svzKD+6Feh4RSBEE2AyI+g=="
+          "hash": "pZl11QMXvgW842YdN8fbqw=="
         }
       },
       "is_incremental": false,
@@ -5586,7 +5610,7 @@
       "output": {
         ".html": {
           "relative_path": "ft-frontend/toc.html",
-          "hash": "bXMxS/iBpVzmtp2KNLOK8A=="
+          "hash": "khkZTUlRUxOUn8JxzaUTKQ=="
         }
       },
       "is_incremental": false,
@@ -5668,8 +5692,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 461,
-          "skipped_file_count": 250
+          "total_file_count": 463,
+          "skipped_file_count": 232
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
