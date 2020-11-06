@@ -2615,12 +2615,12 @@ references:
   commentId: T:FasttraxxDG.BaseLogic.AccountBbBl
   fullName: FasttraxxDG.BaseLogic.AccountBbBl
   nameWithType: AccountBbBl
-- uid: FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  name: AccountAddBb(String, String, String, Int32, Int32, Int32, Int32, String)
-  href: ft-frontend/FasttraxxDG.BaseLogic.AccountBbBl.html#FasttraxxDG_BaseLogic_AccountBbBl_AccountAddBb_System_String_System_String_System_String_System_Int32_System_Int32_System_Int32_System_Int32_System_String_
-  commentId: M:FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  fullName: FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb(System.String, System.String, System.String, System.Int32, System.Int32, System.Int32, System.Int32, System.String)
-  nameWithType: AccountBbBl.AccountAddBb(String, String, String, Int32, Int32, Int32, Int32, String)
+- uid: FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb
+  name: AccountAddBb()
+  href: ft-frontend/FasttraxxDG.BaseLogic.AccountBbBl.html#FasttraxxDG_BaseLogic_AccountBbBl_AccountAddBb
+  commentId: M:FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb
+  fullName: FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb()
+  nameWithType: AccountBbBl.AccountAddBb()
 - uid: FasttraxxDG.BaseLogic.AccountBbBl.AccountAddBb*
   name: AccountAddBb
   href: ft-frontend/FasttraxxDG.BaseLogic.AccountBbBl.html#FasttraxxDG_BaseLogic_AccountBbBl_AccountAddBb_
@@ -2757,12 +2757,12 @@ references:
   commentId: T:FasttraxxDG.BaseLogic.AccountCcBl
   fullName: FasttraxxDG.BaseLogic.AccountCcBl
   nameWithType: AccountCcBl
-- uid: FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String)
-  name: AccountAddCc(Int32, String, Int32, Int32, Int32, String, String)
-  href: ft-frontend/FasttraxxDG.BaseLogic.AccountCcBl.html#FasttraxxDG_BaseLogic_AccountCcBl_AccountAddCc_System_Int32_System_String_System_Int32_System_Int32_System_Int32_System_String_System_String_
-  commentId: M:FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String)
-  fullName: FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc(System.Int32, System.String, System.Int32, System.Int32, System.Int32, System.String, System.String)
-  nameWithType: AccountCcBl.AccountAddCc(Int32, String, Int32, Int32, Int32, String, String)
+- uid: FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc
+  name: AccountAddCc()
+  href: ft-frontend/FasttraxxDG.BaseLogic.AccountCcBl.html#FasttraxxDG_BaseLogic_AccountCcBl_AccountAddCc
+  commentId: M:FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc
+  fullName: FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc()
+  nameWithType: AccountCcBl.AccountAddCc()
 - uid: FasttraxxDG.BaseLogic.AccountCcBl.AccountAddCc*
   name: AccountAddCc
   href: ft-frontend/FasttraxxDG.BaseLogic.AccountCcBl.html#FasttraxxDG_BaseLogic_AccountCcBl_AccountAddCc_
@@ -2789,12 +2789,12 @@ references:
   commentId: T:FasttraxxDG.BaseLogic.AccountDdBl
   fullName: FasttraxxDG.BaseLogic.AccountDdBl
   nameWithType: AccountDdBl
-- uid: FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  name: AccountAddDd(String, Int32, String, Int32, Int32, Int32, Int32, String)
-  href: ft-frontend/FasttraxxDG.BaseLogic.AccountDdBl.html#FasttraxxDG_BaseLogic_AccountDdBl_AccountAddDd_System_String_System_Int32_System_String_System_Int32_System_Int32_System_Int32_System_Int32_System_String_
-  commentId: M:FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
-  fullName: FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd(System.String, System.Int32, System.String, System.Int32, System.Int32, System.Int32, System.Int32, System.String)
-  nameWithType: AccountDdBl.AccountAddDd(String, Int32, String, Int32, Int32, Int32, Int32, String)
+- uid: FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd
+  name: AccountAddDd()
+  href: ft-frontend/FasttraxxDG.BaseLogic.AccountDdBl.html#FasttraxxDG_BaseLogic_AccountDdBl_AccountAddDd
+  commentId: M:FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd
+  fullName: FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd()
+  nameWithType: AccountDdBl.AccountAddDd()
 - uid: FasttraxxDG.BaseLogic.AccountDdBl.AccountAddDd*
   name: AccountAddDd
   href: ft-frontend/FasttraxxDG.BaseLogic.AccountDdBl.html#FasttraxxDG_BaseLogic_AccountDdBl_AccountAddDd_
@@ -2821,12 +2821,12 @@ references:
   commentId: T:FasttraxxDG.BaseLogic.AccountFsBl
   fullName: FasttraxxDG.BaseLogic.AccountFsBl
   nameWithType: AccountFsBl
-- uid: FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime,System.String)
-  name: AccountAddFood(Int32, Int32, Int32, Int32, String, String, DateTime, String)
-  href: ft-frontend/FasttraxxDG.BaseLogic.AccountFsBl.html#FasttraxxDG_BaseLogic_AccountFsBl_AccountAddFood_System_Int32_System_Int32_System_Int32_System_Int32_System_String_System_String_System_DateTime_System_String_
-  commentId: M:FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime,System.String)
-  fullName: FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood(System.Int32, System.Int32, System.Int32, System.Int32, System.String, System.String, System.DateTime, System.String)
-  nameWithType: AccountFsBl.AccountAddFood(Int32, Int32, Int32, Int32, String, String, DateTime, String)
+- uid: FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood
+  name: AccountAddFood()
+  href: ft-frontend/FasttraxxDG.BaseLogic.AccountFsBl.html#FasttraxxDG_BaseLogic_AccountFsBl_AccountAddFood
+  commentId: M:FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood
+  fullName: FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood()
+  nameWithType: AccountFsBl.AccountAddFood()
 - uid: FasttraxxDG.BaseLogic.AccountFsBl.AccountAddFood*
   name: AccountAddFood
   href: ft-frontend/FasttraxxDG.BaseLogic.AccountFsBl.html#FasttraxxDG_BaseLogic_AccountFsBl_AccountAddFood_
@@ -2853,12 +2853,12 @@ references:
   commentId: T:FasttraxxDG.BaseLogic.AccountPickupBl
   fullName: FasttraxxDG.BaseLogic.AccountPickupBl
   nameWithType: AccountPickupBl
-- uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
-  name: AccountAddPickup(Int32, Int32, Int32, Int32, String, String)
-  href: ft-frontend/FasttraxxDG.BaseLogic.AccountPickupBl.html#FasttraxxDG_BaseLogic_AccountPickupBl_AccountAddPickup_System_Int32_System_Int32_System_Int32_System_Int32_System_String_System_String_
-  commentId: M:FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
-  fullName: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup(System.Int32, System.Int32, System.Int32, System.Int32, System.String, System.String)
-  nameWithType: AccountPickupBl.AccountAddPickup(Int32, Int32, Int32, Int32, String, String)
+- uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup
+  name: AccountAddPickup()
+  href: ft-frontend/FasttraxxDG.BaseLogic.AccountPickupBl.html#FasttraxxDG_BaseLogic_AccountPickupBl_AccountAddPickup
+  commentId: M:FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup
+  fullName: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup()
+  nameWithType: AccountPickupBl.AccountAddPickup()
 - uid: FasttraxxDG.BaseLogic.AccountPickupBl.AccountAddPickup*
   name: AccountAddPickup
   href: ft-frontend/FasttraxxDG.BaseLogic.AccountPickupBl.html#FasttraxxDG_BaseLogic_AccountPickupBl_AccountAddPickup_
@@ -16901,6 +16901,71 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.BaseService.AccountService.AccountAddPickupCheck
   nameWithType: AccountService.AccountAddPickupCheck
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditBb(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  name: AccountEditBb(Int32, String, String, String, Int32, Int32, Int32, Int32, String)
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditBb_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_System_Int32_System_Int32_System_String_
+  commentId: M:FasttraxxDG.BaseService.AccountService.AccountEditBb(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditBb(System.Int32, System.String, System.String, System.String, System.Int32, System.Int32, System.Int32, System.Int32, System.String)
+  nameWithType: AccountService.AccountEditBb(Int32, String, String, String, Int32, Int32, Int32, Int32, String)
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditBb*
+  name: AccountEditBb
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditBb_
+  commentId: Overload:FasttraxxDG.BaseService.AccountService.AccountEditBb
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditBb
+  nameWithType: AccountService.AccountEditBb
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditCc(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String)
+  name: AccountEditCc(Int32, String, Int32, Int32, String, String)
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditCc_System_Int32_System_String_System_Int32_System_Int32_System_String_System_String_
+  commentId: M:FasttraxxDG.BaseService.AccountService.AccountEditCc(System.Int32,System.String,System.Int32,System.Int32,System.String,System.String)
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditCc(System.Int32, System.String, System.Int32, System.Int32, System.String, System.String)
+  nameWithType: AccountService.AccountEditCc(Int32, String, Int32, Int32, String, String)
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditCc*
+  name: AccountEditCc
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditCc_
+  commentId: Overload:FasttraxxDG.BaseService.AccountService.AccountEditCc
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditCc
+  nameWithType: AccountService.AccountEditCc
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditDd(System.Int32,System.Int32,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String)
+  name: AccountEditDd(Int32, Int32, String, Int32, String, Int32, Int32, String)
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditDd_System_Int32_System_Int32_System_String_System_Int32_System_String_System_Int32_System_Int32_System_String_
+  commentId: M:FasttraxxDG.BaseService.AccountService.AccountEditDd(System.Int32,System.Int32,System.String,System.Int32,System.String,System.Int32,System.Int32,System.String)
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditDd(System.Int32, System.Int32, System.String, System.Int32, System.String, System.Int32, System.Int32, System.String)
+  nameWithType: AccountService.AccountEditDd(Int32, Int32, String, Int32, String, Int32, Int32, String)
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditDd*
+  name: AccountEditDd
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditDd_
+  commentId: Overload:FasttraxxDG.BaseService.AccountService.AccountEditDd
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditDd
+  nameWithType: AccountService.AccountEditDd
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditFood(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime,System.String)
+  name: AccountEditFood(Int32, Int32, Int32, Int32, String, String, DateTime, String)
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditFood_System_Int32_System_Int32_System_Int32_System_Int32_System_String_System_String_System_DateTime_System_String_
+  commentId: M:FasttraxxDG.BaseService.AccountService.AccountEditFood(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.DateTime,System.String)
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditFood(System.Int32, System.Int32, System.Int32, System.Int32, System.String, System.String, System.DateTime, System.String)
+  nameWithType: AccountService.AccountEditFood(Int32, Int32, Int32, Int32, String, String, DateTime, String)
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditFood*
+  name: AccountEditFood
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditFood_
+  commentId: Overload:FasttraxxDG.BaseService.AccountService.AccountEditFood
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditFood
+  nameWithType: AccountService.AccountEditFood
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditPickup(System.Int32,System.Int32,System.Int32,System.String,System.String)
+  name: AccountEditPickup(Int32, Int32, Int32, String, String)
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditPickup_System_Int32_System_Int32_System_Int32_System_String_System_String_
+  commentId: M:FasttraxxDG.BaseService.AccountService.AccountEditPickup(System.Int32,System.Int32,System.Int32,System.String,System.String)
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditPickup(System.Int32, System.Int32, System.Int32, System.String, System.String)
+  nameWithType: AccountService.AccountEditPickup(Int32, Int32, Int32, String, String)
+- uid: FasttraxxDG.BaseService.AccountService.AccountEditPickup*
+  name: AccountEditPickup
+  href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountEditPickup_
+  commentId: Overload:FasttraxxDG.BaseService.AccountService.AccountEditPickup
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseService.AccountService.AccountEditPickup
+  nameWithType: AccountService.AccountEditPickup
 - uid: FasttraxxDG.BaseService.AccountService.AccountGetBB(System.Int32)
   name: AccountGetBB(Int32)
   href: ft-frontend/FasttraxxDG.BaseService.AccountService.html#FasttraxxDG_BaseService_AccountService_AccountGetBB_System_Int32_
@@ -18352,6 +18417,174 @@ references:
   commentId: N:FasttraxxDG.FrontEndUI
   fullName: FasttraxxDG.FrontEndUI
   nameWithType: FasttraxxDG.FrontEndUI
+- uid: FasttraxxDG.FrontEndUI.AccountValidator
+  name: AccountValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.AccountValidator
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator
+  nameWithType: AccountValidator
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.#ctor(FasttraxxDG.UiLibrary.TxnType,FasttraxxDG.BaseLogic.ServiceBl)
+  name: AccountValidator(TxnType, ServiceBl)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator__ctor_FasttraxxDG_UiLibrary_TxnType_FasttraxxDG_BaseLogic_ServiceBl_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.#ctor(FasttraxxDG.UiLibrary.TxnType,FasttraxxDG.BaseLogic.ServiceBl)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.AccountValidator(FasttraxxDG.UiLibrary.TxnType, FasttraxxDG.BaseLogic.ServiceBl)
+  nameWithType: AccountValidator.AccountValidator(TxnType, ServiceBl)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.#ctor*
+  name: AccountValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.AccountValidator
+  nameWithType: AccountValidator.AccountValidator
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.ACount(System.String)
+  name: ACount(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_ACount_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.ACount(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.ACount(System.String)
+  nameWithType: AccountValidator.ACount(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.ACount*
+  name: ACount
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_ACount_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.ACount
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.ACount
+  nameWithType: AccountValidator.ACount
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBankLength(System.String)
+  name: BeAValidBankLength(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidBankLength_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBankLength(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBankLength(System.String)
+  nameWithType: AccountValidator.BeAValidBankLength(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBankLength*
+  name: BeAValidBankLength
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidBankLength_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBankLength
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBankLength
+  nameWithType: AccountValidator.BeAValidBankLength
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBdo(System.String)
+  name: BeAValidBdo(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidBdo_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBdo(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBdo(System.String)
+  nameWithType: AccountValidator.BeAValidBdo(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBdo*
+  name: BeAValidBdo
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidBdo_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBdo
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidBdo
+  nameWithType: AccountValidator.BeAValidBdo
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidChinabank(System.String)
+  name: BeAValidChinabank(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidChinabank_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidChinabank(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidChinabank(System.String)
+  nameWithType: AccountValidator.BeAValidChinabank(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidChinabank*
+  name: BeAValidChinabank
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidChinabank_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidChinabank
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidChinabank
+  nameWithType: AccountValidator.BeAValidChinabank
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidMBLength(System.String)
+  name: BeAValidMBLength(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidMBLength_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidMBLength(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidMBLength(System.String)
+  nameWithType: AccountValidator.BeAValidMBLength(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidMBLength*
+  name: BeAValidMBLength
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidMBLength_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidMBLength
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidMBLength
+  nameWithType: AccountValidator.BeAValidMBLength
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidOneNetworkbank(System.String)
+  name: BeAValidOneNetworkbank(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidOneNetworkbank_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidOneNetworkbank(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidOneNetworkbank(System.String)
+  nameWithType: AccountValidator.BeAValidOneNetworkbank(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidOneNetworkbank*
+  name: BeAValidOneNetworkbank
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidOneNetworkbank_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidOneNetworkbank
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidOneNetworkbank
+  nameWithType: AccountValidator.BeAValidOneNetworkbank
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPaymayaOrGCash(System.String)
+  name: BeAValidPaymayaOrGCash(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidPaymayaOrGCash_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPaymayaOrGCash(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPaymayaOrGCash(System.String)
+  nameWithType: AccountValidator.BeAValidPaymayaOrGCash(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPaymayaOrGCash*
+  name: BeAValidPaymayaOrGCash
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidPaymayaOrGCash_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPaymayaOrGCash
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPaymayaOrGCash
+  nameWithType: AccountValidator.BeAValidPaymayaOrGCash
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNB(System.String)
+  name: BeAValidPNB(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidPNB_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNB(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNB(System.String)
+  nameWithType: AccountValidator.BeAValidPNB(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNB*
+  name: BeAValidPNB
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidPNB_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNB
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNB
+  nameWithType: AccountValidator.BeAValidPNB
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNBSavings(System.String)
+  name: BeAValidPNBSavings(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidPNBSavings_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNBSavings(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNBSavings(System.String)
+  nameWithType: AccountValidator.BeAValidPNBSavings(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNBSavings*
+  name: BeAValidPNBSavings
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValidPNBSavings_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNBSavings
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValidPNBSavings
+  nameWithType: AccountValidator.BeAValidPNBSavings
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValiedCashCardNumber(System.String)
+  name: BeAValiedCashCardNumber(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValiedCashCardNumber_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.AccountValidator.BeAValiedCashCardNumber(System.String)
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValiedCashCardNumber(System.String)
+  nameWithType: AccountValidator.BeAValiedCashCardNumber(String)
+- uid: FasttraxxDG.FrontEndUI.AccountValidator.BeAValiedCashCardNumber*
+  name: BeAValiedCashCardNumber
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AccountValidator.html#FasttraxxDG_FrontEndUI_AccountValidator_BeAValiedCashCardNumber_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AccountValidator.BeAValiedCashCardNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AccountValidator.BeAValiedCashCardNumber
+  nameWithType: AccountValidator.BeAValiedCashCardNumber
+- uid: FasttraxxDG.FrontEndUI.AcctMainValidator
+  name: AcctMainValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AcctMainValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.AcctMainValidator
+  fullName: FasttraxxDG.FrontEndUI.AcctMainValidator
+  nameWithType: AcctMainValidator
+- uid: FasttraxxDG.FrontEndUI.AcctMainValidator.#ctor
+  name: AcctMainValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AcctMainValidator.html#FasttraxxDG_FrontEndUI_AcctMainValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.AcctMainValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.AcctMainValidator.AcctMainValidator()
+  nameWithType: AcctMainValidator.AcctMainValidator()
+- uid: FasttraxxDG.FrontEndUI.AcctMainValidator.#ctor*
+  name: AcctMainValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.AcctMainValidator.html#FasttraxxDG_FrontEndUI_AcctMainValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.AcctMainValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.AcctMainValidator.AcctMainValidator
+  nameWithType: AcctMainValidator.AcctMainValidator
 - uid: FasttraxxDG.FrontEndUI.App
   name: App
   href: ft-frontend/FasttraxxDG.FrontEndUI.App.html
@@ -18492,6 +18725,142 @@ references:
   commentId: F:FasttraxxDG.FrontEndUI.BaseMainControl.PgHeaderSubTitleProperty
   fullName: FasttraxxDG.FrontEndUI.BaseMainControl.PgHeaderSubTitleProperty
   nameWithType: BaseMainControl.PgHeaderSubTitleProperty
+- uid: FasttraxxDG.FrontEndUI.BbValidator
+  name: BbValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.BbValidator
+  fullName: FasttraxxDG.FrontEndUI.BbValidator
+  nameWithType: BbValidator
+- uid: FasttraxxDG.FrontEndUI.BbValidator.#ctor
+  name: BbValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BbValidator()
+  nameWithType: BbValidator.BbValidator()
+- uid: FasttraxxDG.FrontEndUI.BbValidator.#ctor*
+  name: BbValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BbValidator
+  nameWithType: BbValidator.BbValidator
+- uid: FasttraxxDG.FrontEndUI.BbValidator.ACount(System.String)
+  name: ACount(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_ACount_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.ACount(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.ACount(System.String)
+  nameWithType: BbValidator.ACount(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.ACount*
+  name: ACount
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_ACount_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.ACount
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.ACount
+  nameWithType: BbValidator.ACount
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBankLength(System.String)
+  name: BeAValidBankLength(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidBankLength_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidBankLength(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBankLength(System.String)
+  nameWithType: BbValidator.BeAValidBankLength(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBankLength*
+  name: BeAValidBankLength
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidBankLength_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidBankLength
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBankLength
+  nameWithType: BbValidator.BeAValidBankLength
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBdo(System.String)
+  name: BeAValidBdo(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidBdo_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidBdo(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBdo(System.String)
+  nameWithType: BbValidator.BeAValidBdo(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBdo*
+  name: BeAValidBdo
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidBdo_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidBdo
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidBdo
+  nameWithType: BbValidator.BeAValidBdo
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidChinabank(System.String)
+  name: BeAValidChinabank(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidChinabank_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidChinabank(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidChinabank(System.String)
+  nameWithType: BbValidator.BeAValidChinabank(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidChinabank*
+  name: BeAValidChinabank
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidChinabank_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidChinabank
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidChinabank
+  nameWithType: BbValidator.BeAValidChinabank
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidMBLength(System.String)
+  name: BeAValidMBLength(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidMBLength_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidMBLength(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidMBLength(System.String)
+  nameWithType: BbValidator.BeAValidMBLength(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidMBLength*
+  name: BeAValidMBLength
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidMBLength_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidMBLength
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidMBLength
+  nameWithType: BbValidator.BeAValidMBLength
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidOneNetworkbank(System.String)
+  name: BeAValidOneNetworkbank(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidOneNetworkbank_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidOneNetworkbank(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidOneNetworkbank(System.String)
+  nameWithType: BbValidator.BeAValidOneNetworkbank(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidOneNetworkbank*
+  name: BeAValidOneNetworkbank
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidOneNetworkbank_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidOneNetworkbank
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidOneNetworkbank
+  nameWithType: BbValidator.BeAValidOneNetworkbank
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPaymayaOrGCash(System.String)
+  name: BeAValidPaymayaOrGCash(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidPaymayaOrGCash_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidPaymayaOrGCash(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPaymayaOrGCash(System.String)
+  nameWithType: BbValidator.BeAValidPaymayaOrGCash(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPaymayaOrGCash*
+  name: BeAValidPaymayaOrGCash
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidPaymayaOrGCash_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidPaymayaOrGCash
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPaymayaOrGCash
+  nameWithType: BbValidator.BeAValidPaymayaOrGCash
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNB(System.String)
+  name: BeAValidPNB(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidPNB_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNB(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNB(System.String)
+  nameWithType: BbValidator.BeAValidPNB(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNB*
+  name: BeAValidPNB
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidPNB_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNB
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNB
+  nameWithType: BbValidator.BeAValidPNB
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNBSavings(System.String)
+  name: BeAValidPNBSavings(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidPNBSavings_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNBSavings(System.String)
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNBSavings(System.String)
+  nameWithType: BbValidator.BeAValidPNBSavings(String)
+- uid: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNBSavings*
+  name: BeAValidPNBSavings
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BbValidator.html#FasttraxxDG_FrontEndUI_BbValidator_BeAValidPNBSavings_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNBSavings
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BbValidator.BeAValidPNBSavings
+  nameWithType: BbValidator.BeAValidPNBSavings
 - uid: FasttraxxDG.FrontEndUI.Behaviors
   name: FasttraxxDG.FrontEndUI.Behaviors
   href: ft-frontend/FasttraxxDG.FrontEndUI.Behaviors.html
@@ -18862,6 +19231,70 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Beneficiary.Account.Views.AccountSelectView.InitializeComponent
   nameWithType: AccountSelectView.InitializeComponent
+- uid: FasttraxxDG.FrontEndUI.BeneficiaryValidator
+  name: BeneficiaryValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BeneficiaryValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.BeneficiaryValidator
+  fullName: FasttraxxDG.FrontEndUI.BeneficiaryValidator
+  nameWithType: BeneficiaryValidator
+- uid: FasttraxxDG.FrontEndUI.BeneficiaryValidator.#ctor
+  name: BeneficiaryValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BeneficiaryValidator.html#FasttraxxDG_FrontEndUI_BeneficiaryValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.BeneficiaryValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeneficiaryValidator()
+  nameWithType: BeneficiaryValidator.BeneficiaryValidator()
+- uid: FasttraxxDG.FrontEndUI.BeneficiaryValidator.#ctor*
+  name: BeneficiaryValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BeneficiaryValidator.html#FasttraxxDG_FrontEndUI_BeneficiaryValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BeneficiaryValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeneficiaryValidator
+  nameWithType: BeneficiaryValidator.BeneficiaryValidator
+- uid: FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeAValidCity(System.Int32)
+  name: BeAValidCity(Int32)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BeneficiaryValidator.html#FasttraxxDG_FrontEndUI_BeneficiaryValidator_BeAValidCity_System_Int32_
+  commentId: M:FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeAValidCity(System.Int32)
+  fullName: FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeAValidCity(System.Int32)
+  nameWithType: BeneficiaryValidator.BeAValidCity(Int32)
+- uid: FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeAValidCity*
+  name: BeAValidCity
+  href: ft-frontend/FasttraxxDG.FrontEndUI.BeneficiaryValidator.html#FasttraxxDG_FrontEndUI_BeneficiaryValidator_BeAValidCity_
+  commentId: Overload:FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeAValidCity
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.BeneficiaryValidator.BeAValidCity
+  nameWithType: BeneficiaryValidator.BeAValidCity
+- uid: FasttraxxDG.FrontEndUI.CcValidator
+  name: CcValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.CcValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.CcValidator
+  fullName: FasttraxxDG.FrontEndUI.CcValidator
+  nameWithType: CcValidator
+- uid: FasttraxxDG.FrontEndUI.CcValidator.#ctor
+  name: CcValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.CcValidator.html#FasttraxxDG_FrontEndUI_CcValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.CcValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.CcValidator.CcValidator()
+  nameWithType: CcValidator.CcValidator()
+- uid: FasttraxxDG.FrontEndUI.CcValidator.#ctor*
+  name: CcValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.CcValidator.html#FasttraxxDG_FrontEndUI_CcValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.CcValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.CcValidator.CcValidator
+  nameWithType: CcValidator.CcValidator
+- uid: FasttraxxDG.FrontEndUI.CcValidator.BeAValiedCashCardNumber(System.String)
+  name: BeAValiedCashCardNumber(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.CcValidator.html#FasttraxxDG_FrontEndUI_CcValidator_BeAValiedCashCardNumber_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.CcValidator.BeAValiedCashCardNumber(System.String)
+  fullName: FasttraxxDG.FrontEndUI.CcValidator.BeAValiedCashCardNumber(System.String)
+  nameWithType: CcValidator.BeAValiedCashCardNumber(String)
+- uid: FasttraxxDG.FrontEndUI.CcValidator.BeAValiedCashCardNumber*
+  name: BeAValiedCashCardNumber
+  href: ft-frontend/FasttraxxDG.FrontEndUI.CcValidator.html#FasttraxxDG_FrontEndUI_CcValidator_BeAValiedCashCardNumber_
+  commentId: Overload:FasttraxxDG.FrontEndUI.CcValidator.BeAValiedCashCardNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.CcValidator.BeAValiedCashCardNumber
+  nameWithType: CcValidator.BeAValiedCashCardNumber
 - uid: FasttraxxDG.FrontEndUI.Commands
   name: FasttraxxDG.FrontEndUI.Commands
   href: ft-frontend/FasttraxxDG.FrontEndUI.Commands.html
@@ -19827,6 +20260,128 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Converters.ZoomBorder.Reset
   nameWithType: ZoomBorder.Reset
+- uid: FasttraxxDG.FrontEndUI.DdValidator
+  name: DdValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.DdValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.DdValidator
+  fullName: FasttraxxDG.FrontEndUI.DdValidator
+  nameWithType: DdValidator
+- uid: FasttraxxDG.FrontEndUI.DdValidator.#ctor
+  name: DdValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.DdValidator.html#FasttraxxDG_FrontEndUI_DdValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.DdValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.DdValidator.DdValidator()
+  nameWithType: DdValidator.DdValidator()
+- uid: FasttraxxDG.FrontEndUI.DdValidator.#ctor*
+  name: DdValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.DdValidator.html#FasttraxxDG_FrontEndUI_DdValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.DdValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.DdValidator.DdValidator
+  nameWithType: DdValidator.DdValidator
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper
+  name: ErrMsgHelper
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html
+  commentId: T:FasttraxxDG.FrontEndUI.ErrMsgHelper
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper
+  nameWithType: ErrMsgHelper
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.Invalid(System.String)
+  name: Invalid(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_Invalid_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ErrMsgHelper.Invalid(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.Invalid(System.String)
+  nameWithType: ErrMsgHelper.Invalid(String)
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.Invalid*
+  name: Invalid
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_Invalid_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ErrMsgHelper.Invalid
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.Invalid
+  nameWithType: ErrMsgHelper.Invalid
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidChars(System.String)
+  name: InvalidChars(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_InvalidChars_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidChars(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidChars(System.String)
+  nameWithType: ErrMsgHelper.InvalidChars(String)
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidChars*
+  name: InvalidChars
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_InvalidChars_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidChars
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidChars
+  nameWithType: ErrMsgHelper.InvalidChars
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidLength(System.String)
+  name: InvalidLength(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_InvalidLength_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidLength(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidLength(System.String)
+  nameWithType: ErrMsgHelper.InvalidLength(String)
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidLength*
+  name: InvalidLength
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_InvalidLength_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidLength
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.InvalidLength
+  nameWithType: ErrMsgHelper.InvalidLength
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.Not2Dots(System.String)
+  name: Not2Dots(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_Not2Dots_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ErrMsgHelper.Not2Dots(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.Not2Dots(System.String)
+  nameWithType: ErrMsgHelper.Not2Dots(String)
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.Not2Dots*
+  name: Not2Dots
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_Not2Dots_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ErrMsgHelper.Not2Dots
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.Not2Dots
+  nameWithType: ErrMsgHelper.Not2Dots
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.NumericOnly(System.String)
+  name: NumericOnly(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_NumericOnly_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ErrMsgHelper.NumericOnly(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.NumericOnly(System.String)
+  nameWithType: ErrMsgHelper.NumericOnly(String)
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.NumericOnly*
+  name: NumericOnly
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_NumericOnly_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ErrMsgHelper.NumericOnly
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.NumericOnly
+  nameWithType: ErrMsgHelper.NumericOnly
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.RequiredField(System.String)
+  name: RequiredField(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_RequiredField_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ErrMsgHelper.RequiredField(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.RequiredField(System.String)
+  nameWithType: ErrMsgHelper.RequiredField(String)
+- uid: FasttraxxDG.FrontEndUI.ErrMsgHelper.RequiredField*
+  name: RequiredField
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ErrMsgHelper.html#FasttraxxDG_FrontEndUI_ErrMsgHelper_RequiredField_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ErrMsgHelper.RequiredField
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ErrMsgHelper.RequiredField
+  nameWithType: ErrMsgHelper.RequiredField
+- uid: FasttraxxDG.FrontEndUI.FsValidator
+  name: FsValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.FsValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.FsValidator
+  fullName: FasttraxxDG.FrontEndUI.FsValidator
+  nameWithType: FsValidator
+- uid: FasttraxxDG.FrontEndUI.FsValidator.#ctor
+  name: FsValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.FsValidator.html#FasttraxxDG_FrontEndUI_FsValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.FsValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.FsValidator.FsValidator()
+  nameWithType: FsValidator.FsValidator()
+- uid: FasttraxxDG.FrontEndUI.FsValidator.#ctor*
+  name: FsValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.FsValidator.html#FasttraxxDG_FrontEndUI_FsValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.FsValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.FsValidator.FsValidator
+  nameWithType: FsValidator.FsValidator
 - uid: FasttraxxDG.FrontEndUI.Helpers
   name: FasttraxxDG.FrontEndUI.Helpers
   href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.html
@@ -19839,6 +20394,32 @@ references:
   commentId: T:FasttraxxDG.FrontEndUI.Helpers.AppSettings
   fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings
   nameWithType: AppSettings
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerClose
+  name: BottomDrawerClose()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_BottomDrawerClose
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerClose
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerClose()
+  nameWithType: AppSettings.BottomDrawerClose()
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerClose*
+  name: BottomDrawerClose
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_BottomDrawerClose_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerClose
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerClose
+  nameWithType: AppSettings.BottomDrawerClose
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerShow(System.Object)
+  name: BottomDrawerShow(Object)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_BottomDrawerShow_System_Object_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerShow(System.Object)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerShow(System.Object)
+  nameWithType: AppSettings.BottomDrawerShow(Object)
+- uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerShow*
+  name: BottomDrawerShow
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_BottomDrawerShow_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerShow
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.AppSettings.BottomDrawerShow
+  nameWithType: AppSettings.BottomDrawerShow
 - uid: FasttraxxDG.FrontEndUI.Helpers.AppSettings.FlushMemory
   name: FlushMemory()
   href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.AppSettings.html#FasttraxxDG_FrontEndUI_Helpers_AppSettings_FlushMemory
@@ -21057,6 +21638,44 @@ references:
   commentId: F:FasttraxxDG.FrontEndUI.Helpers.WindowsTheme.Light
   fullName: FasttraxxDG.FrontEndUI.Helpers.WindowsTheme.Light
   nameWithType: WindowsTheme.Light
+- uid: FasttraxxDG.FrontEndUI.PuValidator
+  name: PuValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.PuValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.PuValidator
+  fullName: FasttraxxDG.FrontEndUI.PuValidator
+  nameWithType: PuValidator
+- uid: FasttraxxDG.FrontEndUI.PuValidator.#ctor
+  name: PuValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.PuValidator.html#FasttraxxDG_FrontEndUI_PuValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.PuValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.PuValidator.PuValidator()
+  nameWithType: PuValidator.PuValidator()
+- uid: FasttraxxDG.FrontEndUI.PuValidator.#ctor*
+  name: PuValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.PuValidator.html#FasttraxxDG_FrontEndUI_PuValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.PuValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.PuValidator.PuValidator
+  nameWithType: PuValidator.PuValidator
+- uid: FasttraxxDG.FrontEndUI.RemitterValidator
+  name: RemitterValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.RemitterValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.RemitterValidator
+  fullName: FasttraxxDG.FrontEndUI.RemitterValidator
+  nameWithType: RemitterValidator
+- uid: FasttraxxDG.FrontEndUI.RemitterValidator.#ctor
+  name: RemitterValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.RemitterValidator.html#FasttraxxDG_FrontEndUI_RemitterValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.RemitterValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.RemitterValidator.RemitterValidator()
+  nameWithType: RemitterValidator.RemitterValidator()
+- uid: FasttraxxDG.FrontEndUI.RemitterValidator.#ctor*
+  name: RemitterValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.RemitterValidator.html#FasttraxxDG_FrontEndUI_RemitterValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.RemitterValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.RemitterValidator.RemitterValidator
+  nameWithType: RemitterValidator.RemitterValidator
 - uid: FasttraxxDG.FrontEndUI.ReportHelper
   name: ReportHelper
   href: ft-frontend/FasttraxxDG.FrontEndUI.ReportHelper.html
@@ -21384,6 +22003,151 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Transaction.Views.TxnSummaryDdDetailsView.InitializeComponent
   nameWithType: TxnSummaryDdDetailsView.InitializeComponent
+- uid: FasttraxxDG.FrontEndUI.TxnValidator
+  name: TxnValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html
+  commentId: T:FasttraxxDG.FrontEndUI.TxnValidator
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator
+  nameWithType: TxnValidator
+- uid: FasttraxxDG.FrontEndUI.TxnValidator.#ctor
+  name: TxnValidator()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html#FasttraxxDG_FrontEndUI_TxnValidator__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.TxnValidator.#ctor
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator.TxnValidator()
+  nameWithType: TxnValidator.TxnValidator()
+- uid: FasttraxxDG.FrontEndUI.TxnValidator.#ctor*
+  name: TxnValidator
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html#FasttraxxDG_FrontEndUI_TxnValidator__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.TxnValidator.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator.TxnValidator
+  nameWithType: TxnValidator.TxnValidator
+- uid: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidAmt(System.Decimal)
+  name: BeAValidAmt(Decimal)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html#FasttraxxDG_FrontEndUI_TxnValidator_BeAValidAmt_System_Decimal_
+  commentId: M:FasttraxxDG.FrontEndUI.TxnValidator.BeAValidAmt(System.Decimal)
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidAmt(System.Decimal)
+  nameWithType: TxnValidator.BeAValidAmt(Decimal)
+- uid: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidAmt*
+  name: BeAValidAmt
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html#FasttraxxDG_FrontEndUI_TxnValidator_BeAValidAmt_
+  commentId: Overload:FasttraxxDG.FrontEndUI.TxnValidator.BeAValidAmt
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidAmt
+  nameWithType: TxnValidator.BeAValidAmt
+- uid: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidPurpose(System.Int32)
+  name: BeAValidPurpose(Int32)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html#FasttraxxDG_FrontEndUI_TxnValidator_BeAValidPurpose_System_Int32_
+  commentId: M:FasttraxxDG.FrontEndUI.TxnValidator.BeAValidPurpose(System.Int32)
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidPurpose(System.Int32)
+  nameWithType: TxnValidator.BeAValidPurpose(Int32)
+- uid: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidPurpose*
+  name: BeAValidPurpose
+  href: ft-frontend/FasttraxxDG.FrontEndUI.TxnValidator.html#FasttraxxDG_FrontEndUI_TxnValidator_BeAValidPurpose_
+  commentId: Overload:FasttraxxDG.FrontEndUI.TxnValidator.BeAValidPurpose
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.TxnValidator.BeAValidPurpose
+  nameWithType: TxnValidator.BeAValidPurpose
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper
+  name: ValidatorHelper
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html
+  commentId: T:FasttraxxDG.FrontEndUI.ValidatorHelper
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper
+  nameWithType: ValidatorHelper
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge(System.Nullable{System.DateTime})
+  name: BeAValidAge(Nullable<DateTime>)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidAge_System_Nullable_System_DateTime__
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge(System.Nullable{System.DateTime})
+  name.vb: BeAValidAge(Nullable(Of DateTime))
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge(System.Nullable<System.DateTime>)
+  fullName.vb: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge(System.Nullable(Of System.DateTime))
+  nameWithType: ValidatorHelper.BeAValidAge(Nullable<DateTime>)
+  nameWithType.vb: ValidatorHelper.BeAValidAge(Nullable(Of DateTime))
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge*
+  name: BeAValidAge
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidAge_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidAge
+  nameWithType: ValidatorHelper.BeAValidAge
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidBeneMobile(System.String)
+  name: BeAValidBeneMobile(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidBeneMobile_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidBeneMobile(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidBeneMobile(System.String)
+  nameWithType: ValidatorHelper.BeAValidBeneMobile(String)
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidBeneMobile*
+  name: BeAValidBeneMobile
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidBeneMobile_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidBeneMobile
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidBeneMobile
+  nameWithType: ValidatorHelper.BeAValidBeneMobile
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidEmail(System.String)
+  name: BeAValidEmail(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidEmail_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidEmail(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidEmail(System.String)
+  nameWithType: ValidatorHelper.BeAValidEmail(String)
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidEmail*
+  name: BeAValidEmail
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidEmail_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidEmail
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidEmail
+  nameWithType: ValidatorHelper.BeAValidEmail
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidMiddlename(System.String)
+  name: BeAValidMiddlename(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidMiddlename_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidMiddlename(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidMiddlename(System.String)
+  nameWithType: ValidatorHelper.BeAValidMiddlename(String)
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidMiddlename*
+  name: BeAValidMiddlename
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidMiddlename_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidMiddlename
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidMiddlename
+  nameWithType: ValidatorHelper.BeAValidMiddlename
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidName(System.String)
+  name: BeAValidName(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidName_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidName(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidName(System.String)
+  nameWithType: ValidatorHelper.BeAValidName(String)
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidName*
+  name: BeAValidName
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidName_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidName
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidName
+  nameWithType: ValidatorHelper.BeAValidName
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidNumber(System.String)
+  name: BeAValidNumber(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidNumber_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidNumber(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidNumber(System.String)
+  nameWithType: ValidatorHelper.BeAValidNumber(String)
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidNumber*
+  name: BeAValidNumber
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidNumber_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidNumber
+  nameWithType: ValidatorHelper.BeAValidNumber
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidSenderMobile(System.String)
+  name: BeAValidSenderMobile(String)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidSenderMobile_System_String_
+  commentId: M:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidSenderMobile(System.String)
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidSenderMobile(System.String)
+  nameWithType: ValidatorHelper.BeAValidSenderMobile(String)
+- uid: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidSenderMobile*
+  name: BeAValidSenderMobile
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ValidatorHelper.html#FasttraxxDG_FrontEndUI_ValidatorHelper_BeAValidSenderMobile_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidSenderMobile
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ValidatorHelper.BeAValidSenderMobile
+  nameWithType: ValidatorHelper.BeAValidSenderMobile
 - uid: FasttraxxDG.FrontEndUI.ViewModels
   name: FasttraxxDG.FrontEndUI.ViewModels
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.html
@@ -21499,6 +22263,12 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel.AccountBbViewModel
   nameWithType: AccountBbViewModel.AccountBbViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel._vm
+  name: _vm
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_AccountBbViewModel__vm
+  commentId: F:FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel._vm
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel._vm
+  nameWithType: AccountBbViewModel._vm
 - uid: FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel.AccountName
   name: AccountName
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.AccountBbViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_AccountBbViewModel_AccountName
@@ -25355,6 +26125,51 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnSummaryViewModel.Sign
   nameWithType: TxnSummaryViewModel.Sign
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode
+  name: ValidatorViewMode
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode
+  nameWithType: ValidatorViewMode
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.#ctor
+  name: ValidatorViewMode()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html#FasttraxxDG_FrontEndUI_ViewModels_ValidatorViewMode__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.#ctor
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.ValidatorViewMode()
+  nameWithType: ValidatorViewMode.ValidatorViewMode()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.#ctor*
+  name: ValidatorViewMode
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html#FasttraxxDG_FrontEndUI_ViewModels_ValidatorViewMode__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.ValidatorViewMode
+  nameWithType: ValidatorViewMode.ValidatorViewMode
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.CloseDrawerCommand
+  name: CloseDrawerCommand
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html#FasttraxxDG_FrontEndUI_ViewModels_ValidatorViewMode_CloseDrawerCommand
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.CloseDrawerCommand
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.CloseDrawerCommand
+  nameWithType: ValidatorViewMode.CloseDrawerCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.CloseDrawerCommand*
+  name: CloseDrawerCommand
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html#FasttraxxDG_FrontEndUI_ViewModels_ValidatorViewMode_CloseDrawerCommand_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.CloseDrawerCommand
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.CloseDrawerCommand
+  nameWithType: ValidatorViewMode.CloseDrawerCommand
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.Errors
+  name: Errors
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html#FasttraxxDG_FrontEndUI_ViewModels_ValidatorViewMode_Errors
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.Errors
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.Errors
+  nameWithType: ValidatorViewMode.Errors
+- uid: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.Errors*
+  name: Errors
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.html#FasttraxxDG_FrontEndUI_ViewModels_ValidatorViewMode_Errors_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.Errors
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.ValidatorViewMode.Errors
+  nameWithType: ValidatorViewMode.Errors
 - uid: FasttraxxDG.FrontEndUI.Views
   name: FasttraxxDG.FrontEndUI.Views
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.html
@@ -26661,6 +27476,38 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.TxnSummaryView.InitializeComponent
   nameWithType: TxnSummaryView.InitializeComponent
+- uid: FasttraxxDG.FrontEndUI.Views.ValidatorView
+  name: ValidatorView
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ValidatorView.html
+  commentId: T:FasttraxxDG.FrontEndUI.Views.ValidatorView
+  fullName: FasttraxxDG.FrontEndUI.Views.ValidatorView
+  nameWithType: ValidatorView
+- uid: FasttraxxDG.FrontEndUI.Views.ValidatorView.#ctor
+  name: ValidatorView()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ValidatorView.html#FasttraxxDG_FrontEndUI_Views_ValidatorView__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.Views.ValidatorView.#ctor
+  fullName: FasttraxxDG.FrontEndUI.Views.ValidatorView.ValidatorView()
+  nameWithType: ValidatorView.ValidatorView()
+- uid: FasttraxxDG.FrontEndUI.Views.ValidatorView.#ctor*
+  name: ValidatorView
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ValidatorView.html#FasttraxxDG_FrontEndUI_Views_ValidatorView__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.ValidatorView.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.ValidatorView.ValidatorView
+  nameWithType: ValidatorView.ValidatorView
+- uid: FasttraxxDG.FrontEndUI.Views.ValidatorView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ValidatorView.html#FasttraxxDG_FrontEndUI_Views_ValidatorView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.ValidatorView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.ValidatorView.InitializeComponent()
+  nameWithType: ValidatorView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.ValidatorView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.ValidatorView.html#FasttraxxDG_FrontEndUI_Views_ValidatorView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.ValidatorView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.ValidatorView.InitializeComponent
+  nameWithType: ValidatorView.InitializeComponent
 - uid: FasttraxxDG.UiLibrary
   name: FasttraxxDG.UiLibrary
   href: ft-frontend/FasttraxxDG.UiLibrary.html
@@ -30333,6 +31180,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.ShellVmModel.CreditLimit
   nameWithType: ShellVmModel.CreditLimit
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentBottomContent
+  name: CurrentBottomContent
+  href: ft-frontend/FasttraxxDG.UiLibrary.ShellVmModel.html#FasttraxxDG_UiLibrary_ShellVmModel_CurrentBottomContent
+  commentId: P:FasttraxxDG.UiLibrary.ShellVmModel.CurrentBottomContent
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentBottomContent
+  nameWithType: ShellVmModel.CurrentBottomContent
+- uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentBottomContent*
+  name: CurrentBottomContent
+  href: ft-frontend/FasttraxxDG.UiLibrary.ShellVmModel.html#FasttraxxDG_UiLibrary_ShellVmModel_CurrentBottomContent_
+  commentId: Overload:FasttraxxDG.UiLibrary.ShellVmModel.CurrentBottomContent
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.ShellVmModel.CurrentBottomContent
+  nameWithType: ShellVmModel.CurrentBottomContent
 - uid: FasttraxxDG.UiLibrary.ShellVmModel.CurrentContentBaseViewModel
   name: CurrentContentBaseViewModel
   href: ft-frontend/FasttraxxDG.UiLibrary.ShellVmModel.html#FasttraxxDG_UiLibrary_ShellVmModel_CurrentContentBaseViewModel
