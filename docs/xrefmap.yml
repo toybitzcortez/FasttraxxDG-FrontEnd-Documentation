@@ -3903,6 +3903,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.BaseLogic.TxnRemitBl.Nt
   nameWithType: TxnRemitBl.Nt
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnPickGetControlNumber(System.String)
+  name: TxnPickGetControlNumber(String)
+  href: ft-frontend/FasttraxxDG.BaseLogic.TxnRemitBl.html#FasttraxxDG_BaseLogic_TxnRemitBl_TxnPickGetControlNumber_System_String_
+  commentId: M:FasttraxxDG.BaseLogic.TxnRemitBl.TxnPickGetControlNumber(System.String)
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnPickGetControlNumber(System.String)
+  nameWithType: TxnRemitBl.TxnPickGetControlNumber(String)
+- uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnPickGetControlNumber*
+  name: TxnPickGetControlNumber
+  href: ft-frontend/FasttraxxDG.BaseLogic.TxnRemitBl.html#FasttraxxDG_BaseLogic_TxnRemitBl_TxnPickGetControlNumber_
+  commentId: Overload:FasttraxxDG.BaseLogic.TxnRemitBl.TxnPickGetControlNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseLogic.TxnRemitBl.TxnPickGetControlNumber
+  nameWithType: TxnRemitBl.TxnPickGetControlNumber
 - uid: FasttraxxDG.BaseLogic.TxnRemitBl.TxnRemitAddBB(FasttraxxDG.BaseLogic.TxnRemitBl,System.Int32,System.String,System.String,System.String)
   name: TxnRemitAddBB(TxnRemitBl, Int32, String, String, String)
   href: ft-frontend/FasttraxxDG.BaseLogic.TxnRemitBl.html#FasttraxxDG_BaseLogic_TxnRemitBl_TxnRemitAddBB_FasttraxxDG_BaseLogic_TxnRemitBl_System_Int32_System_String_System_String_System_String_
@@ -18346,6 +18359,19 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.BaseService.TxnRemitService.TxnRemitService
   nameWithType: TxnRemitService.TxnRemitService
+- uid: FasttraxxDG.BaseService.TxnRemitService.TxnPickGetControlNumber(System.String)
+  name: TxnPickGetControlNumber(String)
+  href: ft-frontend/FasttraxxDG.BaseService.TxnRemitService.html#FasttraxxDG_BaseService_TxnRemitService_TxnPickGetControlNumber_System_String_
+  commentId: M:FasttraxxDG.BaseService.TxnRemitService.TxnPickGetControlNumber(System.String)
+  fullName: FasttraxxDG.BaseService.TxnRemitService.TxnPickGetControlNumber(System.String)
+  nameWithType: TxnRemitService.TxnPickGetControlNumber(String)
+- uid: FasttraxxDG.BaseService.TxnRemitService.TxnPickGetControlNumber*
+  name: TxnPickGetControlNumber
+  href: ft-frontend/FasttraxxDG.BaseService.TxnRemitService.html#FasttraxxDG_BaseService_TxnRemitService_TxnPickGetControlNumber_
+  commentId: Overload:FasttraxxDG.BaseService.TxnRemitService.TxnPickGetControlNumber
+  isSpec: "True"
+  fullName: FasttraxxDG.BaseService.TxnRemitService.TxnPickGetControlNumber
+  nameWithType: TxnRemitService.TxnPickGetControlNumber
 - uid: FasttraxxDG.BaseService.TxnRemitService.TxnRemitAddBB(FasttraxxDG.BaseModel.TxnRemitParam,System.Int32,System.String,System.String,System.String)
   name: TxnRemitAddBB(TxnRemitParam, Int32, String, String, String)
   href: ft-frontend/FasttraxxDG.BaseService.TxnRemitService.html#FasttraxxDG_BaseService_TxnRemitService_TxnRemitAddBB_FasttraxxDG_BaseModel_TxnRemitParam_System_Int32_System_String_System_String_System_String_
@@ -25615,6 +25641,142 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.ViewModels.ShellViewModel.MenuVm
   nameWithType: ShellViewModel.MenuVm
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel
+  name: TxnFinishedViewModel
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html
+  commentId: T:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel
+  nameWithType: TxnFinishedViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.#ctor
+  name: TxnFinishedViewModel()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.#ctor
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.TxnFinishedViewModel()
+  nameWithType: TxnFinishedViewModel.TxnFinishedViewModel()
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.#ctor*
+  name: TxnFinishedViewModel
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.TxnFinishedViewModel
+  nameWithType: TxnFinishedViewModel.TxnFinishedViewModel
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Cash
+  name: Cash
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Cash
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Cash
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Cash
+  nameWithType: TxnFinishedViewModel.Cash
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Cash*
+  name: Cash
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Cash_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Cash
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Cash
+  nameWithType: TxnFinishedViewModel.Cash
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Change
+  name: Change
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Change
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Change
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Change
+  nameWithType: TxnFinishedViewModel.Change
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Change*
+  name: Change
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Change_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Change
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Change
+  nameWithType: TxnFinishedViewModel.Change
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Details
+  name: Details
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Details
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Details
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Details
+  nameWithType: TxnFinishedViewModel.Details
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Details*
+  name: Details
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Details_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Details
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Details
+  nameWithType: TxnFinishedViewModel.Details
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Nt
+  name: Nt
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Nt
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Nt
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Nt
+  nameWithType: TxnFinishedViewModel.Nt
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Nt*
+  name: Nt
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Nt_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Nt
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Nt
+  nameWithType: TxnFinishedViewModel.Nt
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Peso
+  name: Peso
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Peso
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Peso
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Peso
+  nameWithType: TxnFinishedViewModel.Peso
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Peso*
+  name: Peso
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Peso_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Peso
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Peso
+  nameWithType: TxnFinishedViewModel.Peso
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers
+  name: Printers
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Printers
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers
+  nameWithType: TxnFinishedViewModel.Printers
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers*
+  name: Printers
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Printers_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers
+  nameWithType: TxnFinishedViewModel.Printers
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers1
+  name: Printers1
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Printers1
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers1
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers1
+  nameWithType: TxnFinishedViewModel.Printers1
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers1*
+  name: Printers1
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_Printers1_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers1
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.Printers1
+  nameWithType: TxnFinishedViewModel.Printers1
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter
+  name: SelectedPrinter
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_SelectedPrinter
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter
+  nameWithType: TxnFinishedViewModel.SelectedPrinter
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter*
+  name: SelectedPrinter
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_SelectedPrinter_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter
+  nameWithType: TxnFinishedViewModel.SelectedPrinter
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter2
+  name: SelectedPrinter2
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_SelectedPrinter2
+  commentId: P:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter2
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter2
+  nameWithType: TxnFinishedViewModel.SelectedPrinter2
+- uid: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter2*
+  name: SelectedPrinter2
+  href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.html#FasttraxxDG_FrontEndUI_ViewModels_TxnFinishedViewModel_SelectedPrinter2_
+  commentId: Overload:FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter2
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.ViewModels.TxnFinishedViewModel.SelectedPrinter2
+  nameWithType: TxnFinishedViewModel.SelectedPrinter2
 - uid: FasttraxxDG.FrontEndUI.ViewModels.TxnListViewModel
   name: TxnListViewModel
   href: ft-frontend/FasttraxxDG.FrontEndUI.ViewModels.TxnListViewModel.html
@@ -27316,6 +27478,38 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Views.SignatureForm.GetSigImage
   nameWithType: SignatureForm.GetSigImage
+- uid: FasttraxxDG.FrontEndUI.Views.TxnFinishedView
+  name: TxnFinishedView
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnFinishedView.html
+  commentId: T:FasttraxxDG.FrontEndUI.Views.TxnFinishedView
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnFinishedView
+  nameWithType: TxnFinishedView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.#ctor
+  name: TxnFinishedView()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnFinishedView.html#FasttraxxDG_FrontEndUI_Views_TxnFinishedView__ctor
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnFinishedView.#ctor
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.TxnFinishedView()
+  nameWithType: TxnFinishedView.TxnFinishedView()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.#ctor*
+  name: TxnFinishedView
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnFinishedView.html#FasttraxxDG_FrontEndUI_Views_TxnFinishedView__ctor_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnFinishedView.#ctor
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.TxnFinishedView
+  nameWithType: TxnFinishedView.TxnFinishedView
+- uid: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.InitializeComponent
+  name: InitializeComponent()
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnFinishedView.html#FasttraxxDG_FrontEndUI_Views_TxnFinishedView_InitializeComponent
+  commentId: M:FasttraxxDG.FrontEndUI.Views.TxnFinishedView.InitializeComponent
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.InitializeComponent()
+  nameWithType: TxnFinishedView.InitializeComponent()
+- uid: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.InitializeComponent*
+  name: InitializeComponent
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnFinishedView.html#FasttraxxDG_FrontEndUI_Views_TxnFinishedView_InitializeComponent_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Views.TxnFinishedView.InitializeComponent
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Views.TxnFinishedView.InitializeComponent
+  nameWithType: TxnFinishedView.InitializeComponent
 - uid: FasttraxxDG.FrontEndUI.Views.TxnListView
   name: TxnListView
   href: ft-frontend/FasttraxxDG.FrontEndUI.Views.TxnListView.html
