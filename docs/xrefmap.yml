@@ -20713,6 +20713,58 @@ references:
   commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyId
   fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.CompanyId
   nameWithType: DataHelper.CompanyId
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeDiscount(System.Decimal,System.Decimal)
+  name: ComputeDiscount(Decimal, Decimal)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputeDiscount_System_Decimal_System_Decimal_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeDiscount(System.Decimal,System.Decimal)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeDiscount(System.Decimal, System.Decimal)
+  nameWithType: DataHelper.ComputeDiscount(Decimal, Decimal)
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeDiscount*
+  name: ComputeDiscount
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputeDiscount_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeDiscount
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeDiscount
+  nameWithType: DataHelper.ComputeDiscount
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeExtra(System.Decimal,System.Decimal)
+  name: ComputeExtra(Decimal, Decimal)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputeExtra_System_Decimal_System_Decimal_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeExtra(System.Decimal,System.Decimal)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeExtra(System.Decimal, System.Decimal)
+  nameWithType: DataHelper.ComputeExtra(Decimal, Decimal)
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeExtra*
+  name: ComputeExtra
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputeExtra_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeExtra
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeExtra
+  nameWithType: DataHelper.ComputeExtra
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeNt(System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)
+  name: ComputeNt(Decimal, Decimal, Decimal, Decimal, Decimal)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputeNt_System_Decimal_System_Decimal_System_Decimal_System_Decimal_System_Decimal_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeNt(System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeNt(System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal)
+  nameWithType: DataHelper.ComputeNt(Decimal, Decimal, Decimal, Decimal, Decimal)
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeNt*
+  name: ComputeNt
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputeNt_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeNt
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputeNt
+  nameWithType: DataHelper.ComputeNt
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputePeso(System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)
+  name: ComputePeso(Decimal, Decimal, Decimal, Decimal, Decimal)
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputePeso_System_Decimal_System_Decimal_System_Decimal_System_Decimal_System_Decimal_
+  commentId: M:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputePeso(System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputePeso(System.Decimal, System.Decimal, System.Decimal, System.Decimal, System.Decimal)
+  nameWithType: DataHelper.ComputePeso(Decimal, Decimal, Decimal, Decimal, Decimal)
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputePeso*
+  name: ComputePeso
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ComputePeso_
+  commentId: Overload:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputePeso
+  isSpec: "True"
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ComputePeso
+  nameWithType: DataHelper.ComputePeso
 - uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.DteComplete(System.DateTime,System.DateTime)
   name: DteComplete(DateTime, DateTime)
   href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_DteComplete_System_DateTime_System_DateTime_
@@ -31822,6 +31874,36 @@ references:
   commentId: N:FasttraxxDG.UiLibrary.Txn
   fullName: FasttraxxDG.UiLibrary.Txn
   nameWithType: FasttraxxDG.UiLibrary.Txn
+- uid: FasttraxxDG.UiLibrary.Txn.ComputeType
+  name: ComputeType
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.ComputeType.html
+  commentId: T:FasttraxxDG.UiLibrary.Txn.ComputeType
+  fullName: FasttraxxDG.UiLibrary.Txn.ComputeType
+  nameWithType: ComputeType
+- uid: FasttraxxDG.UiLibrary.Txn.ComputeType.Discount
+  name: Discount
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.ComputeType.html#FasttraxxDG_UiLibrary_Txn_ComputeType_Discount
+  commentId: F:FasttraxxDG.UiLibrary.Txn.ComputeType.Discount
+  fullName: FasttraxxDG.UiLibrary.Txn.ComputeType.Discount
+  nameWithType: ComputeType.Discount
+- uid: FasttraxxDG.UiLibrary.Txn.ComputeType.Extra
+  name: Extra
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.ComputeType.html#FasttraxxDG_UiLibrary_Txn_ComputeType_Extra
+  commentId: F:FasttraxxDG.UiLibrary.Txn.ComputeType.Extra
+  fullName: FasttraxxDG.UiLibrary.Txn.ComputeType.Extra
+  nameWithType: ComputeType.Extra
+- uid: FasttraxxDG.UiLibrary.Txn.ComputeType.Nt
+  name: Nt
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.ComputeType.html#FasttraxxDG_UiLibrary_Txn_ComputeType_Nt
+  commentId: F:FasttraxxDG.UiLibrary.Txn.ComputeType.Nt
+  fullName: FasttraxxDG.UiLibrary.Txn.ComputeType.Nt
+  nameWithType: ComputeType.Nt
+- uid: FasttraxxDG.UiLibrary.Txn.ComputeType.Peso
+  name: Peso
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.ComputeType.html#FasttraxxDG_UiLibrary_Txn_ComputeType_Peso
+  commentId: F:FasttraxxDG.UiLibrary.Txn.ComputeType.Peso
+  fullName: FasttraxxDG.UiLibrary.Txn.ComputeType.Peso
+  nameWithType: ComputeType.Peso
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel
   name: TxnSummaryVmModel
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html
@@ -32010,6 +32092,25 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge
   nameWithType: TxnSummaryVmModel.Charge
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeStateChanged
+  name: ComputeStateChanged
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_ComputeStateChanged
+  commentId: F:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeStateChanged
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeStateChanged
+  nameWithType: TxnSummaryVmModel.ComputeStateChanged
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType
+  name: ComputeType
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_ComputeType
+  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType
+  nameWithType: TxnSummaryVmModel.ComputeType
+- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType*
+  name: ComputeType
+  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_ComputeType_
+  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType
+  isSpec: "True"
+  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType
+  nameWithType: TxnSummaryVmModel.ComputeType
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.CurrentView
   name: CurrentView
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_CurrentView
