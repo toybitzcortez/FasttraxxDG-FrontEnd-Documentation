@@ -20876,6 +20876,12 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.RoundToDouble
   nameWithType: DataHelper.RoundToDouble
+- uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ServiceCharge
+  name: ServiceCharge
+  href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_ServiceCharge
+  commentId: F:FasttraxxDG.FrontEndUI.Helpers.DataHelper.ServiceCharge
+  fullName: FasttraxxDG.FrontEndUI.Helpers.DataHelper.ServiceCharge
+  nameWithType: DataHelper.ServiceCharge
 - uid: FasttraxxDG.FrontEndUI.Helpers.DataHelper.SetAccumulative(System.String)
   name: SetAccumulative(String)
   href: ft-frontend/FasttraxxDG.FrontEndUI.Helpers.DataHelper.html#FasttraxxDG_FrontEndUI_Helpers_DataHelper_SetAccumulative_System_String_
@@ -32079,25 +32085,6 @@ references:
   isSpec: "True"
   fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.CcBl
   nameWithType: TxnSummaryVmModel.CcBl
-- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge
-  name: Charge
-  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Charge
-  commentId: P:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge
-  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge
-  nameWithType: TxnSummaryVmModel.Charge
-- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge*
-  name: Charge
-  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_Charge_
-  commentId: Overload:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge
-  isSpec: "True"
-  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.Charge
-  nameWithType: TxnSummaryVmModel.Charge
-- uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeStateChanged
-  name: ComputeStateChanged
-  href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_ComputeStateChanged
-  commentId: F:FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeStateChanged
-  fullName: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeStateChanged
-  nameWithType: TxnSummaryVmModel.ComputeStateChanged
 - uid: FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.ComputeType
   name: ComputeType
   href: ft-frontend/FasttraxxDG.UiLibrary.Txn.TxnSummaryVmModel.html#FasttraxxDG_UiLibrary_Txn_TxnSummaryVmModel_ComputeType
